@@ -8,7 +8,7 @@ from utils.xmltodict import xmltodict
 from utils.xmltohtml.xmlToHTML import convertXML2HTML
 import time,base64,shutil
 from testCaseChunk import testCaseChunk
-from logChunk import PSTOLogChunk,logChunk
+from logChunk import PSTOLogChunk,logChunk,UOWLogChunk
 from utils.helper import get_case_mapping
 
 logging.basicConfig(format='%(asctime)s-%(process)d-%(levelname)s: %(message)s')
@@ -16,15 +16,17 @@ log = logging.getLogger('result_analysis')
 log.setLevel(logging.DEBUG)
 
 
-ES_URL = "http://192.168.0.120"
+ES_URL = "http://localhost"
 ES_PORT = "9200"
-ES_INDEX = "psto"
+ES_INDEX = "ptf_report" # include PSTO and UOW
 ES_SUMMARY_INDEX = "psto_summary"
 ES_COMMIT_QUEUE = []
 ES_COMMIT_QUEUE_MAX = 200
 Case_Mapping_Sheet_Name = "Staging_Cases"
 es_instance = Elasticsearch(ES_URL + ":" + ES_PORT, timeout=30)
 
+prodFMSList = ['Asset Management','Accounts Payable','Accounts Receivable','Contracts','Cash Management','Deal Management','Expenses','General Ledger','Grants','Lease Administration','Maintenance Management','Project Costing','Program Management','Resource Management'];
+prodSCMList = [];
 
 
 WEBSERVICE_URL="http://127.0.0.1"
@@ -52,29 +54,37 @@ def log_parser(task,result_summary):
 
         result_chunk_obj = task.report_obj
         result_chunk_obj.reportLink = WEBSERVICE_URL + ":"+WEBSERVICE_PORT+"/logpath"+target_html_relative_path.replace("\\","/")
-
+        result_chunk_obj.logType = task.type
+        result_chunk_obj.domain = task.domain
+        result_chunk_obj.product = task.product
         # get log root dir to extract psto info
-        log_root_dir = task.target_xml_path.replace(LOGDIR, "").split("\\")[1]
-        src = log_root_dir.split("_")[0]
+        #log_root_dir = task.target_xml_path.replace(LOGDIR, "").split("\\")[1]
+        #src = log_root_dir.split("_")[0]
         if task.type == logChunk.PSTO:
-            result_chunk_obj.set_psto_info(eventID=task.runID,pumID=task.pum,buildID=task.build,platform=task.platform)
-            result_chunk_obj.testSuite = task.test_set
-            result_chunk_obj.caseType = task.case_type
-            if task.prod != "unknown":
-                result_chunk_obj.product = task.prod
+            result_chunk_obj.set_psto_info(eventID=task.runID, pumID=task.pum, buildNo=task.buildNo, buildType=task.buildType, platform=task.platform, src2=task.src2, dateStamp=task.dateStamp)
+        elif task.type == logChunk.UOW:
+            result_chunk_obj.set_uow_info(uowID=task.uowID,excuteDB=task.excuteDB,executorEmail=task.executorEmail,dateStamp=task.dateStamp)
+        else:
+            assert 0, "unsupport task type"
 
-            if result_summary.get(result_chunk_obj.eventID) == None:
-                result_summary[result_chunk_obj.eventID] = {}
-            if result_summary.get(result_chunk_obj.eventID).get(result_chunk_obj.product) == None:
-                result_summary[result_chunk_obj.eventID][result_chunk_obj.product] = {}
-            if result_summary.get(result_chunk_obj.eventID).get(result_chunk_obj.product).get(result_chunk_obj.testSuite) == None:
-                result_summary[result_chunk_obj.eventID][result_chunk_obj.product][result_chunk_obj.testSuite] = {"pass":0,"failed":0}
+        result_chunk_obj.testSet = task.test_set
+        result_chunk_obj.caseType = task.case_type
+        if task.product != "unknown":
+            result_chunk_obj.product = task.product
 
-            if result_chunk_obj.scriptFinalResult == "Pass":
-                result_summary[result_chunk_obj.eventID][result_chunk_obj.product][result_chunk_obj.testSuite]["pass"] +=1
-            else:
-                result_summary[result_chunk_obj.eventID][result_chunk_obj.product][result_chunk_obj.testSuite][
-                    "failed"] += 1
+
+        if result_summary.get(result_chunk_obj.eventID) == None:
+            result_summary[result_chunk_obj.eventID] = {}
+        if result_summary.get(result_chunk_obj.eventID).get(result_chunk_obj.product) == None:
+            result_summary[result_chunk_obj.eventID][result_chunk_obj.product] = {}
+        if result_summary.get(result_chunk_obj.eventID).get(result_chunk_obj.product).get(result_chunk_obj.testSet) == None:
+            result_summary[result_chunk_obj.eventID][result_chunk_obj.product][result_chunk_obj.testSet] = {"pass":0,"failed":0}
+
+        if result_chunk_obj.scriptFinalResult == "Pass":
+            result_summary[result_chunk_obj.eventID][result_chunk_obj.product][result_chunk_obj.testSet]["pass"] +=1
+        else:
+            result_summary[result_chunk_obj.eventID][result_chunk_obj.product][result_chunk_obj.testSet][
+                "failed"] += 1
 
         return result_chunk_obj.toDict(),result_summary
 
@@ -144,7 +154,7 @@ def get_task_list(path):
             taskList.append(os.path.join(path,fi_d))
 '''
 
-def get_psto_task_list(path,case_mapper):
+def get_task_list(path, case_mapper,targetType):
     taskList=[]
     for root,dirs,files in os.walk(path):
         root_dir = root.split("\\")[-1]
@@ -155,20 +165,30 @@ def get_psto_task_list(path,case_mapper):
             for root2, dirs2, files2 in os.walk(os.path.join(root,dir)):
                 for fi in files2:
                     fi_d = os.path.join(root2, fi)
-                    if fi_d.split(".")[1] == "xml":
-                        psto_task = PSTOLogChunk(root_dir, dir, fi_d)
-                        tempList.append(psto_task)
+                    if fi_d.find(".xml") >= 0:
+                        if targetType == "PSTO":
+                            task = PSTOLogChunk(root_dir, dir, fi_d)
+                        elif targetType == "UOW":
+                            task = UOWLogChunk(root_dir,dir,fi_d)
+                        else:
+                            log.error("unsupport log type%s"%(targetType))
+                        tempList.append(task)
                 for task in tempList:
                     task.report_obj = get_report_obj(task.target_xml_path)
-                    if case_mapper.get(psto_task.case_name) == None:
-                        log.error(psto_task.case_name + " not in mapper")
-                        psto_task.test_set = "unknown"
-                        psto_task.prod = "unknown"
-                        psto_task.case_type = "unknown"
+                    if case_mapper.get(task.case_name) == None:
+                        log.error(task.case_name + " not in mapper")
+                        task.test_set = "unknown"
+                        task.product = "unknown"
+                        task.case_type = "unknown"
+                        task.domain = "unknown"
                     else:
-                        psto_task.test_set = case_mapper.get(psto_task.case_name).get("testSet")
-                        psto_task.case_type = case_mapper.get(psto_task.case_name).get("testCycle")
-                        psto_task.prod = case_mapper.get(psto_task.case_name).get("prod")
+                        task.test_set = case_mapper.get(task.case_name).get("testSet")
+                        task.case_type = case_mapper.get(task.case_name).get("testCycle")
+                        task.product = case_mapper.get(task.case_name).get("product")
+                        if task.product in prodFMSList:
+                            task.domain = "FMS"
+                        else:
+                            task.domain = "SCM"
 
                     if task.report_obj.scriptFinalResult == "Pass":
                         taskList.append(task)
@@ -190,29 +210,42 @@ def get_report_obj(log_path):
 
 
 def test_summary_handle(test_summary):
+    test_set_summary_list = []
+    product_summary_list=[]
+    eventID_summary_list=[]
+    for run_id in test_summary.keys(): #loop each event id
+        event_pass_counter = 0
+        event_fail_counter = 0
+        event_summary = {"eventID": run_id, "passRate": "","subType":"eventPR"}
+        for product in test_summary[run_id].keys(): #loop each product
+            product_pass_counter = 0
+            product_failed_counter = 0
+            product_summary = {"eventID":int(run_id),"product":product,"passRate":0.0,"subType":"productPR"}
+            for test_set in test_summary[run_id][product]:  #loop each test_set
+                test_set_summary = {"eventID":"","product":"","testSet":"","passRate":0.0,"subType":"testSetPR"}
+                test_set_summary["eventID"] = int(run_id)
+                test_set_summary["product"] = product
+                test_set_summary["testSet"] = test_set
+                test_set_pass_counter = test_summary.get(run_id).get(product).get(test_set).get("pass")
+                test_set_fail_counter = test_summary.get(run_id).get(product).get(test_set).get("failed")
+                product_pass_counter += test_set_pass_counter
+                product_failed_counter += test_set_fail_counter
+
+                test_set_summary["passRate"] = round((float(test_set_pass_counter)/float(test_set_pass_counter+test_set_fail_counter)),4)*100
+                test_set_summary_list.append(test_set_summary)
+
+            product_summary["passRate"] = round((float(product_pass_counter)/float(product_pass_counter+product_failed_counter)),4)*100
+            product_summary_list.append(product_summary)
+
+            event_pass_counter += product_pass_counter
+            event_fail_counter += product_failed_counter
+        event_summary["passRate"] = round((float(event_pass_counter)/float(event_pass_counter+event_fail_counter)),4)*100
+        eventID_summary_list.append(event_summary)
+
     summary_list = []
-    for run_id in test_summary.keys():
-        for prod in test_summary[run_id].keys():
-            prod_pass_counter = 0
-            prod_failed_counter = 0
-            prod_summary = {"eventID":"","tpye":"product","product":"","passRate":""}
-            for test_suite in test_summary[run_id][prod]:
-                test_suite_summary = {"eventID":"","type":"testSuite","product":"","testSuite":"","passRate":""}
-                test_suite_summary["eventID"] = int(run_id)
-                test_suite_summary["product"] = prod
-                test_suite_summary["testSuite"] = test_suite
-                test_suite_pass_counter = test_summary.get(run_id).get(prod).get(test_suite).get("pass")
-                test_suite_fail_counter = test_summary.get(run_id).get(prod).get(test_suite).get("failed")
-                test_suite_summary["passRate"] = round((float(test_suite_pass_counter)/float(test_suite_pass_counter+test_suite_fail_counter)),4)
-                summary_list.append(test_suite_summary)
-                prod_pass_counter += test_suite_pass_counter
-                prod_failed_counter += test_suite_fail_counter
-
-            prod_summary["eventID"] = int(run_id)
-            prod_summary["product"] = prod
-            prod_summary["passRate"] =  round((float(prod_pass_counter)/float(prod_pass_counter+prod_failed_counter)),4)
-            summary_list.append(prod_summary)
-
+    summary_list.extend(eventID_summary_list)
+    summary_list.extend(product_summary_list)
+    summary_list.extend(test_set_summary_list)
     return summary_list
 
 
@@ -262,47 +295,52 @@ def main():
     global LOGDIR
     LOGDIR = options.path
 
-    targetType = get_task_source_type(LOGDIR)
+    #targetType = get_task_source_type(LOGDIR)
+    logFolderName = LOGDIR.split('\\')[-1]
+    targetType = logFolderName.split('_')[0]
+    targetTypeSource = logFolderName.split('_')[1]
+
     log.info("The logs comes from "+targetType)
 
+    #if targetType == "PSTO":
+    log.debug("get task list and parse the log")
+    taskList = get_task_list(LOGDIR, case_mapper, targetType)
+
+    total_task = len(taskList)
+
+    complete_counter = 0
+    error_counter = 0
+
+    result_chunk_list = []
+    #test_summary = {"prod1":{"testSet1":{"success":number,"failed":number},"testSet2":{"success":number,"failed":number}}}
+    test_summary = {}
+    log.debug("start calculate the pass rate.")
+    for task in taskList:
+        res, test_summary = log_parser(task, test_summary)
+
+        if res != None:
+            result_chunk_list.append(res)
+            complete_counter += 1
+        else:
+            error_counter += 1
+
+        if complete_counter % 100 == 0:
+            log.info("parser log complete: %d/%d", complete_counter, total_task)
+
+#    log.debug(str(test_summary))
+
+    # move the log and report from <project/logs> to <project/web/templates>
+    # web_templates = os.path.dirname(os.path.realpath(__file__)) + "\\web\\templates"
+    # shutil.copy(LOGDIR,web_templates)
+
+    for res in result_chunk_list:
+        result_chunk_handler(res, options.commit)
+
+    if len(ES_COMMIT_QUEUE) > 0 and options.commit == True:
+        committer(es_instance, ES_COMMIT_QUEUE)
+
+    # handle test_summary:eg{dict}{u'Customer Bug':{'failed':1,'pass':0}}, calculate the pass rate for each product by test_set
     if targetType == "PSTO":
-        log.debug("get psto task list")
-        taskList = get_psto_task_list(LOGDIR,case_mapper)
-
-        total_task = len(taskList)
-
-        complete_counter = 0
-        error_counter = 0
-
-        result_chunk_list = []
-        #test_summary = {"prod1":{"testSet1":{"success":number,"failed":number},"testSet2":{"success":number,"failed":number}}}
-        test_summary = {}
-        log.debug("start parser")
-        for task in taskList:
-            res, test_summary = log_parser(task, test_summary)
-
-            if res != None:
-                result_chunk_list.append(res)
-                complete_counter += 1
-            else:
-                error_counter += 1
-
-            if complete_counter % 100 == 0:
-                log.info("parser log complete: %d/%d", complete_counter, total_task)
-
-        log.debug(str(test_summary))
-
-        # move the log and report from <project/logs> to <project/web/templates>
-        # web_templates = os.path.dirname(os.path.realpath(__file__)) + "\\web\\templates"
-        # shutil.copy(LOGDIR,web_templates)
-
-        for res in result_chunk_list:
-            result_chunk_handler(res, options.commit)
-
-        if len(ES_COMMIT_QUEUE) > 0 and options.commit == True:
-            committer(es_instance, ES_COMMIT_QUEUE)
-
-        # handle test summary
         summary_list = test_summary_handle(test_summary)
 
         if options.commit == True:

@@ -20,7 +20,7 @@ def get_case_mapping(path, sheetname):
     for i in range(1, nrows):
         case_mapper[table.row_values(i)[CASENAME_IDX]] = {"testSet": table.row_values(i)[TESTSET_IDX],
                                                         "testCycle": table.row_values(i)[TESTCYCLE_IDX],
-                                                        "prod": table.row_values(i)[PRODUCT_IDX],
+                                                        "product": table.row_values(i)[PRODUCT_IDX],
                                                         "testID":table.row_values(i)[TESTID_IDX]}
     return case_mapper
 

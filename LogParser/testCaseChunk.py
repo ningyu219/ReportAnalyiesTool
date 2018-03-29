@@ -10,6 +10,7 @@ class testCaseChunk:
 
     def __init__(self,content):
         self.logID = None
+        self.logType=None
         self.logCaption = None
         self.caseName = None
         self.logFolder = None
@@ -19,7 +20,7 @@ class testCaseChunk:
         self.testName = None
         self.userID = None
         self.execute_time = None
-        self.product = None
+
 
         #extra info
         self.browserVersion = None
@@ -33,14 +34,19 @@ class testCaseChunk:
 
         #PSTO_ONFS_PI26_C556-R1_171112_465 info
         self.is_psto = False
-        self.eventID = None
-        self.pumID = None
-        self.buildID = None
-        self.platform = None
-        self.eventName = None
+        #self.src2 = None
+        #self.eventID = None
+        #self.pumID = None
+        #self.buildNo = None
+        #self.buildType = None
+        #self.platform = None
 
-        self.testset = None
-        self.type = None
+        #UOW_84078_E92BISD2_nina@oracle.com_20180120213205 info
+        self.is_uow = False
+        # self.uowID = None
+        # self.excuteDB = None
+        # self.executorEmail = None
+        # self.dateStamp = None
 
         #report link
         self.reportLink = None
@@ -61,8 +67,6 @@ class testCaseChunk:
         self.scriptFinalResult = testCaseChunk.RESULTCODE2STRING.get(content.get("Log").get("scriptFinalResult"))
         self.testName = content.get("Log").get("testName")
         self.userID = content.get("Log").get("userID")
-        #self.product = content.get("Log").get("testName").split("_")[0]
-        #self.testSuite = content.get("Log").get("testName").split("_")[2]
         self.execute_time = self.__extract_execute_time(self.logCaption)
 
 
@@ -106,18 +110,30 @@ class testCaseChunk:
 
         return timestamp
 
-    def set_psto_info(self,eventID=None,pumID=None,buildID=None,platform=None,eventName=""):
+    def set_psto_info(self,eventID=None,pumID=None,buildNo=None,buildType=None,platform=None, src2=None,dateStamp=""):
         self.is_psto = True
-        self.eventID = eventID
-        self.pumID = pumID
-        self.buildID = buildID
+        # eg: platform: ONFS/ONCS, pumID:PI27, buildNo-buildType:C556-R1, dateStamp:180129, eventID:525,
+        self.src2 = src2
         self.platform = platform
-        self.eventName = eventName
+        self.pumID = pumID
+        self.buildNo = buildNo
+        self.buildType = buildType
+        self.dateStamp = dateStamp
+        self.eventID = eventID
+
+    def set_uow_info(self,uowID = None,excuteDB=None,executorEmail=None,dateStamp=None):
+        self.is_uow = True
+        self.uowID = uowID
+        self.excuteDB = excuteDB
+        self.executorEmail = executorEmail
+        self.dateStamp = dateStamp
+
 
     def toDict(self):
         res = {}
 
         res["logID"] = self.logID
+        res["logType"] = self.logType
         res["logCaption"] = self.logCaption
         res["caseName"] = self.caseName
         res["logFolder"] = self.logFolder
@@ -133,19 +149,27 @@ class testCaseChunk:
         res["PTFVersion"] = self.PTFVersion
         res["logPath"] = self.logPath
         res["product"] = self.product
-        res["testSuite"] = self.testSuite
+        res["domain"] = self.domain
+        res["testSet"] = self.testSet
 
         res["executionOptionName"] = self.executionOptionName
 
         res["reportUrl"] = self.reportLink
 
-        res["testSet"] = self.testset
-
         if self.is_psto == True:
             res["eventID"] = int(self.eventID)
-            res["pumID"] = self.pumID
-            res["buildID"] = self.buildID
             res["platform"] = self.platform
-            res["eventName"] = self.eventName
+            res["src2"] = self.src2
+            res["pumID"] = self.pumID
+            res["buildNo"] = self.buildNo
+            res["buildType"] = self.buildType
+            res["dateStamp"]=self.dateStamp
+
+        if self.is_uow == True:
+            res["uowID"] = self.uowID
+            res["excuteDB"] = self.excuteDB
+            res["executorEmail"] = self.executorEmail
+            res["dateStamp"] = self.dateStamp
+
 
         return res
