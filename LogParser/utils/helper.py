@@ -1,4 +1,11 @@
-import xlrd
+import xlrd,ctypes
+
+
+def is_admin():
+    try:
+        return ctypes.windll.shell32.IsUserAnAdmin()
+    except:
+        return False
 
 
 def get_case_mapping(path, sheetname):

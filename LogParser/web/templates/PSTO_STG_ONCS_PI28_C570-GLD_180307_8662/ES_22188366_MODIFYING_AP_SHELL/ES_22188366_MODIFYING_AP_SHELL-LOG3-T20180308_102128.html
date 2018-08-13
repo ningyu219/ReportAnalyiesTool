@@ -1,0 +1,216 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML Basic 1.1//EN" "http://www.w3.org/TR/xhtml-basic/xhtml-basic11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>PTF LOG - ES_22188366_MODIFYING_AP_SHELL</title></head><script type="text/JavaScript">
+
+function show(id)
+{
+     if (document.getElementById(id).style.display == 'none')
+     {
+          document.getElementById(id).style.display = '';
+     }
+}
+function hide(id)
+{
+          document.getElementById(id).style.display = 'none';
+
+}
+function fontResize()
+{
+var defaultStyleFont = document.getElementById("StepLog");
+var cs=document.defaultView.getComputedStyle(defaultStyleFont,null);
+var styleFont=cs.getPropertyValue('font-size');
+alert(styleFont);
+var updStyleFont=(parseInt(styleFont) + 0.50) + "px";
+alert(updStyleFont);
+defaultStyleFont.style.fontSize=updStyleFont;
+location.reload();
+}
+function screenshoturl(lineNo)
+{
+var logurl;
+var a = lineNo;
+logurl = window.location.protocol + "//" + window.location.host + window.location.pathname;
+var wlp=window.location.pathname
+var wlp=wlp.replace(/%20/gi," ");
+logurl = window.location.protocol + "//" + window.location.host + wlp;
+var arrlogurl=logurl.split('.html');
+var scrshotpath=arrlogurl[0].concat("-","Line",a,".jpg");
+var scrpath=scrshotpath.replace("file:","\\\\");
+scrpath = scrpath.replace("logpath","image")
+window.open(scrpath,"Image");
+}
+function openPIA(urlPath)
+{
+window.open(urlPath);
+}
+function showLog(lno)
+{
+  document.getElementById('expandImg'.concat(lno)).style.display = 'none';
+	document.getElementById('collapseImg'.concat(lno)).style.display = '';
+	document.getElementById('msgLog'.concat(lno)).style.display = '';
+	document.getElementById('exprLog'.concat(lno)).style.display = '';
+	document.getElementById('detailLog'.concat(lno)).style.display = '';
+	document.getElementById('calledLog'.concat(lno)).style.display = '';
+	document.getElementById('commandID'.concat(lno)).style.display = '';
+}
+function hideLog(lno)
+{
+  document.getElementById('collapseImg'.concat(lno)).style.display = 'none';
+	document.getElementById('msgLog'.concat(lno)).style.display = '';
+	document.getElementById('expandImg'.concat(lno)).style.display = '';
+	document.getElementById('exprLog'.concat(lno)).style.display = 'none';
+	document.getElementById('detailLog'.concat(lno)).style.display = 'none';
+	document.getElementById('calledLog'.concat(lno)).style.display = 'none';
+	document.getElementById('commandID'.concat(lno)).style.display = 'none';
+}
+function showLogExpand(countln)
+{
+	
+for(var i=1;i<=parseInt(countln);i++)
+{
+  document.getElementById('expandImg'.concat(i)).style.display = 'none';
+	document.getElementById('collapseImg'.concat(i)).style.display = '';
+	document.getElementById('msgLog'.concat(i)).style.display = '';
+	document.getElementById('exprLog'.concat(i)).style.display = '';
+	document.getElementById('detailLog'.concat(i)).style.display = '';
+	document.getElementById('calledLog'.concat(i)).style.display = '';
+	document.getElementById('commandID'.concat(i)).style.display = '';
+}	
+}
+function showLogCollapse(countln)
+{
+
+for(var i=1;i<=parseInt(countln);i++)
+{
+  document.getElementById('collapseImg'.concat(i)).style.display = 'none';
+	document.getElementById('msgLog'.concat(i)).style.display = '';
+	document.getElementById('expandImg'.concat(i)).style.display = '';
+	document.getElementById('exprLog'.concat(i)).style.display = 'none';
+	document.getElementById('detailLog'.concat(i)).style.display = 'none';
+	document.getElementById('calledLog'.concat(i)).style.display = 'none';
+	document.getElementById('commandID'.concat(i)).style.display = 'none';
+}
+}
+</script><style>
+div{
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-weight: normal;
+        font-style: inherit;
+        font-size: 100%;
+        font-family: inherit;
+        vertical-align: baseline;
+}
+h1 { font-family: Arial, sans-serif; font-size: 30px; color: #004080;}
+#LeftNavLinks{ font-family: Arial, sans-serif; font-size: 12px; color: #102541;}
+#HeaderText{ font-family: Arial, sans-serif; font-size: 30px; color: #102541; word-spacing="10px" ;letter-spacing="2px"}
+#FrameContent { font-family: Arial, sans-serif; font-size: 8px; color: #004080;}
+#TestNameResult { font-family: Arial, sans-serif; font-size: 14px; color: #02052C;}
+#PassTableCell {background-color:#1AB541;}
+#FailTableCell {background-color:#F93606;}
+#WarningTableCell {background-color:#F9F906;}
+#FatalErrTableCell {background-color:#9D1D24;color:#FFFFFF}
+#LogInfo { font-family: Arial, sans-serif; font-size: 12px; color: #02052C;}
+#ExecutionOptionsInfo { font-family: Arial, sans-serif; font-size: 12px; color: #02052C;}
+#SystemInfo { font-family: Arial, sans-serif; font-size: 12px; color: #02052C;}
+#PTFEnvInfo { font-family: Arial, sans-serif; font-size: 12px; color: #02052C;}
+#StepwiseInfo { font-family: Arial, sans-serif; font-size: 11px; color: #02052C;}
+#FatalErrStepLog {text-align:center;background-color:#FEFA08;}
+#PassStepLog {text-align:center; background-color:#1AB541;}
+#InfoStepLog {text-align:center; background-color:#59E2EF;}
+#FailStepLog {text-align:center; background-color:#F93606;}
+#NoneStepLog {text-align:center; background-color:#F7FAFA;}
+#StepLog{display:table;position:relative;left:40px;}
+#ExpLink,#ColLink{position:relative;left:40px;}
+#NoneTableCell{background-color:#FFFFFF;}
+</style><body bgcolor="#f2f2f2" width="85%"><table width="100%" border="1" cellspacing="0" cellpadding="0"><tr><td></td><td width="100%" bgcolor="#BBCFE9" valign="top"><br></br><p id="HeaderText" align="center"><b>PTF EXECUTION LOG</b></p><br></br></td><td></td></tr></table><table width="100%" height="100%" border="1" cellspacing="0" cellpadding="0"><tr><td width="10%" bgcolor="#BBCFE9" valign="top"><h4 align="center"><br></br><br></br><a id="LeftNavLinks" href="#" title="Go to Log Information" onclick="show('LogInfo');hide('ExecutionOptionsInfo');hide('SystemInfo');hide('PTFEnvInfo');hide('StepwiseInfo')"><b>Log Info</b></a><pre></pre><a id="LeftNavLinks" href="#" title="Go to Execution Option Information" onclick="hide('LogInfo');show('ExecutionOptionsInfo');hide('SystemInfo');hide('PTFEnvInfo');hide('StepwiseInfo')"><b>Execution Options</b></a><pre></pre><a id="LeftNavLinks" href="#" title="Go to System Information" onclick="hide('LogInfo');hide('ExecutionOptionsInfo');show('SystemInfo');hide('PTFEnvInfo');hide('StepwiseInfo')"><b>System Info</b></a><pre></pre><a id="LeftNavLinks" href="#" title="Go to PTF Information" onclick="hide('LogInfo');hide('ExecutionOptionsInfo');hide('SystemInfo');show('PTFEnvInfo');hide('StepwiseInfo')"><b>PTF Environment Info</b></a><pre></pre><a id="LeftNavLinks" href="#" title="Go to Step Wise Log Information" onclick="hide('LogInfo');hide('ExecutionOptionsInfo');hide('SystemInfo');hide('PTFEnvInfo');show('StepwiseInfo')"><b>Step-wise Log Info</b></a></h4></td><td width="90%" bgcolor="#F8F9FC" cellspacing="0" cellpadding="0" valign="top"><div align="center" valign="top"><br></br><table id="TestNameResult" align="center" border="0" cellspacing="0" cellpadding="5"><tr><td><b>Test Name:</b></td><td>ES_22188366_MODIFYING_AP_SHELL</td><td><b>               Overall Result:</b></td><td id="FatalErrTableCell">      <b>Fatal Error</b>      </td></tr></table></div><div id="LogInfo" style="DISPLAY: none"><table align="left" border="0" cellspacing="10" cellpadding="0"><br></br><pre><br></br></pre><tr><td>             
+									 			                
+													               Test Name:  </td><td>ES_22188366_MODIFYING_AP_SHELL</td></tr><tr><td>             
+									 			                
+													               Case Name:  </td><td>DEFAULT</td></tr><tr><td>             
+									 			                
+													               Log Folder:  </td><td>PSTO_STG_ONCS_PI28_C570-GLD_180307_866</td></tr><tr><td>             
+									 			                
+													               Log Caption:  </td><td>3. VP1 2018-03-08 10:21</td></tr></table></div><div id="ExecutionOptionsInfo" style="DISPLAY: none"><table align="left" border="0" cellspacing="10" cellpadding="0"><br></br><pre><br></br></pre><tr><td>             
+									 				              																																							 
+									 				               Name:   </td><td>E92ZKINE</td></tr><tr><td>             
+									                      
+									 				               Prompt Options:   </td><td>No</td></tr><tr><td>             
+									 				              
+									 				               Appl URL:   </td><td>http://slc08ahl.us.oracle.com:8000/e92zkinex/signon.html   <a href="javascript:openPIA('http://slc08ahl.us.oracle.com:8000/e92zkinex/signon.html')" title="Go to Application">Click here to open Application</a></td></tr><tr><td>             
+									 				              
+									 				               Portal URL:   </td><td>http://slc08ahl.us.oracle.com:8000/psp/e92zkinex/EMPLOYEE/ERP/</td></tr><tr><td>             
+									                      
+									 				               Appl User:   </td><td>VP1</td></tr><tr><td>             
+									                      
+									 				               Appl Date Format:   </td><td>MM/DD/YYYY</td></tr><tr><td>             
+									                      
+									 				               Output LogFolder:   </td><td>PSTO_STG_ONCS_PI28_C570-GLD_180307_866</td></tr><tr><td>             
+									 				              
+													               Output Verbose:   </td><td>Yes</td></tr><tr><td>             
+									 				              
+													               Debug - Skip PageSave:   </td><td>No</td></tr><tr><td>             
+									 				              																																							 
+									 				               Debug - Skip RunRequest:   </td><td>No</td></tr></table></div><div id="SystemInfo" style="DISPLAY: none"><table align="left" border="0" cellspacing="10" cellpadding="0"><br></br><pre><br></br></pre><tr><td>             
+									 				              																																							 
+									 				               Machine Name:   </td><td>SLC10BRH</td></tr><tr><td>             
+									                      
+									 				               Screen Resolution:   </td></tr><tr><td>             
+									 				              
+									 				               Operating System Name:   </td><td>Microsoft Windows Server 2012 R2 Standard</td></tr><tr><td>             
+									                      
+									 				               Operating System Version:   </td><td>6.2.9200.0</td></tr><tr><td>             
+									                      
+									 				               Memory Total:   </td><td>31300 Mb</td></tr><tr><td>             
+									                      
+									 				               Memory Available:   </td><td>21329 Mb</td></tr><tr><td>             
+									 				              
+													               Browser:   </td><td>chrome 65.0.3325.146</td></tr><tr><td>             
+									 				              
+													               OS Lang Code:   </td><td>ENG</td></tr></table></div><div id="PTFEnvInfo" style="DISPLAY: none"><table align="left" border="0" cellspacing="10" cellpadding="0"><br></br><pre><br></br></pre><tr><td>             
+									 			                
+													               PTF Environment :  </td><td>https://slc05ehl.us.oracle.com:8001/PSIGW/HttpListeningConnector</td></tr><tr><td>             
+									 			                
+													               PsTestFramework Version:  </td><td>8.56.07 hotfix1</td></tr></table></div><div id="StepwiseInfo" style="DISPLAY:inline"><br></br><a id="ExpLink" href="javascript:showLogExpand(19);" title="Expand All Rows" style="display:inline">Expand All</a>      
+				<a id="ColLink" href="javascript:showLogCollapse(19);" title="Collapse All Rows" style="display:inline">Collapse All</a>                     
+				<pre></pre><table id="StepLog" height="100%" border="0" cellspacing="0" cellpadding="0"><tr id="msgLog1" style="DISPLAY:"><td><img id="expandImg1" src="\static\Logs_Maker\r-arrow.png" onclick="javascript:showLog('1')" title="Expand" width="12" height="12" style="DISPLAY:"></img><img id="collapseImg1" src="\static\Logs_Maker\d-arrow.png" onclick="javascript:hideLog('1')" title="Collapse" width="12" height="12" style="DISPLAY: none"></img>  
+															</td><td><img src="\static\Logs_Maker\FatalError.jpg" title="Fatal Error" width="20" height="18"></img></td><td>
+															Message: </td><td>Unattended Start:  3/8/2018 10:21:30 AM</td></tr><tr id="exprLog1" style="DISPLAY:none"><td colspan="2"></td><td>Expression:</td><td></td></tr><tr id="detailLog1" style="DISPLAY:none"><td colspan="2"></td><td>Details:</td><td></td></tr><tr id="calledLog1" style="DISPLAY:none"><td colspan="2"></td><td>Called Test: </td><td></td></tr><tr id="commandID1" style="DISPLAY:none"><td colspan="2"></td><td>Command ID: </td><td>0</td></tr></table><table id="StepLog" height="100%" border="0" cellspacing="0" cellpadding="0"><tr id="msgLog2" style="DISPLAY:"><td><img id="expandImg2" src="\static\Logs_Maker\r-arrow.png" onclick="javascript:showLog('2')" title="Expand" width="12" height="12" style="DISPLAY:"></img><img id="collapseImg2" src="\static\Logs_Maker\d-arrow.png" onclick="javascript:hideLog('2')" title="Collapse" width="12" height="12" style="DISPLAY: none"></img>  
+															</td><td><img src="\static\Logs_Maker\Info.jpg" title="Info" width="20" height="20"></img></td><td>
+															Message: </td><td>Use of Message Recognition</td></tr><tr id="exprLog2" style="DISPLAY:none"><td colspan="2"></td><td>Expression:</td><td></td></tr><tr id="detailLog2" style="DISPLAY:none"><td colspan="2"></td><td>Details:</td><td></td></tr><tr id="calledLog2" style="DISPLAY:none"><td colspan="2"></td><td>Called Test: </td><td></td></tr><tr id="commandID2" style="DISPLAY:none"><td colspan="2"></td><td>Command ID: </td><td>0</td></tr></table><table id="StepLog" height="100%" border="0" cellspacing="0" cellpadding="0"><tr id="msgLog3" style="DISPLAY:"><td><img id="expandImg3" src="\static\Logs_Maker\r-arrow.png" onclick="javascript:showLog('3')" title="Expand" width="12" height="12" style="DISPLAY:"></img><img id="collapseImg3" src="\static\Logs_Maker\d-arrow.png" onclick="javascript:hideLog('3')" title="Collapse" width="12" height="12" style="DISPLAY: none"></img>  
+															</td><td><img src="\static\Logs_Maker\Info.jpg" title="Info" width="20" height="20"></img></td><td>
+															Message: </td><td>Reading persistent variables.</td></tr><tr id="exprLog3" style="DISPLAY:none"><td colspan="2"></td><td>Expression:</td><td></td></tr><tr id="detailLog3" style="DISPLAY:none"><td colspan="2"></td><td>Details:</td><td></td></tr><tr id="calledLog3" style="DISPLAY:none"><td colspan="2"></td><td>Called Test: </td><td></td></tr><tr id="commandID3" style="DISPLAY:none"><td colspan="2"></td><td>Command ID: </td><td>0</td></tr></table><table id="StepLog" height="100%" border="0" cellspacing="0" cellpadding="0"><tr id="msgLog4" style="DISPLAY:"><td><img id="expandImg4" src="\static\Logs_Maker\r-arrow.png" onclick="javascript:showLog('4')" title="Expand" width="12" height="12" style="DISPLAY:"></img><img id="collapseImg4" src="\static\Logs_Maker\d-arrow.png" onclick="javascript:hideLog('4')" title="Collapse" width="12" height="12" style="DISPLAY: none"></img>  
+															</td><td><img src="\static\Logs_Maker\None.jpg" title="None" width="20" height="20"></img></td><td>
+															Message: </td><td>Execution action Stop_On_Error: set to all</td></tr><tr id="exprLog4" style="DISPLAY:none"><td colspan="2"></td><td>Expression:</td><td>Execution -&gt; Stop_On_Error -&gt; ALL</td></tr><tr id="detailLog4" style="DISPLAY:none"><td colspan="2"></td><td>Details:</td><td></td></tr><tr id="calledLog4" style="DISPLAY:none"><td colspan="2"></td><td>Called Test: </td><td></td></tr><tr id="commandID4" style="DISPLAY:none"><td colspan="2"></td><td>Command ID: </td><td>1</td></tr></table><table id="StepLog" height="100%" border="0" cellspacing="0" cellpadding="0"><tr id="msgLog5" style="DISPLAY:"><td><img id="expandImg5" src="\static\Logs_Maker\r-arrow.png" onclick="javascript:showLog('5')" title="Expand" width="12" height="12" style="DISPLAY:"></img><img id="collapseImg5" src="\static\Logs_Maker\d-arrow.png" onclick="javascript:hideLog('5')" title="Collapse" width="12" height="12" style="DISPLAY: none"></img>  
+															</td><td><img src="\static\Logs_Maker\FatalError.jpg" title="Fatal Error" width="20" height="18"></img></td><td>
+															Message: </td><td>Starting the call to $\QA AUTOMATION\FMS\CFL - Customer Feedback Loop\PI#17\eSettlements\Workflow\22188366 MODIFYING APPROVED VE\ES_22188366_MODIFYING_APPRO_01  [Test Case: DEFAULT]</td></tr><tr id="exprLog5" style="DISPLAY:none"><td colspan="2"></td><td>Expression:</td><td>Test -&gt; Exec -&gt; ES_22188366_MODIFYING_APPRO_01</td></tr><tr id="detailLog5" style="DISPLAY:none"><td colspan="2"></td><td>Details:</td><td></td></tr><tr id="calledLog5" style="DISPLAY:none"><td colspan="2"></td><td>Called Test: </td><td></td></tr><tr id="commandID5" style="DISPLAY:none"><td colspan="2"></td><td>Command ID: </td><td>2</td></tr></table><table id="StepLog" height="100%" border="0" cellspacing="0" cellpadding="0"><tr id="msgLog6" style="DISPLAY:"><td><img id="expandImg6" src="\static\Logs_Maker\r-arrow.png" onclick="javascript:showLog('6')" title="Expand" width="12" height="12" style="DISPLAY:"></img><img id="collapseImg6" src="\static\Logs_Maker\d-arrow.png" onclick="javascript:hideLog('6')" title="Collapse" width="12" height="12" style="DISPLAY: none"></img>  
+															</td><td><img src="\static\Logs_Maker\Info.jpg" title="Info" width="20" height="20"></img></td><td>
+															Message: </td><td>Use of Message Recognition</td></tr><tr id="exprLog6" style="DISPLAY:none"><td colspan="2"></td><td>Expression:</td><td></td></tr><tr id="detailLog6" style="DISPLAY:none"><td colspan="2"></td><td>Details:</td><td></td></tr><tr id="calledLog6" style="DISPLAY:none"><td colspan="2"></td><td>Called Test: </td><td>ES_22188366_MODIFYING_APPRO_01</td></tr><tr id="commandID6" style="DISPLAY:none"><td colspan="2"></td><td>Command ID: </td><td>0</td></tr></table><table id="StepLog" height="100%" border="0" cellspacing="0" cellpadding="0"><tr id="msgLog7" style="DISPLAY:"><td><img id="expandImg7" src="\static\Logs_Maker\r-arrow.png" onclick="javascript:showLog('7')" title="Expand" width="12" height="12" style="DISPLAY:"></img><img id="collapseImg7" src="\static\Logs_Maker\d-arrow.png" onclick="javascript:hideLog('7')" title="Collapse" width="12" height="12" style="DISPLAY: none"></img>  
+															</td><td><img src="\static\Logs_Maker\FatalError.jpg" title="Fatal Error" width="20" height="18"></img></td><td>
+															Message: </td><td>Browser.Start_Login</td></tr><tr id="exprLog7" style="DISPLAY:none"><td colspan="2"></td><td>Expression:</td><td>Browser -&gt; Start_Login -&gt; </td></tr><tr id="detailLog7" style="DISPLAY:none"><td colspan="2"></td><td>Details:</td><td></td></tr><tr id="calledLog7" style="DISPLAY:none"><td colspan="2"></td><td>Called Test: </td><td>ES_22188366_MODIFYING_APPRO_01</td></tr><tr id="commandID7" style="DISPLAY:none"><td colspan="2"></td><td>Command ID: </td><td>1</td></tr></table><table id="StepLog" height="100%" border="0" cellspacing="0" cellpadding="0"><tr id="msgLog8" style="DISPLAY:"><td><img id="expandImg8" src="\static\Logs_Maker\r-arrow.png" onclick="javascript:showLog('8')" title="Expand" width="12" height="12" style="DISPLAY:"></img><img id="collapseImg8" src="\static\Logs_Maker\d-arrow.png" onclick="javascript:hideLog('8')" title="Collapse" width="12" height="12" style="DISPLAY: none"></img>  
+															</td><td><img src="\static\Logs_Maker\None.jpg" title="Warning" width="20" height="20"></img></td><td>
+															Message: </td><td>The chrome version 65 is not supported. You might have issue with it. The current supported browser is: 56-58</td></tr><tr id="exprLog8" style="DISPLAY:none"><td colspan="2"></td><td>Expression:</td><td>Browser -&gt; Start_Login -&gt; </td></tr><tr id="detailLog8" style="DISPLAY:none"><td colspan="2"></td><td>Details:</td><td></td></tr><tr id="calledLog8" style="DISPLAY:none"><td colspan="2"></td><td>Called Test: </td><td>ES_22188366_MODIFYING_APPRO_01</td></tr><tr id="commandID8" style="DISPLAY:none"><td colspan="2"></td><td>Command ID: </td><td>1</td></tr></table><table id="StepLog" height="100%" border="0" cellspacing="0" cellpadding="0"><tr id="msgLog9" style="DISPLAY:"><td><img id="expandImg9" src="\static\Logs_Maker\r-arrow.png" onclick="javascript:showLog('9')" title="Expand" width="12" height="12" style="DISPLAY:"></img><img id="collapseImg9" src="\static\Logs_Maker\d-arrow.png" onclick="javascript:hideLog('9')" title="Collapse" width="12" height="12" style="DISPLAY: none"></img>  
+															</td><td><img src="\static\Logs_Maker\None.jpg" title="None" width="20" height="20"></img></td><td>
+															Message: </td><td>Frame set to ''</td></tr><tr id="exprLog9" style="DISPLAY:none"><td colspan="2"></td><td>Expression:</td><td>Browser -&gt; Start_Login -&gt; </td></tr><tr id="detailLog9" style="DISPLAY:none"><td colspan="2"></td><td>Details:</td><td>Current frame: ''    Previous Frame: ''</td></tr><tr id="calledLog9" style="DISPLAY:none"><td colspan="2"></td><td>Called Test: </td><td>ES_22188366_MODIFYING_APPRO_01</td></tr><tr id="commandID9" style="DISPLAY:none"><td colspan="2"></td><td>Command ID: </td><td>1</td></tr></table><table id="StepLog" height="100%" border="0" cellspacing="0" cellpadding="0"><tr id="msgLog10" style="DISPLAY:"><td><img id="expandImg10" src="\static\Logs_Maker\r-arrow.png" onclick="javascript:showLog('10')" title="Expand" width="12" height="12" style="DISPLAY:"></img><img id="collapseImg10" src="\static\Logs_Maker\d-arrow.png" onclick="javascript:hideLog('10')" title="Collapse" width="12" height="12" style="DISPLAY: none"></img>  
+															</td><td><img src="\static\Logs_Maker\Info.jpg" title="Info" width="20" height="20"></img></td><td>
+															Message: </td><td>Goto URL</td></tr><tr id="exprLog10" style="DISPLAY:none"><td colspan="2"></td><td>Expression:</td><td>Browser -&gt; Start_Login -&gt; </td></tr><tr id="detailLog10" style="DISPLAY:none"><td colspan="2"></td><td>Details:</td><td><a id="gotoURL" href="javascript:openPIA('http://slc08ahl.us.oracle.com:8000/e92zkinex/signon.html')" title="Go to Application">http://slc08ahl.us.oracle.com:8000/e92zkinex/signon.html</a></td></tr><tr id="calledLog10" style="DISPLAY:none"><td colspan="2"></td><td>Called Test: </td><td>ES_22188366_MODIFYING_APPRO_01</td></tr><tr id="commandID10" style="DISPLAY:none"><td colspan="2"></td><td>Command ID: </td><td>1</td></tr></table><table id="StepLog" height="100%" border="0" cellspacing="0" cellpadding="0"><tr id="msgLog11" style="DISPLAY:"><td><img id="expandImg11" src="\static\Logs_Maker\r-arrow.png" onclick="javascript:showLog('11')" title="Expand" width="12" height="12" style="DISPLAY:"></img><img id="collapseImg11" src="\static\Logs_Maker\d-arrow.png" onclick="javascript:hideLog('11')" title="Collapse" width="12" height="12" style="DISPLAY: none"></img>  
+															</td><td><img src="\static\Logs_Maker\FatalError.jpg" title="Fatal Error" width="20" height="18"></img></td><td>
+															Message: </td><td>Browser.Login</td></tr><tr id="exprLog11" style="DISPLAY:none"><td colspan="2"></td><td>Expression:</td><td>Browser -&gt; Start_Login -&gt; </td></tr><tr id="detailLog11" style="DISPLAY:none"><td colspan="2"></td><td>Details:</td><td></td></tr><tr id="calledLog11" style="DISPLAY:none"><td colspan="2"></td><td>Called Test: </td><td>ES_22188366_MODIFYING_APPRO_01</td></tr><tr id="commandID11" style="DISPLAY:none"><td colspan="2"></td><td>Command ID: </td><td>1</td></tr></table><table id="StepLog" height="100%" border="0" cellspacing="0" cellpadding="0"><tr id="msgLog12" style="DISPLAY:"><td><img id="expandImg12" src="\static\Logs_Maker\r-arrow.png" onclick="javascript:showLog('12')" title="Expand" width="12" height="12" style="DISPLAY:"></img><img id="collapseImg12" src="\static\Logs_Maker\d-arrow.png" onclick="javascript:hideLog('12')" title="Collapse" width="12" height="12" style="DISPLAY: none"></img>  
+															</td><td><img src="\static\Logs_Maker\Info.jpg" title="Info" width="20" height="20"></img></td><td>
+															Message: </td><td>Doing login in English</td></tr><tr id="exprLog12" style="DISPLAY:none"><td colspan="2"></td><td>Expression:</td><td>Browser -&gt; Start_Login -&gt; </td></tr><tr id="detailLog12" style="DISPLAY:none"><td colspan="2"></td><td>Details:</td><td></td></tr><tr id="calledLog12" style="DISPLAY:none"><td colspan="2"></td><td>Called Test: </td><td>ES_22188366_MODIFYING_APPRO_01</td></tr><tr id="commandID12" style="DISPLAY:none"><td colspan="2"></td><td>Command ID: </td><td>1</td></tr></table><table id="StepLog" height="100%" border="0" cellspacing="0" cellpadding="0"><tr id="msgLog13" style="DISPLAY:"><td><img id="expandImg13" src="\static\Logs_Maker\r-arrow.png" onclick="javascript:showLog('13')" title="Expand" width="12" height="12" style="DISPLAY:"></img><img id="collapseImg13" src="\static\Logs_Maker\d-arrow.png" onclick="javascript:hideLog('13')" title="Collapse" width="12" height="12" style="DISPLAY: none"></img>  
+															</td><td><img src="\static\Logs_Maker\Info.jpg" title="Info" width="20" height="20"></img></td><td>
+															Message: </td><td>combobox.Set_Value [id=ptlangsel] -&gt; ENG</td></tr><tr id="exprLog13" style="DISPLAY:none"><td colspan="2"></td><td>Expression:</td><td>Browser -&gt; Start_Login -&gt; </td></tr><tr id="detailLog13" style="DISPLAY:none"><td colspan="2"></td><td>Details:</td><td></td></tr><tr id="calledLog13" style="DISPLAY:none"><td colspan="2"></td><td>Called Test: </td><td>ES_22188366_MODIFYING_APPRO_01</td></tr><tr id="commandID13" style="DISPLAY:none"><td colspan="2"></td><td>Command ID: </td><td>1</td></tr></table><table id="StepLog" height="100%" border="0" cellspacing="0" cellpadding="0"><tr id="msgLog14" style="DISPLAY:"><td><img id="expandImg14" src="\static\Logs_Maker\r-arrow.png" onclick="javascript:showLog('14')" title="Expand" width="12" height="12" style="DISPLAY:"></img><img id="collapseImg14" src="\static\Logs_Maker\d-arrow.png" onclick="javascript:hideLog('14')" title="Collapse" width="12" height="12" style="DISPLAY: none"></img>  
+															</td><td><img src="\static\Logs_Maker\FatalError.jpg" title="Fatal Error" width="20" height="18"></img></td><td>
+															Message: </td><td>text.Set_Value [id=userid] -&gt; VP1</td></tr><tr id="exprLog14" style="DISPLAY:none"><td colspan="2"></td><td>Expression:</td><td>Browser -&gt; Start_Login -&gt; </td></tr><tr id="detailLog14" style="DISPLAY:none"><td colspan="2"></td><td>Details:</td><td></td></tr><tr id="calledLog14" style="DISPLAY:none"><td colspan="2"></td><td>Called Test: </td><td>ES_22188366_MODIFYING_APPRO_01</td></tr><tr id="commandID14" style="DISPLAY:none"><td colspan="2"></td><td>Command ID: </td><td>1</td></tr></table><table id="StepLog" height="100%" border="0" cellspacing="0" cellpadding="0"><tr id="msgLog15" style="DISPLAY:"><td><img id="expandImg15" src="\static\Logs_Maker\r-arrow.png" onclick="javascript:showLog('15')" title="Expand" width="12" height="12" style="DISPLAY:"></img><img id="collapseImg15" src="\static\Logs_Maker\d-arrow.png" onclick="javascript:hideLog('15')" title="Collapse" width="12" height="12" style="DISPLAY: none"></img>  
+															</td><td><img src="\static\Logs_Maker\FatalError.jpg" title="Fatal Error" width="20" height="18"></img></td><td>
+															Message: </td><td>Execution aborted - Unhandled error: unknown error: call function result missing 'value'  (Session info: chrome=65.0.3325.146)  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.3.9600 x86_64)</td></tr><tr id="exprLog15" style="DISPLAY:none"><td colspan="2"></td><td>Expression:</td><td>Browser -&gt; Start_Login -&gt; </td></tr><tr id="detailLog15" style="DISPLAY:none"><td colspan="2"></td><td>Details:</td><td>Source ---&lt;NL&gt;WebDriver&lt;NL&gt;TargetSite ---&lt;NL&gt;Void UnpackAndThrowOnError(OpenQA.Selenium.Remote.Response)&lt;NL&gt;StackTrace ---&lt;NL&gt;   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)&lt;NL&gt;   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)&lt;NL&gt;   at OpenQA.Selenium.Remote.RemoteWebElement.Clear()&lt;NL&gt;   at PsTest.UtilsWeb.clsHtmlEditBox.set_Value(String Value)&lt;NL&gt;   at PsTest.modRecScr.ObjSet(IWebDriver driver, eObjType ObjType, String Props, String Value, Boolean CheckError)&lt;NL&gt;   at PsTest.modBrowser.BrowserLogin(IWebDriver driver)&lt;NL&gt;   at PsTest.modBrowser.Browser_Start(Boolean doLogin, String name)&lt;NL&gt;   at PsTest.clsRunTime.CmdExecute_Browser(clsTestStep cmd, sCmdValues val)&lt;NL&gt;   at PsTest.clsRunTime.CmdExecute__SelectList(clsTestStep cCmd, sCmdValues cVal)&lt;NL&gt;   at PsTest.clsRunTime.CmdExecute()</td></tr><tr id="calledLog15" style="DISPLAY:none"><td colspan="2"></td><td>Called Test: </td><td>ES_22188366_MODIFYING_APPRO_01</td></tr><tr id="commandID15" style="DISPLAY:none"><td colspan="2"></td><td>Command ID: </td><td>1</td></tr></table><table id="StepLog" height="100%" border="0" cellspacing="0" cellpadding="0"><tr id="msgLog16" style="DISPLAY:"><td><img id="expandImg16" src="\static\Logs_Maker\r-arrow.png" onclick="javascript:showLog('16')" title="Expand" width="12" height="12" style="DISPLAY:"></img><img id="collapseImg16" src="\static\Logs_Maker\d-arrow.png" onclick="javascript:hideLog('16')" title="Collapse" width="12" height="12" style="DISPLAY: none"></img>  
+															</td><td><img src="\static\Logs_Maker\Screenshot.jpg" title="ScreenShot" width="20" height="20"></img></td><td>
+															Message: </td><td><a id="scrshoturl" href="javascript:screenshoturl('16')" title="Go to view ScreenShot" style="display:inline">Screenshot</a>  
+																		<p style="display:inline">If the screen shot doesn't appear, you can find the Image with the Test Name suffixed with Line16 in the same folder where this XML resides</p></td></tr><tr id="exprLog16" style="DISPLAY:none"><td colspan="2"></td><td>Expression:</td><td>Browser -&gt; Start_Login -&gt; </td></tr><tr id="detailLog16" style="DISPLAY:none"><td colspan="2"></td><td>Details:</td><td></td></tr><tr id="calledLog16" style="DISPLAY:none"><td colspan="2"></td><td>Called Test: </td><td>ES_22188366_MODIFYING_APPRO_01</td></tr><tr id="commandID16" style="DISPLAY:none"><td colspan="2"></td><td>Command ID: </td><td>1</td></tr></table><table id="StepLog" height="100%" border="0" cellspacing="0" cellpadding="0"><tr id="msgLog17" style="DISPLAY:"><td><img id="expandImg17" src="\static\Logs_Maker\r-arrow.png" onclick="javascript:showLog('17')" title="Expand" width="12" height="12" style="DISPLAY:"></img><img id="collapseImg17" src="\static\Logs_Maker\d-arrow.png" onclick="javascript:hideLog('17')" title="Collapse" width="12" height="12" style="DISPLAY: none"></img>  
+															</td><td><img src="\static\Logs_Maker\Fail.jpg" title="Fail" width="20" height="20"></img></td><td>
+															Message: </td><td>Execution stopped by Execution.Stop_On_Error: 3/8/2018 10:21:39 AM</td></tr><tr id="exprLog17" style="DISPLAY:none"><td colspan="2"></td><td>Expression:</td><td>Page -&gt; Save -&gt; </td></tr><tr id="detailLog17" style="DISPLAY:none"><td colspan="2"></td><td>Details:</td><td></td></tr><tr id="calledLog17" style="DISPLAY:none"><td colspan="2"></td><td>Called Test: </td><td>ES_22188366_MODIFYING_APPRO_01</td></tr><tr id="commandID17" style="DISPLAY:none"><td colspan="2"></td><td>Command ID: </td><td>8</td></tr></table><table id="StepLog" height="100%" border="0" cellspacing="0" cellpadding="0"><tr id="msgLog18" style="DISPLAY:"><td><img id="expandImg18" src="\static\Logs_Maker\r-arrow.png" onclick="javascript:showLog('18')" title="Expand" width="12" height="12" style="DISPLAY:"></img><img id="collapseImg18" src="\static\Logs_Maker\d-arrow.png" onclick="javascript:hideLog('18')" title="Collapse" width="12" height="12" style="DISPLAY: none"></img>  
+															</td><td><img src="\static\Logs_Maker\Info.jpg" title="Info" width="20" height="20"></img></td><td>
+															Message: </td><td>Saving persistent variables.</td></tr><tr id="exprLog18" style="DISPLAY:none"><td colspan="2"></td><td>Expression:</td><td>Test -&gt; Exec -&gt; ES_22188366_MODIFYING_APPRO_13</td></tr><tr id="detailLog18" style="DISPLAY:none"><td colspan="2"></td><td>Details:</td><td></td></tr><tr id="calledLog18" style="DISPLAY:none"><td colspan="2"></td><td>Called Test: </td><td></td></tr><tr id="commandID18" style="DISPLAY:none"><td colspan="2"></td><td>Command ID: </td><td>16</td></tr></table><table id="StepLog" height="100%" border="0" cellspacing="0" cellpadding="0"><tr id="msgLog19" style="DISPLAY:"><td><img id="expandImg19" src="\static\Logs_Maker\r-arrow.png" onclick="javascript:showLog('19')" title="Expand" width="12" height="12" style="DISPLAY:"></img><img id="collapseImg19" src="\static\Logs_Maker\d-arrow.png" onclick="javascript:hideLog('19')" title="Collapse" width="12" height="12" style="DISPLAY: none"></img>  
+															</td><td><img src="\static\Logs_Maker\Fail.jpg" title="Fail" width="20" height="20"></img></td><td>
+															Message: </td><td>Execution stopped by Execution.Stop_On_Error: 3/8/2018 10:21:39 AM</td></tr><tr id="exprLog19" style="DISPLAY:none"><td colspan="2"></td><td>Expression:</td><td>Test -&gt; Exec -&gt; ES_22188366_MODIFYING_APPRO_13</td></tr><tr id="detailLog19" style="DISPLAY:none"><td colspan="2"></td><td>Details:</td><td></td></tr><tr id="calledLog19" style="DISPLAY:none"><td colspan="2"></td><td>Called Test: </td><td></td></tr><tr id="commandID19" style="DISPLAY:none"><td colspan="2"></td><td>Command ID: </td><td>16</td></tr></table></div></td></tr></table></body></html>

@@ -1,0 +1,2525 @@
+﻿<?xml version='1.0' ?>
+<?xml-stylesheet type='text/xsl' href='\\slcnas463.us.oracle.com\enterprise\PTF\Logs\ToolsAutoStyle.xsl'?>
+<Log>
+  <logID>1</logID>
+  <logCaption>1. VP1 2018-03-08 01:59</logCaption>
+  <caseName>DEFAULT</caseName>
+  <logFolder>PSTO_STG_ONCS_PI28_C570-GLD_180307_866</logFolder>
+  <logPrefix></logPrefix>
+  <logLineCount>215</logLineCount>
+  <machineName>SLC10BSG</machineName>
+  <scriptFinalResult>115</scriptFinalResult>
+  <testName>CSH_21769355_REV_ACC_ENT_SHELL</testName>
+  <userID>VP1</userID>
+  <executionOptions>
+    <executionOptionName>E92M3LTU</executionOptionName>
+    <databaseName>E92M3LTU</databaseName>
+    <databasePlatform>Oracle</databasePlatform>
+    <databaseServer></databaseServer>
+    <databaseUser>VP1</databaseUser>
+    <dateFormat>MM/DD/YYYY</dateFormat>
+    <peopleToolsPath>\\psbldfs\dfs\build\pt\ptship\pt85606b\install_Windows.ora</peopleToolsPath>
+    <processServer>PSUNX</processServer>
+    <prompt>No</prompt>
+    <skipRun>No</skipRun>
+    <skipSave>No</skipSave>
+    <url>http://slc08ayk.us.oracle.com:8000/e92m3ltux/signon.html</url>
+    <userID>VP1</userID>
+    <verbose>Yes</verbose>
+  </executionOptions>
+  <extras>
+    <extra>
+      <logSection>1. Execution Options</logSection>
+      <logOrder>1</logOrder>
+      <logValue>No</logValue>
+      <logLabel>Appl - Skip Language :</logLabel>
+    </extra>
+    <extra>
+      <logSection>1. Execution Options</logSection>
+      <logOrder>2</logOrder>
+      <logValue>N</logValue>
+      <logLabel>Appl - Form Factor :</logLabel>
+    </extra>
+    <extra>
+      <logSection>3. System Info</logSection>
+      <logOrder>1</logOrder>
+      <logValue>1280 X 1024 pixels</logValue>
+      <logLabel>Screen resolution :</logLabel>
+    </extra>
+    <extra>
+      <logSection>3. System Info</logSection>
+      <logOrder>4</logOrder>
+      <logValue>Intel(R) Xeon(R) CPU E5-2699 v3 @ 2.30GHz</logValue>
+      <logLabel>Processor :</logLabel>
+    </extra>
+    <extra>
+      <logSection>3. System Info</logSection>
+      <logOrder>5</logOrder>
+      <logValue>Microsoft Windows Server 2012 R2 Standard</logValue>
+      <logLabel>Operating System full name:</logLabel>
+    </extra>
+    <extra>
+      <logSection>3. System Info</logSection>
+      <logOrder>6</logOrder>
+      <logValue>6.2.9200.0</logValue>
+      <logLabel>Operating Sytem version:</logLabel>
+    </extra>
+    <extra>
+      <logSection>3. System Info</logSection>
+      <logOrder>7</logOrder>
+      <logValue>31300 Mb</logValue>
+      <logLabel>Memory Total :</logLabel>
+    </extra>
+    <extra>
+      <logSection>3. System Info</logSection>
+      <logOrder>8</logOrder>
+      <logValue>21424 Mb</logValue>
+      <logLabel>Memory Available :</logLabel>
+    </extra>
+    <extra>
+      <logSection>3. System Info</logSection>
+      <logOrder>9</logOrder>
+      <logValue>chrome 64.0.3282.186</logValue>
+      <logLabel>Browser :</logLabel>
+    </extra>
+    <extra>
+      <logSection>3. System Info</logSection>
+      <logOrder>10</logOrder>
+      <logValue>ENG</logValue>
+      <logLabel>OS Lang Code:</logLabel>
+    </extra>
+    <extra>
+      <logSection>4. Environment Info</logSection>
+      <logOrder>1</logOrder>
+      <logValue>https://slc05ehl.us.oracle.com:8001/PSIGW/HttpListeningConnector</logValue>
+      <logLabel>Env. URL :</logLabel>
+    </extra>
+    <extra>
+      <logSection>1.1. Portal URL Info</logSection>
+      <logOrder>1</logOrder>
+      <logValue>http://slc08ayk.us.oracle.com:8000/psp/e92m3ltux/CUSTOMER/ERP/</logValue>
+      <logLabel>CUSTOMER</logLabel>
+    </extra>
+    <extra>
+      <logSection>1.1. Portal URL Info</logSection>
+      <logOrder>1</logOrder>
+      <logValue>http://slc08ayk.us.oracle.com:8000/psp/e92m3ltux/EMPLOYEE/ERP/</logValue>
+      <logLabel>PORTAL</logLabel>
+    </extra>
+    <extra>
+      <logSection>1.1. Portal URL Info</logSection>
+      <logOrder>1</logOrder>
+      <logValue>http://slc08ayk.us.oracle.com:8000/psp/e92m3ltux/SUPPLIER/ERP/</logValue>
+      <logLabel>SUPPLIER</logLabel>
+    </extra>
+    <extra>
+      <logSection>5. Extra Info</logSection>
+      <logOrder>1</logOrder>
+      <logValue>8.56.07 hotfix1</logValue>
+      <logLabel>PsTestFramework Version :</logLabel>
+    </extra>
+    <extra>
+      <logSection>5. Extra Info</logSection>
+      <logOrder>2</logOrder>
+      <logValue>False</logValue>
+      <logLabel>Disable ScreenShot :</logLabel>
+    </extra>
+    <extra>
+      <logSection>5. Extra Info</logSection>
+      <logOrder>3</logOrder>
+      <logValue>True</logValue>
+      <logLabel>User Error Handling :</logLabel>
+    </extra>
+    <extra>
+      <logSection>6. Log Export</logSection>
+      <logOrder>1</logOrder>
+      <logValue>\\slcnas463.us.oracle.com\enterprise\QEShare\PTF Log Archive\PSTO_STG_ONCS_PI28_C570-GLD_180307_866\CSH_21769355_REV_ACC_ENT_SHELL</logValue>
+      <logLabel>Path :</logLabel>
+    </extra>
+    <extra>
+      <logSection>6. Log Export</logSection>
+      <logOrder>2</logOrder>
+      <logValue>\\slcnas463.us.oracle.com\enterprise\PTF\Logs\ToolsAutoStyle.xsl</logValue>
+      <logLabel>Style Sheet File :</logLabel>
+    </extra>
+    <extra>
+      <logSection>6. Log Export</logSection>
+      <logOrder>3</logOrder>
+      <logValue>Yes</logValue>
+      <logLabel>Time Stamp :</logLabel>
+    </extra>
+    <extra>
+      <logSection>6. Log Export</logSection>
+      <logOrder>4</logOrder>
+      <logValue>Yes</logValue>
+      <logLabel>Image :</logLabel>
+    </extra>
+  </extras>
+  <lines>
+    <logLine>
+      <logLineID>1</logLineID>
+      <logParentLineID>0</logParentLineID>
+      <commandExpression></commandExpression>
+      <commandID>0</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Unattended Start:  3/8/2018 1:59:23 AM</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>2</logLineID>
+      <logParentLineID>1</logParentLineID>
+      <commandExpression></commandExpression>
+      <commandID>0</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Use of Message Recognition</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>3</logLineID>
+      <logParentLineID>1</logParentLineID>
+      <commandExpression>Execution -&gt; Stop_On_Error -&gt; all</commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Execution action Stop_On_Error: set to all</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>4</logLineID>
+      <logParentLineID>1</logParentLineID>
+      <commandExpression>Test -&gt; Exec -&gt; ENABLE_DOCUMENT_SEQUENCING</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Starting the call to $\QA AUTOMATION\FMS\CFL - Customer Feedback Loop\PI#22\Cash Management\Accounting Processing\24759177 - AUTOMATED ACCOUNTIN\ENABLE_DOCUMENT_SEQUENCING  [Test Case: DEFAULT]</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>5</logLineID>
+      <logParentLineID>4</logParentLineID>
+      <commandExpression></commandExpression>
+      <commandID>0</commandID>
+      <image />
+      <libraryName>ENABLE_DOCUMENT_SEQUENCING</libraryName>
+      <lineMessage>Use of Message Recognition</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>6</logLineID>
+      <logParentLineID>4</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ENABLE_DOCUMENT_SEQUENCING</libraryName>
+      <lineMessage>Browser.Start_Login</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>7</logLineID>
+      <logParentLineID>6</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ENABLE_DOCUMENT_SEQUENCING</libraryName>
+      <lineMessage>The chrome version 64 is not supported. You might have issue with it. The current supported browser is: 56-58</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>8</logLineID>
+      <logParentLineID>6</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ENABLE_DOCUMENT_SEQUENCING</libraryName>
+      <lineMessage>Frame set to ''</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>Current frame: ''    Previous Frame: ''</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>9</logLineID>
+      <logParentLineID>6</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ENABLE_DOCUMENT_SEQUENCING</libraryName>
+      <lineMessage>Goto URL</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>http://slc08ayk.us.oracle.com:8000/e92m3ltux/signon.html</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>10</logLineID>
+      <logParentLineID>6</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ENABLE_DOCUMENT_SEQUENCING</libraryName>
+      <lineMessage>Browser.Login</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>11</logLineID>
+      <logParentLineID>10</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ENABLE_DOCUMENT_SEQUENCING</libraryName>
+      <lineMessage>Doing login in English</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>12</logLineID>
+      <logParentLineID>11</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ENABLE_DOCUMENT_SEQUENCING</libraryName>
+      <lineMessage>combobox.Set_Value [id=ptlangsel] -&gt; ENG</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>13</logLineID>
+      <logParentLineID>10</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ENABLE_DOCUMENT_SEQUENCING</libraryName>
+      <lineMessage>text.Set_Value [id=userid] -&gt; VP1</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>14</logLineID>
+      <logParentLineID>10</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ENABLE_DOCUMENT_SEQUENCING</libraryName>
+      <lineMessage>pwd.Set_Value [id=pwd] -&gt; </lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>15</logLineID>
+      <logParentLineID>10</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ENABLE_DOCUMENT_SEQUENCING</libraryName>
+      <lineMessage>button.Click  [name=Submit]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>16</logLineID>
+      <logParentLineID>4</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; DEFINE_GENERAL_OPTIONS.INSTALLATION.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>ENABLE_DOCUMENT_SEQUENCING</libraryName>
+      <lineMessage>Page.Prompt</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>DEFINE_GENERAL_OPTIONS.INSTALLATION.GBL</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>17</logLineID>
+      <logParentLineID>16</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; DEFINE_GENERAL_OPTIONS.INSTALLATION.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>ENABLE_DOCUMENT_SEQUENCING</libraryName>
+      <lineMessage>Goto URL</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>http://slc08ayk.us.oracle.com:8000/psp/e92m3ltux/EMPLOYEE/ERP/c/DEFINE_GENERAL_OPTIONS.INSTALLATION.GBL</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>18</logLineID>
+      <logParentLineID>16</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; DEFINE_GENERAL_OPTIONS.INSTALLATION.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>ENABLE_DOCUMENT_SEQUENCING</libraryName>
+      <lineMessage>Page.Prompt: Trying to do the following action = add update</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>19</logLineID>
+      <logParentLineID>16</logParentLineID>
+      <commandExpression>Link -&gt; Click -&gt; name=INST_LINKS_INST_FS1_LNK</commandExpression>
+      <commandID>3</commandID>
+      <image />
+      <libraryName>ENABLE_DOCUMENT_SEQUENCING</libraryName>
+      <lineMessage>link.Click  [name=INST_LINKS_INST_FS1_LNK]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>20</logLineID>
+      <logParentLineID>16</logParentLineID>
+      <commandExpression>CheckBox -&gt; Set_Value -&gt; name=INSTALLATION_FS_DOC_SEQ</commandExpression>
+      <commandID>4</commandID>
+      <image />
+      <libraryName>ENABLE_DOCUMENT_SEQUENCING</libraryName>
+      <lineMessage>checkbox.Set_Value [name=INSTALLATION_FS_DOC_SEQ] -&gt; Y</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>21</logLineID>
+      <logParentLineID>4</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>5</commandID>
+      <image />
+      <libraryName>ENABLE_DOCUMENT_SEQUENCING</libraryName>
+      <lineMessage>Page.Save</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>22</logLineID>
+      <logParentLineID>21</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>5</commandID>
+      <image />
+      <libraryName>ENABLE_DOCUMENT_SEQUENCING</libraryName>
+      <lineMessage>button.Click  [Name=#ICSave]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>23</logLineID>
+      <logParentLineID>21</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>5</commandID>
+      <image />
+      <libraryName>ENABLE_DOCUMENT_SEQUENCING</libraryName>
+      <lineMessage>============= PageSave: YES ========</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>24</logLineID>
+      <logParentLineID>4</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>5</commandID>
+      <image />
+      <libraryName>ENABLE_DOCUMENT_SEQUENCING</libraryName>
+      <lineMessage>Test End:  3/8/2018 1:59:50 AM</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>25</logLineID>
+      <logParentLineID>1</logParentLineID>
+      <commandExpression>Test -&gt; Exec -&gt; CSH_21769355_REV_ACC_ENT_01</commandExpression>
+      <commandID>3</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Starting the call to $\QA AUTOMATION\FMS\CFL - Customer Feedback Loop\PI#15\Cash Management\Accounting Processing\21769355 Reverse Accounting En\CSH_21769355_REV_ACC_ENT_01  [Test Case: DEFAULT]</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>26</logLineID>
+      <logParentLineID>25</logParentLineID>
+      <commandExpression></commandExpression>
+      <commandID>0</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_01</libraryName>
+      <lineMessage>Use of Message Recognition</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>27</logLineID>
+      <logParentLineID>25</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_01</libraryName>
+      <lineMessage>Browser.Start_Login</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>28</logLineID>
+      <logParentLineID>27</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_01</libraryName>
+      <lineMessage>Closing old browsers...</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>29</logLineID>
+      <logParentLineID>27</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_01</libraryName>
+      <lineMessage>The chrome version 64 is not supported. You might have issue with it. The current supported browser is: 56-58</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>30</logLineID>
+      <logParentLineID>27</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_01</libraryName>
+      <lineMessage>Frame set to ''</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>Current frame: ''    Previous Frame: 'TargetContent'</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>31</logLineID>
+      <logParentLineID>27</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_01</libraryName>
+      <lineMessage>Goto URL</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>http://slc08ayk.us.oracle.com:8000/e92m3ltux/signon.html</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>32</logLineID>
+      <logParentLineID>27</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_01</libraryName>
+      <lineMessage>Browser.Login</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>33</logLineID>
+      <logParentLineID>32</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_01</libraryName>
+      <lineMessage>Language code is not set, so skipping language selection.</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>34</logLineID>
+      <logParentLineID>32</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_01</libraryName>
+      <lineMessage>text.Set_Value [id=userid] -&gt; VP1</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>35</logLineID>
+      <logParentLineID>32</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_01</libraryName>
+      <lineMessage>pwd.Set_Value [id=pwd] -&gt; </lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>36</logLineID>
+      <logParentLineID>32</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_01</libraryName>
+      <lineMessage>button.Click  [name=Submit]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>37</logLineID>
+      <logParentLineID>25</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; ADMINISTER_ACCOUNTING.ACCOUNTING_BUILD.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_01</libraryName>
+      <lineMessage>Page.Prompt</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>ADMINISTER_ACCOUNTING.ACCOUNTING_BUILD.GBL</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>38</logLineID>
+      <logParentLineID>37</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; ADMINISTER_ACCOUNTING.ACCOUNTING_BUILD.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_01</libraryName>
+      <lineMessage>Goto URL</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>http://slc08ayk.us.oracle.com:8000/psp/e92m3ltux/EMPLOYEE/ERP/c/ADMINISTER_ACCOUNTING.ACCOUNTING_BUILD.GBL</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>39</logLineID>
+      <logParentLineID>37</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; ADMINISTER_ACCOUNTING.ACCOUNTING_BUILD.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_01</libraryName>
+      <lineMessage>Page.Prompt: Trying to do the following action = update</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>40</logLineID>
+      <logParentLineID>37</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=TRA_ACCTG_SRCH_BUSINESS_UNIT</commandExpression>
+      <commandID>3</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_01</libraryName>
+      <lineMessage>text.Set_Value [name=TRA_ACCTG_SRCH_BUSINESS_UNIT] -&gt; US001</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>41</logLineID>
+      <logParentLineID>37</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=TRA_ACCTG_SRCH_ACCOUNTING_ID</commandExpression>
+      <commandID>4</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_01</libraryName>
+      <lineMessage>text.Set_Value [name=TRA_ACCTG_SRCH_ACCOUNTING_ID] -&gt; 0000000032</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>42</logLineID>
+      <logParentLineID>37</logParentLineID>
+      <commandExpression>Page -&gt; PromptOk -&gt; </commandExpression>
+      <commandID>5</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_01</libraryName>
+      <lineMessage>button.Click  [name=#ICSearch]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>43</logLineID>
+      <logParentLineID>25</logParentLineID>
+      <commandExpression>Span -&gt; Verify -&gt; id=TRA_ACCTG_HDR_BUSINESS_UNIT</commandExpression>
+      <commandID>6</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_01</libraryName>
+      <lineMessage>Verify: id=TRA_ACCTG_HDR_BUSINESS_UNIT [span] -&gt; US001</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>44</logLineID>
+      <logParentLineID>43</logParentLineID>
+      <commandExpression>Span -&gt; Verify -&gt; id=TRA_ACCTG_HDR_BUSINESS_UNIT</commandExpression>
+      <commandID>6</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_01</libraryName>
+      <lineMessage>Check field: id=TRA_ACCTG_HDR_BUSINESS_UNIT, 'US001' (actual) = 'US001' (expected)</lineMessage>
+      <logResult>110</logResult>
+      <longDescr>Object Type: Span, Field: id=TRA_ACCTG_HDR_BUSINESS_UNIT, Value: US001, CheckValue: US001</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>45</logLineID>
+      <logParentLineID>25</logParentLineID>
+      <commandExpression>Span -&gt; Verify -&gt; id=TRA_ACCTG_HDR_ACCOUNTING_ID</commandExpression>
+      <commandID>7</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_01</libraryName>
+      <lineMessage>Verify: id=TRA_ACCTG_HDR_ACCOUNTING_ID [span] -&gt; 0000000032</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>46</logLineID>
+      <logParentLineID>45</logParentLineID>
+      <commandExpression>Span -&gt; Verify -&gt; id=TRA_ACCTG_HDR_ACCOUNTING_ID</commandExpression>
+      <commandID>7</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_01</libraryName>
+      <lineMessage>Check field: id=TRA_ACCTG_HDR_ACCOUNTING_ID, '0000000032' (actual) = '0000000032' (expected)</lineMessage>
+      <logResult>110</logResult>
+      <longDescr>Object Type: Span, Field: id=TRA_ACCTG_HDR_ACCOUNTING_ID, Value: 0000000032, CheckValue: 0000000032</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>47</logLineID>
+      <logParentLineID>25</logParentLineID>
+      <commandExpression>Span -&gt; Verify -&gt; id=TRA_ACCTG_HDR_ACCTG_EVENT_TYPE</commandExpression>
+      <commandID>8</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_01</libraryName>
+      <lineMessage>Verify: id=TRA_ACCTG_HDR_ACCTG_EVENT_TYPE [span] -&gt; Interest Accrual</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>48</logLineID>
+      <logParentLineID>47</logParentLineID>
+      <commandExpression>Span -&gt; Verify -&gt; id=TRA_ACCTG_HDR_ACCTG_EVENT_TYPE</commandExpression>
+      <commandID>8</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_01</libraryName>
+      <lineMessage>Check field: id=TRA_ACCTG_HDR_ACCTG_EVENT_TYPE, 'Interest Accrual' (actual) = 'Interest Accrual' (expected)</lineMessage>
+      <logResult>110</logResult>
+      <longDescr>Object Type: Span, Field: id=TRA_ACCTG_HDR_ACCTG_EVENT_TYPE, Value: Interest Accrual, CheckValue: Interest Accrual</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>49</logLineID>
+      <logParentLineID>25</logParentLineID>
+      <commandExpression>Text -&gt; Verify -&gt; name=TRA_ACCTG_HDR_ACCTG_TMPL_ID</commandExpression>
+      <commandID>9</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_01</libraryName>
+      <lineMessage>Verify: name=TRA_ACCTG_HDR_ACCTG_TMPL_ID [text] -&gt; IRP-INTACC</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>50</logLineID>
+      <logParentLineID>49</logParentLineID>
+      <commandExpression>Text -&gt; Verify -&gt; name=TRA_ACCTG_HDR_ACCTG_TMPL_ID</commandExpression>
+      <commandID>9</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_01</libraryName>
+      <lineMessage>Check field: name=TRA_ACCTG_HDR_ACCTG_TMPL_ID, 'IRP-INTACC' (actual) = 'IRP-INTACC' (expected)</lineMessage>
+      <logResult>110</logResult>
+      <longDescr>Object Type: Text, Field: name=TRA_ACCTG_HDR_ACCTG_TMPL_ID, Value: IRP-INTACC, CheckValue: IRP-INTACC</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>51</logLineID>
+      <logParentLineID>25</logParentLineID>
+      <commandExpression>Text -&gt; Verify -&gt; name=TRA_ACCTG_HDR_DOC_TYPE</commandExpression>
+      <commandID>10</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_01</libraryName>
+      <lineMessage>Verify: name=TRA_ACCTG_HDR_DOC_TYPE [text] -&gt; TR-FRBB</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>52</logLineID>
+      <logParentLineID>51</logParentLineID>
+      <commandExpression>Text -&gt; Verify -&gt; name=TRA_ACCTG_HDR_DOC_TYPE</commandExpression>
+      <commandID>10</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_01</libraryName>
+      <lineMessage>Check field: name=TRA_ACCTG_HDR_DOC_TYPE, 'TR-FRBB' (actual) = 'TR-FRBB' (expected)</lineMessage>
+      <logResult>110</logResult>
+      <longDescr>Object Type: Text, Field: name=TRA_ACCTG_HDR_DOC_TYPE, Value: TR-FRBB, CheckValue: TR-FRBB</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>53</logLineID>
+      <logParentLineID>25</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;scr1</commandExpression>
+      <commandID>13</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_01</libraryName>
+      <lineMessage>Scroll [1] Start: -,  Action: sel,  Key: 1, US001</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>54</logLineID>
+      <logParentLineID>53</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;scr1</commandExpression>
+      <commandID>13</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_01</libraryName>
+      <lineMessage>Key: id=TRA_ACCTG_LINE_ACCOUNTING_LINE [span] - Value: 1</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>55</logLineID>
+      <logParentLineID>53</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;scr1</commandExpression>
+      <commandID>13</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_01</libraryName>
+      <lineMessage>Key: id=TRA_ACCTG_LINE_BUSINESS_UNIT_GL [text] - Value: US001</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>56</logLineID>
+      <logParentLineID>53</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;scr1</commandExpression>
+      <commandID>13</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_01</libraryName>
+      <lineMessage>Found Row: $0</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>57</logLineID>
+      <logParentLineID>53</logParentLineID>
+      <commandExpression>Text -&gt; Get_Property -&gt; name=TRA_ACCTG_LINE_FOREIGN_AMOUNT&amp;scr1 -&gt; prop=Value;ret=&amp;amount1</commandExpression>
+      <commandID>14</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_01</libraryName>
+      <lineMessage>text.Get_Property [name=TRA_ACCTG_LINE_FOREIGN_AMOUNT$0]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>58</logLineID>
+      <logParentLineID>57</logParentLineID>
+      <commandExpression>Text -&gt; Get_Property -&gt; name=TRA_ACCTG_LINE_FOREIGN_AMOUNT&amp;scr1 -&gt; prop=Value;ret=&amp;amount1</commandExpression>
+      <commandID>14</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_01</libraryName>
+      <lineMessage>name=TRA_ACCTG_LINE_FOREIGN_AMOUNT$0 [text]. The property 'Value' was found, and it is '3,472.22'.</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>59</logLineID>
+      <logParentLineID>25</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;scr1</commandExpression>
+      <commandID>17</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_01</libraryName>
+      <lineMessage>Scroll [1] Start: $0,  Action: sel,  Key: 2, US001</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>60</logLineID>
+      <logParentLineID>59</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;scr1</commandExpression>
+      <commandID>17</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_01</libraryName>
+      <lineMessage>Key: id=TRA_ACCTG_LINE_ACCOUNTING_LINE [span] - Value: 2</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>61</logLineID>
+      <logParentLineID>59</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;scr1</commandExpression>
+      <commandID>17</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_01</libraryName>
+      <lineMessage>Key: id=TRA_ACCTG_LINE_BUSINESS_UNIT_GL [text] - Value: US001</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>62</logLineID>
+      <logParentLineID>59</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;scr1</commandExpression>
+      <commandID>17</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_01</libraryName>
+      <lineMessage>Found Row: $1</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>63</logLineID>
+      <logParentLineID>59</logParentLineID>
+      <commandExpression>Text -&gt; Get_Property -&gt; name=TRA_ACCTG_LINE_FOREIGN_AMOUNT&amp;scr1 -&gt; prop=Value;ret=&amp;amount2</commandExpression>
+      <commandID>18</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_01</libraryName>
+      <lineMessage>text.Get_Property [name=TRA_ACCTG_LINE_FOREIGN_AMOUNT$1]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>64</logLineID>
+      <logParentLineID>63</logParentLineID>
+      <commandExpression>Text -&gt; Get_Property -&gt; name=TRA_ACCTG_LINE_FOREIGN_AMOUNT&amp;scr1 -&gt; prop=Value;ret=&amp;amount2</commandExpression>
+      <commandID>18</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_01</libraryName>
+      <lineMessage>name=TRA_ACCTG_LINE_FOREIGN_AMOUNT$1 [text]. The property 'Value' was found, and it is '-3,472.22'.</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>65</logLineID>
+      <logParentLineID>59</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>19</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_01</libraryName>
+      <lineMessage>Page.Save</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>66</logLineID>
+      <logParentLineID>65</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>19</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_01</libraryName>
+      <lineMessage>button.Click  [Name=#ICSave]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>67</logLineID>
+      <logParentLineID>65</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>19</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_01</libraryName>
+      <lineMessage>============= PageSave: YES ========</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>68</logLineID>
+      <logParentLineID>59</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>19</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_01</libraryName>
+      <lineMessage>Test End:  3/8/2018 2:00:12 AM</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>69</logLineID>
+      <logParentLineID>1</logParentLineID>
+      <commandExpression>Test -&gt; Exec -&gt; CSH_21769355_REV_ACC_ENT_01</commandExpression>
+      <commandID>4</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Starting the call to $\QA AUTOMATION\FMS\CFL - Customer Feedback Loop\PI#15\Cash Management\Accounting Processing\21769355 Reverse Accounting En\CSH_21769355_REV_ACC_ENT_01  [Test Case: ACCOUNT_ENT2]</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>70</logLineID>
+      <logParentLineID>69</logParentLineID>
+      <commandExpression></commandExpression>
+      <commandID>0</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_01</libraryName>
+      <lineMessage>Use of Message Recognition</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>71</logLineID>
+      <logParentLineID>69</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_01</libraryName>
+      <lineMessage>Browser.Start_Login</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>72</logLineID>
+      <logParentLineID>71</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_01</libraryName>
+      <lineMessage>Closing old browsers...</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>73</logLineID>
+      <logParentLineID>71</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_01</libraryName>
+      <lineMessage>The chrome version 64 is not supported. You might have issue with it. The current supported browser is: 56-58</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>74</logLineID>
+      <logParentLineID>71</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_01</libraryName>
+      <lineMessage>Frame set to ''</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>Current frame: ''    Previous Frame: 'TargetContent'</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>75</logLineID>
+      <logParentLineID>71</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_01</libraryName>
+      <lineMessage>Goto URL</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>http://slc08ayk.us.oracle.com:8000/e92m3ltux/signon.html</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>76</logLineID>
+      <logParentLineID>71</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_01</libraryName>
+      <lineMessage>Browser.Login</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>77</logLineID>
+      <logParentLineID>76</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_01</libraryName>
+      <lineMessage>Language code is not set, so skipping language selection.</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>78</logLineID>
+      <logParentLineID>76</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_01</libraryName>
+      <lineMessage>text.Set_Value [id=userid] -&gt; VP1</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>79</logLineID>
+      <logParentLineID>76</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_01</libraryName>
+      <lineMessage>pwd.Set_Value [id=pwd] -&gt; </lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>80</logLineID>
+      <logParentLineID>76</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_01</libraryName>
+      <lineMessage>button.Click  [name=Submit]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>81</logLineID>
+      <logParentLineID>69</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; ADMINISTER_ACCOUNTING.ACCOUNTING_BUILD.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_01</libraryName>
+      <lineMessage>Page.Prompt</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>ADMINISTER_ACCOUNTING.ACCOUNTING_BUILD.GBL</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>82</logLineID>
+      <logParentLineID>81</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; ADMINISTER_ACCOUNTING.ACCOUNTING_BUILD.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_01</libraryName>
+      <lineMessage>Goto URL</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>http://slc08ayk.us.oracle.com:8000/psp/e92m3ltux/EMPLOYEE/ERP/c/ADMINISTER_ACCOUNTING.ACCOUNTING_BUILD.GBL</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>83</logLineID>
+      <logParentLineID>81</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; ADMINISTER_ACCOUNTING.ACCOUNTING_BUILD.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_01</libraryName>
+      <lineMessage>Page.Prompt: Trying to do the following action = update</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>84</logLineID>
+      <logParentLineID>81</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=TRA_ACCTG_SRCH_BUSINESS_UNIT</commandExpression>
+      <commandID>3</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_01</libraryName>
+      <lineMessage>text.Set_Value [name=TRA_ACCTG_SRCH_BUSINESS_UNIT] -&gt; US001</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>85</logLineID>
+      <logParentLineID>81</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=TRA_ACCTG_SRCH_ACCOUNTING_ID</commandExpression>
+      <commandID>4</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_01</libraryName>
+      <lineMessage>text.Set_Value [name=TRA_ACCTG_SRCH_ACCOUNTING_ID] -&gt; 0000000033</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>86</logLineID>
+      <logParentLineID>81</logParentLineID>
+      <commandExpression>Page -&gt; PromptOk -&gt; </commandExpression>
+      <commandID>5</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_01</libraryName>
+      <lineMessage>button.Click  [name=#ICSearch]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>87</logLineID>
+      <logParentLineID>69</logParentLineID>
+      <commandExpression>Span -&gt; Verify -&gt; id=TRA_ACCTG_HDR_BUSINESS_UNIT</commandExpression>
+      <commandID>6</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_01</libraryName>
+      <lineMessage>Verify: id=TRA_ACCTG_HDR_BUSINESS_UNIT [span] -&gt; US001</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>88</logLineID>
+      <logParentLineID>87</logParentLineID>
+      <commandExpression>Span -&gt; Verify -&gt; id=TRA_ACCTG_HDR_BUSINESS_UNIT</commandExpression>
+      <commandID>6</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_01</libraryName>
+      <lineMessage>Check field: id=TRA_ACCTG_HDR_BUSINESS_UNIT, 'US001' (actual) = 'US001' (expected)</lineMessage>
+      <logResult>110</logResult>
+      <longDescr>Object Type: Span, Field: id=TRA_ACCTG_HDR_BUSINESS_UNIT, Value: US001, CheckValue: US001</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>89</logLineID>
+      <logParentLineID>69</logParentLineID>
+      <commandExpression>Span -&gt; Verify -&gt; id=TRA_ACCTG_HDR_ACCOUNTING_ID</commandExpression>
+      <commandID>7</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_01</libraryName>
+      <lineMessage>Verify: id=TRA_ACCTG_HDR_ACCOUNTING_ID [span] -&gt; 0000000033</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>90</logLineID>
+      <logParentLineID>89</logParentLineID>
+      <commandExpression>Span -&gt; Verify -&gt; id=TRA_ACCTG_HDR_ACCOUNTING_ID</commandExpression>
+      <commandID>7</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_01</libraryName>
+      <lineMessage>Check field: id=TRA_ACCTG_HDR_ACCOUNTING_ID, '0000000033' (actual) = '0000000033' (expected)</lineMessage>
+      <logResult>110</logResult>
+      <longDescr>Object Type: Span, Field: id=TRA_ACCTG_HDR_ACCOUNTING_ID, Value: 0000000033, CheckValue: 0000000033</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>91</logLineID>
+      <logParentLineID>69</logParentLineID>
+      <commandExpression>Span -&gt; Verify -&gt; id=TRA_ACCTG_HDR_ACCTG_EVENT_TYPE</commandExpression>
+      <commandID>8</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_01</libraryName>
+      <lineMessage>Verify: id=TRA_ACCTG_HDR_ACCTG_EVENT_TYPE [span] -&gt; Discount Accrual</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>92</logLineID>
+      <logParentLineID>91</logParentLineID>
+      <commandExpression>Span -&gt; Verify -&gt; id=TRA_ACCTG_HDR_ACCTG_EVENT_TYPE</commandExpression>
+      <commandID>8</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_01</libraryName>
+      <lineMessage>Check field: id=TRA_ACCTG_HDR_ACCTG_EVENT_TYPE, 'Discount Accrual' (actual) = 'Discount Accrual' (expected)</lineMessage>
+      <logResult>110</logResult>
+      <longDescr>Object Type: Span, Field: id=TRA_ACCTG_HDR_ACCTG_EVENT_TYPE, Value: Discount Accrual, CheckValue: Discount Accrual</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>93</logLineID>
+      <logParentLineID>69</logParentLineID>
+      <commandExpression>Text -&gt; Verify -&gt; name=TRA_ACCTG_HDR_ACCTG_TMPL_ID</commandExpression>
+      <commandID>9</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_01</libraryName>
+      <lineMessage>Verify: name=TRA_ACCTG_HDR_ACCTG_TMPL_ID [text] -&gt; IRP-DISACC</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>94</logLineID>
+      <logParentLineID>93</logParentLineID>
+      <commandExpression>Text -&gt; Verify -&gt; name=TRA_ACCTG_HDR_ACCTG_TMPL_ID</commandExpression>
+      <commandID>9</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_01</libraryName>
+      <lineMessage>Check field: name=TRA_ACCTG_HDR_ACCTG_TMPL_ID, 'IRP-DISACC' (actual) = 'IRP-DISACC' (expected)</lineMessage>
+      <logResult>110</logResult>
+      <longDescr>Object Type: Text, Field: name=TRA_ACCTG_HDR_ACCTG_TMPL_ID, Value: IRP-DISACC, CheckValue: IRP-DISACC</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>95</logLineID>
+      <logParentLineID>69</logParentLineID>
+      <commandExpression>Text -&gt; Verify -&gt; name=TRA_ACCTG_HDR_DOC_TYPE</commandExpression>
+      <commandID>10</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_01</libraryName>
+      <lineMessage>Verify: name=TRA_ACCTG_HDR_DOC_TYPE [text] -&gt; TR-FRBB</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>96</logLineID>
+      <logParentLineID>95</logParentLineID>
+      <commandExpression>Text -&gt; Verify -&gt; name=TRA_ACCTG_HDR_DOC_TYPE</commandExpression>
+      <commandID>10</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_01</libraryName>
+      <lineMessage>Check field: name=TRA_ACCTG_HDR_DOC_TYPE, 'TR-FRBB' (actual) = 'TR-FRBB' (expected)</lineMessage>
+      <logResult>110</logResult>
+      <longDescr>Object Type: Text, Field: name=TRA_ACCTG_HDR_DOC_TYPE, Value: TR-FRBB, CheckValue: TR-FRBB</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>97</logLineID>
+      <logParentLineID>69</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;scr1</commandExpression>
+      <commandID>13</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_01</libraryName>
+      <lineMessage>Scroll [1] Start: $1,  Action: sel,  Key: 1, US001</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>98</logLineID>
+      <logParentLineID>97</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;scr1</commandExpression>
+      <commandID>13</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_01</libraryName>
+      <lineMessage>Key: id=TRA_ACCTG_LINE_ACCOUNTING_LINE [span] - Value: 1</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>99</logLineID>
+      <logParentLineID>97</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;scr1</commandExpression>
+      <commandID>13</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_01</libraryName>
+      <lineMessage>Key: id=TRA_ACCTG_LINE_BUSINESS_UNIT_GL [text] - Value: US001</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>100</logLineID>
+      <logParentLineID>97</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;scr1</commandExpression>
+      <commandID>13</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_01</libraryName>
+      <lineMessage>Found Row: $0</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>101</logLineID>
+      <logParentLineID>97</logParentLineID>
+      <commandExpression>Text -&gt; Get_Property -&gt; name=TRA_ACCTG_LINE_FOREIGN_AMOUNT&amp;scr1 -&gt; prop=Value;ret=&amp;amount1</commandExpression>
+      <commandID>14</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_01</libraryName>
+      <lineMessage>text.Get_Property [name=TRA_ACCTG_LINE_FOREIGN_AMOUNT$0]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>102</logLineID>
+      <logParentLineID>101</logParentLineID>
+      <commandExpression>Text -&gt; Get_Property -&gt; name=TRA_ACCTG_LINE_FOREIGN_AMOUNT&amp;scr1 -&gt; prop=Value;ret=&amp;amount1</commandExpression>
+      <commandID>14</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_01</libraryName>
+      <lineMessage>name=TRA_ACCTG_LINE_FOREIGN_AMOUNT$0 [text]. The property 'Value' was found, and it is '-181.16'.</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>103</logLineID>
+      <logParentLineID>69</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;scr1</commandExpression>
+      <commandID>17</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_01</libraryName>
+      <lineMessage>Scroll [1] Start: $0,  Action: sel,  Key: 2, US001</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>104</logLineID>
+      <logParentLineID>103</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;scr1</commandExpression>
+      <commandID>17</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_01</libraryName>
+      <lineMessage>Key: id=TRA_ACCTG_LINE_ACCOUNTING_LINE [span] - Value: 2</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>105</logLineID>
+      <logParentLineID>103</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;scr1</commandExpression>
+      <commandID>17</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_01</libraryName>
+      <lineMessage>Key: id=TRA_ACCTG_LINE_BUSINESS_UNIT_GL [text] - Value: US001</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>106</logLineID>
+      <logParentLineID>103</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;scr1</commandExpression>
+      <commandID>17</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_01</libraryName>
+      <lineMessage>Found Row: $1</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>107</logLineID>
+      <logParentLineID>103</logParentLineID>
+      <commandExpression>Text -&gt; Get_Property -&gt; name=TRA_ACCTG_LINE_FOREIGN_AMOUNT&amp;scr1 -&gt; prop=Value;ret=&amp;amount2</commandExpression>
+      <commandID>18</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_01</libraryName>
+      <lineMessage>text.Get_Property [name=TRA_ACCTG_LINE_FOREIGN_AMOUNT$1]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>108</logLineID>
+      <logParentLineID>107</logParentLineID>
+      <commandExpression>Text -&gt; Get_Property -&gt; name=TRA_ACCTG_LINE_FOREIGN_AMOUNT&amp;scr1 -&gt; prop=Value;ret=&amp;amount2</commandExpression>
+      <commandID>18</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_01</libraryName>
+      <lineMessage>name=TRA_ACCTG_LINE_FOREIGN_AMOUNT$1 [text]. The property 'Value' was found, and it is '181.16'.</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>109</logLineID>
+      <logParentLineID>103</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>19</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_01</libraryName>
+      <lineMessage>Page.Save</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>110</logLineID>
+      <logParentLineID>109</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>19</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_01</libraryName>
+      <lineMessage>button.Click  [Name=#ICSave]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>111</logLineID>
+      <logParentLineID>109</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>19</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_01</libraryName>
+      <lineMessage>============= PageSave: YES ========</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>112</logLineID>
+      <logParentLineID>103</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>19</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_01</libraryName>
+      <lineMessage>Test End:  3/8/2018 2:00:29 AM</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>113</logLineID>
+      <logParentLineID>1</logParentLineID>
+      <commandExpression>Test -&gt; Exec -&gt; CSH_21769355_REV_ACC_ENT_02</commandExpression>
+      <commandID>5</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Starting the call to $\QA AUTOMATION\FMS\CFL - Customer Feedback Loop\PI#15\Cash Management\Accounting Processing\21769355 Reverse Accounting En\CSH_21769355_REV_ACC_ENT_02  [Test Case: DEFAULT]</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>114</logLineID>
+      <logParentLineID>113</logParentLineID>
+      <commandExpression></commandExpression>
+      <commandID>0</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_02</libraryName>
+      <lineMessage>Use of Message Recognition</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>115</logLineID>
+      <logParentLineID>113</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_02</libraryName>
+      <lineMessage>Browser.Start_Login</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>116</logLineID>
+      <logParentLineID>115</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_02</libraryName>
+      <lineMessage>Closing old browsers...</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>117</logLineID>
+      <logParentLineID>115</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_02</libraryName>
+      <lineMessage>The chrome version 64 is not supported. You might have issue with it. The current supported browser is: 56-58</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>118</logLineID>
+      <logParentLineID>115</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_02</libraryName>
+      <lineMessage>Frame set to ''</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>Current frame: ''    Previous Frame: 'TargetContent'</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>119</logLineID>
+      <logParentLineID>115</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_02</libraryName>
+      <lineMessage>Goto URL</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>http://slc08ayk.us.oracle.com:8000/e92m3ltux/signon.html</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>120</logLineID>
+      <logParentLineID>115</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_02</libraryName>
+      <lineMessage>Browser.Login</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>121</logLineID>
+      <logParentLineID>120</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_02</libraryName>
+      <lineMessage>Doing login in English</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>122</logLineID>
+      <logParentLineID>121</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_02</libraryName>
+      <lineMessage>combobox.Set_Value [id=ptlangsel] -&gt; ENG</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>123</logLineID>
+      <logParentLineID>120</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_02</libraryName>
+      <lineMessage>text.Set_Value [id=userid] -&gt; VP1</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>124</logLineID>
+      <logParentLineID>120</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_02</libraryName>
+      <lineMessage>pwd.Set_Value [id=pwd] -&gt; </lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>125</logLineID>
+      <logParentLineID>120</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_02</libraryName>
+      <lineMessage>button.Click  [name=Submit]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>126</logLineID>
+      <logParentLineID>113</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; ADMINISTER_ACCOUNTING.REV_ACCTG_REQ.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_02</libraryName>
+      <lineMessage>Page.Prompt</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>ADMINISTER_ACCOUNTING.REV_ACCTG_REQ.GBL</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>127</logLineID>
+      <logParentLineID>126</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; ADMINISTER_ACCOUNTING.REV_ACCTG_REQ.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_02</libraryName>
+      <lineMessage>Goto URL</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>http://slc08ayk.us.oracle.com:8000/psp/e92m3ltux/EMPLOYEE/ERP/c/ADMINISTER_ACCOUNTING.REV_ACCTG_REQ.GBL</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>128</logLineID>
+      <logParentLineID>126</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; ADMINISTER_ACCOUNTING.REV_ACCTG_REQ.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_02</libraryName>
+      <lineMessage>Page.Prompt: Trying to do the following action = add</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>129</logLineID>
+      <logParentLineID>126</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; ADMINISTER_ACCOUNTING.REV_ACCTG_REQ.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_02</libraryName>
+      <lineMessage>link.Click  [name=#ICSwitchMode]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>130</logLineID>
+      <logParentLineID>126</logParentLineID>
+      <commandExpression>Variable -&gt; Set_Value -&gt; &amp;prefix</commandExpression>
+      <commandID>3</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_02</libraryName>
+      <lineMessage>Variable &amp;prefix set to 420</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>&amp;prefix = concat(Second(Time())|Minute(Time()))</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>131</logLineID>
+      <logParentLineID>126</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; Name=PRCSRUNCNTL_RUN_CNTL_ID</commandExpression>
+      <commandID>4</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_02</libraryName>
+      <lineMessage>text.Set_Value [Name=PRCSRUNCNTL_RUN_CNTL_ID] -&gt; 420REV</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>132</logLineID>
+      <logParentLineID>126</logParentLineID>
+      <commandExpression>Page -&gt; PromptOk -&gt; </commandExpression>
+      <commandID>5</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_02</libraryName>
+      <lineMessage>button.Click  [name=#ICSearch]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>133</logLineID>
+      <logParentLineID>113</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;scr1</commandExpression>
+      <commandID>8</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_02</libraryName>
+      <lineMessage>Scroll [1] Start: $1,  Action: upd,  Key: N, TREASURY</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>134</logLineID>
+      <logParentLineID>133</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;scr1</commandExpression>
+      <commandID>8</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_02</libraryName>
+      <lineMessage>Key: id=REV_ACCTG_REQ_PROCESS_FREQUENCY [combobox] - Value: N</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>135</logLineID>
+      <logParentLineID>133</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;scr1</commandExpression>
+      <commandID>8</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_02</libraryName>
+      <lineMessage>Key: id=REV_ACCTG_REQ_COMBO_EDIT_TMPL [text] - Value: TREASURY</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>136</logLineID>
+      <logParentLineID>133</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;scr1</commandExpression>
+      <commandID>8</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_02</libraryName>
+      <lineMessage>Found Row: $0</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>137</logLineID>
+      <logParentLineID>133</logParentLineID>
+      <commandExpression>ComboBox -&gt; Set_Value -&gt; name=REV_ACCTG_REQ_PROCESS_FREQUENCY&amp;scr1</commandExpression>
+      <commandID>9</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_02</libraryName>
+      <lineMessage>combobox.Set_Value [name=REV_ACCTG_REQ_PROCESS_FREQUENCY$0] -&gt; A</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>138</logLineID>
+      <logParentLineID>133</logParentLineID>
+      <commandExpression>ComboBox -&gt; Verify -&gt; name=REV_ACCTG_REQ_REV_ACCTG_OPTN&amp;scr1</commandExpression>
+      <commandID>10</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_02</libraryName>
+      <lineMessage>Verify: name=REV_ACCTG_REQ_REV_ACCTG_OPTN$0 [combobox] -&gt; 1</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>139</logLineID>
+      <logParentLineID>138</logParentLineID>
+      <commandExpression>ComboBox -&gt; Verify -&gt; name=REV_ACCTG_REQ_REV_ACCTG_OPTN&amp;scr1</commandExpression>
+      <commandID>10</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_02</libraryName>
+      <lineMessage>Check field: name=REV_ACCTG_REQ_REV_ACCTG_OPTN$0, '1' (actual) = '1' (expected)</lineMessage>
+      <logResult>110</logResult>
+      <longDescr>Object Type: ComboBox, Field: name=REV_ACCTG_REQ_REV_ACCTG_OPTN$0, Value: 1, CheckValue: 1</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>140</logLineID>
+      <logParentLineID>133</logParentLineID>
+      <commandExpression>ComboBox -&gt; Verify -&gt; name=REV_ACCTG_REQ_RVSL_DATE_OPTN&amp;scr1</commandExpression>
+      <commandID>11</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_02</libraryName>
+      <lineMessage>Verify: name=REV_ACCTG_REQ_RVSL_DATE_OPTN$0 [combobox] -&gt; C</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>141</logLineID>
+      <logParentLineID>140</logParentLineID>
+      <commandExpression>ComboBox -&gt; Verify -&gt; name=REV_ACCTG_REQ_RVSL_DATE_OPTN&amp;scr1</commandExpression>
+      <commandID>11</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_02</libraryName>
+      <lineMessage>Check field: name=REV_ACCTG_REQ_RVSL_DATE_OPTN$0, 'C' (actual) = 'C' (expected)</lineMessage>
+      <logResult>110</logResult>
+      <longDescr>Object Type: ComboBox, Field: name=REV_ACCTG_REQ_RVSL_DATE_OPTN$0, Value: C, CheckValue: C</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>142</logLineID>
+      <logParentLineID>133</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=REV_ACCTG_REQ_BUSINESS_UNIT&amp;scr1</commandExpression>
+      <commandID>12</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_02</libraryName>
+      <lineMessage>text.Set_Value [name=REV_ACCTG_REQ_BUSINESS_UNIT$0] -&gt; US001</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>143</logLineID>
+      <logParentLineID>133</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=REV_ACCTG_REQ_ACCOUNTING_ID_FROM&amp;scr1</commandExpression>
+      <commandID>13</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_02</libraryName>
+      <lineMessage>text.Set_Value [name=REV_ACCTG_REQ_ACCOUNTING_ID_FROM$0] -&gt; 0000000032</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>144</logLineID>
+      <logParentLineID>133</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=REV_ACCTG_REQ_ACCOUNTING_ID_TO&amp;scr1</commandExpression>
+      <commandID>14</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_02</libraryName>
+      <lineMessage>text.Set_Value [name=REV_ACCTG_REQ_ACCOUNTING_ID_TO$0] -&gt; 0000000032</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>145</logLineID>
+      <logParentLineID>113</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;scr1</commandExpression>
+      <commandID>17</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_02</libraryName>
+      <lineMessage>Scroll [1] Start: $0,  Action: upd+,  Key: N, TREASURY</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>146</logLineID>
+      <logParentLineID>145</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;scr1</commandExpression>
+      <commandID>17</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_02</libraryName>
+      <lineMessage>Key: id=REV_ACCTG_REQ_PROCESS_FREQUENCY [combobox] - Value: N</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>147</logLineID>
+      <logParentLineID>145</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;scr1</commandExpression>
+      <commandID>17</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_02</libraryName>
+      <lineMessage>Key: id=REV_ACCTG_REQ_COMBO_EDIT_TMPL [text] - Value: TREASURY</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>148</logLineID>
+      <logParentLineID>145</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;scr1</commandExpression>
+      <commandID>17</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_02</libraryName>
+      <lineMessage>Scroll 1. Row not Found: N, TREASURY</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>149</logLineID>
+      <logParentLineID>145</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;scr1</commandExpression>
+      <commandID>17</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_02</libraryName>
+      <lineMessage>link.Click  [id=$ICField28$new$0$$0]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>150</logLineID>
+      <logParentLineID>145</logParentLineID>
+      <commandExpression>ComboBox -&gt; Set_Value -&gt; name=REV_ACCTG_REQ_PROCESS_FREQUENCY&amp;scr1</commandExpression>
+      <commandID>18</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_02</libraryName>
+      <lineMessage>combobox.Set_Value [name=REV_ACCTG_REQ_PROCESS_FREQUENCY$0] -&gt; A</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>151</logLineID>
+      <logParentLineID>145</logParentLineID>
+      <commandExpression>ComboBox -&gt; Verify -&gt; name=REV_ACCTG_REQ_REV_ACCTG_OPTN&amp;scr1</commandExpression>
+      <commandID>19</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_02</libraryName>
+      <lineMessage>Verify: name=REV_ACCTG_REQ_REV_ACCTG_OPTN$0 [combobox] -&gt; 1</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>152</logLineID>
+      <logParentLineID>151</logParentLineID>
+      <commandExpression>ComboBox -&gt; Verify -&gt; name=REV_ACCTG_REQ_REV_ACCTG_OPTN&amp;scr1</commandExpression>
+      <commandID>19</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_02</libraryName>
+      <lineMessage>Check field: name=REV_ACCTG_REQ_REV_ACCTG_OPTN$0, '1' (actual) = '1' (expected)</lineMessage>
+      <logResult>110</logResult>
+      <longDescr>Object Type: ComboBox, Field: name=REV_ACCTG_REQ_REV_ACCTG_OPTN$0, Value: 1, CheckValue: 1</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>153</logLineID>
+      <logParentLineID>145</logParentLineID>
+      <commandExpression>ComboBox -&gt; Verify -&gt; name=REV_ACCTG_REQ_RVSL_DATE_OPTN&amp;scr1</commandExpression>
+      <commandID>20</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_02</libraryName>
+      <lineMessage>Verify: name=REV_ACCTG_REQ_RVSL_DATE_OPTN$0 [combobox] -&gt; C</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>154</logLineID>
+      <logParentLineID>153</logParentLineID>
+      <commandExpression>ComboBox -&gt; Verify -&gt; name=REV_ACCTG_REQ_RVSL_DATE_OPTN&amp;scr1</commandExpression>
+      <commandID>20</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_02</libraryName>
+      <lineMessage>Check field: name=REV_ACCTG_REQ_RVSL_DATE_OPTN$0, 'C' (actual) = 'C' (expected)</lineMessage>
+      <logResult>110</logResult>
+      <longDescr>Object Type: ComboBox, Field: name=REV_ACCTG_REQ_RVSL_DATE_OPTN$0, Value: C, CheckValue: C</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>155</logLineID>
+      <logParentLineID>145</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=REV_ACCTG_REQ_BUSINESS_UNIT&amp;scr1</commandExpression>
+      <commandID>21</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_02</libraryName>
+      <lineMessage>text.Set_Value [name=REV_ACCTG_REQ_BUSINESS_UNIT$0] -&gt; US001</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>156</logLineID>
+      <logParentLineID>145</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=REV_ACCTG_REQ_ACCOUNTING_ID_FROM&amp;scr1</commandExpression>
+      <commandID>22</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_02</libraryName>
+      <lineMessage>text.Set_Value [name=REV_ACCTG_REQ_ACCOUNTING_ID_FROM$0] -&gt; 0000000033</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>157</logLineID>
+      <logParentLineID>145</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=REV_ACCTG_REQ_ACCOUNTING_ID_TO&amp;scr1</commandExpression>
+      <commandID>23</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_02</libraryName>
+      <lineMessage>text.Set_Value [name=REV_ACCTG_REQ_ACCOUNTING_ID_TO$0] -&gt; 0000000033</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>158</logLineID>
+      <logParentLineID>145</logParentLineID>
+      <commandExpression>Process -&gt; Run -&gt; prcname=TR_RVSL_DRVR -&gt; prctype=Application Engine;wait=true;expected=Success;ret=%pid%</commandExpression>
+      <commandID>24</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_02</libraryName>
+      <lineMessage>Process.Run: TR_RVSL_DRVR</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>159</logLineID>
+      <logParentLineID>158</logParentLineID>
+      <commandExpression>Process -&gt; Run -&gt; prcname=TR_RVSL_DRVR -&gt; prctype=Application Engine;wait=true;expected=Success;ret=%pid%</commandExpression>
+      <commandID>24</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_02</libraryName>
+      <lineMessage>SecPage: Name=PRCSRQSTDLG</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>160</logLineID>
+      <logParentLineID>159</logParentLineID>
+      <commandExpression>Process -&gt; Run -&gt; prcname=TR_RVSL_DRVR -&gt; prctype=Application Engine;wait=true;expected=Success;ret=%pid%</commandExpression>
+      <commandID>24</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_02</libraryName>
+      <lineMessage>button.Click  [Name=PRCSRQSTDLG_WRK_LOADPRCSRQSTDLGPB]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>161</logLineID>
+      <logParentLineID>159</logParentLineID>
+      <commandExpression>Process -&gt; Run -&gt; prcname=TR_RVSL_DRVR -&gt; prctype=Application Engine;wait=true;expected=Success;ret=%pid%</commandExpression>
+      <commandID>24</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_02</libraryName>
+      <lineMessage>combobox.Set_Value [name=PRCSRQSTDLG_WRK_SERVERNAME] -&gt; PSUNX</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>162</logLineID>
+      <logParentLineID>159</logParentLineID>
+      <commandExpression>Process -&gt; Run -&gt; prcname=TR_RVSL_DRVR -&gt; prctype=Application Engine;wait=true;expected=Success;ret=%pid%</commandExpression>
+      <commandID>24</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_02</libraryName>
+      <lineMessage>checkbox.Set_Value [name=PRCSRQSTDLG_WRK_SELECT_FLAG$0] -&gt; Y</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>163</logLineID>
+      <logParentLineID>159</logParentLineID>
+      <commandExpression>Process -&gt; Run -&gt; prcname=TR_RVSL_DRVR -&gt; prctype=Application Engine;wait=true;expected=Success;ret=%pid%</commandExpression>
+      <commandID>24</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_02</libraryName>
+      <lineMessage>button.Click  [Name=#ICSave]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>164</logLineID>
+      <logParentLineID>159</logParentLineID>
+      <commandExpression>Process -&gt; Run -&gt; prcname=TR_RVSL_DRVR -&gt; prctype=Application Engine;wait=true;expected=Success;ret=%pid%</commandExpression>
+      <commandID>24</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_02</libraryName>
+      <lineMessage>Process Instance: 150601</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>165</logLineID>
+      <logParentLineID>159</logParentLineID>
+      <commandExpression>Process -&gt; Run -&gt; prcname=TR_RVSL_DRVR -&gt; prctype=Application Engine;wait=true;expected=Success;ret=%pid%</commandExpression>
+      <commandID>24</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_02</libraryName>
+      <lineMessage>Wait for process TR_RVSL_DRVR. Instance: 150601</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>166</logLineID>
+      <logParentLineID>165</logParentLineID>
+      <commandExpression>Process -&gt; Run -&gt; prcname=TR_RVSL_DRVR -&gt; prctype=Application Engine;wait=true;expected=Success;ret=%pid%</commandExpression>
+      <commandID>24</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_02</libraryName>
+      <lineMessage>link.Click  [Name=PRCSRQSTDLG_WRK_LOADPRCSMONITORPB]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>167</logLineID>
+      <logParentLineID>165</logParentLineID>
+      <commandExpression>Process -&gt; Run -&gt; prcname=TR_RVSL_DRVR -&gt; prctype=Application Engine;wait=true;expected=Success;ret=%pid%</commandExpression>
+      <commandID>24</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_02</libraryName>
+      <lineMessage>text.Set_Value [name=PMN_DERIVED_PRCSINSTANCE] -&gt; 150601</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>168</logLineID>
+      <logParentLineID>165</logParentLineID>
+      <commandExpression>Process -&gt; Run -&gt; prcname=TR_RVSL_DRVR -&gt; prctype=Application Engine;wait=true;expected=Success;ret=%pid%</commandExpression>
+      <commandID>24</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_02</libraryName>
+      <lineMessage>button.Click  [name=REFRESH_BTN]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>169</logLineID>
+      <logParentLineID>165</logParentLineID>
+      <commandExpression>Process -&gt; Run -&gt; prcname=TR_RVSL_DRVR -&gt; prctype=Application Engine;wait=true;expected=Success;ret=%pid%</commandExpression>
+      <commandID>24</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_02</libraryName>
+      <lineMessage>Run status: Queued</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>170</logLineID>
+      <logParentLineID>165</logParentLineID>
+      <commandExpression>Process -&gt; Run -&gt; prcname=TR_RVSL_DRVR -&gt; prctype=Application Engine;wait=true;expected=Success;ret=%pid%</commandExpression>
+      <commandID>24</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_02</libraryName>
+      <lineMessage>button.Click  [name=REFRESH_BTN]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>171</logLineID>
+      <logParentLineID>165</logParentLineID>
+      <commandExpression>Process -&gt; Run -&gt; prcname=TR_RVSL_DRVR -&gt; prctype=Application Engine;wait=true;expected=Success;ret=%pid%</commandExpression>
+      <commandID>24</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_02</libraryName>
+      <lineMessage>Run status: Queued</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>172</logLineID>
+      <logParentLineID>165</logParentLineID>
+      <commandExpression>Process -&gt; Run -&gt; prcname=TR_RVSL_DRVR -&gt; prctype=Application Engine;wait=true;expected=Success;ret=%pid%</commandExpression>
+      <commandID>24</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_02</libraryName>
+      <lineMessage>button.Click  [name=REFRESH_BTN]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>173</logLineID>
+      <logParentLineID>165</logParentLineID>
+      <commandExpression>Process -&gt; Run -&gt; prcname=TR_RVSL_DRVR -&gt; prctype=Application Engine;wait=true;expected=Success;ret=%pid%</commandExpression>
+      <commandID>24</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_02</libraryName>
+      <lineMessage>Run status: Queued</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>174</logLineID>
+      <logParentLineID>165</logParentLineID>
+      <commandExpression>Process -&gt; Run -&gt; prcname=TR_RVSL_DRVR -&gt; prctype=Application Engine;wait=true;expected=Success;ret=%pid%</commandExpression>
+      <commandID>24</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_02</libraryName>
+      <lineMessage>button.Click  [name=REFRESH_BTN]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>175</logLineID>
+      <logParentLineID>165</logParentLineID>
+      <commandExpression>Process -&gt; Run -&gt; prcname=TR_RVSL_DRVR -&gt; prctype=Application Engine;wait=true;expected=Success;ret=%pid%</commandExpression>
+      <commandID>24</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_02</libraryName>
+      <lineMessage>Run status: Queued</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>176</logLineID>
+      <logParentLineID>165</logParentLineID>
+      <commandExpression>Process -&gt; Run -&gt; prcname=TR_RVSL_DRVR -&gt; prctype=Application Engine;wait=true;expected=Success;ret=%pid%</commandExpression>
+      <commandID>24</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_02</libraryName>
+      <lineMessage>button.Click  [name=REFRESH_BTN]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>177</logLineID>
+      <logParentLineID>165</logParentLineID>
+      <commandExpression>Process -&gt; Run -&gt; prcname=TR_RVSL_DRVR -&gt; prctype=Application Engine;wait=true;expected=Success;ret=%pid%</commandExpression>
+      <commandID>24</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_02</libraryName>
+      <lineMessage>Run status: Processing</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>178</logLineID>
+      <logParentLineID>165</logParentLineID>
+      <commandExpression>Process -&gt; Run -&gt; prcname=TR_RVSL_DRVR -&gt; prctype=Application Engine;wait=true;expected=Success;ret=%pid%</commandExpression>
+      <commandID>24</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_02</libraryName>
+      <lineMessage>button.Click  [name=REFRESH_BTN]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>179</logLineID>
+      <logParentLineID>165</logParentLineID>
+      <commandExpression>Process -&gt; Run -&gt; prcname=TR_RVSL_DRVR -&gt; prctype=Application Engine;wait=true;expected=Success;ret=%pid%</commandExpression>
+      <commandID>24</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_02</libraryName>
+      <lineMessage>Run status: Success</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>180</logLineID>
+      <logParentLineID>165</logParentLineID>
+      <commandExpression>Process -&gt; Run -&gt; prcname=TR_RVSL_DRVR -&gt; prctype=Application Engine;wait=true;expected=Success;ret=%pid%</commandExpression>
+      <commandID>24</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_02</libraryName>
+      <lineMessage>Success (final status) = Success (expected status)</lineMessage>
+      <logResult>110</logResult>
+      <longDescr>Process instance: 150601</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>181</logLineID>
+      <logParentLineID>159</logParentLineID>
+      <commandExpression>Process -&gt; Run -&gt; prcname=TR_RVSL_DRVR -&gt; prctype=Application Engine;wait=true;expected=Success;ret=%pid%</commandExpression>
+      <commandID>24</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_02</libraryName>
+      <lineMessage>link.Click  [name=PMN_GO_HOME_WRK_HOME_LINK]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>182</logLineID>
+      <logParentLineID>145</logParentLineID>
+      <commandExpression>Variable -&gt; Set_Value -&gt; &amp;pid</commandExpression>
+      <commandID>25</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_02</libraryName>
+      <lineMessage>Variable &amp;pid set to 150601</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>&amp;pid = %pid%</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>183</logLineID>
+      <logParentLineID>145</logParentLineID>
+      <commandExpression>Variable -&gt; Set_Value -&gt; &amp;pid</commandExpression>
+      <commandID>25</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_02</libraryName>
+      <lineMessage>Saving persistent variables.</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>184</logLineID>
+      <logParentLineID>145</logParentLineID>
+      <commandExpression>Variable -&gt; Set_Value -&gt; &amp;pid</commandExpression>
+      <commandID>25</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_02</libraryName>
+      <lineMessage>Test End:  3/8/2018 2:01:42 AM</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>185</logLineID>
+      <logParentLineID>1</logParentLineID>
+      <commandExpression>Test -&gt; Exec -&gt; CSH_21769355_REV_ACC_ENT_03</commandExpression>
+      <commandID>6</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Starting the call to $\QA AUTOMATION\FMS\CFL - Customer Feedback Loop\PI#15\Cash Management\Accounting Processing\21769355 Reverse Accounting En\CSH_21769355_REV_ACC_ENT_03  [Test Case: DEFAULT]</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>186</logLineID>
+      <logParentLineID>185</logParentLineID>
+      <commandExpression></commandExpression>
+      <commandID>0</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_03</libraryName>
+      <lineMessage>Use of Message Recognition</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>187</logLineID>
+      <logParentLineID>185</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_03</libraryName>
+      <lineMessage>Browser.Start_Login</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>188</logLineID>
+      <logParentLineID>187</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_03</libraryName>
+      <lineMessage>Closing old browsers...</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>189</logLineID>
+      <logParentLineID>187</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_03</libraryName>
+      <lineMessage>The chrome version 64 is not supported. You might have issue with it. The current supported browser is: 56-58</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>190</logLineID>
+      <logParentLineID>187</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_03</libraryName>
+      <lineMessage>Frame set to ''</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>Current frame: ''    Previous Frame: 'TargetContent'</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>191</logLineID>
+      <logParentLineID>187</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_03</libraryName>
+      <lineMessage>Goto URL</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>http://slc08ayk.us.oracle.com:8000/e92m3ltux/signon.html</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>192</logLineID>
+      <logParentLineID>187</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_03</libraryName>
+      <lineMessage>Browser.Login</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>193</logLineID>
+      <logParentLineID>192</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_03</libraryName>
+      <lineMessage>Doing login in English</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>194</logLineID>
+      <logParentLineID>193</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_03</libraryName>
+      <lineMessage>combobox.Set_Value [id=ptlangsel] -&gt; ENG</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>195</logLineID>
+      <logParentLineID>192</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_03</libraryName>
+      <lineMessage>text.Set_Value [id=userid] -&gt; VP1</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>196</logLineID>
+      <logParentLineID>192</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_03</libraryName>
+      <lineMessage>pwd.Set_Value [id=pwd] -&gt; </lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>197</logLineID>
+      <logParentLineID>192</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_03</libraryName>
+      <lineMessage>button.Click  [name=Submit]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>198</logLineID>
+      <logParentLineID>185</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; ADMINISTER_ACCOUNTING.ACCOUNTING_BUILD.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_03</libraryName>
+      <lineMessage>Page.Prompt</lineMessage>
+      <logResult>110</logResult>
+      <longDescr>ADMINISTER_ACCOUNTING.ACCOUNTING_BUILD.GBL</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>199</logLineID>
+      <logParentLineID>198</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; ADMINISTER_ACCOUNTING.ACCOUNTING_BUILD.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_03</libraryName>
+      <lineMessage>Goto URL</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>http://slc08ayk.us.oracle.com:8000/psp/e92m3ltux/EMPLOYEE/ERP/c/ADMINISTER_ACCOUNTING.ACCOUNTING_BUILD.GBL</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>200</logLineID>
+      <logParentLineID>198</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; ADMINISTER_ACCOUNTING.ACCOUNTING_BUILD.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_03</libraryName>
+      <lineMessage>Page.Prompt: Trying to do the following action = update</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>201</logLineID>
+      <logParentLineID>198</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=TRA_ACCTG_SRCH_BUSINESS_UNIT</commandExpression>
+      <commandID>3</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_03</libraryName>
+      <lineMessage>text.Set_Value [name=TRA_ACCTG_SRCH_BUSINESS_UNIT] -&gt; US001</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>202</logLineID>
+      <logParentLineID>198</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=TRA_ACCTG_SRCH_PROCESS_INSTANCE</commandExpression>
+      <commandID>4</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_03</libraryName>
+      <lineMessage>text.Set_Value [name=TRA_ACCTG_SRCH_PROCESS_INSTANCE] -&gt; 150601</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>203</logLineID>
+      <logParentLineID>198</logParentLineID>
+      <commandExpression>Button -&gt; Click -&gt; name=#ICSearch</commandExpression>
+      <commandID>5</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_03</libraryName>
+      <lineMessage>button.Click  [name=#ICSearch]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>204</logLineID>
+      <logParentLineID>198</logParentLineID>
+      <commandExpression>Scroll -&gt; RowCount -&gt;  -&gt; ret=&amp;row_cnt</commandExpression>
+      <commandID>8</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_03</libraryName>
+      <lineMessage>Scroll.RowCount = 2</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>205</logLineID>
+      <logParentLineID>198</logParentLineID>
+      <commandExpression>Variable -&gt; Set_Value -&gt; &amp;row_cnt</commandExpression>
+      <commandID>9</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_03</libraryName>
+      <lineMessage>Variable &amp;row_cnt set to 1</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>&amp;row_cnt = Subtract(&amp;row_cnt|1)</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>206</logLineID>
+      <logParentLineID>198</logParentLineID>
+      <commandExpression>Loop -&gt; For -&gt; &amp;i;=0 to &amp;row_cnt</commandExpression>
+      <commandID>10</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_03</libraryName>
+      <lineMessage>Loop.For</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>207</logLineID>
+      <logParentLineID>206</logParentLineID>
+      <commandExpression>Loop -&gt; For -&gt; &amp;i;=0 to &amp;row_cnt</commandExpression>
+      <commandID>10</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_03</libraryName>
+      <lineMessage>Iteration 0</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>208</logLineID>
+      <logParentLineID>207</logParentLineID>
+      <commandExpression>Link -&gt; Verify -&gt; name=RESULT6$&amp;i</commandExpression>
+      <commandID>11</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_03</libraryName>
+      <lineMessage>Verify: name=RESULT6$0 [link] -&gt; Revrsl</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>209</logLineID>
+      <logParentLineID>208</logParentLineID>
+      <commandExpression>Link -&gt; Verify -&gt; name=RESULT6$&amp;i</commandExpression>
+      <commandID>11</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_03</libraryName>
+      <lineMessage>Check field: name=RESULT6$0, 'Revrsl' (actual) = 'Revrsl' (expected)</lineMessage>
+      <logResult>110</logResult>
+      <longDescr>Object Type: Link, Field: name=RESULT6$0, Value: Revrsl, CheckValue: Revrsl</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>210</logLineID>
+      <logParentLineID>206</logParentLineID>
+      <commandExpression>Loop -&gt; For -&gt; &amp;i;=0 to &amp;row_cnt</commandExpression>
+      <commandID>10</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_03</libraryName>
+      <lineMessage>Iteration 1</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>211</logLineID>
+      <logParentLineID>210</logParentLineID>
+      <commandExpression>Link -&gt; Verify -&gt; name=RESULT6$&amp;i</commandExpression>
+      <commandID>11</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_03</libraryName>
+      <lineMessage>Verify: name=RESULT6$1 [link] -&gt; Revrsl</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>212</logLineID>
+      <logParentLineID>211</logParentLineID>
+      <commandExpression>Link -&gt; Verify -&gt; name=RESULT6$&amp;i</commandExpression>
+      <commandID>11</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_03</libraryName>
+      <lineMessage>Check field: name=RESULT6$1, 'Revrsl' (actual) = 'Revrsl' (expected)</lineMessage>
+      <logResult>110</logResult>
+      <longDescr>Object Type: Link, Field: name=RESULT6$1, Value: Revrsl, CheckValue: Revrsl</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>213</logLineID>
+      <logParentLineID>198</logParentLineID>
+      <commandExpression>Loop -&gt; Next -&gt; </commandExpression>
+      <commandID>12</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_03</libraryName>
+      <lineMessage>Saving persistent variables.</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>214</logLineID>
+      <logParentLineID>198</logParentLineID>
+      <commandExpression>Loop -&gt; Next -&gt; </commandExpression>
+      <commandID>12</commandID>
+      <image />
+      <libraryName>CSH_21769355_REV_ACC_ENT_03</libraryName>
+      <lineMessage>Test End:  3/8/2018 2:01:58 AM</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>215</logLineID>
+      <logParentLineID>1</logParentLineID>
+      <commandExpression>Test -&gt; Exec -&gt; CSH_21769355_REV_ACC_ENT_03</commandExpression>
+      <commandID>6</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Test End:  3/8/2018 2:01:58 AM</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+  </lines>
+</Log>

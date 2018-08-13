@@ -1,0 +1,1436 @@
+﻿<?xml version='1.0' ?>
+<?xml-stylesheet type='text/xsl' href='\\slcnas463.us.oracle.com\enterprise\PTF\Logs\ToolsAutoStyle.xsl'?>
+<Log>
+  <logID>2</logID>
+  <logCaption>2. VP1 2018-03-08 06:09</logCaption>
+  <caseName>DEFAULT</caseName>
+  <logFolder>PSTO_STG_ONCS_PI28_C570-GLD_180307_866</logFolder>
+  <logPrefix></logPrefix>
+  <logLineCount>116</logLineCount>
+  <machineName>SLC10BRI</machineName>
+  <scriptFinalResult>115</scriptFinalResult>
+  <testName>CM_25118918_BANK_STATEMT_SHELL</testName>
+  <userID>VP1</userID>
+  <executionOptions>
+    <executionOptionName>E924L7BF</executionOptionName>
+    <databaseName>E924L7BF</databaseName>
+    <databasePlatform>Oracle</databasePlatform>
+    <databaseServer></databaseServer>
+    <databaseUser>VP1</databaseUser>
+    <dateFormat>MM/DD/YYYY</dateFormat>
+    <peopleToolsPath>\\psbldfs\dfs\build\pt\ptship\pt85606b\install_Windows.ora</peopleToolsPath>
+    <processServer>PSUNX</processServer>
+    <prompt>No</prompt>
+    <skipRun>No</skipRun>
+    <skipSave>No</skipSave>
+    <url>http://slc08alp.us.oracle.com:8000/e924l7bfx/signon.html</url>
+    <userID>VP1</userID>
+    <verbose>Yes</verbose>
+  </executionOptions>
+  <extras>
+    <extra>
+      <logSection>1. Execution Options</logSection>
+      <logOrder>1</logOrder>
+      <logValue>No</logValue>
+      <logLabel>Appl - Skip Language :</logLabel>
+    </extra>
+    <extra>
+      <logSection>1. Execution Options</logSection>
+      <logOrder>2</logOrder>
+      <logValue>N</logValue>
+      <logLabel>Appl - Form Factor :</logLabel>
+    </extra>
+    <extra>
+      <logSection>3. System Info</logSection>
+      <logOrder>1</logOrder>
+      <logValue>1280 X 1024 pixels</logValue>
+      <logLabel>Screen resolution :</logLabel>
+    </extra>
+    <extra>
+      <logSection>3. System Info</logSection>
+      <logOrder>4</logOrder>
+      <logValue>Intel(R) Xeon(R) CPU E5-2699 v3 @ 2.30GHz</logValue>
+      <logLabel>Processor :</logLabel>
+    </extra>
+    <extra>
+      <logSection>3. System Info</logSection>
+      <logOrder>5</logOrder>
+      <logValue>Microsoft Windows Server 2012 R2 Standard</logValue>
+      <logLabel>Operating System full name:</logLabel>
+    </extra>
+    <extra>
+      <logSection>3. System Info</logSection>
+      <logOrder>6</logOrder>
+      <logValue>6.2.9200.0</logValue>
+      <logLabel>Operating Sytem version:</logLabel>
+    </extra>
+    <extra>
+      <logSection>3. System Info</logSection>
+      <logOrder>7</logOrder>
+      <logValue>31300 Mb</logValue>
+      <logLabel>Memory Total :</logLabel>
+    </extra>
+    <extra>
+      <logSection>3. System Info</logSection>
+      <logOrder>8</logOrder>
+      <logValue>21293 Mb</logValue>
+      <logLabel>Memory Available :</logLabel>
+    </extra>
+    <extra>
+      <logSection>3. System Info</logSection>
+      <logOrder>9</logOrder>
+      <logValue>chrome 64.0.3282.186</logValue>
+      <logLabel>Browser :</logLabel>
+    </extra>
+    <extra>
+      <logSection>3. System Info</logSection>
+      <logOrder>10</logOrder>
+      <logValue>ENG</logValue>
+      <logLabel>OS Lang Code:</logLabel>
+    </extra>
+    <extra>
+      <logSection>4. Environment Info</logSection>
+      <logOrder>1</logOrder>
+      <logValue>https://slc05ehl.us.oracle.com:8001/PSIGW/HttpListeningConnector</logValue>
+      <logLabel>Env. URL :</logLabel>
+    </extra>
+    <extra>
+      <logSection>1.1. Portal URL Info</logSection>
+      <logOrder>1</logOrder>
+      <logValue>http://slc08alp.us.oracle.com:8000/psp/e924l7bfx/CUSTOMER/ERP/</logValue>
+      <logLabel>CUSTOMER</logLabel>
+    </extra>
+    <extra>
+      <logSection>1.1. Portal URL Info</logSection>
+      <logOrder>1</logOrder>
+      <logValue>http://slc08alp.us.oracle.com:8000/psp/e924l7bfx/EMPLOYEE/ERP/</logValue>
+      <logLabel>PORTAL</logLabel>
+    </extra>
+    <extra>
+      <logSection>1.1. Portal URL Info</logSection>
+      <logOrder>1</logOrder>
+      <logValue>http://slc08alp.us.oracle.com:8000/psp/e924l7bfx/SUPPLIER/ERP/</logValue>
+      <logLabel>SUPPLIER</logLabel>
+    </extra>
+    <extra>
+      <logSection>5. Extra Info</logSection>
+      <logOrder>1</logOrder>
+      <logValue>8.56.07 hotfix1</logValue>
+      <logLabel>PsTestFramework Version :</logLabel>
+    </extra>
+    <extra>
+      <logSection>5. Extra Info</logSection>
+      <logOrder>2</logOrder>
+      <logValue>False</logValue>
+      <logLabel>Disable ScreenShot :</logLabel>
+    </extra>
+    <extra>
+      <logSection>5. Extra Info</logSection>
+      <logOrder>3</logOrder>
+      <logValue>True</logValue>
+      <logLabel>User Error Handling :</logLabel>
+    </extra>
+    <extra>
+      <logSection>6. Log Export</logSection>
+      <logOrder>1</logOrder>
+      <logValue>\\slcnas463.us.oracle.com\enterprise\QEShare\PTF Log Archive\PSTO_STG_ONCS_PI28_C570-GLD_180307_866\CM_25118918_BANK_STATEMT_SHELL</logValue>
+      <logLabel>Path :</logLabel>
+    </extra>
+    <extra>
+      <logSection>6. Log Export</logSection>
+      <logOrder>2</logOrder>
+      <logValue>\\slcnas463.us.oracle.com\enterprise\PTF\Logs\ToolsAutoStyle.xsl</logValue>
+      <logLabel>Style Sheet File :</logLabel>
+    </extra>
+    <extra>
+      <logSection>6. Log Export</logSection>
+      <logOrder>3</logOrder>
+      <logValue>Yes</logValue>
+      <logLabel>Time Stamp :</logLabel>
+    </extra>
+    <extra>
+      <logSection>6. Log Export</logSection>
+      <logOrder>4</logOrder>
+      <logValue>Yes</logValue>
+      <logLabel>Image :</logLabel>
+    </extra>
+  </extras>
+  <lines>
+    <logLine>
+      <logLineID>1</logLineID>
+      <logParentLineID>0</logParentLineID>
+      <commandExpression></commandExpression>
+      <commandID>0</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Unattended Start:  3/8/2018 6:09:14 AM</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>2</logLineID>
+      <logParentLineID>1</logParentLineID>
+      <commandExpression></commandExpression>
+      <commandID>0</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Use of Message Recognition</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>3</logLineID>
+      <logParentLineID>1</logParentLineID>
+      <commandExpression>Execution -&gt; Stop_On_Error -&gt; all</commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Execution action Stop_On_Error: set to all</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>4</logLineID>
+      <logParentLineID>1</logParentLineID>
+      <commandExpression>Test -&gt; Exec -&gt; CM_25118918_BANK_STATEMT_01</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Starting the call to $\QA AUTOMATION\FMS\CFL - Customer Feedback Loop\PI#23\Cash Management\Bank Statement Processing\25118918\CM_25118918_BANK_STATEMT_01  [Test Case: DEFAULT]</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>5</logLineID>
+      <logParentLineID>4</logParentLineID>
+      <commandExpression></commandExpression>
+      <commandID>0</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>Use of Message Recognition</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>6</logLineID>
+      <logParentLineID>4</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>Browser.Start_Login</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>7</logLineID>
+      <logParentLineID>6</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>The chrome version 64 is not supported. You might have issue with it. The current supported browser is: 56-58</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>8</logLineID>
+      <logParentLineID>6</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>Frame set to ''</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>Current frame: ''    Previous Frame: ''</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>9</logLineID>
+      <logParentLineID>6</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>Goto URL</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>http://slc08alp.us.oracle.com:8000/e924l7bfx/signon.html</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>10</logLineID>
+      <logParentLineID>6</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>Browser.Login</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>11</logLineID>
+      <logParentLineID>10</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>Language code is not set, so skipping language selection.</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>12</logLineID>
+      <logParentLineID>10</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>text.Set_Value [id=userid] -&gt; VP1</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>13</logLineID>
+      <logParentLineID>10</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>pwd.Set_Value [id=pwd] -&gt; </lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>14</logLineID>
+      <logParentLineID>10</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>button.Click  [name=Submit]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>15</logLineID>
+      <logParentLineID>4</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; PROCESS_BANK_STATEMENT.BSP_IMPORT.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>Page.Prompt</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>PROCESS_BANK_STATEMENT.BSP_IMPORT.GBL</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>16</logLineID>
+      <logParentLineID>15</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; PROCESS_BANK_STATEMENT.BSP_IMPORT.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>Goto URL</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>http://slc08alp.us.oracle.com:8000/psp/e924l7bfx/EMPLOYEE/ERP/c/PROCESS_BANK_STATEMENT.BSP_IMPORT.GBL</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>17</logLineID>
+      <logParentLineID>15</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; PROCESS_BANK_STATEMENT.BSP_IMPORT.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>Page.Prompt: Trying to do the following action = add</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>18</logLineID>
+      <logParentLineID>15</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; PROCESS_BANK_STATEMENT.BSP_IMPORT.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>link.Click  [name=#ICSwitchMode]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>19</logLineID>
+      <logParentLineID>15</logParentLineID>
+      <commandExpression>Variable -&gt; Set_Value -&gt; &amp;date</commandExpression>
+      <commandID>3</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>Variable &amp;date set to 931</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>&amp;date = concat(Minute(Time())|Second(Time()))</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>20</logLineID>
+      <logParentLineID>15</logParentLineID>
+      <commandExpression>Variable -&gt; Set_Value -&gt; &amp;RC_ID</commandExpression>
+      <commandID>4</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>Variable &amp;RC_ID set to 931Bank_Stmt</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>&amp;RC_ID = concat(&amp;date|"Bank_Stmt")</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>21</logLineID>
+      <logParentLineID>15</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=BSP_IMP_BSSRCH_RUN_CNTL_ID</commandExpression>
+      <commandID>5</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>text.Set_Value [name=BSP_IMP_BSSRCH_RUN_CNTL_ID] -&gt; 931Bank_Stmt</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>22</logLineID>
+      <logParentLineID>15</logParentLineID>
+      <commandExpression>Page -&gt; PromptOk -&gt; </commandExpression>
+      <commandID>6</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>button.Click  [name=#ICSearch]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>23</logLineID>
+      <logParentLineID>4</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;s1</commandExpression>
+      <commandID>8</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>Scroll [1] Start: -,  Action: sel,  Key: 1</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>24</logLineID>
+      <logParentLineID>23</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;s1</commandExpression>
+      <commandID>8</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>Key: name=BSP_IMPORT_REQUEST_NBR [text] - Value: 1</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>25</logLineID>
+      <logParentLineID>23</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;s1</commandExpression>
+      <commandID>8</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>Found Row: $0</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>26</logLineID>
+      <logParentLineID>23</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=BSP_IMPORT_REQUEST_NBR&amp;s1</commandExpression>
+      <commandID>9</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>text.Set_Value [name=BSP_IMPORT_REQUEST_NBR$0] -&gt; 1</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>27</logLineID>
+      <logParentLineID>23</logParentLineID>
+      <commandExpression>ComboBox -&gt; Verify -&gt; name=BSP_IMPORT_IMPORT_RQST_TYPE&amp;s1</commandExpression>
+      <commandID>10</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>Verify: name=BSP_IMPORT_IMPORT_RQST_TYPE$0 [combobox] -&gt; 01</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>28</logLineID>
+      <logParentLineID>27</logParentLineID>
+      <commandExpression>ComboBox -&gt; Verify -&gt; name=BSP_IMPORT_IMPORT_RQST_TYPE&amp;s1</commandExpression>
+      <commandID>10</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>Check field: name=BSP_IMPORT_IMPORT_RQST_TYPE$0, '01' (actual) = '01' (expected)</lineMessage>
+      <logResult>110</logResult>
+      <longDescr>Object Type: ComboBox, Field: name=BSP_IMPORT_IMPORT_RQST_TYPE$0, Value: 01, CheckValue: 01</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>29</logLineID>
+      <logParentLineID>23</logParentLineID>
+      <commandExpression>Variable -&gt; Set_Value -&gt; &amp;platform_name</commandExpression>
+      <commandID>11</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>Variable &amp;platform_name set to Oracle</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>&amp;platform_name = %eo.platform%</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>30</logLineID>
+      <logParentLineID>23</logParentLineID>
+      <commandExpression>Conditional -&gt; If_Then -&gt; &amp;platform_name="MICROSFT"</commandExpression>
+      <commandID>12</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>If &amp;platform_name="MICROSFT"</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>&amp;platform_name="MICROSFT"</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>31</logLineID>
+      <logParentLineID>30</logParentLineID>
+      <commandExpression>Conditional -&gt; Else -&gt; </commandExpression>
+      <commandID>14</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>Else</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>32</logLineID>
+      <logParentLineID>30</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=BSP_IMPORT_FILE_PATH_NAME&amp;s1</commandExpression>
+      <commandID>15</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>text.Set_Value [name=BSP_IMPORT_FILE_PATH_NAME$0] -&gt; /net/slcnas463/export/qaehcm2/UnixLogs/FSCM92DEP/test_data/CM_Files/</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>33</logLineID>
+      <logParentLineID>30</logParentLineID>
+      <commandExpression>Conditional -&gt; End_If -&gt; </commandExpression>
+      <commandID>16</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>End if</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>34</logLineID>
+      <logParentLineID>23</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=BSP_IMPORT_FILE_NAME&amp;s1</commandExpression>
+      <commandID>17</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>text.Set_Value [name=BSP_IMPORT_FILE_NAME$0] -&gt; 25P.txt</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>35</logLineID>
+      <logParentLineID>23</logParentLineID>
+      <commandExpression>ComboBox -&gt; Set_Value -&gt; name=BSP_IMPORT_BNK_STMT_TYPE&amp;s1</commandExpression>
+      <commandID>18</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>combobox.Set_Value [name=BSP_IMPORT_BNK_STMT_TYPE$0] -&gt; 1</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>36</logLineID>
+      <logParentLineID>23</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=BSP_IMPORT_FORMAT_ID&amp;s1</commandExpression>
+      <commandID>19</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>text.Set_Value [name=BSP_IMPORT_FORMAT_ID$0] -&gt; MT942</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>37</logLineID>
+      <logParentLineID>23</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>20</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>Page.Save</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>38</logLineID>
+      <logParentLineID>37</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>20</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>button.Click  [Name=#ICSave]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>39</logLineID>
+      <logParentLineID>37</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>20</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>============= PageSave: YES ========</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>40</logLineID>
+      <logParentLineID>23</logParentLineID>
+      <commandExpression>Process -&gt; Run -&gt; prcname=IMPORT_FILES -&gt; prctype=Application Engine;wait=true;expected=Success;ret=%PID%</commandExpression>
+      <commandID>21</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>Process.Run: IMPORT_FILES</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>41</logLineID>
+      <logParentLineID>40</logParentLineID>
+      <commandExpression>Process -&gt; Run -&gt; prcname=IMPORT_FILES -&gt; prctype=Application Engine;wait=true;expected=Success;ret=%PID%</commandExpression>
+      <commandID>21</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>SecPage: Name=PRCSRQSTDLG</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>42</logLineID>
+      <logParentLineID>41</logParentLineID>
+      <commandExpression>Process -&gt; Run -&gt; prcname=IMPORT_FILES -&gt; prctype=Application Engine;wait=true;expected=Success;ret=%PID%</commandExpression>
+      <commandID>21</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>button.Click  [Name=PRCSRQSTDLG_WRK_LOADPRCSRQSTDLGPB]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>43</logLineID>
+      <logParentLineID>41</logParentLineID>
+      <commandExpression>Process -&gt; Run -&gt; prcname=IMPORT_FILES -&gt; prctype=Application Engine;wait=true;expected=Success;ret=%PID%</commandExpression>
+      <commandID>21</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>combobox.Set_Value [name=PRCSRQSTDLG_WRK_SERVERNAME] -&gt; PSUNX</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>44</logLineID>
+      <logParentLineID>41</logParentLineID>
+      <commandExpression>Process -&gt; Run -&gt; prcname=IMPORT_FILES -&gt; prctype=Application Engine;wait=true;expected=Success;ret=%PID%</commandExpression>
+      <commandID>21</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>checkbox.Set_Value [name=PRCSRQSTDLG_WRK_SELECT_FLAG$0] -&gt; Y</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>45</logLineID>
+      <logParentLineID>41</logParentLineID>
+      <commandExpression>Process -&gt; Run -&gt; prcname=IMPORT_FILES -&gt; prctype=Application Engine;wait=true;expected=Success;ret=%PID%</commandExpression>
+      <commandID>21</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>button.Click  [Name=#ICSave]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>46</logLineID>
+      <logParentLineID>41</logParentLineID>
+      <commandExpression>Process -&gt; Run -&gt; prcname=IMPORT_FILES -&gt; prctype=Application Engine;wait=true;expected=Success;ret=%PID%</commandExpression>
+      <commandID>21</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>Process Instance: 150517</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>47</logLineID>
+      <logParentLineID>41</logParentLineID>
+      <commandExpression>Process -&gt; Run -&gt; prcname=IMPORT_FILES -&gt; prctype=Application Engine;wait=true;expected=Success;ret=%PID%</commandExpression>
+      <commandID>21</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>Wait for process IMPORT_FILES. Instance: 150517</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>48</logLineID>
+      <logParentLineID>47</logParentLineID>
+      <commandExpression>Process -&gt; Run -&gt; prcname=IMPORT_FILES -&gt; prctype=Application Engine;wait=true;expected=Success;ret=%PID%</commandExpression>
+      <commandID>21</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>link.Click  [Name=PRCSRQSTDLG_WRK_LOADPRCSMONITORPB]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>49</logLineID>
+      <logParentLineID>47</logParentLineID>
+      <commandExpression>Process -&gt; Run -&gt; prcname=IMPORT_FILES -&gt; prctype=Application Engine;wait=true;expected=Success;ret=%PID%</commandExpression>
+      <commandID>21</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>text.Set_Value [name=PMN_DERIVED_PRCSINSTANCE] -&gt; 150517</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>50</logLineID>
+      <logParentLineID>47</logParentLineID>
+      <commandExpression>Process -&gt; Run -&gt; prcname=IMPORT_FILES -&gt; prctype=Application Engine;wait=true;expected=Success;ret=%PID%</commandExpression>
+      <commandID>21</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>button.Click  [name=REFRESH_BTN]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>51</logLineID>
+      <logParentLineID>47</logParentLineID>
+      <commandExpression>Process -&gt; Run -&gt; prcname=IMPORT_FILES -&gt; prctype=Application Engine;wait=true;expected=Success;ret=%PID%</commandExpression>
+      <commandID>21</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>Run status: Queued</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>52</logLineID>
+      <logParentLineID>47</logParentLineID>
+      <commandExpression>Process -&gt; Run -&gt; prcname=IMPORT_FILES -&gt; prctype=Application Engine;wait=true;expected=Success;ret=%PID%</commandExpression>
+      <commandID>21</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>button.Click  [name=REFRESH_BTN]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>53</logLineID>
+      <logParentLineID>47</logParentLineID>
+      <commandExpression>Process -&gt; Run -&gt; prcname=IMPORT_FILES -&gt; prctype=Application Engine;wait=true;expected=Success;ret=%PID%</commandExpression>
+      <commandID>21</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>Run status: Success</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>54</logLineID>
+      <logParentLineID>47</logParentLineID>
+      <commandExpression>Process -&gt; Run -&gt; prcname=IMPORT_FILES -&gt; prctype=Application Engine;wait=true;expected=Success;ret=%PID%</commandExpression>
+      <commandID>21</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>Success (final status) = Success (expected status)</lineMessage>
+      <logResult>110</logResult>
+      <longDescr>Process instance: 150517</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>55</logLineID>
+      <logParentLineID>41</logParentLineID>
+      <commandExpression>Process -&gt; Run -&gt; prcname=IMPORT_FILES -&gt; prctype=Application Engine;wait=true;expected=Success;ret=%PID%</commandExpression>
+      <commandID>21</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>link.Click  [name=PMN_GO_HOME_WRK_HOME_LINK]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>56</logLineID>
+      <logParentLineID>23</logParentLineID>
+      <commandExpression>Variable -&gt; Set_Value -&gt; &amp;instance</commandExpression>
+      <commandID>22</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>Variable &amp;instance set to 150517</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>&amp;instance = %PID%</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>57</logLineID>
+      <logParentLineID>23</logParentLineID>
+      <commandExpression>Wait -&gt; For_Seconds -&gt; 20</commandExpression>
+      <commandID>23</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>Waiting for 20 seconds.</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>58</logLineID>
+      <logParentLineID>23</logParentLineID>
+      <commandExpression>Link -&gt; Click -&gt; name=PRCSRQSTDLG_WRK_LOADPRCSMONITORPB</commandExpression>
+      <commandID>24</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>link.Click  [name=PRCSRQSTDLG_WRK_LOADPRCSMONITORPB]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>59</logLineID>
+      <logParentLineID>23</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=PMN_DERIVED_PRCSINSTANCE</commandExpression>
+      <commandID>25</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>text.Set_Value [name=PMN_DERIVED_PRCSINSTANCE] -&gt; 150517</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>60</logLineID>
+      <logParentLineID>23</logParentLineID>
+      <commandExpression>Button -&gt; Click -&gt; name=REFRESH_BTN</commandExpression>
+      <commandID>26</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>button.Click  [name=REFRESH_BTN]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>61</logLineID>
+      <logParentLineID>4</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;s1</commandExpression>
+      <commandID>29</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>Scroll [1] Start: $0,  Action: sel,  Key: 150517</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>62</logLineID>
+      <logParentLineID>61</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;s1</commandExpression>
+      <commandID>29</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>Key: id=PMN_PRCSLIST_PRCSINSTANCE [span] - Value: 150517</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>63</logLineID>
+      <logParentLineID>61</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;s1</commandExpression>
+      <commandID>29</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>Found Row: $0</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>64</logLineID>
+      <logParentLineID>61</logParentLineID>
+      <commandExpression>Span -&gt; Verify -&gt; id=PMN_PRCSLIST_RUNSTATUSDESCR&amp;s1</commandExpression>
+      <commandID>30</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>Verify: id=PMN_PRCSLIST_RUNSTATUSDESCR$0 [span] -&gt; Success</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>65</logLineID>
+      <logParentLineID>64</logParentLineID>
+      <commandExpression>Span -&gt; Verify -&gt; id=PMN_PRCSLIST_RUNSTATUSDESCR&amp;s1</commandExpression>
+      <commandID>30</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>Check field: id=PMN_PRCSLIST_RUNSTATUSDESCR$0, 'Success' (actual) = 'Success' (expected)</lineMessage>
+      <logResult>110</logResult>
+      <longDescr>Object Type: Span, Field: id=PMN_PRCSLIST_RUNSTATUSDESCR$0, Value: Success, CheckValue: Success</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>66</logLineID>
+      <logParentLineID>61</logParentLineID>
+      <commandExpression>Span -&gt; Verify -&gt; id=PMN_PRCSLIST_DISTSTATUS&amp;s1</commandExpression>
+      <commandID>31</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>Verify: id=PMN_PRCSLIST_DISTSTATUS$0 [span] -&gt; Posted</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>67</logLineID>
+      <logParentLineID>66</logParentLineID>
+      <commandExpression>Span -&gt; Verify -&gt; id=PMN_PRCSLIST_DISTSTATUS&amp;s1</commandExpression>
+      <commandID>31</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>Check field: id=PMN_PRCSLIST_DISTSTATUS$0, 'Posted' (actual) = 'Posted' (expected)</lineMessage>
+      <logResult>110</logResult>
+      <longDescr>Object Type: Span, Field: id=PMN_PRCSLIST_DISTSTATUS$0, Value: Posted, CheckValue: Posted</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>68</logLineID>
+      <logParentLineID>61</logParentLineID>
+      <commandExpression>Page -&gt; SecPage_Open -&gt; name=PRCSDETAIL_BTN&amp;s1 -&gt; page=PMN_PRCSRQSTDETAIL</commandExpression>
+      <commandID>32</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>Ignore step 32</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>69</logLineID>
+      <logParentLineID>61</logParentLineID>
+      <commandExpression>Link -&gt; Click -&gt; name=PRCSDETAIL_BTN&amp;s1</commandExpression>
+      <commandID>33</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>link.Click  [name=PRCSDETAIL_BTN$0]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>70</logLineID>
+      <logParentLineID>61</logParentLineID>
+      <commandExpression>Browser -&gt; FrameSet -&gt; ptModFrame_##</commandExpression>
+      <commandID>34</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>Frame set to 'ptModFrame_1'</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>Current frame: 'ptModFrame_1'    Previous Frame: 'TargetContent'</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>71</logLineID>
+      <logParentLineID>61</logParentLineID>
+      <commandExpression>Span -&gt; Verify -&gt; id=PMN_PRCSLIST_PRCSNAME</commandExpression>
+      <commandID>35</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>Verify: id=PMN_PRCSLIST_PRCSNAME [span] -&gt; IMPORT_FILES</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>72</logLineID>
+      <logParentLineID>71</logParentLineID>
+      <commandExpression>Span -&gt; Verify -&gt; id=PMN_PRCSLIST_PRCSNAME</commandExpression>
+      <commandID>35</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>Check field: id=PMN_PRCSLIST_PRCSNAME, 'IMPORT_FILES' (actual) = 'IMPORT_FILES' (expected)</lineMessage>
+      <logResult>110</logResult>
+      <longDescr>Object Type: Span, Field: id=PMN_PRCSLIST_PRCSNAME, Value: IMPORT_FILES, CheckValue: IMPORT_FILES</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>73</logLineID>
+      <logParentLineID>61</logParentLineID>
+      <commandExpression>Link -&gt; Click -&gt; name=PMN_DERIVED_MESSAGELOG_BTN</commandExpression>
+      <commandID>36</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>link.Click  [name=PMN_DERIVED_MESSAGELOG_BTN]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>74</logLineID>
+      <logParentLineID>61</logParentLineID>
+      <commandExpression>Browser -&gt; FrameSet -&gt; ptModFrame_##</commandExpression>
+      <commandID>37</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>Frame set to 'ptModFrame_2'</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>Current frame: 'ptModFrame_2'    Previous Frame: 'ptModFrame_1'</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>75</logLineID>
+      <logParentLineID>61</logParentLineID>
+      <commandExpression>Span -&gt; Verify -&gt; id=PMN_PRCSLIST_PRCSNAME</commandExpression>
+      <commandID>38</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>Verify: id=PMN_PRCSLIST_PRCSNAME [span] -&gt; IMPORT_FILES</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>76</logLineID>
+      <logParentLineID>75</logParentLineID>
+      <commandExpression>Span -&gt; Verify -&gt; id=PMN_PRCSLIST_PRCSNAME</commandExpression>
+      <commandID>38</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>Check field: id=PMN_PRCSLIST_PRCSNAME, 'IMPORT_FILES' (actual) = 'IMPORT_FILES' (expected)</lineMessage>
+      <logResult>110</logResult>
+      <longDescr>Object Type: Span, Field: id=PMN_PRCSLIST_PRCSNAME, Value: IMPORT_FILES, CheckValue: IMPORT_FILES</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>77</logLineID>
+      <logParentLineID>61</logParentLineID>
+      <commandExpression>Log -&gt; SnapShot -&gt; </commandExpression>
+      <commandID>39</commandID>
+      <image>CM_25118918_BANK_STATEMT_SHELL-LOG2-Line77</image>
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>LogScreenShot</lineMessage>
+      <logResult>220</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>78</logLineID>
+      <logParentLineID>61</logParentLineID>
+      <commandExpression>Button -&gt; Click -&gt; name=#ICCancel</commandExpression>
+      <commandID>40</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>button.Click  [name=#ICCancel]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>79</logLineID>
+      <logParentLineID>61</logParentLineID>
+      <commandExpression>Browser -&gt; FrameSet -&gt; ptModFrame_##</commandExpression>
+      <commandID>41</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>Frame set to 'ptModFrame_1'</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>Current frame: 'ptModFrame_1'    Previous Frame: ''</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>80</logLineID>
+      <logParentLineID>61</logParentLineID>
+      <commandExpression>Button -&gt; Click -&gt; name=#ICCancel</commandExpression>
+      <commandID>42</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>button.Click  [name=#ICCancel]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>81</logLineID>
+      <logParentLineID>61</logParentLineID>
+      <commandExpression>Variable -&gt; Set_Value -&gt; &amp;instance1</commandExpression>
+      <commandID>43</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>Variable &amp;instance1 set to 150518</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>&amp;instance1 = add(&amp;instance|1)</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>82</logLineID>
+      <logParentLineID>61</logParentLineID>
+      <commandExpression>Browser -&gt; FrameSet -&gt; TargetContent</commandExpression>
+      <commandID>44</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>Frame set to 'TargetContent'</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>Current frame: 'TargetContent'    Previous Frame: ''</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>83</logLineID>
+      <logParentLineID>61</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=PMN_DERIVED_PRCSINSTANCE</commandExpression>
+      <commandID>45</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>text.Set_Value [name=PMN_DERIVED_PRCSINSTANCE] -&gt; 150518</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>84</logLineID>
+      <logParentLineID>61</logParentLineID>
+      <commandExpression>Button -&gt; Click -&gt; name=REFRESH_BTN</commandExpression>
+      <commandID>46</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>button.Click  [name=REFRESH_BTN]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>85</logLineID>
+      <logParentLineID>4</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;s2</commandExpression>
+      <commandID>48</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>Scroll [2] Start: -,  Action: sel,  Key: 150518</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>86</logLineID>
+      <logParentLineID>85</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;s2</commandExpression>
+      <commandID>48</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>Key: id=PMN_PRCSLIST_PRCSINSTANCE [span] - Value: 150518</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>87</logLineID>
+      <logParentLineID>85</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;s2</commandExpression>
+      <commandID>48</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>Found Row: $0</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>88</logLineID>
+      <logParentLineID>85</logParentLineID>
+      <commandExpression>Span -&gt; Verify -&gt; id=PMN_PRCSLIST_RUNSTATUSDESCR&amp;s2</commandExpression>
+      <commandID>49</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>Verify: id=PMN_PRCSLIST_RUNSTATUSDESCR$0 [span] -&gt; Warning</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>89</logLineID>
+      <logParentLineID>88</logParentLineID>
+      <commandExpression>Span -&gt; Verify -&gt; id=PMN_PRCSLIST_RUNSTATUSDESCR&amp;s2</commandExpression>
+      <commandID>49</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>Check field: id=PMN_PRCSLIST_RUNSTATUSDESCR$0, 'Warning' (actual) = 'Warning' (expected)</lineMessage>
+      <logResult>110</logResult>
+      <longDescr>Object Type: Span, Field: id=PMN_PRCSLIST_RUNSTATUSDESCR$0, Value: Warning, CheckValue: Warning</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>90</logLineID>
+      <logParentLineID>85</logParentLineID>
+      <commandExpression>Span -&gt; Verify -&gt; id=PMN_PRCSLIST_DISTSTATUS&amp;s2</commandExpression>
+      <commandID>50</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>Verify: id=PMN_PRCSLIST_DISTSTATUS$0 [span] -&gt; Posted</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>91</logLineID>
+      <logParentLineID>90</logParentLineID>
+      <commandExpression>Span -&gt; Verify -&gt; id=PMN_PRCSLIST_DISTSTATUS&amp;s2</commandExpression>
+      <commandID>50</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>Check field: id=PMN_PRCSLIST_DISTSTATUS$0, 'Posted' (actual) = 'Posted' (expected)</lineMessage>
+      <logResult>110</logResult>
+      <longDescr>Object Type: Span, Field: id=PMN_PRCSLIST_DISTSTATUS$0, Value: Posted, CheckValue: Posted</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>92</logLineID>
+      <logParentLineID>85</logParentLineID>
+      <commandExpression>Page -&gt; SecPage_Open -&gt; name=PRCSDETAIL_BTN&amp;s2 -&gt; page=PMN_PRCSRQSTDETAIL</commandExpression>
+      <commandID>51</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>SecPage: PMN_PRCSRQSTDETAIL</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>93</logLineID>
+      <logParentLineID>92</logParentLineID>
+      <commandExpression>Page -&gt; SecPage_Open -&gt; name=PRCSDETAIL_BTN&amp;s2 -&gt; page=PMN_PRCSRQSTDETAIL</commandExpression>
+      <commandID>51</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>link.Click  [name=PRCSDETAIL_BTN$0]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>94</logLineID>
+      <logParentLineID>92</logParentLineID>
+      <commandExpression>Span -&gt; Verify -&gt; id=PMN_PRCSLIST_PRCSNAME</commandExpression>
+      <commandID>52</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>Verify: id=PMN_PRCSLIST_PRCSNAME [span] -&gt; TR_BSP_LOAD</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>95</logLineID>
+      <logParentLineID>94</logParentLineID>
+      <commandExpression>Span -&gt; Verify -&gt; id=PMN_PRCSLIST_PRCSNAME</commandExpression>
+      <commandID>52</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>Check field: id=PMN_PRCSLIST_PRCSNAME, 'TR_BSP_LOAD' (actual) = 'TR_BSP_LOAD' (expected)</lineMessage>
+      <logResult>110</logResult>
+      <longDescr>Object Type: Span, Field: id=PMN_PRCSLIST_PRCSNAME, Value: TR_BSP_LOAD, CheckValue: TR_BSP_LOAD</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>96</logLineID>
+      <logParentLineID>92</logParentLineID>
+      <commandExpression>Link -&gt; Click -&gt; name=PMN_DERIVED_MESSAGELOG_BTN</commandExpression>
+      <commandID>53</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>link.Click  [name=PMN_DERIVED_MESSAGELOG_BTN]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>97</logLineID>
+      <logParentLineID>92</logParentLineID>
+      <commandExpression>Browser -&gt; FrameSet -&gt; ptModFrame_##</commandExpression>
+      <commandID>54</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>Frame set to 'ptModFrame_4'</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>Current frame: 'ptModFrame_4'    Previous Frame: 'ptModFrame_3'</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>98</logLineID>
+      <logParentLineID>92</logParentLineID>
+      <commandExpression>Span -&gt; Verify -&gt; id=PMN_PRCSLIST_PRCSNAME</commandExpression>
+      <commandID>55</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>Verify: id=PMN_PRCSLIST_PRCSNAME [span] -&gt; TR_BSP_LOAD</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>99</logLineID>
+      <logParentLineID>98</logParentLineID>
+      <commandExpression>Span -&gt; Verify -&gt; id=PMN_PRCSLIST_PRCSNAME</commandExpression>
+      <commandID>55</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>Check field: id=PMN_PRCSLIST_PRCSNAME, 'TR_BSP_LOAD' (actual) = 'TR_BSP_LOAD' (expected)</lineMessage>
+      <logResult>110</logResult>
+      <longDescr>Object Type: Span, Field: id=PMN_PRCSLIST_PRCSNAME, Value: TR_BSP_LOAD, CheckValue: TR_BSP_LOAD</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>100</logLineID>
+      <logParentLineID>92</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;s3</commandExpression>
+      <commandID>57</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>Scroll [3] Start: -,  Action: sel,  Key: 10</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>101</logLineID>
+      <logParentLineID>100</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;s3</commandExpression>
+      <commandID>57</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>Key: id=PMN_MSGLOG_VW_MESSAGE_SEVERITY [span] - Value: 10</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>102</logLineID>
+      <logParentLineID>100</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;s3</commandExpression>
+      <commandID>57</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>Found Row: $0</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>103</logLineID>
+      <logParentLineID>100</logParentLineID>
+      <commandExpression>Variable -&gt; Set_Value -&gt; &amp;ss3</commandExpression>
+      <commandID>58</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>Variable &amp;ss3 set to 3</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>&amp;ss3 = add(&amp;s3|3)</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>104</logLineID>
+      <logParentLineID>100</logParentLineID>
+      <commandExpression>Span -&gt; Get_Property -&gt; id=PMN_DERIVED_MESSAGE_DESCR$&amp;ss3 -&gt; prop=text;ret=&amp;bank</commandExpression>
+      <commandID>59</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>span.Get_Property [id=PMN_DERIVED_MESSAGE_DESCR$3]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>105</logLineID>
+      <logParentLineID>104</logParentLineID>
+      <commandExpression>Span -&gt; Get_Property -&gt; id=PMN_DERIVED_MESSAGE_DESCR$&amp;ss3 -&gt; prop=text;ret=&amp;bank</commandExpression>
+      <commandID>59</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>id=PMN_DERIVED_MESSAGE_DESCR$3 [span]. The property 'text' was found, and it is 'Account  4427659962 does not exist for Bank FCNYUS33TMS. Statement has been uploaded.'.</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>106</logLineID>
+      <logParentLineID>100</logParentLineID>
+      <commandExpression>Variable -&gt; Set_Value -&gt; &amp;bank1</commandExpression>
+      <commandID>60</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>Variable &amp;bank1 set to </lineMessage>
+      <logResult>102</logResult>
+      <longDescr>&amp;bank1 = GetField(&amp;bank|2|" ")</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>107</logLineID>
+      <logParentLineID>100</logParentLineID>
+      <commandExpression>Conditional -&gt; If_Then -&gt; &amp;bank1="FCNYUS33TMS"</commandExpression>
+      <commandID>61</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>If &amp;bank1="FCNYUS33TMS"</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>&amp;bank1="FCNYUS33TMS"</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>108</logLineID>
+      <logParentLineID>107</logParentLineID>
+      <commandExpression>Conditional -&gt; End_If -&gt; </commandExpression>
+      <commandID>63</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>End if</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>109</logLineID>
+      <logParentLineID>100</logParentLineID>
+      <commandExpression>Variable -&gt; Set_Value -&gt; &amp;sss3</commandExpression>
+      <commandID>64</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>Variable &amp;sss3 set to 4</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>&amp;sss3 = add(&amp;s3|4)</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>110</logLineID>
+      <logParentLineID>100</logParentLineID>
+      <commandExpression>Span -&gt; Get_Property -&gt; id=PMN_DERIVED_MESSAGE_DESCR$&amp;sss3 -&gt; prop=text;ret=&amp;account</commandExpression>
+      <commandID>65</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>span.Get_Property [id=PMN_DERIVED_MESSAGE_DESCR$4]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>111</logLineID>
+      <logParentLineID>110</logParentLineID>
+      <commandExpression>Span -&gt; Get_Property -&gt; id=PMN_DERIVED_MESSAGE_DESCR$&amp;sss3 -&gt; prop=text;ret=&amp;account</commandExpression>
+      <commandID>65</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>id=PMN_DERIVED_MESSAGE_DESCR$4 [span]. The property 'text' was found, and it is 'Statement 10 Loaded.'.</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>112</logLineID>
+      <logParentLineID>100</logParentLineID>
+      <commandExpression>Variable -&gt; Set_Value -&gt; &amp;account1</commandExpression>
+      <commandID>66</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>Variable &amp;account1 set to 10</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>&amp;account1 = GetField(&amp;account|2|" ")</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>113</logLineID>
+      <logParentLineID>100</logParentLineID>
+      <commandExpression>Conditional -&gt; If_Then -&gt; &amp;account1="4427659962"</commandExpression>
+      <commandID>67</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>If &amp;account1="4427659962"</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>&amp;account1="4427659962"</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>114</logLineID>
+      <logParentLineID>113</logParentLineID>
+      <commandExpression>Conditional -&gt; End_If -&gt; </commandExpression>
+      <commandID>69</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>End if</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>115</logLineID>
+      <logParentLineID>100</logParentLineID>
+      <commandExpression>Conditional -&gt; End_If -&gt; </commandExpression>
+      <commandID>69</commandID>
+      <image />
+      <libraryName>CM_25118918_BANK_STATEMT_01</libraryName>
+      <lineMessage>Test End:  3/8/2018 6:10:58 AM</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>116</logLineID>
+      <logParentLineID>1</logParentLineID>
+      <commandExpression>Test -&gt; Exec -&gt; CM_25118918_BANK_STATEMT_01</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Test End:  3/8/2018 6:10:58 AM</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+  </lines>
+</Log>

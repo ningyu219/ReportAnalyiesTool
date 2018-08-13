@@ -1,22 +1,22 @@
-import logging
+import logging,sys,ctypes,os,traceback,json
 from optparse import OptionParser
-import os,traceback
 from elasticsearch import helpers
 from elasticsearch import Elasticsearch
-import json
 from utils.xmltodict import xmltodict
 from utils.xmltohtml.xmlToHTML import convertXML2HTML
 import time,base64,shutil
 from testCaseChunk import testCaseChunk
 from logChunk import PSTOLogChunk,logChunk,UOWLogChunk
-from utils.helper import get_case_mapping
+from myMongo import myMongo
+
 
 logging.basicConfig(format='%(asctime)s-%(process)d-%(levelname)s: %(message)s')
 log = logging.getLogger('result_analysis')
 log.setLevel(logging.DEBUG)
 
 
-ES_URL = "http://localhost"
+#ES_URL = "http://slc10vff.us.com.cn"
+ES_URL = "10.182.63.214"
 ES_PORT = "9200"
 ES_INDEX = "ptf_report" # include PSTO and UOW
 ES_SUMMARY_INDEX = "psto_summary"
@@ -28,11 +28,15 @@ es_instance = Elasticsearch(ES_URL + ":" + ES_PORT, timeout=30)
 prodFMSList = ['Asset Management','Accounts Payable','Accounts Receivable','Contracts','Cash Management','Deal Management','Expenses','General Ledger','Grants','Lease Administration','Maintenance Management','Project Costing','Program Management','Resource Management'];
 prodSCMList = [];
 
+DB_URL =  "localhost"
+DB_PORT = 27017
 
-WEBSERVICE_URL="http://127.0.0.1"
+WEBSERVICE_URL="10.182.63.214"
 WEBSERVICE_PORT="5000"
 
 LOGDIR = None
+coll_mapper = None
+
 
 
 def log_parser(task,result_summary):
@@ -44,7 +48,7 @@ def log_parser(task,result_summary):
     target_html_dir = os.path.dirname(os.path.realpath(task.target_xml_path))
     target_html_name = task.target_xml_path.split("\\")[-1].split(".")[0] + ".html"
     target_html = target_html_dir +"\\"+target_html_name
-    target_html_relative_path = target_html.replace(LOGDIR,"")
+    target_html_relative_path =  "\\" + LOGDIR.split("\\")[-1] + target_html.replace(LOGDIR,"")
 
     #parser xml
 
@@ -154,7 +158,8 @@ def get_task_list(path):
             taskList.append(os.path.join(path,fi_d))
 '''
 
-def get_task_list(path, case_mapper,targetType):
+def get_task_list(path,targetType):
+    coll_mapper = myMongo(DB_URL,DB_PORT)
     taskList=[]
     for root,dirs,files in os.walk(path):
         root_dir = root.split("\\")[-1]
@@ -175,16 +180,18 @@ def get_task_list(path, case_mapper,targetType):
                         tempList.append(task)
                 for task in tempList:
                     task.report_obj = get_report_obj(task.target_xml_path)
-                    if case_mapper.get(task.case_name) == None:
+                    case_detail = coll_mapper.get_detail_by_testname(task.case_name)
+                    #case_detail = json.dumps(case_detail)
+                    if case_detail == None:
                         log.error(task.case_name + " not in mapper")
                         task.test_set = "unknown"
                         task.product = "unknown"
                         task.case_type = "unknown"
                         task.domain = "unknown"
                     else:
-                        task.test_set = case_mapper.get(task.case_name).get("testSet")
-                        task.case_type = case_mapper.get(task.case_name).get("testCycle")
-                        task.product = case_mapper.get(task.case_name).get("product")
+                        task.test_set = case_detail["testSet"]
+                        task.case_type = case_detail["testCycle"]
+                        task.product = case_detail["product"]
                         if task.product in prodFMSList:
                             task.domain = "FMS"
                         else:
@@ -289,13 +296,11 @@ def main():
 
     #get the case category from excel
     log.debug("get the case mapping file")
-    case_mapper = get_case_mapping(options.mapping, Case_Mapping_Sheet_Name)
-    log.debug("mapper:"+str(case_mapper))
+
 
     global LOGDIR
     LOGDIR = options.path
 
-    #targetType = get_task_source_type(LOGDIR)
     logFolderName = LOGDIR.split('\\')[-1]
     targetType = logFolderName.split('_')[0]
     targetTypeSource = logFolderName.split('_')[1]
@@ -304,7 +309,7 @@ def main():
 
     #if targetType == "PSTO":
     log.debug("get task list and parse the log")
-    taskList = get_task_list(LOGDIR, case_mapper, targetType)
+    taskList = get_task_list(LOGDIR,  targetType)
 
     total_task = len(taskList)
 
@@ -330,8 +335,8 @@ def main():
 #    log.debug(str(test_summary))
 
     # move the log and report from <project/logs> to <project/web/templates>
-    # web_templates = os.path.dirname(os.path.realpath(__file__)) + "\\web\\templates"
-    # shutil.copy(LOGDIR,web_templates)
+    web_templates = os.path.dirname(os.path.realpath(__file__)) + "\\web\\templates\\"
+    shutil.move(LOGDIR, web_templates)
 
     for res in result_chunk_list:
         result_chunk_handler(res, options.commit)
@@ -348,6 +353,8 @@ def main():
         else:
             for summary in summary_list:
                 log.info(summary)
+
+
 
 if __name__ == "__main__":
     main()

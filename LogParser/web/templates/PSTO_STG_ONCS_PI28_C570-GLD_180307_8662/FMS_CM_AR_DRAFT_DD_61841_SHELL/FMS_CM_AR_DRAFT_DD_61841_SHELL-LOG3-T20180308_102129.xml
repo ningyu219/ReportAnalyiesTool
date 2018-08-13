@@ -1,0 +1,3570 @@
+﻿<?xml version='1.0' ?>
+<?xml-stylesheet type='text/xsl' href='\\slcnas463.us.oracle.com\enterprise\PTF\Logs\ToolsAutoStyle.xsl'?>
+<Log>
+  <logID>3</logID>
+  <logCaption>3. VP1 2018-03-08 10:21</logCaption>
+  <caseName>DEFAULT</caseName>
+  <logFolder>PSTO_STG_ONCS_PI28_C570-GLD_180307_866</logFolder>
+  <logPrefix></logPrefix>
+  <logLineCount>310</logLineCount>
+  <machineName>SLC10BSL</machineName>
+  <scriptFinalResult>115</scriptFinalResult>
+  <testName>FMS_CM_AR_DRAFT_DD_61841_SHELL</testName>
+  <userID>VP1</userID>
+  <executionOptions>
+    <executionOptionName>E92PJGP2</executionOptionName>
+    <databaseName>E92PJGP2</databaseName>
+    <databasePlatform>Oracle</databasePlatform>
+    <databaseServer></databaseServer>
+    <databaseUser>VP1</databaseUser>
+    <dateFormat>MM/DD/YYYY</dateFormat>
+    <peopleToolsPath>\\psbldfs\dfs\build\pt\ptship\pt85606b\install_Windows.ora</peopleToolsPath>
+    <processServer>PSUNX</processServer>
+    <prompt>No</prompt>
+    <skipRun>No</skipRun>
+    <skipSave>No</skipSave>
+    <url>http://slc08etq.us.oracle.com:8000/e92pjgp2x/signon.html</url>
+    <userID>VP1</userID>
+    <verbose>Yes</verbose>
+  </executionOptions>
+  <extras>
+    <extra>
+      <logSection>1. Execution Options</logSection>
+      <logOrder>1</logOrder>
+      <logValue>No</logValue>
+      <logLabel>Appl - Skip Language :</logLabel>
+    </extra>
+    <extra>
+      <logSection>1. Execution Options</logSection>
+      <logOrder>2</logOrder>
+      <logValue>N</logValue>
+      <logLabel>Appl - Form Factor :</logLabel>
+    </extra>
+    <extra>
+      <logSection>3. System Info</logSection>
+      <logOrder>1</logOrder>
+      <logValue>1280 X 1024 pixels</logValue>
+      <logLabel>Screen resolution :</logLabel>
+    </extra>
+    <extra>
+      <logSection>3. System Info</logSection>
+      <logOrder>4</logOrder>
+      <logValue>Intel(R) Xeon(R) CPU E5-2699 v3 @ 2.30GHz</logValue>
+      <logLabel>Processor :</logLabel>
+    </extra>
+    <extra>
+      <logSection>3. System Info</logSection>
+      <logOrder>5</logOrder>
+      <logValue>Microsoft Windows Server 2012 R2 Standard</logValue>
+      <logLabel>Operating System full name:</logLabel>
+    </extra>
+    <extra>
+      <logSection>3. System Info</logSection>
+      <logOrder>6</logOrder>
+      <logValue>6.2.9200.0</logValue>
+      <logLabel>Operating Sytem version:</logLabel>
+    </extra>
+    <extra>
+      <logSection>3. System Info</logSection>
+      <logOrder>7</logOrder>
+      <logValue>31300 Mb</logValue>
+      <logLabel>Memory Total :</logLabel>
+    </extra>
+    <extra>
+      <logSection>3. System Info</logSection>
+      <logOrder>8</logOrder>
+      <logValue>21110 Mb</logValue>
+      <logLabel>Memory Available :</logLabel>
+    </extra>
+    <extra>
+      <logSection>3. System Info</logSection>
+      <logOrder>9</logOrder>
+      <logValue>chrome 64.0.3282.186</logValue>
+      <logLabel>Browser :</logLabel>
+    </extra>
+    <extra>
+      <logSection>3. System Info</logSection>
+      <logOrder>10</logOrder>
+      <logValue>ENG</logValue>
+      <logLabel>OS Lang Code:</logLabel>
+    </extra>
+    <extra>
+      <logSection>4. Environment Info</logSection>
+      <logOrder>1</logOrder>
+      <logValue>https://slc05ehl.us.oracle.com:8001/PSIGW/HttpListeningConnector</logValue>
+      <logLabel>Env. URL :</logLabel>
+    </extra>
+    <extra>
+      <logSection>1.1. Portal URL Info</logSection>
+      <logOrder>1</logOrder>
+      <logValue>http://slc08etq.us.oracle.com:8000/psp/e92pjgp2x/CUSTOMER/ERP/</logValue>
+      <logLabel>CUSTOMER</logLabel>
+    </extra>
+    <extra>
+      <logSection>1.1. Portal URL Info</logSection>
+      <logOrder>1</logOrder>
+      <logValue>http://slc08etq.us.oracle.com:8000/psp/e92pjgp2x/EMPLOYEE/ERP/</logValue>
+      <logLabel>PORTAL</logLabel>
+    </extra>
+    <extra>
+      <logSection>1.1. Portal URL Info</logSection>
+      <logOrder>1</logOrder>
+      <logValue>http://slc08etq.us.oracle.com:8000/psp/e92pjgp2x/SUPPLIER/ERP/</logValue>
+      <logLabel>SUPPLIER</logLabel>
+    </extra>
+    <extra>
+      <logSection>5. Extra Info</logSection>
+      <logOrder>1</logOrder>
+      <logValue>8.56.07 hotfix1</logValue>
+      <logLabel>PsTestFramework Version :</logLabel>
+    </extra>
+    <extra>
+      <logSection>5. Extra Info</logSection>
+      <logOrder>2</logOrder>
+      <logValue>False</logValue>
+      <logLabel>Disable ScreenShot :</logLabel>
+    </extra>
+    <extra>
+      <logSection>5. Extra Info</logSection>
+      <logOrder>3</logOrder>
+      <logValue>True</logValue>
+      <logLabel>User Error Handling :</logLabel>
+    </extra>
+    <extra>
+      <logSection>6. Log Export</logSection>
+      <logOrder>1</logOrder>
+      <logValue>\\slcnas463.us.oracle.com\enterprise\QEShare\PTF Log Archive\PSTO_STG_ONCS_PI28_C570-GLD_180307_866\FMS_CM_AR_DRAFT_DD_61841_SHELL</logValue>
+      <logLabel>Path :</logLabel>
+    </extra>
+    <extra>
+      <logSection>6. Log Export</logSection>
+      <logOrder>2</logOrder>
+      <logValue>\\slcnas463.us.oracle.com\enterprise\PTF\Logs\ToolsAutoStyle.xsl</logValue>
+      <logLabel>Style Sheet File :</logLabel>
+    </extra>
+    <extra>
+      <logSection>6. Log Export</logSection>
+      <logOrder>3</logOrder>
+      <logValue>Yes</logValue>
+      <logLabel>Time Stamp :</logLabel>
+    </extra>
+    <extra>
+      <logSection>6. Log Export</logSection>
+      <logOrder>4</logOrder>
+      <logValue>Yes</logValue>
+      <logLabel>Image :</logLabel>
+    </extra>
+  </extras>
+  <lines>
+    <logLine>
+      <logLineID>1</logLineID>
+      <logParentLineID>0</logParentLineID>
+      <commandExpression></commandExpression>
+      <commandID>0</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Unattended Start:  3/8/2018 10:21:31 AM</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>2</logLineID>
+      <logParentLineID>1</logParentLineID>
+      <commandExpression></commandExpression>
+      <commandID>0</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Use of Message Recognition</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>3</logLineID>
+      <logParentLineID>1</logParentLineID>
+      <commandExpression>Execution -&gt; Stop_On_Error -&gt; ALL</commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Execution action Stop_On_Error: set to all</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>4</logLineID>
+      <logParentLineID>1</logParentLineID>
+      <commandExpression>Test -&gt; Exec -&gt; FMS_CM_AR_DRAFT_DD_61841_01</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Starting the call to $\QA AUTOMATION\FMS\Test CM Prototype\02 Bank Reconciliation\Automatic Reconciliation\CM_Core_Setup for AR Drafts an\FMS_CM_AR_DRAFT_DD_61841_01  [Test Case: DEFAULT]</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>5</logLineID>
+      <logParentLineID>4</logParentLineID>
+      <commandExpression></commandExpression>
+      <commandID>0</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_01</libraryName>
+      <lineMessage>Use of Message Recognition</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>6</logLineID>
+      <logParentLineID>4</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_01</libraryName>
+      <lineMessage>Browser.Start_Login</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>7</logLineID>
+      <logParentLineID>6</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_01</libraryName>
+      <lineMessage>The chrome version 64 is not supported. You might have issue with it. The current supported browser is: 56-58</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>8</logLineID>
+      <logParentLineID>6</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_01</libraryName>
+      <lineMessage>Frame set to ''</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>Current frame: ''    Previous Frame: ''</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>9</logLineID>
+      <logParentLineID>6</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_01</libraryName>
+      <lineMessage>Goto URL</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>http://slc08etq.us.oracle.com:8000/e92pjgp2x/signon.html</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>10</logLineID>
+      <logParentLineID>6</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_01</libraryName>
+      <lineMessage>Browser.Login</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>11</logLineID>
+      <logParentLineID>10</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_01</libraryName>
+      <lineMessage>Doing login in English</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>12</logLineID>
+      <logParentLineID>11</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_01</libraryName>
+      <lineMessage>combobox.Set_Value [id=ptlangsel] -&gt; ENG</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>13</logLineID>
+      <logParentLineID>10</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_01</libraryName>
+      <lineMessage>text.Set_Value [id=userid] -&gt; VP1</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>14</logLineID>
+      <logParentLineID>10</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_01</libraryName>
+      <lineMessage>pwd.Set_Value [id=pwd] -&gt; </lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>15</logLineID>
+      <logParentLineID>10</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_01</libraryName>
+      <lineMessage>button.Click  [name=Submit]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>16</logLineID>
+      <logParentLineID>4</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; MAINTAIN_CUSTOMERS.CUSTOMER_GENERAL.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_01</libraryName>
+      <lineMessage>Page.Prompt</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>MAINTAIN_CUSTOMERS.CUSTOMER_GENERAL.GBL</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>17</logLineID>
+      <logParentLineID>16</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; MAINTAIN_CUSTOMERS.CUSTOMER_GENERAL.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_01</libraryName>
+      <lineMessage>Goto URL</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>http://slc08etq.us.oracle.com:8000/psp/e92pjgp2x/EMPLOYEE/ERP/c/MAINTAIN_CUSTOMERS.CUSTOMER_GENERAL.GBL</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>18</logLineID>
+      <logParentLineID>16</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; MAINTAIN_CUSTOMERS.CUSTOMER_GENERAL.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_01</libraryName>
+      <lineMessage>Page.Prompt: Trying to do the following action = update</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>19</logLineID>
+      <logParentLineID>16</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=CUST_AL_SRCH_SETID</commandExpression>
+      <commandID>3</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_01</libraryName>
+      <lineMessage>text.Set_Value [name=CUST_AL_SRCH_SETID] -&gt; SHARE</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>20</logLineID>
+      <logParentLineID>16</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=CUST_AL_SRCH_CUST_ID</commandExpression>
+      <commandID>4</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_01</libraryName>
+      <lineMessage>text.Set_Value [name=CUST_AL_SRCH_CUST_ID] -&gt; 1005</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>21</logLineID>
+      <logParentLineID>16</logParentLineID>
+      <commandExpression>Page -&gt; PromptOk -&gt; </commandExpression>
+      <commandID>5</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_01</libraryName>
+      <lineMessage>button.Click  [name=#ICSearch]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>22</logLineID>
+      <logParentLineID>4</logParentLineID>
+      <commandExpression>Browser -&gt; FrameSet -&gt; TargetContent</commandExpression>
+      <commandID>6</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_01</libraryName>
+      <lineMessage>Frame set to 'TargetContent'</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>Current frame: 'TargetContent'    Previous Frame: 'TargetContent'</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>23</logLineID>
+      <logParentLineID>4</logParentLineID>
+      <commandExpression>Page -&gt; Go_To -&gt; Bill To Options</commandExpression>
+      <commandID>7</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_01</libraryName>
+      <lineMessage>Page.Go_To: Bill To Options</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>24</logLineID>
+      <logParentLineID>23</logParentLineID>
+      <commandExpression>Page -&gt; Go_To -&gt; Bill To Options</commandExpression>
+      <commandID>7</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_01</libraryName>
+      <lineMessage>link.Click  [text=Bill To Options]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>25</logLineID>
+      <logParentLineID>23</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr1</commandExpression>
+      <commandID>9</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_01</libraryName>
+      <lineMessage>Scroll [1] Start: -,  Action: sel,  Key: 01/01/1900</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>26</logLineID>
+      <logParentLineID>25</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr1</commandExpression>
+      <commandID>9</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_01</libraryName>
+      <lineMessage>Key: name=CUST_OPTION_EFFDT [text] - Value: 01/01/1900</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>27</logLineID>
+      <logParentLineID>25</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr1</commandExpression>
+      <commandID>9</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_01</libraryName>
+      <lineMessage>Found Row: $0</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>28</logLineID>
+      <logParentLineID>25</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=CUST_OPTION_PAYMENT_METHOD&amp;Scr1</commandExpression>
+      <commandID>10</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_01</libraryName>
+      <lineMessage>text.Set_Value [name=CUST_OPTION_PAYMENT_METHOD$0] -&gt; DR</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>29</logLineID>
+      <logParentLineID>25</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=CUST_OPTION_DRAFT_TYPE&amp;Scr1</commandExpression>
+      <commandID>11</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_01</libraryName>
+      <lineMessage>text.Set_Value [name=CUST_OPTION_DRAFT_TYPE$0] -&gt; 2</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>30</logLineID>
+      <logParentLineID>25</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=CUST_OPTION_DRAFT_DOC&amp;Scr1</commandExpression>
+      <commandID>12</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_01</libraryName>
+      <lineMessage>text.Set_Value [name=CUST_OPTION_DRAFT_DOC$0] -&gt; N</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>31</logLineID>
+      <logParentLineID>25</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=CUST_OPTION_DRAFT_APPROVAL&amp;Scr1</commandExpression>
+      <commandID>13</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_01</libraryName>
+      <lineMessage>text.Set_Value [name=CUST_OPTION_DRAFT_APPROVAL$0] -&gt; P</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>32</logLineID>
+      <logParentLineID>25</logParentLineID>
+      <commandExpression>ComboBox -&gt; Set_Value -&gt; name=CUST_OPTION_EFF_STATUS&amp;Scr1</commandExpression>
+      <commandID>14</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_01</libraryName>
+      <lineMessage>combobox.Set_Value [name=CUST_OPTION_EFF_STATUS$0] -&gt; A</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>33</logLineID>
+      <logParentLineID>25</logParentLineID>
+      <commandExpression>Span -&gt; Verify -&gt; id=CUSTOMER_SETID</commandExpression>
+      <commandID>15</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_01</libraryName>
+      <lineMessage>Verify: id=CUSTOMER_SETID [span] -&gt; SHARE</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>34</logLineID>
+      <logParentLineID>33</logParentLineID>
+      <commandExpression>Span -&gt; Verify -&gt; id=CUSTOMER_SETID</commandExpression>
+      <commandID>15</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_01</libraryName>
+      <lineMessage>Check field: id=CUSTOMER_SETID, 'SHARE' (actual) = 'SHARE' (expected)</lineMessage>
+      <logResult>110</logResult>
+      <longDescr>Object Type: Span, Field: id=CUSTOMER_SETID, Value: SHARE, CheckValue: SHARE</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>35</logLineID>
+      <logParentLineID>25</logParentLineID>
+      <commandExpression>Span -&gt; Verify -&gt; id=CUSTOMER_CUST_ID</commandExpression>
+      <commandID>16</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_01</libraryName>
+      <lineMessage>Verify: id=CUSTOMER_CUST_ID [span] -&gt; 1005</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>36</logLineID>
+      <logParentLineID>35</logParentLineID>
+      <commandExpression>Span -&gt; Verify -&gt; id=CUSTOMER_CUST_ID</commandExpression>
+      <commandID>16</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_01</libraryName>
+      <lineMessage>Check field: id=CUSTOMER_CUST_ID, '1005' (actual) = '1005' (expected)</lineMessage>
+      <logResult>110</logResult>
+      <longDescr>Object Type: Span, Field: id=CUSTOMER_CUST_ID, Value: 1005, CheckValue: 1005</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>37</logLineID>
+      <logParentLineID>4</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>17</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_01</libraryName>
+      <lineMessage>Page.Save</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>38</logLineID>
+      <logParentLineID>37</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>17</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_01</libraryName>
+      <lineMessage>button.Click  [Name=#ICSave]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>39</logLineID>
+      <logParentLineID>37</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>17</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_01</libraryName>
+      <lineMessage>============= PageSave: YES ========</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>40</logLineID>
+      <logParentLineID>4</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>17</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_01</libraryName>
+      <lineMessage>Test End:  3/8/2018 10:22:56 AM</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>41</logLineID>
+      <logParentLineID>1</logParentLineID>
+      <commandExpression>Test -&gt; Exec -&gt; FMS_CM_AR_DRAFT_DD_61841_02</commandExpression>
+      <commandID>3</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Starting the call to $\QA AUTOMATION\FMS\Test CM Prototype\02 Bank Reconciliation\Automatic Reconciliation\CM_Core_Setup for AR Drafts an\FMS_CM_AR_DRAFT_DD_61841_02  [Test Case: DEFAULT]</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>42</logLineID>
+      <logParentLineID>41</logParentLineID>
+      <commandExpression></commandExpression>
+      <commandID>0</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_02</libraryName>
+      <lineMessage>Use of Message Recognition</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>43</logLineID>
+      <logParentLineID>41</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_02</libraryName>
+      <lineMessage>Browser.Start_Login</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>44</logLineID>
+      <logParentLineID>43</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_02</libraryName>
+      <lineMessage>Closing old browsers...</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>45</logLineID>
+      <logParentLineID>43</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_02</libraryName>
+      <lineMessage>The chrome version 64 is not supported. You might have issue with it. The current supported browser is: 56-58</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>46</logLineID>
+      <logParentLineID>43</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_02</libraryName>
+      <lineMessage>Frame set to ''</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>Current frame: ''    Previous Frame: 'TargetContent'</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>47</logLineID>
+      <logParentLineID>43</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_02</libraryName>
+      <lineMessage>Goto URL</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>http://slc08etq.us.oracle.com:8000/e92pjgp2x/signon.html</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>48</logLineID>
+      <logParentLineID>43</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_02</libraryName>
+      <lineMessage>Browser.Login</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>49</logLineID>
+      <logParentLineID>48</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_02</libraryName>
+      <lineMessage>Doing login in English</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>50</logLineID>
+      <logParentLineID>49</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_02</libraryName>
+      <lineMessage>combobox.Set_Value [id=ptlangsel] -&gt; ENG</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>51</logLineID>
+      <logParentLineID>48</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_02</libraryName>
+      <lineMessage>text.Set_Value [id=userid] -&gt; VP1</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>52</logLineID>
+      <logParentLineID>48</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_02</libraryName>
+      <lineMessage>pwd.Set_Value [id=pwd] -&gt; </lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>53</logLineID>
+      <logParentLineID>48</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_02</libraryName>
+      <lineMessage>button.Click  [name=Submit]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>54</logLineID>
+      <logParentLineID>41</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; DEFINE_COUNTERPARTY.BANK_EXTERNAL.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_02</libraryName>
+      <lineMessage>Page.Prompt</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>DEFINE_COUNTERPARTY.BANK_EXTERNAL.GBL</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>55</logLineID>
+      <logParentLineID>54</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; DEFINE_COUNTERPARTY.BANK_EXTERNAL.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_02</libraryName>
+      <lineMessage>Goto URL</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>http://slc08etq.us.oracle.com:8000/psp/e92pjgp2x/EMPLOYEE/ERP/c/DEFINE_COUNTERPARTY.BANK_EXTERNAL.GBL</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>56</logLineID>
+      <logParentLineID>54</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; DEFINE_COUNTERPARTY.BANK_EXTERNAL.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_02</libraryName>
+      <lineMessage>Page.Prompt: Trying to do the following action = update</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>57</logLineID>
+      <logParentLineID>54</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=BANKACCT_VW1_SETID</commandExpression>
+      <commandID>3</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_02</libraryName>
+      <lineMessage>text.Set_Value [name=BANKACCT_VW1_SETID] -&gt; SHARE</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>58</logLineID>
+      <logParentLineID>54</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=BANKACCT_VW1_BANK_CD</commandExpression>
+      <commandID>4</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_02</libraryName>
+      <lineMessage>text.Set_Value [name=BANKACCT_VW1_BANK_CD] -&gt; USBNK</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>59</logLineID>
+      <logParentLineID>54</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=BANKACCT_VW1_BRANCH_NAME</commandExpression>
+      <commandID>5</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_02</libraryName>
+      <lineMessage>text.Set_Value [name=BANKACCT_VW1_BRANCH_NAME] -&gt; CALIFORNIA</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>60</logLineID>
+      <logParentLineID>54</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=BANKACCT_VW1_BANK_ACCT_KEY</commandExpression>
+      <commandID>6</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_02</libraryName>
+      <lineMessage>text.Set_Value [name=BANKACCT_VW1_BANK_ACCT_KEY] -&gt; CHCK</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>61</logLineID>
+      <logParentLineID>54</logParentLineID>
+      <commandExpression>Page -&gt; PromptOk -&gt; </commandExpression>
+      <commandID>7</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_02</libraryName>
+      <lineMessage>button.Click  [name=#ICSearch]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>62</logLineID>
+      <logParentLineID>41</logParentLineID>
+      <commandExpression>Browser -&gt; FrameSet -&gt; TargetContent</commandExpression>
+      <commandID>8</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_02</libraryName>
+      <lineMessage>Frame set to 'TargetContent'</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>Current frame: 'TargetContent'    Previous Frame: 'TargetContent'</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>63</logLineID>
+      <logParentLineID>41</logParentLineID>
+      <commandExpression>Link -&gt; Click -&gt; innertext=Collection Methods</commandExpression>
+      <commandID>9</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_02</libraryName>
+      <lineMessage>link.Click  [innertext=Collection Methods]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>64</logLineID>
+      <logParentLineID>41</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;scr1</commandExpression>
+      <commandID>11</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_02</libraryName>
+      <lineMessage>Scroll [1] Start: $0,  Action: upd,  Key: DR</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>65</logLineID>
+      <logParentLineID>64</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;scr1</commandExpression>
+      <commandID>11</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_02</libraryName>
+      <lineMessage>Key: name=BANK_COLCT_MTHD_PAYMENT_METHOD [combobox] - Value: DR</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>66</logLineID>
+      <logParentLineID>64</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;scr1</commandExpression>
+      <commandID>11</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_02</libraryName>
+      <lineMessage>link.Click  [id=BANK_COLCT_MTHD$hdown$0]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>67</logLineID>
+      <logParentLineID>64</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;scr1</commandExpression>
+      <commandID>11</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_02</libraryName>
+      <lineMessage>link.Click  [id=BANK_COLCT_MTHD$hdown$0]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>68</logLineID>
+      <logParentLineID>64</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;scr1</commandExpression>
+      <commandID>11</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_02</libraryName>
+      <lineMessage>link.Click  [id=BANK_COLCT_MTHD$hdown$0]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>69</logLineID>
+      <logParentLineID>64</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;scr1</commandExpression>
+      <commandID>11</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_02</libraryName>
+      <lineMessage>Found Row: $0</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>70</logLineID>
+      <logParentLineID>41</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr2</commandExpression>
+      <commandID>13</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_02</libraryName>
+      <lineMessage>Scroll [2] Start: -,  Action: sel,  Key: Y</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>71</logLineID>
+      <logParentLineID>70</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr2</commandExpression>
+      <commandID>13</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_02</libraryName>
+      <lineMessage>Key: name=BANK_COLCT_LYT_DEFAULT_FLG [checkbox] - Value: Y</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>72</logLineID>
+      <logParentLineID>70</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr2</commandExpression>
+      <commandID>13</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_02</libraryName>
+      <lineMessage>Found Row: $0</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>73</logLineID>
+      <logParentLineID>70</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=BANK_COLCT_LYT_EFT_LAYOUT_CD&amp;Scr2</commandExpression>
+      <commandID>14</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_02</libraryName>
+      <lineMessage>text.Set_Value [name=BANK_COLCT_LYT_EFT_LAYOUT_CD$0] -&gt; RIBA</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>74</logLineID>
+      <logParentLineID>41</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr3</commandExpression>
+      <commandID>16</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_02</libraryName>
+      <lineMessage>Scroll [3] Start: -,  Action: upd,  Key: DD</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>75</logLineID>
+      <logParentLineID>74</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr3</commandExpression>
+      <commandID>16</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_02</libraryName>
+      <lineMessage>Key: name=BANK_COLCT_MTHD_PAYMENT_METHOD [combobox] - Value: DD</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>76</logLineID>
+      <logParentLineID>74</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr3</commandExpression>
+      <commandID>16</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_02</libraryName>
+      <lineMessage>link.Click  [id=BANK_COLCT_MTHD$htop$0]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>77</logLineID>
+      <logParentLineID>74</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr3</commandExpression>
+      <commandID>16</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_02</libraryName>
+      <lineMessage>link.Click  [id=BANK_COLCT_MTHD$hdown$0]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>78</logLineID>
+      <logParentLineID>74</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr3</commandExpression>
+      <commandID>16</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_02</libraryName>
+      <lineMessage>link.Click  [id=BANK_COLCT_MTHD$hdown$0]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>79</logLineID>
+      <logParentLineID>74</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr3</commandExpression>
+      <commandID>16</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_02</libraryName>
+      <lineMessage>Found Row: $0</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>80</logLineID>
+      <logParentLineID>41</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;scr4</commandExpression>
+      <commandID>18</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_02</libraryName>
+      <lineMessage>Scroll [4] Start: -,  Action: delall,  Key: #NOTHING</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>81</logLineID>
+      <logParentLineID>80</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;scr4</commandExpression>
+      <commandID>18</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_02</libraryName>
+      <lineMessage>Key: name=BANK_COLCT_LYT_EFT_LAYOUT_CD [text] - Value: #NOTHING</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>82</logLineID>
+      <logParentLineID>80</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;scr4</commandExpression>
+      <commandID>18</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_02</libraryName>
+      <lineMessage>link.Click  [id=BANK_COLCT_LYT$delete$0$$0]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>83</logLineID>
+      <logParentLineID>82</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;scr4</commandExpression>
+      <commandID>18</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_02</libraryName>
+      <lineMessage>Message Recognition</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>84</logLineID>
+      <logParentLineID>83</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;scr4</commandExpression>
+      <commandID>18</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_02</libraryName>
+      <lineMessage>button.Click  [Name=#ALERTOK]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>85</logLineID>
+      <logParentLineID>83</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;scr4</commandExpression>
+      <commandID>18</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_02</libraryName>
+      <lineMessage>Msg: Delete current/selected rows from this page? The delete will occur when the transaction is saved.</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>Message Handled. Click on: OK. ObjName=link, Value=id=BANK_COLCT_LYT$delete$0$$0, PageName: COLLECT_BANK</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>86</logLineID>
+      <logParentLineID>83</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;scr4</commandExpression>
+      <commandID>18</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_02</libraryName>
+      <lineMessage>Message defined in the Test Framework Code</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>87</logLineID>
+      <logParentLineID>80</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;scr4</commandExpression>
+      <commandID>18</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_02</libraryName>
+      <lineMessage>link.Click  [id=BANK_COLCT_LYT$delete$0$$0]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>88</logLineID>
+      <logParentLineID>87</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;scr4</commandExpression>
+      <commandID>18</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_02</libraryName>
+      <lineMessage>Message Recognition</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>89</logLineID>
+      <logParentLineID>88</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;scr4</commandExpression>
+      <commandID>18</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_02</libraryName>
+      <lineMessage>button.Click  [Name=#ALERTOK]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>90</logLineID>
+      <logParentLineID>88</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;scr4</commandExpression>
+      <commandID>18</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_02</libraryName>
+      <lineMessage>Msg: Delete current/selected rows from this page? The delete will occur when the transaction is saved.</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>Message Handled. Click on: OK. ObjName=link, Value=id=BANK_COLCT_LYT$delete$0$$0, PageName: COLLECT_BANK</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>91</logLineID>
+      <logParentLineID>88</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;scr4</commandExpression>
+      <commandID>18</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_02</libraryName>
+      <lineMessage>Message defined in the Test Framework Code</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>92</logLineID>
+      <logParentLineID>80</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;scr4</commandExpression>
+      <commandID>18</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_02</libraryName>
+      <lineMessage>link.Click  [id=BANK_COLCT_LYT$delete$0$$0]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>93</logLineID>
+      <logParentLineID>92</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;scr4</commandExpression>
+      <commandID>18</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_02</libraryName>
+      <lineMessage>Message Recognition</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>94</logLineID>
+      <logParentLineID>93</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;scr4</commandExpression>
+      <commandID>18</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_02</libraryName>
+      <lineMessage>button.Click  [Name=#ALERTOK]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>95</logLineID>
+      <logParentLineID>93</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;scr4</commandExpression>
+      <commandID>18</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_02</libraryName>
+      <lineMessage>Msg: Delete current/selected rows from this page? The delete will occur when the transaction is saved.</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>Message Handled. Click on: OK. ObjName=link, Value=id=BANK_COLCT_LYT$delete$0$$0, PageName: COLLECT_BANK</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>96</logLineID>
+      <logParentLineID>93</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;scr4</commandExpression>
+      <commandID>18</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_02</libraryName>
+      <lineMessage>Message defined in the Test Framework Code</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>97</logLineID>
+      <logParentLineID>80</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;scr4</commandExpression>
+      <commandID>18</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_02</libraryName>
+      <lineMessage>link.Click  [id=BANK_COLCT_LYT$delete$0$$0]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>98</logLineID>
+      <logParentLineID>97</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;scr4</commandExpression>
+      <commandID>18</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_02</libraryName>
+      <lineMessage>Message Recognition</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>99</logLineID>
+      <logParentLineID>98</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;scr4</commandExpression>
+      <commandID>18</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_02</libraryName>
+      <lineMessage>button.Click  [Name=#ALERTOK]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>100</logLineID>
+      <logParentLineID>98</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;scr4</commandExpression>
+      <commandID>18</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_02</libraryName>
+      <lineMessage>Msg: Delete current/selected rows from this page? The delete will occur when the transaction is saved.</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>Message Handled. Click on: OK. ObjName=link, Value=id=BANK_COLCT_LYT$delete$0$$0, PageName: COLLECT_BANK</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>101</logLineID>
+      <logParentLineID>98</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;scr4</commandExpression>
+      <commandID>18</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_02</libraryName>
+      <lineMessage>Message defined in the Test Framework Code</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>102</logLineID>
+      <logParentLineID>80</logParentLineID>
+      <commandExpression>CheckBox -&gt; Set_Value -&gt; name=~BANK_COLCT_LYT_DEFAULT_FLG$*</commandExpression>
+      <commandID>19</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_02</libraryName>
+      <lineMessage>checkbox.Set_Value [name=~BANK_COLCT_LYT_DEFAULT_FLG$*] -&gt; Y</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>103</logLineID>
+      <logParentLineID>80</logParentLineID>
+      <commandExpression>Image -&gt; Click -&gt; name=BANK_COLCT_LYT_EFT_LAYOUT_CD$prompt$img$0</commandExpression>
+      <commandID>20</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_02</libraryName>
+      <lineMessage>image.Click  [name=BANK_COLCT_LYT_EFT_LAYOUT_CD$prompt$img$0]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>104</logLineID>
+      <logParentLineID>80</logParentLineID>
+      <commandExpression>Browser -&gt; FrameSet -&gt; ptModFrame_##</commandExpression>
+      <commandID>21</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_02</libraryName>
+      <lineMessage>Frame set to 'ptModFrame_4'</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>Current frame: 'ptModFrame_4'    Previous Frame: 'TargetContent'</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>105</logLineID>
+      <logParentLineID>80</logParentLineID>
+      <commandExpression>Link -&gt; Click -&gt; id=RESULT1$1</commandExpression>
+      <commandID>22</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_02</libraryName>
+      <lineMessage>link.Click  [id=RESULT1$1]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>106</logLineID>
+      <logParentLineID>80</logParentLineID>
+      <commandExpression>Browser -&gt; FrameSet -&gt; TargetContent</commandExpression>
+      <commandID>23</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_02</libraryName>
+      <lineMessage>Frame set to 'TargetContent'</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>Current frame: 'TargetContent'    Previous Frame: ''</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>107</logLineID>
+      <logParentLineID>80</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>24</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_02</libraryName>
+      <lineMessage>Page.Save</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>108</logLineID>
+      <logParentLineID>107</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>24</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_02</libraryName>
+      <lineMessage>button.Click  [Name=#ICSave]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>109</logLineID>
+      <logParentLineID>107</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>24</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_02</libraryName>
+      <lineMessage>============= PageSave: YES ========</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>110</logLineID>
+      <logParentLineID>80</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>24</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_02</libraryName>
+      <lineMessage>Test End:  3/8/2018 10:24:28 AM</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>111</logLineID>
+      <logParentLineID>1</logParentLineID>
+      <commandExpression>Test -&gt; Exec -&gt; FMS_CM_AR_DRAFT_DD_61841_03</commandExpression>
+      <commandID>4</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Starting the call to $\QA AUTOMATION\FMS\Test CM Prototype\02 Bank Reconciliation\Automatic Reconciliation\CM_Core_Setup for AR Drafts an\FMS_CM_AR_DRAFT_DD_61841_03  [Test Case: DEFAULT]</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>112</logLineID>
+      <logParentLineID>111</logParentLineID>
+      <commandExpression></commandExpression>
+      <commandID>0</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_03</libraryName>
+      <lineMessage>Use of Message Recognition</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>113</logLineID>
+      <logParentLineID>111</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_03</libraryName>
+      <lineMessage>Browser.Start_Login</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>114</logLineID>
+      <logParentLineID>113</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_03</libraryName>
+      <lineMessage>Closing old browsers...</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>115</logLineID>
+      <logParentLineID>113</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_03</libraryName>
+      <lineMessage>The chrome version 64 is not supported. You might have issue with it. The current supported browser is: 56-58</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>116</logLineID>
+      <logParentLineID>113</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_03</libraryName>
+      <lineMessage>Frame set to ''</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>Current frame: ''    Previous Frame: 'TargetContent'</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>117</logLineID>
+      <logParentLineID>113</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_03</libraryName>
+      <lineMessage>Goto URL</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>http://slc08etq.us.oracle.com:8000/e92pjgp2x/signon.html</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>118</logLineID>
+      <logParentLineID>113</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_03</libraryName>
+      <lineMessage>Browser.Login</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>119</logLineID>
+      <logParentLineID>118</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_03</libraryName>
+      <lineMessage>Doing login in English</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>120</logLineID>
+      <logParentLineID>119</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_03</libraryName>
+      <lineMessage>combobox.Set_Value [id=ptlangsel] -&gt; ENG</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>121</logLineID>
+      <logParentLineID>118</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_03</libraryName>
+      <lineMessage>text.Set_Value [id=userid] -&gt; VP1</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>122</logLineID>
+      <logParentLineID>118</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_03</libraryName>
+      <lineMessage>pwd.Set_Value [id=pwd] -&gt; </lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>123</logLineID>
+      <logParentLineID>118</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_03</libraryName>
+      <lineMessage>button.Click  [name=Submit]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>124</logLineID>
+      <logParentLineID>111</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; MAINTAIN_CUSTOMERS.CUSTOMER_GENERAL.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_03</libraryName>
+      <lineMessage>Page.Prompt</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>MAINTAIN_CUSTOMERS.CUSTOMER_GENERAL.GBL</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>125</logLineID>
+      <logParentLineID>124</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; MAINTAIN_CUSTOMERS.CUSTOMER_GENERAL.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_03</libraryName>
+      <lineMessage>Goto URL</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>http://slc08etq.us.oracle.com:8000/psp/e92pjgp2x/EMPLOYEE/ERP/c/MAINTAIN_CUSTOMERS.CUSTOMER_GENERAL.GBL</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>126</logLineID>
+      <logParentLineID>124</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; MAINTAIN_CUSTOMERS.CUSTOMER_GENERAL.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_03</libraryName>
+      <lineMessage>Page.Prompt: Trying to do the following action = update</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>127</logLineID>
+      <logParentLineID>124</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=CUST_AL_SRCH_SETID</commandExpression>
+      <commandID>3</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_03</libraryName>
+      <lineMessage>text.Set_Value [name=CUST_AL_SRCH_SETID] -&gt; SHARE</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>128</logLineID>
+      <logParentLineID>124</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=CUST_AL_SRCH_CUST_ID</commandExpression>
+      <commandID>4</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_03</libraryName>
+      <lineMessage>text.Set_Value [name=CUST_AL_SRCH_CUST_ID] -&gt; USADD001</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>129</logLineID>
+      <logParentLineID>124</logParentLineID>
+      <commandExpression>Page -&gt; PromptOk -&gt; </commandExpression>
+      <commandID>5</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_03</libraryName>
+      <lineMessage>button.Click  [name=#ICSearch]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>130</logLineID>
+      <logParentLineID>111</logParentLineID>
+      <commandExpression>Browser -&gt; FrameSet -&gt; TargetContent</commandExpression>
+      <commandID>6</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_03</libraryName>
+      <lineMessage>Frame set to 'TargetContent'</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>Current frame: 'TargetContent'    Previous Frame: 'TargetContent'</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>131</logLineID>
+      <logParentLineID>111</logParentLineID>
+      <commandExpression>Page -&gt; Go_To -&gt; Bill To Options</commandExpression>
+      <commandID>7</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_03</libraryName>
+      <lineMessage>Page.Go_To: Bill To Options</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>132</logLineID>
+      <logParentLineID>131</logParentLineID>
+      <commandExpression>Page -&gt; Go_To -&gt; Bill To Options</commandExpression>
+      <commandID>7</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_03</libraryName>
+      <lineMessage>link.Click  [text=Bill To Options]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>133</logLineID>
+      <logParentLineID>131</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr1</commandExpression>
+      <commandID>9</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_03</libraryName>
+      <lineMessage>Scroll [1] Start: $0,  Action: sel,  Key: 01/01/2000</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>134</logLineID>
+      <logParentLineID>133</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr1</commandExpression>
+      <commandID>9</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_03</libraryName>
+      <lineMessage>Key: name=CUST_OPTION_EFFDT [text] - Value: 01/01/2000</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>135</logLineID>
+      <logParentLineID>133</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr1</commandExpression>
+      <commandID>9</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_03</libraryName>
+      <lineMessage>Found Row: $0</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>136</logLineID>
+      <logParentLineID>133</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=CUST_OPTION_PAYMENT_METHOD&amp;Scr1</commandExpression>
+      <commandID>10</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_03</libraryName>
+      <lineMessage>text.Set_Value [name=CUST_OPTION_PAYMENT_METHOD$0] -&gt; DD</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>137</logLineID>
+      <logParentLineID>133</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=CUST_OPTION_DRAFT_TYPE&amp;Scr1</commandExpression>
+      <commandID>11</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_03</libraryName>
+      <lineMessage>text.Set_Value [name=CUST_OPTION_DRAFT_TYPE$0] -&gt; #NOTHING</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>138</logLineID>
+      <logParentLineID>133</logParentLineID>
+      <commandExpression>ComboBox -&gt; Set_Value -&gt; name=CUST_OPTION_DD_GROUP&amp;Scr1</commandExpression>
+      <commandID>12</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_03</libraryName>
+      <lineMessage>combobox.Set_Value [name=CUST_OPTION_DD_GROUP$0] -&gt; %</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>139</logLineID>
+      <logParentLineID>133</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=CUST_OPTION_MICR_ID&amp;Scr1</commandExpression>
+      <commandID>13</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_03</libraryName>
+      <lineMessage>text.Set_Value [name=CUST_OPTION_MICR_ID$0] -&gt; USADD001</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>140</logLineID>
+      <logParentLineID>133</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=CUST_OPTION_DRAFT_DOC&amp;Scr1</commandExpression>
+      <commandID>14</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_03</libraryName>
+      <lineMessage>text.Set_Value [name=CUST_OPTION_DRAFT_DOC$0] -&gt; #NOTHING</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>141</logLineID>
+      <logParentLineID>133</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=CUST_OPTION_DRAFT_APPROVAL&amp;Scr1</commandExpression>
+      <commandID>15</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_03</libraryName>
+      <lineMessage>text.Set_Value [name=CUST_OPTION_DRAFT_APPROVAL$0] -&gt; #NOTHING</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>142</logLineID>
+      <logParentLineID>133</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=CUST_OPTION_DD_PROFILE_ID&amp;Scr1</commandExpression>
+      <commandID>16</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_03</libraryName>
+      <lineMessage>text.Set_Value [name=CUST_OPTION_DD_PROFILE_ID$0] -&gt; USDD1</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>143</logLineID>
+      <logParentLineID>133</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=CUST_OPTION_CRCARD_PROFILE_ID&amp;Scr1</commandExpression>
+      <commandID>17</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_03</libraryName>
+      <lineMessage>text.Set_Value [name=CUST_OPTION_CRCARD_PROFILE_ID$0] -&gt; #NOTHING</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>144</logLineID>
+      <logParentLineID>133</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=CUST_OPTION_PYMNT_TERMS_CD&amp;Scr1</commandExpression>
+      <commandID>18</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_03</libraryName>
+      <lineMessage>text.Set_Value [name=CUST_OPTION_PYMNT_TERMS_CD$0] -&gt; IMMED</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>145</logLineID>
+      <logParentLineID>133</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=CUST_OPTION_GRACE_DISC_DAYS&amp;Scr1</commandExpression>
+      <commandID>19</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_03</libraryName>
+      <lineMessage>text.Set_Value [name=CUST_OPTION_GRACE_DISC_DAYS$0] -&gt; #NOTHING</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>146</logLineID>
+      <logParentLineID>133</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=CUST_OPTION_GRACE_DUE_DAYS&amp;Scr1</commandExpression>
+      <commandID>20</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_03</libraryName>
+      <lineMessage>text.Set_Value [name=CUST_OPTION_GRACE_DUE_DAYS$0] -&gt; #NOTHING</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>147</logLineID>
+      <logParentLineID>133</logParentLineID>
+      <commandExpression>CheckBox -&gt; Set_Value -&gt; name=CUST_OPTION_PARTIAL_PY_SW&amp;Scr1</commandExpression>
+      <commandID>21</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_03</libraryName>
+      <lineMessage>checkbox.Set_Value [name=CUST_OPTION_PARTIAL_PY_SW$0] -&gt; N</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>148</logLineID>
+      <logParentLineID>133</logParentLineID>
+      <commandExpression>CheckBox -&gt; Set_Value -&gt; name=CUST_OPTION_PP_HOLD&amp;Scr1</commandExpression>
+      <commandID>22</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_03</libraryName>
+      <lineMessage>checkbox.Set_Value [name=CUST_OPTION_PP_HOLD$0] -&gt; N</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>149</logLineID>
+      <logParentLineID>133</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=CUST_OPTION_PP_METHOD&amp;Scr1</commandExpression>
+      <commandID>23</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_03</libraryName>
+      <lineMessage>text.Set_Value [name=CUST_OPTION_PP_METHOD$0] -&gt; #NOTHING</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>150</logLineID>
+      <logParentLineID>111</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>24</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_03</libraryName>
+      <lineMessage>Page.Save</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>151</logLineID>
+      <logParentLineID>150</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>24</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_03</libraryName>
+      <lineMessage>button.Click  [Name=#ICSave]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>152</logLineID>
+      <logParentLineID>150</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>24</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_03</libraryName>
+      <lineMessage>============= PageSave: YES ========</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>153</logLineID>
+      <logParentLineID>111</logParentLineID>
+      <commandExpression>ComboBox -&gt; Set_Value -&gt; name=CUST_OPTION_EFF_STATUS&amp;Scr1</commandExpression>
+      <commandID>25</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_03</libraryName>
+      <lineMessage>combobox.Set_Value [name=CUST_OPTION_EFF_STATUS$0] -&gt; A</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>154</logLineID>
+      <logParentLineID>111</logParentLineID>
+      <commandExpression>Span -&gt; Verify -&gt; id=CUSTOMER_SETID</commandExpression>
+      <commandID>26</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_03</libraryName>
+      <lineMessage>Verify: id=CUSTOMER_SETID [span] -&gt; SHARE</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>155</logLineID>
+      <logParentLineID>154</logParentLineID>
+      <commandExpression>Span -&gt; Verify -&gt; id=CUSTOMER_SETID</commandExpression>
+      <commandID>26</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_03</libraryName>
+      <lineMessage>Check field: id=CUSTOMER_SETID, 'SHARE' (actual) = 'SHARE' (expected)</lineMessage>
+      <logResult>110</logResult>
+      <longDescr>Object Type: Span, Field: id=CUSTOMER_SETID, Value: SHARE, CheckValue: SHARE</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>156</logLineID>
+      <logParentLineID>111</logParentLineID>
+      <commandExpression>Span -&gt; Verify -&gt; id=CUSTOMER_CUST_ID</commandExpression>
+      <commandID>27</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_03</libraryName>
+      <lineMessage>Verify: id=CUSTOMER_CUST_ID [span] -&gt; USADD001</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>157</logLineID>
+      <logParentLineID>156</logParentLineID>
+      <commandExpression>Span -&gt; Verify -&gt; id=CUSTOMER_CUST_ID</commandExpression>
+      <commandID>27</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_03</libraryName>
+      <lineMessage>Check field: id=CUSTOMER_CUST_ID, 'USADD001' (actual) = 'USADD001' (expected)</lineMessage>
+      <logResult>110</logResult>
+      <longDescr>Object Type: Span, Field: id=CUSTOMER_CUST_ID, Value: USADD001, CheckValue: USADD001</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>158</logLineID>
+      <logParentLineID>111</logParentLineID>
+      <commandExpression>Span -&gt; Verify -&gt; id=CUSTOMER_CUST_ID</commandExpression>
+      <commandID>27</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_03</libraryName>
+      <lineMessage>Test End:  3/8/2018 10:25:12 AM</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>159</logLineID>
+      <logParentLineID>1</logParentLineID>
+      <commandExpression>Test -&gt; Exec -&gt; FMS_CM_AR_DRAFT_DD_61841_04</commandExpression>
+      <commandID>5</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Starting the call to $\QA AUTOMATION\FMS\Test CM Prototype\02 Bank Reconciliation\Automatic Reconciliation\CM_Core_Setup for AR Drafts an\FMS_CM_AR_DRAFT_DD_61841_04  [Test Case: DEFAULT]</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>160</logLineID>
+      <logParentLineID>159</logParentLineID>
+      <commandExpression></commandExpression>
+      <commandID>0</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_04</libraryName>
+      <lineMessage>Use of Message Recognition</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>161</logLineID>
+      <logParentLineID>159</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_04</libraryName>
+      <lineMessage>Browser.Start_Login</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>162</logLineID>
+      <logParentLineID>161</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_04</libraryName>
+      <lineMessage>Closing old browsers...</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>163</logLineID>
+      <logParentLineID>161</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_04</libraryName>
+      <lineMessage>The chrome version 64 is not supported. You might have issue with it. The current supported browser is: 56-58</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>164</logLineID>
+      <logParentLineID>161</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_04</libraryName>
+      <lineMessage>Frame set to ''</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>Current frame: ''    Previous Frame: 'TargetContent'</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>165</logLineID>
+      <logParentLineID>161</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_04</libraryName>
+      <lineMessage>Goto URL</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>http://slc08etq.us.oracle.com:8000/e92pjgp2x/signon.html</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>166</logLineID>
+      <logParentLineID>161</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_04</libraryName>
+      <lineMessage>Browser.Login</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>167</logLineID>
+      <logParentLineID>166</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_04</libraryName>
+      <lineMessage>Doing login in English</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>168</logLineID>
+      <logParentLineID>167</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_04</libraryName>
+      <lineMessage>combobox.Set_Value [id=ptlangsel] -&gt; ENG</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>169</logLineID>
+      <logParentLineID>166</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_04</libraryName>
+      <lineMessage>text.Set_Value [id=userid] -&gt; VP1</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>170</logLineID>
+      <logParentLineID>166</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_04</libraryName>
+      <lineMessage>pwd.Set_Value [id=pwd] -&gt; </lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>171</logLineID>
+      <logParentLineID>166</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_04</libraryName>
+      <lineMessage>button.Click  [name=Submit]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>172</logLineID>
+      <logParentLineID>159</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; MAINTAIN_CUSTOMERS.CUSTOMER_MICR.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_04</libraryName>
+      <lineMessage>Page.Prompt</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>MAINTAIN_CUSTOMERS.CUSTOMER_MICR.GBL</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>173</logLineID>
+      <logParentLineID>172</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; MAINTAIN_CUSTOMERS.CUSTOMER_MICR.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_04</libraryName>
+      <lineMessage>Goto URL</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>http://slc08etq.us.oracle.com:8000/psp/e92pjgp2x/EMPLOYEE/ERP/c/MAINTAIN_CUSTOMERS.CUSTOMER_MICR.GBL</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>174</logLineID>
+      <logParentLineID>172</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; MAINTAIN_CUSTOMERS.CUSTOMER_MICR.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_04</libraryName>
+      <lineMessage>Page.Prompt: Trying to do the following action = update</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>175</logLineID>
+      <logParentLineID>172</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=CUST_MICR_TBL_SETID</commandExpression>
+      <commandID>3</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_04</libraryName>
+      <lineMessage>text.Set_Value [name=CUST_MICR_TBL_SETID] -&gt; SHARE</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>176</logLineID>
+      <logParentLineID>172</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=CUST_MICR_TBL_MICR_ID</commandExpression>
+      <commandID>4</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_04</libraryName>
+      <lineMessage>text.Set_Value [name=CUST_MICR_TBL_MICR_ID] -&gt; USADD001</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>177</logLineID>
+      <logParentLineID>172</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=CUST_MICR_TBL_REMIT_FROM_SETID</commandExpression>
+      <commandID>5</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_04</libraryName>
+      <lineMessage>text.Set_Value [name=CUST_MICR_TBL_REMIT_FROM_SETID] -&gt; SHARE</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>178</logLineID>
+      <logParentLineID>172</logParentLineID>
+      <commandExpression>Page -&gt; PromptOk -&gt; </commandExpression>
+      <commandID>6</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_04</libraryName>
+      <lineMessage>button.Click  [name=#ICSearch]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>179</logLineID>
+      <logParentLineID>159</logParentLineID>
+      <commandExpression>Browser -&gt; FrameSet -&gt; TargetContent</commandExpression>
+      <commandID>7</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_04</libraryName>
+      <lineMessage>Frame set to 'TargetContent'</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>Current frame: 'TargetContent'    Previous Frame: 'TargetContent'</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>180</logLineID>
+      <logParentLineID>159</logParentLineID>
+      <commandExpression>Page -&gt; Go_To -&gt; Customer Bank</commandExpression>
+      <commandID>8</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_04</libraryName>
+      <lineMessage>Page.Go_To: Customer Bank</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>181</logLineID>
+      <logParentLineID>180</logParentLineID>
+      <commandExpression>Page -&gt; Go_To -&gt; Customer Bank</commandExpression>
+      <commandID>8</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_04</libraryName>
+      <lineMessage>link.Click  [text=Customer Bank]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>182</logLineID>
+      <logParentLineID>180</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr1</commandExpression>
+      <commandID>10</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_04</libraryName>
+      <lineMessage>Scroll [1] Start: $0,  Action: sel,  Key: USADD001</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>183</logLineID>
+      <logParentLineID>182</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr1</commandExpression>
+      <commandID>10</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_04</libraryName>
+      <lineMessage>Key: name=CUST_MICR_TBL_REMIT_FROM_CUST_ID [text] - Value: USADD001</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>184</logLineID>
+      <logParentLineID>182</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr1</commandExpression>
+      <commandID>10</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_04</libraryName>
+      <lineMessage>Found Row: $0</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>185</logLineID>
+      <logParentLineID>182</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=CUST_MICR_TBL_COUNTRY&amp;Scr1</commandExpression>
+      <commandID>11</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_04</libraryName>
+      <lineMessage>text.Set_Value [name=CUST_MICR_TBL_COUNTRY$0] -&gt; USA</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>186</logLineID>
+      <logParentLineID>182</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=CUST_MICR_TBL_BENEFICIARY_BANK&amp;Scr1</commandExpression>
+      <commandID>12</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_04</libraryName>
+      <lineMessage>text.Set_Value [name=CUST_MICR_TBL_BENEFICIARY_BANK$0] -&gt; #NOTHING</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>187</logLineID>
+      <logParentLineID>182</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=CUST_MICR_TBL_BENEF_BRANCH&amp;Scr1</commandExpression>
+      <commandID>13</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_04</libraryName>
+      <lineMessage>text.Set_Value [name=CUST_MICR_TBL_BENEF_BRANCH$0] -&gt; #NOTHING</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>188</logLineID>
+      <logParentLineID>182</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=CUST_MICR_TBL_BANK_ID_QUAL&amp;Scr1</commandExpression>
+      <commandID>14</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_04</libraryName>
+      <lineMessage>text.Set_Value [name=CUST_MICR_TBL_BANK_ID_QUAL$0] -&gt; #NOTHING</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>189</logLineID>
+      <logParentLineID>182</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=CUST_MICR_TBL_BNK_ID_NBR&amp;Scr1</commandExpression>
+      <commandID>15</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_04</libraryName>
+      <lineMessage>text.Set_Value [name=CUST_MICR_TBL_BNK_ID_NBR$0] -&gt; 121042882</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>190</logLineID>
+      <logParentLineID>182</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=CUST_MICR_TBL_BRANCH_ID&amp;Scr1</commandExpression>
+      <commandID>16</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_04</libraryName>
+      <lineMessage>text.Set_Value [name=CUST_MICR_TBL_BRANCH_ID$0] -&gt; #NOTHING</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>191</logLineID>
+      <logParentLineID>182</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=CUST_MICR_TBL_BANK_ACCOUNT_NUM&amp;Scr1</commandExpression>
+      <commandID>17</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_04</libraryName>
+      <lineMessage>text.Set_Value [name=CUST_MICR_TBL_BANK_ACCOUNT_NUM$0] -&gt; 1231234564</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>192</logLineID>
+      <logParentLineID>182</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=CUST_MICR_TBL_DFI_ID_QUAL&amp;Scr1</commandExpression>
+      <commandID>18</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_04</libraryName>
+      <lineMessage>text.Set_Value [name=CUST_MICR_TBL_DFI_ID_QUAL$0] -&gt; #NOTHING</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>193</logLineID>
+      <logParentLineID>182</logParentLineID>
+      <commandExpression>Text -&gt; Verify -&gt; name=CUST_MICR_TBL_IBAN_ID&amp;Scr1</commandExpression>
+      <commandID>19</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_04</libraryName>
+      <lineMessage>Verify: name=CUST_MICR_TBL_IBAN_ID$0 [text] -&gt; #NOTHING</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>194</logLineID>
+      <logParentLineID>193</logParentLineID>
+      <commandExpression>Text -&gt; Verify -&gt; name=CUST_MICR_TBL_IBAN_ID&amp;Scr1</commandExpression>
+      <commandID>19</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_04</libraryName>
+      <lineMessage>Check field: name=CUST_MICR_TBL_IBAN_ID$0, '' (actual) = '#NOTHING' (expected)</lineMessage>
+      <logResult>110</logResult>
+      <longDescr>Object Type: Text, Field: name=CUST_MICR_TBL_IBAN_ID$0, Value: , CheckValue: #NOTHING</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>195</logLineID>
+      <logParentLineID>182</logParentLineID>
+      <commandExpression>ComboBox -&gt; Set_Value -&gt; name=CUST_MICR_TBL_BANK_ACCT_TYPE&amp;Scr1</commandExpression>
+      <commandID>20</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_04</libraryName>
+      <lineMessage>combobox.Set_Value [name=CUST_MICR_TBL_BANK_ACCT_TYPE$0] -&gt; #NOTHING</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>196</logLineID>
+      <logParentLineID>182</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=CUST_MICR_TBL_CHECK_DIGIT&amp;Scr1</commandExpression>
+      <commandID>21</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_04</libraryName>
+      <lineMessage>text.Set_Value [name=CUST_MICR_TBL_CHECK_DIGIT$0] -&gt; #NOTHING</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>197</logLineID>
+      <logParentLineID>182</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=CUST_MICR_TBL_DFI_ID_NUM&amp;Scr1</commandExpression>
+      <commandID>22</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_04</libraryName>
+      <lineMessage>text.Set_Value [name=CUST_MICR_TBL_DFI_ID_NUM$0] -&gt; #NOTHING</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>198</logLineID>
+      <logParentLineID>182</logParentLineID>
+      <commandExpression>CheckBox -&gt; Set_Value -&gt; name=CUST_MICR_TBL_AR_EBP_BILLERS_BNK&amp;Scr1</commandExpression>
+      <commandID>23</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_04</libraryName>
+      <lineMessage>checkbox.Set_Value [name=CUST_MICR_TBL_AR_EBP_BILLERS_BNK$0] -&gt; Y</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>199</logLineID>
+      <logParentLineID>159</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>24</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_04</libraryName>
+      <lineMessage>Page.Save</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>200</logLineID>
+      <logParentLineID>199</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>24</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_04</libraryName>
+      <lineMessage>button.Click  [Name=#ICSave]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>201</logLineID>
+      <logParentLineID>199</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>24</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_04</libraryName>
+      <lineMessage>============= PageSave: YES ========</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>202</logLineID>
+      <logParentLineID>159</logParentLineID>
+      <commandExpression>Span -&gt; Verify -&gt; id=CUST_MICR_TBL_SETID</commandExpression>
+      <commandID>25</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_04</libraryName>
+      <lineMessage>Verify: id=CUST_MICR_TBL_SETID [span] -&gt; SHARE</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>203</logLineID>
+      <logParentLineID>202</logParentLineID>
+      <commandExpression>Span -&gt; Verify -&gt; id=CUST_MICR_TBL_SETID</commandExpression>
+      <commandID>25</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_04</libraryName>
+      <lineMessage>Check field: id=CUST_MICR_TBL_SETID, 'SHARE' (actual) = 'SHARE' (expected)</lineMessage>
+      <logResult>110</logResult>
+      <longDescr>Object Type: Span, Field: id=CUST_MICR_TBL_SETID, Value: SHARE, CheckValue: SHARE</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>204</logLineID>
+      <logParentLineID>159</logParentLineID>
+      <commandExpression>Span -&gt; Verify -&gt; id=CUST_MICR_TBL_MICR_ID</commandExpression>
+      <commandID>26</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_04</libraryName>
+      <lineMessage>Verify: id=CUST_MICR_TBL_MICR_ID [span] -&gt; USADD001</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>205</logLineID>
+      <logParentLineID>204</logParentLineID>
+      <commandExpression>Span -&gt; Verify -&gt; id=CUST_MICR_TBL_MICR_ID</commandExpression>
+      <commandID>26</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_04</libraryName>
+      <lineMessage>Check field: id=CUST_MICR_TBL_MICR_ID, 'USADD001' (actual) = 'USADD001' (expected)</lineMessage>
+      <logResult>110</logResult>
+      <longDescr>Object Type: Span, Field: id=CUST_MICR_TBL_MICR_ID, Value: USADD001, CheckValue: USADD001</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>206</logLineID>
+      <logParentLineID>159</logParentLineID>
+      <commandExpression>Span -&gt; Verify -&gt; id=CUST_MICR_TBL_MICR_ID</commandExpression>
+      <commandID>26</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_04</libraryName>
+      <lineMessage>Test End:  3/8/2018 10:25:59 AM</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>207</logLineID>
+      <logParentLineID>1</logParentLineID>
+      <commandExpression>Test -&gt; Exec -&gt; FMS_CM_AR_DRAFT_DD_61841_05</commandExpression>
+      <commandID>6</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Starting the call to $\QA AUTOMATION\FMS\Test CM Prototype\02 Bank Reconciliation\Automatic Reconciliation\CM_Core_Setup for AR Drafts an\FMS_CM_AR_DRAFT_DD_61841_05  [Test Case: DEFAULT]</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>208</logLineID>
+      <logParentLineID>207</logParentLineID>
+      <commandExpression></commandExpression>
+      <commandID>0</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_05</libraryName>
+      <lineMessage>Use of Message Recognition</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>209</logLineID>
+      <logParentLineID>207</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_05</libraryName>
+      <lineMessage>Browser.Start_Login</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>210</logLineID>
+      <logParentLineID>209</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_05</libraryName>
+      <lineMessage>Closing old browsers...</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>211</logLineID>
+      <logParentLineID>209</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_05</libraryName>
+      <lineMessage>The chrome version 64 is not supported. You might have issue with it. The current supported browser is: 56-58</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>212</logLineID>
+      <logParentLineID>209</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_05</libraryName>
+      <lineMessage>Frame set to ''</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>Current frame: ''    Previous Frame: 'TargetContent'</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>213</logLineID>
+      <logParentLineID>209</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_05</libraryName>
+      <lineMessage>Goto URL</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>http://slc08etq.us.oracle.com:8000/e92pjgp2x/signon.html</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>214</logLineID>
+      <logParentLineID>209</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_05</libraryName>
+      <lineMessage>Browser.Login</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>215</logLineID>
+      <logParentLineID>214</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_05</libraryName>
+      <lineMessage>Doing login in English</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>216</logLineID>
+      <logParentLineID>215</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_05</libraryName>
+      <lineMessage>combobox.Set_Value [id=ptlangsel] -&gt; ENG</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>217</logLineID>
+      <logParentLineID>214</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_05</libraryName>
+      <lineMessage>text.Set_Value [id=userid] -&gt; VP1</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>218</logLineID>
+      <logParentLineID>214</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_05</libraryName>
+      <lineMessage>pwd.Set_Value [id=pwd] -&gt; </lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>219</logLineID>
+      <logParentLineID>214</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_05</libraryName>
+      <lineMessage>button.Click  [name=Submit]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>220</logLineID>
+      <logParentLineID>207</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; DEFINE_RECEIVABLE_PROCESSING.DD_PROFILE.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_05</libraryName>
+      <lineMessage>Page.Prompt</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>DEFINE_RECEIVABLE_PROCESSING.DD_PROFILE.GBL</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>221</logLineID>
+      <logParentLineID>220</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; DEFINE_RECEIVABLE_PROCESSING.DD_PROFILE.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_05</libraryName>
+      <lineMessage>Goto URL</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>http://slc08etq.us.oracle.com:8000/psp/e92pjgp2x/EMPLOYEE/ERP/c/DEFINE_RECEIVABLE_PROCESSING.DD_PROFILE.GBL</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>222</logLineID>
+      <logParentLineID>220</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; DEFINE_RECEIVABLE_PROCESSING.DD_PROFILE.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_05</libraryName>
+      <lineMessage>Page.Prompt: Trying to do the following action = correct</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>223</logLineID>
+      <logParentLineID>220</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; DEFINE_RECEIVABLE_PROCESSING.DD_PROFILE.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_05</libraryName>
+      <lineMessage>checkbox.Set_Value [Name=#ICCorrectHistory] -&gt; Y</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>224</logLineID>
+      <logParentLineID>220</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=DD_PROFILE_TBL_SETID</commandExpression>
+      <commandID>3</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_05</libraryName>
+      <lineMessage>text.Set_Value [name=DD_PROFILE_TBL_SETID] -&gt; SHARE</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>225</logLineID>
+      <logParentLineID>220</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=DD_PROFILE_TBL_DD_PROFILE_ID</commandExpression>
+      <commandID>4</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_05</libraryName>
+      <lineMessage>text.Set_Value [name=DD_PROFILE_TBL_DD_PROFILE_ID] -&gt; USDD1</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>226</logLineID>
+      <logParentLineID>220</logParentLineID>
+      <commandExpression>Page -&gt; PromptOk -&gt; </commandExpression>
+      <commandID>5</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_05</libraryName>
+      <lineMessage>button.Click  [name=#ICSearch]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>227</logLineID>
+      <logParentLineID>207</logParentLineID>
+      <commandExpression>Browser -&gt; FrameSet -&gt; TargetContent</commandExpression>
+      <commandID>6</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_05</libraryName>
+      <lineMessage>Frame set to 'TargetContent'</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>Current frame: 'TargetContent'    Previous Frame: 'TargetContent'</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>228</logLineID>
+      <logParentLineID>207</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr1</commandExpression>
+      <commandID>8</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_05</libraryName>
+      <lineMessage>Scroll [1] Start: $0,  Action: sel,  Key: US Direct Debit 1</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>229</logLineID>
+      <logParentLineID>228</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr1</commandExpression>
+      <commandID>8</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_05</libraryName>
+      <lineMessage>Key: name=DD_PROFILE_TBL_DESCR [text] - Value: US Direct Debit 1</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>230</logLineID>
+      <logParentLineID>228</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr1</commandExpression>
+      <commandID>8</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_05</libraryName>
+      <lineMessage>Found Row: $0</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>231</logLineID>
+      <logParentLineID>228</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=DD_PROFILE_TBL_EFFDT&amp;Scr1</commandExpression>
+      <commandID>9</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_05</libraryName>
+      <lineMessage>text.Set_Value [name=DD_PROFILE_TBL_EFFDT$0] -&gt; 01/01/2003</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>232</logLineID>
+      <logParentLineID>228</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=DD_PROFILE_TBL_DESCR&amp;Scr1</commandExpression>
+      <commandID>10</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_05</libraryName>
+      <lineMessage>text.Set_Value [name=DD_PROFILE_TBL_DESCR$0] -&gt; US Direct Debit 1</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>233</logLineID>
+      <logParentLineID>228</logParentLineID>
+      <commandExpression>ComboBox -&gt; Set_Value -&gt; name=DD_PROFILE_TBL_EFF_STATUS&amp;Scr1</commandExpression>
+      <commandID>11</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_05</libraryName>
+      <lineMessage>combobox.Set_Value [name=DD_PROFILE_TBL_EFF_STATUS$0] -&gt; A</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>234</logLineID>
+      <logParentLineID>228</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=DD_PROFILE_TBL_DESCRSHORT&amp;Scr1</commandExpression>
+      <commandID>12</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_05</libraryName>
+      <lineMessage>text.Set_Value [name=DD_PROFILE_TBL_DESCRSHORT$0] -&gt; USDD1</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>235</logLineID>
+      <logParentLineID>228</logParentLineID>
+      <commandExpression>CheckBox -&gt; Set_Value -&gt; name=~DD_PROFILE_TBL_EXCL_CLCT_ITEMS$*$&amp;Scr1</commandExpression>
+      <commandID>13</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_05</libraryName>
+      <lineMessage>checkbox.Set_Value [name=~DD_PROFILE_TBL_EXCL_CLCT_ITEMS$*$$0] -&gt; Y</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>236</logLineID>
+      <logParentLineID>228</logParentLineID>
+      <commandExpression>CheckBox -&gt; Set_Value -&gt; name=DD_PROFILE_TBL_EXCL_DISP_ITEMS&amp;Scr1</commandExpression>
+      <commandID>14</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_05</libraryName>
+      <lineMessage>checkbox.Set_Value [name=DD_PROFILE_TBL_EXCL_DISP_ITEMS$0] -&gt; Y</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>237</logLineID>
+      <logParentLineID>228</logParentLineID>
+      <commandExpression>CheckBox -&gt; Set_Value -&gt; name=DD_PROFILE_TBL_EXCL_CREDIT_ITEMS&amp;Scr1</commandExpression>
+      <commandID>15</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_05</libraryName>
+      <lineMessage>checkbox.Set_Value [name=DD_PROFILE_TBL_EXCL_CREDIT_ITEMS$0] -&gt; Y</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>238</logLineID>
+      <logParentLineID>228</logParentLineID>
+      <commandExpression>CheckBox -&gt; Set_Value -&gt; name=DD_PROFILE_TBL_DD_EXCL_FIN_ITEMS&amp;Scr1</commandExpression>
+      <commandID>16</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_05</libraryName>
+      <lineMessage>checkbox.Set_Value [name=DD_PROFILE_TBL_DD_EXCL_FIN_ITEMS$0] -&gt; Y</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>239</logLineID>
+      <logParentLineID>228</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=DD_PROFILE_TBL_DD_APPROV_CURRENCY&amp;Scr1</commandExpression>
+      <commandID>17</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_05</libraryName>
+      <lineMessage>text.Set_Value [name=DD_PROFILE_TBL_DD_APPROV_CURRENCY$0] -&gt; USD</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>240</logLineID>
+      <logParentLineID>228</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=DD_PROFILE_TBL_DD_CUR_RT_TYPE&amp;Scr1</commandExpression>
+      <commandID>18</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_05</libraryName>
+      <lineMessage>text.Set_Value [name=DD_PROFILE_TBL_DD_CUR_RT_TYPE$0] -&gt; CRRNT</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>241</logLineID>
+      <logParentLineID>228</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=DD_PROFILE_TBL_DD_APPROVAL_DR_AMT&amp;Scr1</commandExpression>
+      <commandID>19</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_05</libraryName>
+      <lineMessage>text.Set_Value [name=DD_PROFILE_TBL_DD_APPROVAL_DR_AMT$0] -&gt; 9999999999.00</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>242</logLineID>
+      <logParentLineID>228</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=~DD_PROFILE_TBL_DD_APPROVAL_CR_AMT$**$&amp;Scr1</commandExpression>
+      <commandID>20</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_05</libraryName>
+      <lineMessage>text.Set_Value [name=~DD_PROFILE_TBL_DD_APPROVAL_CR_AMT$**$$0] -&gt; 500.00</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>243</logLineID>
+      <logParentLineID>228</logParentLineID>
+      <commandExpression>CheckBox -&gt; Set_Value -&gt; name=~DD_PROFILE_TBL_EXCL_CLCT_CUST$**$&amp;Scr1</commandExpression>
+      <commandID>21</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_05</libraryName>
+      <lineMessage>checkbox.Set_Value [name=~DD_PROFILE_TBL_EXCL_CLCT_CUST$**$$0] -&gt; Y</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>244</logLineID>
+      <logParentLineID>228</logParentLineID>
+      <commandExpression>CheckBox -&gt; Set_Value -&gt; name=DD_PROFILE_TBL_EXCL_DISP_CUST&amp;Scr1</commandExpression>
+      <commandID>22</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_05</libraryName>
+      <lineMessage>checkbox.Set_Value [name=DD_PROFILE_TBL_EXCL_DISP_CUST$0] -&gt; Y</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>245</logLineID>
+      <logParentLineID>228</logParentLineID>
+      <commandExpression>ComboBox -&gt; Set_Value -&gt; name=DD_PROFILE_TBL_DD_FORMAT&amp;Scr1</commandExpression>
+      <commandID>23</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_05</libraryName>
+      <lineMessage>combobox.Set_Value [name=DD_PROFILE_TBL_DD_FORMAT$0] -&gt; S</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>246</logLineID>
+      <logParentLineID>228</logParentLineID>
+      <commandExpression>CheckBox -&gt; Set_Value -&gt; name=DD_PROFILE_TBL_PRENOTE_REQD&amp;Scr1</commandExpression>
+      <commandID>24</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_05</libraryName>
+      <lineMessage>checkbox.Set_Value [name=DD_PROFILE_TBL_PRENOTE_REQD$0] -&gt; N</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>247</logLineID>
+      <logParentLineID>228</logParentLineID>
+      <commandExpression>CheckBox -&gt; Set_Value -&gt; name=~DD_PROFILE_TBL_DD_USE_ENTRY_TYPE$**$&amp;Scr1</commandExpression>
+      <commandID>25</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_05</libraryName>
+      <lineMessage>checkbox.Set_Value [name=~DD_PROFILE_TBL_DD_USE_ENTRY_TYPE$**$$0] -&gt; Y</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>248</logLineID>
+      <logParentLineID>228</logParentLineID>
+      <commandExpression>CheckBox -&gt; Set_Value -&gt; name=DD_PROFILE_TBL_EMAIL_FLG&amp;Scr1</commandExpression>
+      <commandID>26</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_05</libraryName>
+      <lineMessage>checkbox.Set_Value [name=DD_PROFILE_TBL_EMAIL_FLG$0] -&gt; N</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>249</logLineID>
+      <logParentLineID>228</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=~DD_PROFILE_TBL_BANK_CD$**$&amp;Scr1</commandExpression>
+      <commandID>27</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_05</libraryName>
+      <lineMessage>text.Set_Value [name=~DD_PROFILE_TBL_BANK_CD$**$$0] -&gt; USBNK</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>250</logLineID>
+      <logParentLineID>228</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=DD_PROFILE_TBL_EFT_LAYOUT_CD&amp;Scr1</commandExpression>
+      <commandID>28</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_05</libraryName>
+      <lineMessage>text.Set_Value [name=DD_PROFILE_TBL_EFT_LAYOUT_CD$0] -&gt; DIRDEB</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>251</logLineID>
+      <logParentLineID>228</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=DD_PROFILE_TBL_BANK_ACCT_KEY&amp;Scr1</commandExpression>
+      <commandID>29</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_05</libraryName>
+      <lineMessage>text.Set_Value [name=DD_PROFILE_TBL_BANK_ACCT_KEY$0] -&gt; CHCK</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>252</logLineID>
+      <logParentLineID>228</logParentLineID>
+      <commandExpression>Span -&gt; Verify -&gt; id=DD_PROFILE_TBL_SETID</commandExpression>
+      <commandID>30</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_05</libraryName>
+      <lineMessage>Verify: id=DD_PROFILE_TBL_SETID [span] -&gt; SHARE</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>253</logLineID>
+      <logParentLineID>252</logParentLineID>
+      <commandExpression>Span -&gt; Verify -&gt; id=DD_PROFILE_TBL_SETID</commandExpression>
+      <commandID>30</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_05</libraryName>
+      <lineMessage>Check field: id=DD_PROFILE_TBL_SETID, 'SHARE' (actual) = 'SHARE' (expected)</lineMessage>
+      <logResult>110</logResult>
+      <longDescr>Object Type: Span, Field: id=DD_PROFILE_TBL_SETID, Value: SHARE, CheckValue: SHARE</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>254</logLineID>
+      <logParentLineID>228</logParentLineID>
+      <commandExpression>Span -&gt; Verify -&gt; id=DD_PROFILE_TBL_DD_PROFILE_ID</commandExpression>
+      <commandID>31</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_05</libraryName>
+      <lineMessage>Verify: id=DD_PROFILE_TBL_DD_PROFILE_ID [span] -&gt; USDD1</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>255</logLineID>
+      <logParentLineID>254</logParentLineID>
+      <commandExpression>Span -&gt; Verify -&gt; id=DD_PROFILE_TBL_DD_PROFILE_ID</commandExpression>
+      <commandID>31</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_05</libraryName>
+      <lineMessage>Check field: id=DD_PROFILE_TBL_DD_PROFILE_ID, 'USDD1' (actual) = 'USDD1' (expected)</lineMessage>
+      <logResult>110</logResult>
+      <longDescr>Object Type: Span, Field: id=DD_PROFILE_TBL_DD_PROFILE_ID, Value: USDD1, CheckValue: USDD1</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>256</logLineID>
+      <logParentLineID>228</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>32</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_05</libraryName>
+      <lineMessage>Page.Save</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>257</logLineID>
+      <logParentLineID>256</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>32</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_05</libraryName>
+      <lineMessage>button.Click  [Name=#ICSave]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>258</logLineID>
+      <logParentLineID>256</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>32</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_05</libraryName>
+      <lineMessage>============= PageSave: YES ========</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>259</logLineID>
+      <logParentLineID>228</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>32</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_05</libraryName>
+      <lineMessage>Test End:  3/8/2018 10:26:33 AM</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>260</logLineID>
+      <logParentLineID>1</logParentLineID>
+      <commandExpression>Test -&gt; Exec -&gt; FMS_CM_AR_DRAFT_DD_61841_06</commandExpression>
+      <commandID>7</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Starting the call to $\QA AUTOMATION\FMS\Test CM Prototype\02 Bank Reconciliation\Automatic Reconciliation\CM_Core_Setup for AR Drafts an\FMS_CM_AR_DRAFT_DD_61841_06  [Test Case: DEFAULT]</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>261</logLineID>
+      <logParentLineID>260</logParentLineID>
+      <commandExpression></commandExpression>
+      <commandID>0</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_06</libraryName>
+      <lineMessage>Use of Message Recognition</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>262</logLineID>
+      <logParentLineID>260</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_06</libraryName>
+      <lineMessage>Browser.Start_Login</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>263</logLineID>
+      <logParentLineID>262</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_06</libraryName>
+      <lineMessage>Closing old browsers...</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>264</logLineID>
+      <logParentLineID>262</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_06</libraryName>
+      <lineMessage>The chrome version 64 is not supported. You might have issue with it. The current supported browser is: 56-58</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>265</logLineID>
+      <logParentLineID>262</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_06</libraryName>
+      <lineMessage>Frame set to ''</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>Current frame: ''    Previous Frame: 'TargetContent'</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>266</logLineID>
+      <logParentLineID>262</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_06</libraryName>
+      <lineMessage>Goto URL</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>http://slc08etq.us.oracle.com:8000/e92pjgp2x/signon.html</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>267</logLineID>
+      <logParentLineID>262</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_06</libraryName>
+      <lineMessage>Browser.Login</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>268</logLineID>
+      <logParentLineID>267</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_06</libraryName>
+      <lineMessage>Doing login in English</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>269</logLineID>
+      <logParentLineID>268</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_06</libraryName>
+      <lineMessage>combobox.Set_Value [id=ptlangsel] -&gt; ENG</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>270</logLineID>
+      <logParentLineID>267</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_06</libraryName>
+      <lineMessage>text.Set_Value [id=userid] -&gt; VP1</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>271</logLineID>
+      <logParentLineID>267</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_06</libraryName>
+      <lineMessage>pwd.Set_Value [id=pwd] -&gt; </lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>272</logLineID>
+      <logParentLineID>267</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_06</libraryName>
+      <lineMessage>button.Click  [name=Submit]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>273</logLineID>
+      <logParentLineID>260</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; DEFINE_COUNTERPARTY.BANK_EXTERNAL.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_06</libraryName>
+      <lineMessage>Page.Prompt</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>DEFINE_COUNTERPARTY.BANK_EXTERNAL.GBL</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>274</logLineID>
+      <logParentLineID>273</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; DEFINE_COUNTERPARTY.BANK_EXTERNAL.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_06</libraryName>
+      <lineMessage>Goto URL</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>http://slc08etq.us.oracle.com:8000/psp/e92pjgp2x/EMPLOYEE/ERP/c/DEFINE_COUNTERPARTY.BANK_EXTERNAL.GBL</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>275</logLineID>
+      <logParentLineID>273</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; DEFINE_COUNTERPARTY.BANK_EXTERNAL.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_06</libraryName>
+      <lineMessage>Page.Prompt: Trying to do the following action = update</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>276</logLineID>
+      <logParentLineID>273</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=BANKACCT_VW1_SETID</commandExpression>
+      <commandID>3</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_06</libraryName>
+      <lineMessage>text.Set_Value [name=BANKACCT_VW1_SETID] -&gt; SHARE</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>277</logLineID>
+      <logParentLineID>273</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=BANKACCT_VW1_BANK_CD</commandExpression>
+      <commandID>4</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_06</libraryName>
+      <lineMessage>text.Set_Value [name=BANKACCT_VW1_BANK_CD] -&gt; USBNK</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>278</logLineID>
+      <logParentLineID>273</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=BANKACCT_VW1_BRANCH_NAME</commandExpression>
+      <commandID>5</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_06</libraryName>
+      <lineMessage>text.Set_Value [name=BANKACCT_VW1_BRANCH_NAME] -&gt; CALIFORNIA</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>279</logLineID>
+      <logParentLineID>273</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=BANKACCT_VW1_BANK_ACCT_KEY</commandExpression>
+      <commandID>6</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_06</libraryName>
+      <lineMessage>text.Set_Value [name=BANKACCT_VW1_BANK_ACCT_KEY] -&gt; CHCK</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>280</logLineID>
+      <logParentLineID>273</logParentLineID>
+      <commandExpression>Page -&gt; PromptOk -&gt; </commandExpression>
+      <commandID>7</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_06</libraryName>
+      <lineMessage>button.Click  [name=#ICSearch]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>281</logLineID>
+      <logParentLineID>260</logParentLineID>
+      <commandExpression>Browser -&gt; FrameSet -&gt; TargetContent</commandExpression>
+      <commandID>8</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_06</libraryName>
+      <lineMessage>Frame set to 'TargetContent'</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>Current frame: 'TargetContent'    Previous Frame: 'TargetContent'</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>282</logLineID>
+      <logParentLineID>260</logParentLineID>
+      <commandExpression>Link -&gt; Click -&gt; innertext=Collection Methods</commandExpression>
+      <commandID>9</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_06</libraryName>
+      <lineMessage>link.Click  [innertext=Collection Methods]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>283</logLineID>
+      <logParentLineID>260</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;scr1</commandExpression>
+      <commandID>11</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_06</libraryName>
+      <lineMessage>Scroll [1] Start: $0,  Action: upd,  Key: DD</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>284</logLineID>
+      <logParentLineID>283</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;scr1</commandExpression>
+      <commandID>11</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_06</libraryName>
+      <lineMessage>Key: name=BANK_COLCT_MTHD_PAYMENT_METHOD [combobox] - Value: DD</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>285</logLineID>
+      <logParentLineID>283</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;scr1</commandExpression>
+      <commandID>11</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_06</libraryName>
+      <lineMessage>link.Click  [id=BANK_COLCT_MTHD$hdown$0]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>286</logLineID>
+      <logParentLineID>283</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;scr1</commandExpression>
+      <commandID>11</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_06</libraryName>
+      <lineMessage>link.Click  [id=BANK_COLCT_MTHD$hdown$0]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>287</logLineID>
+      <logParentLineID>283</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;scr1</commandExpression>
+      <commandID>11</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_06</libraryName>
+      <lineMessage>Found Row: $0</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>288</logLineID>
+      <logParentLineID>260</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;scr2</commandExpression>
+      <commandID>13</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_06</libraryName>
+      <lineMessage>Scroll [2] Start: $0,  Action: delall,  Key: #NOTHING</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>289</logLineID>
+      <logParentLineID>288</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;scr2</commandExpression>
+      <commandID>13</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_06</libraryName>
+      <lineMessage>Key: name=BANK_COLCT_LYT_EFT_LAYOUT_CD [text] - Value: #NOTHING</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>290</logLineID>
+      <logParentLineID>288</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;scr2</commandExpression>
+      <commandID>13</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_06</libraryName>
+      <lineMessage>link.Click  [id=BANK_COLCT_LYT$delete$0$$0]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>291</logLineID>
+      <logParentLineID>290</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;scr2</commandExpression>
+      <commandID>13</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_06</libraryName>
+      <lineMessage>Message Recognition</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>292</logLineID>
+      <logParentLineID>291</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;scr2</commandExpression>
+      <commandID>13</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_06</libraryName>
+      <lineMessage>button.Click  [Name=#ALERTOK]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>293</logLineID>
+      <logParentLineID>291</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;scr2</commandExpression>
+      <commandID>13</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_06</libraryName>
+      <lineMessage>Msg: Delete current/selected rows from this page? The delete will occur when the transaction is saved.</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>Message Handled. Click on: OK. ObjName=link, Value=id=BANK_COLCT_LYT$delete$0$$0, PageName: COLLECT_BANK</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>294</logLineID>
+      <logParentLineID>291</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;scr2</commandExpression>
+      <commandID>13</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_06</libraryName>
+      <lineMessage>Message defined in the Test Framework Code</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>295</logLineID>
+      <logParentLineID>288</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;scr2</commandExpression>
+      <commandID>13</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_06</libraryName>
+      <lineMessage>link.Click  [id=BANK_COLCT_LYT$delete$0$$0]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>296</logLineID>
+      <logParentLineID>295</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;scr2</commandExpression>
+      <commandID>13</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_06</libraryName>
+      <lineMessage>Message Recognition</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>297</logLineID>
+      <logParentLineID>296</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;scr2</commandExpression>
+      <commandID>13</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_06</libraryName>
+      <lineMessage>button.Click  [Name=#ALERTOK]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>298</logLineID>
+      <logParentLineID>296</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;scr2</commandExpression>
+      <commandID>13</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_06</libraryName>
+      <lineMessage>Msg: Delete current/selected rows from this page? The delete will occur when the transaction is saved.</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>Message Handled. Click on: OK. ObjName=link, Value=id=BANK_COLCT_LYT$delete$0$$0, PageName: COLLECT_BANK</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>299</logLineID>
+      <logParentLineID>296</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;scr2</commandExpression>
+      <commandID>13</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_06</libraryName>
+      <lineMessage>Message defined in the Test Framework Code</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>300</logLineID>
+      <logParentLineID>260</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;scr2</commandExpression>
+      <commandID>16</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_06</libraryName>
+      <lineMessage>Scroll [2] Start: -,  Action: sel,  Key: #NOTHING</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>301</logLineID>
+      <logParentLineID>300</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;scr2</commandExpression>
+      <commandID>16</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_06</libraryName>
+      <lineMessage>Key: name=BANK_COLCT_LYT_EFT_LAYOUT_CD [text] - Value: #NOTHING</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>302</logLineID>
+      <logParentLineID>300</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;scr2</commandExpression>
+      <commandID>16</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_06</libraryName>
+      <lineMessage>Found Row: $0</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>303</logLineID>
+      <logParentLineID>300</logParentLineID>
+      <commandExpression>CheckBox -&gt; Set_Value -&gt; name=BANK_COLCT_LYT_DEFAULT_FLG&amp;Scr2</commandExpression>
+      <commandID>17</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_06</libraryName>
+      <lineMessage>checkbox.Set_Value [name=BANK_COLCT_LYT_DEFAULT_FLG$0] -&gt; Y</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>304</logLineID>
+      <logParentLineID>300</logParentLineID>
+      <commandExpression>CheckBox -&gt; Set_Value -&gt; name=BANK_COLCT_LYT_STL_THROUGH&amp;Scr2</commandExpression>
+      <commandID>18</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_06</libraryName>
+      <lineMessage>checkbox.Set_Value [name=BANK_COLCT_LYT_STL_THROUGH$0] -&gt; Y</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>305</logLineID>
+      <logParentLineID>300</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=BANK_COLCT_LYT_EFT_LAYOUT_CD&amp;Scr2</commandExpression>
+      <commandID>19</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_06</libraryName>
+      <lineMessage>text.Set_Value [name=BANK_COLCT_LYT_EFT_LAYOUT_CD$0] -&gt; DIRDEB</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>306</logLineID>
+      <logParentLineID>300</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>20</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_06</libraryName>
+      <lineMessage>Page.Save</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>307</logLineID>
+      <logParentLineID>306</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>20</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_06</libraryName>
+      <lineMessage>button.Click  [Name=#ICSave]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>308</logLineID>
+      <logParentLineID>306</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>20</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_06</libraryName>
+      <lineMessage>============= PageSave: YES ========</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>309</logLineID>
+      <logParentLineID>300</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>20</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DRAFT_DD_61841_06</libraryName>
+      <lineMessage>Test End:  3/8/2018 10:27:09 AM</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>310</logLineID>
+      <logParentLineID>1</logParentLineID>
+      <commandExpression>Test -&gt; Exec -&gt; FMS_CM_AR_DRAFT_DD_61841_06</commandExpression>
+      <commandID>7</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Test End:  3/8/2018 10:27:09 AM</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+  </lines>
+</Log>

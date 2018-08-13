@@ -1,0 +1,3614 @@
+﻿<?xml version='1.0' ?>
+<?xml-stylesheet type='text/xsl' href='\\slcnas463.us.oracle.com\enterprise\PTF\Logs\ToolsAutoStyle.xsl'?>
+<Log>
+  <logID>1</logID>
+  <logCaption>1. VP1 2018-03-08 01:40</logCaption>
+  <caseName>DEFAULT</caseName>
+  <logFolder>PSTO_STG_ONCS_PI28_C570-GLD_180307_866</logFolder>
+  <logPrefix></logPrefix>
+  <logLineCount>314</logLineCount>
+  <machineName>SLC10BQP</machineName>
+  <scriptFinalResult>120</scriptFinalResult>
+  <testName>ES_22188366_MODIFYING_AP_SHELL</testName>
+  <userID>VP1</userID>
+  <executionOptions>
+    <executionOptionName>E92M3LTU</executionOptionName>
+    <databaseName>E92M3LTU</databaseName>
+    <databasePlatform>Oracle</databasePlatform>
+    <databaseServer></databaseServer>
+    <databaseUser>VP1</databaseUser>
+    <dateFormat>MM/DD/YYYY</dateFormat>
+    <peopleToolsPath>\\psbldfs\dfs\build\pt\ptship\pt85606b\install_Windows.ora</peopleToolsPath>
+    <processServer>PSUNX</processServer>
+    <prompt>No</prompt>
+    <skipRun>No</skipRun>
+    <skipSave>No</skipSave>
+    <url>http://slc08ayk.us.oracle.com:8000/e92m3ltux/signon.html</url>
+    <userID>VP1</userID>
+    <verbose>Yes</verbose>
+  </executionOptions>
+  <extras>
+    <extra>
+      <logSection>1. Execution Options</logSection>
+      <logOrder>1</logOrder>
+      <logValue>No</logValue>
+      <logLabel>Appl - Skip Language :</logLabel>
+    </extra>
+    <extra>
+      <logSection>1. Execution Options</logSection>
+      <logOrder>2</logOrder>
+      <logValue>N</logValue>
+      <logLabel>Appl - Form Factor :</logLabel>
+    </extra>
+    <extra>
+      <logSection>3. System Info</logSection>
+      <logOrder>1</logOrder>
+      <logValue>1280 X 1024 pixels</logValue>
+      <logLabel>Screen resolution :</logLabel>
+    </extra>
+    <extra>
+      <logSection>3. System Info</logSection>
+      <logOrder>4</logOrder>
+      <logValue>Intel(R) Xeon(R) CPU E5-2699 v3 @ 2.30GHz</logValue>
+      <logLabel>Processor :</logLabel>
+    </extra>
+    <extra>
+      <logSection>3. System Info</logSection>
+      <logOrder>5</logOrder>
+      <logValue>Microsoft Windows Server 2012 R2 Standard</logValue>
+      <logLabel>Operating System full name:</logLabel>
+    </extra>
+    <extra>
+      <logSection>3. System Info</logSection>
+      <logOrder>6</logOrder>
+      <logValue>6.2.9200.0</logValue>
+      <logLabel>Operating Sytem version:</logLabel>
+    </extra>
+    <extra>
+      <logSection>3. System Info</logSection>
+      <logOrder>7</logOrder>
+      <logValue>31300 Mb</logValue>
+      <logLabel>Memory Total :</logLabel>
+    </extra>
+    <extra>
+      <logSection>3. System Info</logSection>
+      <logOrder>8</logOrder>
+      <logValue>21146 Mb</logValue>
+      <logLabel>Memory Available :</logLabel>
+    </extra>
+    <extra>
+      <logSection>3. System Info</logSection>
+      <logOrder>9</logOrder>
+      <logValue>chrome 64.0.3282.186</logValue>
+      <logLabel>Browser :</logLabel>
+    </extra>
+    <extra>
+      <logSection>3. System Info</logSection>
+      <logOrder>10</logOrder>
+      <logValue>ENG</logValue>
+      <logLabel>OS Lang Code:</logLabel>
+    </extra>
+    <extra>
+      <logSection>4. Environment Info</logSection>
+      <logOrder>1</logOrder>
+      <logValue>https://slc05ehl.us.oracle.com:8001/PSIGW/HttpListeningConnector</logValue>
+      <logLabel>Env. URL :</logLabel>
+    </extra>
+    <extra>
+      <logSection>1.1. Portal URL Info</logSection>
+      <logOrder>1</logOrder>
+      <logValue>http://slc08ayk.us.oracle.com:8000/psp/e92m3ltux/CUSTOMER/ERP/</logValue>
+      <logLabel>CUSTOMER</logLabel>
+    </extra>
+    <extra>
+      <logSection>1.1. Portal URL Info</logSection>
+      <logOrder>1</logOrder>
+      <logValue>http://slc08ayk.us.oracle.com:8000/psp/e92m3ltux/EMPLOYEE/ERP/</logValue>
+      <logLabel>PORTAL</logLabel>
+    </extra>
+    <extra>
+      <logSection>1.1. Portal URL Info</logSection>
+      <logOrder>1</logOrder>
+      <logValue>http://slc08ayk.us.oracle.com:8000/psp/e92m3ltux/SUPPLIER/ERP/</logValue>
+      <logLabel>SUPPLIER</logLabel>
+    </extra>
+    <extra>
+      <logSection>5. Extra Info</logSection>
+      <logOrder>1</logOrder>
+      <logValue>8.56.07 hotfix1</logValue>
+      <logLabel>PsTestFramework Version :</logLabel>
+    </extra>
+    <extra>
+      <logSection>5. Extra Info</logSection>
+      <logOrder>2</logOrder>
+      <logValue>False</logValue>
+      <logLabel>Disable ScreenShot :</logLabel>
+    </extra>
+    <extra>
+      <logSection>5. Extra Info</logSection>
+      <logOrder>3</logOrder>
+      <logValue>True</logValue>
+      <logLabel>User Error Handling :</logLabel>
+    </extra>
+    <extra>
+      <logSection>6. Log Export</logSection>
+      <logOrder>1</logOrder>
+      <logValue>\\slcnas463.us.oracle.com\enterprise\QEShare\PTF Log Archive\PSTO_STG_ONCS_PI28_C570-GLD_180307_866\ES_22188366_MODIFYING_AP_SHELL</logValue>
+      <logLabel>Path :</logLabel>
+    </extra>
+    <extra>
+      <logSection>6. Log Export</logSection>
+      <logOrder>2</logOrder>
+      <logValue>\\slcnas463.us.oracle.com\enterprise\PTF\Logs\ToolsAutoStyle.xsl</logValue>
+      <logLabel>Style Sheet File :</logLabel>
+    </extra>
+    <extra>
+      <logSection>6. Log Export</logSection>
+      <logOrder>3</logOrder>
+      <logValue>Yes</logValue>
+      <logLabel>Time Stamp :</logLabel>
+    </extra>
+    <extra>
+      <logSection>6. Log Export</logSection>
+      <logOrder>4</logOrder>
+      <logValue>Yes</logValue>
+      <logLabel>Image :</logLabel>
+    </extra>
+  </extras>
+  <lines>
+    <logLine>
+      <logLineID>1</logLineID>
+      <logParentLineID>0</logParentLineID>
+      <commandExpression></commandExpression>
+      <commandID>0</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Unattended Start:  3/8/2018 1:40:40 AM</lineMessage>
+      <logResult>120</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>2</logLineID>
+      <logParentLineID>1</logParentLineID>
+      <commandExpression></commandExpression>
+      <commandID>0</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Use of Message Recognition</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>3</logLineID>
+      <logParentLineID>1</logParentLineID>
+      <commandExpression></commandExpression>
+      <commandID>0</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Reading persistent variables.</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>4</logLineID>
+      <logParentLineID>1</logParentLineID>
+      <commandExpression>Execution -&gt; Stop_On_Error -&gt; ALL</commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Execution action Stop_On_Error: set to all</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>5</logLineID>
+      <logParentLineID>1</logParentLineID>
+      <commandExpression>Test -&gt; Exec -&gt; ES_22188366_MODIFYING_APPRO_01</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Starting the call to $\QA AUTOMATION\FMS\CFL - Customer Feedback Loop\PI#17\eSettlements\Workflow\22188366 MODIFYING APPROVED VE\ES_22188366_MODIFYING_APPRO_01  [Test Case: DEFAULT]</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>6</logLineID>
+      <logParentLineID>5</logParentLineID>
+      <commandExpression></commandExpression>
+      <commandID>0</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_01</libraryName>
+      <lineMessage>Use of Message Recognition</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>7</logLineID>
+      <logParentLineID>5</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_01</libraryName>
+      <lineMessage>Browser.Start_Login</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>8</logLineID>
+      <logParentLineID>7</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_01</libraryName>
+      <lineMessage>The chrome version 64 is not supported. You might have issue with it. The current supported browser is: 56-58</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>9</logLineID>
+      <logParentLineID>7</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_01</libraryName>
+      <lineMessage>Frame set to ''</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>Current frame: ''    Previous Frame: ''</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>10</logLineID>
+      <logParentLineID>7</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_01</libraryName>
+      <lineMessage>Goto URL</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>http://slc08ayk.us.oracle.com:8000/e92m3ltux/signon.html</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>11</logLineID>
+      <logParentLineID>7</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_01</libraryName>
+      <lineMessage>Browser.Login</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>12</logLineID>
+      <logParentLineID>11</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_01</libraryName>
+      <lineMessage>Doing login in English</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>13</logLineID>
+      <logParentLineID>12</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_01</libraryName>
+      <lineMessage>combobox.Set_Value [id=ptlangsel] -&gt; ENG</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>14</logLineID>
+      <logParentLineID>11</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_01</libraryName>
+      <lineMessage>text.Set_Value [id=userid] -&gt; VP1</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>15</logLineID>
+      <logParentLineID>11</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_01</libraryName>
+      <lineMessage>pwd.Set_Value [id=pwd] -&gt; </lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>16</logLineID>
+      <logParentLineID>11</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_01</libraryName>
+      <lineMessage>button.Click  [name=Submit]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>17</logLineID>
+      <logParentLineID>5</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; STRUCTURE_PROCUREMENT_OPTIONS.VENDOR_CONTROL.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_01</libraryName>
+      <lineMessage>Page.Prompt</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>STRUCTURE_PROCUREMENT_OPTIONS.VENDOR_CONTROL.GBL</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>18</logLineID>
+      <logParentLineID>17</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; STRUCTURE_PROCUREMENT_OPTIONS.VENDOR_CONTROL.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_01</libraryName>
+      <lineMessage>Goto URL</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>http://slc08ayk.us.oracle.com:8000/psp/e92m3ltux/EMPLOYEE/ERP/c/STRUCTURE_PROCUREMENT_OPTIONS.VENDOR_CONTROL.GBL</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>19</logLineID>
+      <logParentLineID>17</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; STRUCTURE_PROCUREMENT_OPTIONS.VENDOR_CONTROL.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_01</libraryName>
+      <lineMessage>Page.Prompt: Trying to do the following action = update</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>20</logLineID>
+      <logParentLineID>17</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=VENDOR_CONTROL_SETID</commandExpression>
+      <commandID>3</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_01</libraryName>
+      <lineMessage>text.Set_Value [name=VENDOR_CONTROL_SETID] -&gt; SHARE</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>21</logLineID>
+      <logParentLineID>17</logParentLineID>
+      <commandExpression>Page -&gt; PromptOk -&gt; </commandExpression>
+      <commandID>4</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_01</libraryName>
+      <lineMessage>button.Click  [name=#ICSearch]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>22</logLineID>
+      <logParentLineID>5</logParentLineID>
+      <commandExpression>Span -&gt; Verify -&gt; id=VENDOR_CONTROL_SETID</commandExpression>
+      <commandID>5</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_01</libraryName>
+      <lineMessage>Verify: id=VENDOR_CONTROL_SETID [span] -&gt; SHARE</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>23</logLineID>
+      <logParentLineID>22</logParentLineID>
+      <commandExpression>Span -&gt; Verify -&gt; id=VENDOR_CONTROL_SETID</commandExpression>
+      <commandID>5</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_01</libraryName>
+      <lineMessage>Check field: id=VENDOR_CONTROL_SETID, 'SHARE' (actual) = 'SHARE' (expected)</lineMessage>
+      <logResult>110</logResult>
+      <longDescr>Object Type: Span, Field: id=VENDOR_CONTROL_SETID, Value: SHARE, CheckValue: SHARE</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>24</logLineID>
+      <logParentLineID>5</logParentLineID>
+      <commandExpression>CheckBox -&gt; Set_Value -&gt; name=~VENDOR_CONTROL_AP_WF_APPROVAL$*$</commandExpression>
+      <commandID>6</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_01</libraryName>
+      <lineMessage>checkbox.Set_Value [name=~VENDOR_CONTROL_AP_WF_APPROVAL$*$] -&gt; Y</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>25</logLineID>
+      <logParentLineID>5</logParentLineID>
+      <commandExpression>CheckBox -&gt; Set_Value -&gt; name=~VENDOR_CONTROL_VNDR_AUDIT_FLG$*$</commandExpression>
+      <commandID>7</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_01</libraryName>
+      <lineMessage>checkbox.Set_Value [name=~VENDOR_CONTROL_VNDR_AUDIT_FLG$*$] -&gt; Y</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>26</logLineID>
+      <logParentLineID>5</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>8</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_01</libraryName>
+      <lineMessage>Page.Save</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>27</logLineID>
+      <logParentLineID>26</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>8</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_01</libraryName>
+      <lineMessage>button.Click  [Name=#ICSave]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>28</logLineID>
+      <logParentLineID>26</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>8</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_01</libraryName>
+      <lineMessage>============= PageSave: YES ========</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>29</logLineID>
+      <logParentLineID>5</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>8</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_01</libraryName>
+      <lineMessage>Test End:  3/8/2018 1:41:26 AM</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>30</logLineID>
+      <logParentLineID>1</logParentLineID>
+      <commandExpression>Test -&gt; Exec -&gt; ES_22188366_MODIFYING_APPRO_02</commandExpression>
+      <commandID>3</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Starting the call to $\QA AUTOMATION\FMS\CFL - Customer Feedback Loop\PI#17\eSettlements\Workflow\22188366 MODIFYING APPROVED VE\ES_22188366_MODIFYING_APPRO_02  [Test Case: DEFAULT]</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>31</logLineID>
+      <logParentLineID>30</logParentLineID>
+      <commandExpression></commandExpression>
+      <commandID>0</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_02</libraryName>
+      <lineMessage>Use of Message Recognition</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>32</logLineID>
+      <logParentLineID>30</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_02</libraryName>
+      <lineMessage>Browser.Start_Login</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>33</logLineID>
+      <logParentLineID>32</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_02</libraryName>
+      <lineMessage>Closing old browsers...</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>34</logLineID>
+      <logParentLineID>32</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_02</libraryName>
+      <lineMessage>The chrome version 64 is not supported. You might have issue with it. The current supported browser is: 56-58</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>35</logLineID>
+      <logParentLineID>32</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_02</libraryName>
+      <lineMessage>Frame set to ''</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>Current frame: ''    Previous Frame: 'TargetContent'</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>36</logLineID>
+      <logParentLineID>32</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_02</libraryName>
+      <lineMessage>Goto URL</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>http://slc08ayk.us.oracle.com:8000/e92m3ltux/signon.html</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>37</logLineID>
+      <logParentLineID>32</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_02</libraryName>
+      <lineMessage>Browser.Login</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>38</logLineID>
+      <logParentLineID>37</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_02</libraryName>
+      <lineMessage>Doing login in English</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>39</logLineID>
+      <logParentLineID>38</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_02</libraryName>
+      <lineMessage>combobox.Set_Value [id=ptlangsel] -&gt; ENG</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>40</logLineID>
+      <logParentLineID>37</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_02</libraryName>
+      <lineMessage>text.Set_Value [id=userid] -&gt; VP1</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>41</logLineID>
+      <logParentLineID>37</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_02</libraryName>
+      <lineMessage>pwd.Set_Value [id=pwd] -&gt; </lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>42</logLineID>
+      <logParentLineID>37</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_02</libraryName>
+      <lineMessage>button.Click  [name=Submit]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>43</logLineID>
+      <logParentLineID>30</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; EOAW_APPROVAL_WORKFLOW.EOAW_PRCS.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_02</libraryName>
+      <lineMessage>Page.Prompt</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>EOAW_APPROVAL_WORKFLOW.EOAW_PRCS.GBL</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>44</logLineID>
+      <logParentLineID>43</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; EOAW_APPROVAL_WORKFLOW.EOAW_PRCS.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_02</libraryName>
+      <lineMessage>Goto URL</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>http://slc08ayk.us.oracle.com:8000/psp/e92m3ltux/EMPLOYEE/ERP/c/EOAW_APPROVAL_WORKFLOW.EOAW_PRCS.GBL</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>45</logLineID>
+      <logParentLineID>43</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; EOAW_APPROVAL_WORKFLOW.EOAW_PRCS.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_02</libraryName>
+      <lineMessage>Page.Prompt: Trying to do the following action = update</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>46</logLineID>
+      <logParentLineID>43</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=EOAW_PRCSSRCH_EOAWPRCS_ID</commandExpression>
+      <commandID>3</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_02</libraryName>
+      <lineMessage>text.Set_Value [name=EOAW_PRCSSRCH_EOAWPRCS_ID] -&gt; VendorApproval</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>47</logLineID>
+      <logParentLineID>43</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=EOAW_PRCSSRCH_EOAWDEFN_ID</commandExpression>
+      <commandID>4</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_02</libraryName>
+      <lineMessage>text.Set_Value [name=EOAW_PRCSSRCH_EOAWDEFN_ID] -&gt; ApproveVendors</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>48</logLineID>
+      <logParentLineID>43</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=EOAW_PRCSSRCH_EFFDT</commandExpression>
+      <commandID>5</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_02</libraryName>
+      <lineMessage>Ignore step 5</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>49</logLineID>
+      <logParentLineID>43</logParentLineID>
+      <commandExpression>Page -&gt; PromptOk -&gt; </commandExpression>
+      <commandID>6</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_02</libraryName>
+      <lineMessage>button.Click  [name=#ICSearch]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>50</logLineID>
+      <logParentLineID>30</logParentLineID>
+      <commandExpression>Span -&gt; Verify -&gt; id=EOAW_PRCS_EOAWPRCS_ID</commandExpression>
+      <commandID>7</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_02</libraryName>
+      <lineMessage>Verify: id=EOAW_PRCS_EOAWPRCS_ID [span] -&gt; VendorApproval</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>51</logLineID>
+      <logParentLineID>50</logParentLineID>
+      <commandExpression>Span -&gt; Verify -&gt; id=EOAW_PRCS_EOAWPRCS_ID</commandExpression>
+      <commandID>7</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_02</libraryName>
+      <lineMessage>Check field: id=EOAW_PRCS_EOAWPRCS_ID, 'VendorApproval' (actual) = 'VendorApproval' (expected)</lineMessage>
+      <logResult>110</logResult>
+      <longDescr>Object Type: Span, Field: id=EOAW_PRCS_EOAWPRCS_ID, Value: VendorApproval, CheckValue: VendorApproval</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>52</logLineID>
+      <logParentLineID>30</logParentLineID>
+      <commandExpression>Span -&gt; Verify -&gt; id=EOAW_PRCS_EOAWDEFN_ID</commandExpression>
+      <commandID>8</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_02</libraryName>
+      <lineMessage>Verify: id=EOAW_PRCS_EOAWDEFN_ID [span] -&gt; ApproveVendors</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>53</logLineID>
+      <logParentLineID>52</logParentLineID>
+      <commandExpression>Span -&gt; Verify -&gt; id=EOAW_PRCS_EOAWDEFN_ID</commandExpression>
+      <commandID>8</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_02</libraryName>
+      <lineMessage>Check field: id=EOAW_PRCS_EOAWDEFN_ID, 'ApproveVendors' (actual) = 'ApproveVendors' (expected)</lineMessage>
+      <logResult>110</logResult>
+      <longDescr>Object Type: Span, Field: id=EOAW_PRCS_EOAWDEFN_ID, Value: ApproveVendors, CheckValue: ApproveVendors</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>54</logLineID>
+      <logParentLineID>30</logParentLineID>
+      <commandExpression>Browser -&gt; FrameSet -&gt; TargetContent</commandExpression>
+      <commandID>9</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_02</libraryName>
+      <lineMessage>Frame set to 'TargetContent'</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>Current frame: 'TargetContent'    Previous Frame: 'TargetContent'</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>55</logLineID>
+      <logParentLineID>30</logParentLineID>
+      <commandExpression>Page -&gt; SecPage_Open -&gt; name=~EOAW_WRK_EOAWSAVE_AS_PB$*$ -&gt; page=EOAW_PRCS_COPY</commandExpression>
+      <commandID>10</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_02</libraryName>
+      <lineMessage>SecPage: EOAW_PRCS_COPY</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>56</logLineID>
+      <logParentLineID>55</logParentLineID>
+      <commandExpression>Page -&gt; SecPage_Open -&gt; name=~EOAW_WRK_EOAWSAVE_AS_PB$*$ -&gt; page=EOAW_PRCS_COPY</commandExpression>
+      <commandID>10</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_02</libraryName>
+      <lineMessage>link.Click  [name=~EOAW_WRK_EOAWSAVE_AS_PB$*$]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>57</logLineID>
+      <logParentLineID>55</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=EOAW_WRK_EOAWEFFDT_TGT</commandExpression>
+      <commandID>11</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_02</libraryName>
+      <lineMessage>text.Set_Value [name=EOAW_WRK_EOAWEFFDT_TGT] -&gt; 03/07/2018</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>58</logLineID>
+      <logParentLineID>55</logParentLineID>
+      <commandExpression>Variable -&gt; Set_Value -&gt; &amp;date</commandExpression>
+      <commandID>12</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_02</libraryName>
+      <lineMessage>Variable &amp;date set to 03/07/2018</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>&amp;date = #TODAY-1</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>59</logLineID>
+      <logParentLineID>55</logParentLineID>
+      <commandExpression>Page -&gt; SecPage_Close -&gt; </commandExpression>
+      <commandID>13</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_02</libraryName>
+      <lineMessage>button.Click  [Name=#ICSave]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>60</logLineID>
+      <logParentLineID>30</logParentLineID>
+      <commandExpression>Browser -&gt; FrameSet -&gt; TargetContent</commandExpression>
+      <commandID>14</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_02</libraryName>
+      <lineMessage>Frame set to 'TargetContent'</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>Current frame: 'TargetContent'    Previous Frame: 'TargetContent'</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>61</logLineID>
+      <logParentLineID>30</logParentLineID>
+      <commandExpression>ComboBox -&gt; Set_Value -&gt; name=EOAW_PRCS_EFF_STATUS</commandExpression>
+      <commandID>15</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_02</libraryName>
+      <lineMessage>combobox.Set_Value [name=EOAW_PRCS_EFF_STATUS] -&gt; A</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>62</logLineID>
+      <logParentLineID>30</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr1</commandExpression>
+      <commandID>18</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_02</libraryName>
+      <lineMessage>Scroll [1] Start: -,  Action: upd,  Key: 1, Suppliers Approval</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>63</logLineID>
+      <logParentLineID>62</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr1</commandExpression>
+      <commandID>18</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_02</libraryName>
+      <lineMessage>Key: id=EOAW_STEP_SEQ_NBR [span] - Value: 1</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>64</logLineID>
+      <logParentLineID>62</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr1</commandExpression>
+      <commandID>18</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_02</libraryName>
+      <lineMessage>Key: id=EOAW_STEP_DESCR [text] - Value: Suppliers Approval</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>65</logLineID>
+      <logParentLineID>62</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr1</commandExpression>
+      <commandID>18</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_02</libraryName>
+      <lineMessage>Found Row: $0</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>66</logLineID>
+      <logParentLineID>62</logParentLineID>
+      <commandExpression>Page -&gt; SecPage_Open -&gt; name=~EOAW_STEP_WRK_EOAWDETAILS_PB$*$&amp;Scr1 -&gt; page=EOAW_STEP_SEC</commandExpression>
+      <commandID>19</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_02</libraryName>
+      <lineMessage>SecPage: EOAW_STEP_SEC</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>67</logLineID>
+      <logParentLineID>66</logParentLineID>
+      <commandExpression>Page -&gt; SecPage_Open -&gt; name=~EOAW_STEP_WRK_EOAWDETAILS_PB$*$&amp;Scr1 -&gt; page=EOAW_STEP_SEC</commandExpression>
+      <commandID>19</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_02</libraryName>
+      <lineMessage>link.Click  [name=~EOAW_STEP_WRK_EOAWDETAILS_PB$*$$0]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>68</logLineID>
+      <logParentLineID>66</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=EOAW_STEP_DESCR</commandExpression>
+      <commandID>20</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_02</libraryName>
+      <lineMessage>text.Set_Value [name=EOAW_STEP_DESCR] -&gt; Suppliers Approva1</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>69</logLineID>
+      <logParentLineID>66</logParentLineID>
+      <commandExpression>CheckBox -&gt; Set_Value -&gt; name=EOAW_STEP_EOAWSELF_APPROVAL</commandExpression>
+      <commandID>21</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_02</libraryName>
+      <lineMessage>checkbox.Set_Value [name=EOAW_STEP_EOAWSELF_APPROVAL] -&gt; N</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>70</logLineID>
+      <logParentLineID>66</logParentLineID>
+      <commandExpression>Page -&gt; SecPage_Close -&gt; </commandExpression>
+      <commandID>22</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_02</libraryName>
+      <lineMessage>button.Click  [Name=#ICSave]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>71</logLineID>
+      <logParentLineID>62</logParentLineID>
+      <commandExpression>Browser -&gt; FrameSet -&gt; TargetContent</commandExpression>
+      <commandID>23</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_02</libraryName>
+      <lineMessage>Frame set to 'TargetContent'</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>Current frame: 'TargetContent'    Previous Frame: 'TargetContent'</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>72</logLineID>
+      <logParentLineID>62</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>24</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_02</libraryName>
+      <lineMessage>Page.Save</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>73</logLineID>
+      <logParentLineID>72</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>24</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_02</libraryName>
+      <lineMessage>button.Click  [Name=#ICSave]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>74</logLineID>
+      <logParentLineID>72</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>24</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_02</libraryName>
+      <lineMessage>============= PageSave: YES ========</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>75</logLineID>
+      <logParentLineID>62</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>24</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_02</libraryName>
+      <lineMessage>Saving persistent variables.</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>76</logLineID>
+      <logParentLineID>62</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>24</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_02</libraryName>
+      <lineMessage>Test End:  3/8/2018 1:42:03 AM</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>77</logLineID>
+      <logParentLineID>1</logParentLineID>
+      <commandExpression>Test -&gt; Exec -&gt; ES_22188366_MODIFYING_APPRO_03</commandExpression>
+      <commandID>4</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Starting the call to $\QA AUTOMATION\FMS\CFL - Customer Feedback Loop\PI#17\eSettlements\Workflow\22188366 MODIFYING APPROVED VE\ES_22188366_MODIFYING_APPRO_03  [Test Case: DEFAULT]</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>78</logLineID>
+      <logParentLineID>77</logParentLineID>
+      <commandExpression></commandExpression>
+      <commandID>0</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_03</libraryName>
+      <lineMessage>Use of Message Recognition</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>79</logLineID>
+      <logParentLineID>77</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_03</libraryName>
+      <lineMessage>Browser.Start_Login</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>80</logLineID>
+      <logParentLineID>79</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_03</libraryName>
+      <lineMessage>Closing old browsers...</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>81</logLineID>
+      <logParentLineID>79</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_03</libraryName>
+      <lineMessage>The chrome version 64 is not supported. You might have issue with it. The current supported browser is: 56-58</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>82</logLineID>
+      <logParentLineID>79</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_03</libraryName>
+      <lineMessage>Frame set to ''</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>Current frame: ''    Previous Frame: 'TargetContent'</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>83</logLineID>
+      <logParentLineID>79</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_03</libraryName>
+      <lineMessage>Goto URL</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>http://slc08ayk.us.oracle.com:8000/e92m3ltux/signon.html</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>84</logLineID>
+      <logParentLineID>79</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_03</libraryName>
+      <lineMessage>Browser.Login</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>85</logLineID>
+      <logParentLineID>84</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_03</libraryName>
+      <lineMessage>Doing login in English</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>86</logLineID>
+      <logParentLineID>85</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_03</libraryName>
+      <lineMessage>combobox.Set_Value [id=ptlangsel] -&gt; ENG</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>87</logLineID>
+      <logParentLineID>84</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_03</libraryName>
+      <lineMessage>text.Set_Value [id=userid] -&gt; VP1</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>88</logLineID>
+      <logParentLineID>84</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_03</libraryName>
+      <lineMessage>pwd.Set_Value [id=pwd] -&gt; </lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>89</logLineID>
+      <logParentLineID>84</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_03</libraryName>
+      <lineMessage>button.Click  [name=Submit]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>90</logLineID>
+      <logParentLineID>77</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; EOAW_APPROVAL_WORKFLOW.EOAW_TXN.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_03</libraryName>
+      <lineMessage>Page.Prompt</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>EOAW_APPROVAL_WORKFLOW.EOAW_TXN.GBL</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>91</logLineID>
+      <logParentLineID>90</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; EOAW_APPROVAL_WORKFLOW.EOAW_TXN.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_03</libraryName>
+      <lineMessage>Goto URL</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>http://slc08ayk.us.oracle.com:8000/psp/e92m3ltux/EMPLOYEE/ERP/c/EOAW_APPROVAL_WORKFLOW.EOAW_TXN.GBL</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>92</logLineID>
+      <logParentLineID>90</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; EOAW_APPROVAL_WORKFLOW.EOAW_TXN.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_03</libraryName>
+      <lineMessage>Page.Prompt: Trying to do the following action = add update</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>93</logLineID>
+      <logParentLineID>90</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; EOAW_APPROVAL_WORKFLOW.EOAW_TXN.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_03</libraryName>
+      <lineMessage>link.Click  [name=#ICSwitchMode]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>94</logLineID>
+      <logParentLineID>90</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=EOAW_TXN_EOAWPRCS_ID</commandExpression>
+      <commandID>3</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_03</libraryName>
+      <lineMessage>text.Set_Value [name=EOAW_TXN_EOAWPRCS_ID] -&gt; VendorApproval</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>95</logLineID>
+      <logParentLineID>90</logParentLineID>
+      <commandExpression>Page -&gt; PromptOk -&gt; </commandExpression>
+      <commandID>4</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_03</libraryName>
+      <lineMessage>button.Click  [name=#ICSearch]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>96</logLineID>
+      <logParentLineID>90</logParentLineID>
+      <commandExpression>Page -&gt; PromptOk -&gt; </commandExpression>
+      <commandID>4</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_03</libraryName>
+      <lineMessage>link.Click  [id=SEARCH_RESULT1]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>97</logLineID>
+      <logParentLineID>77</logParentLineID>
+      <commandExpression>Span -&gt; Verify -&gt; id=EOAW_TXN_EOAWPRCS_ID</commandExpression>
+      <commandID>5</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_03</libraryName>
+      <lineMessage>Verify: id=EOAW_TXN_EOAWPRCS_ID [span] -&gt; VendorApproval</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>98</logLineID>
+      <logParentLineID>97</logParentLineID>
+      <commandExpression>Span -&gt; Verify -&gt; id=EOAW_TXN_EOAWPRCS_ID</commandExpression>
+      <commandID>5</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_03</libraryName>
+      <lineMessage>Check field: id=EOAW_TXN_EOAWPRCS_ID, 'VendorApproval' (actual) = 'VendorApproval' (expected)</lineMessage>
+      <logResult>110</logResult>
+      <longDescr>Object Type: Span, Field: id=EOAW_TXN_EOAWPRCS_ID, Value: VendorApproval, CheckValue: VendorApproval</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>99</logLineID>
+      <logParentLineID>77</logParentLineID>
+      <commandExpression>Page -&gt; Expand -&gt; </commandExpression>
+      <commandID>6</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_03</libraryName>
+      <lineMessage>Page.Expand</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>100</logLineID>
+      <logParentLineID>99</logParentLineID>
+      <commandExpression>Page -&gt; Expand -&gt; </commandExpression>
+      <commandID>6</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_03</libraryName>
+      <lineMessage>Click: Expand section</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>http://slc08ayk.us.oracle.com:8000/cs/e92m3ltux/cache/PT_TRANS_PIX_1.png</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>101</logLineID>
+      <logParentLineID>99</logParentLineID>
+      <commandExpression>Page -&gt; Expand -&gt; </commandExpression>
+      <commandID>6</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_03</libraryName>
+      <lineMessage>Click: Expand section</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>http://slc08ayk.us.oracle.com:8000/cs/e92m3ltux/cache/PT_TRANS_PIX_1.png</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>102</logLineID>
+      <logParentLineID>99</logParentLineID>
+      <commandExpression>Page -&gt; Expand -&gt; </commandExpression>
+      <commandID>6</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_03</libraryName>
+      <lineMessage>Click: Expand section</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>http://slc08ayk.us.oracle.com:8000/cs/e92m3ltux/cache/PT_TRANS_PIX_1.png</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>103</logLineID>
+      <logParentLineID>99</logParentLineID>
+      <commandExpression>Page -&gt; Expand -&gt; </commandExpression>
+      <commandID>6</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_03</libraryName>
+      <lineMessage>Click: Expand section</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>http://slc08ayk.us.oracle.com:8000/cs/e92m3ltux/cache/PT_TRANS_PIX_1.png</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>104</logLineID>
+      <logParentLineID>99</logParentLineID>
+      <commandExpression>Page -&gt; Expand -&gt; </commandExpression>
+      <commandID>6</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_03</libraryName>
+      <lineMessage>Click: Expand section</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>http://slc08ayk.us.oracle.com:8000/cs/e92m3ltux/cache/PT_TRANS_PIX_1.png</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>105</logLineID>
+      <logParentLineID>99</logParentLineID>
+      <commandExpression>Page -&gt; Expand -&gt; </commandExpression>
+      <commandID>6</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_03</libraryName>
+      <lineMessage>Click: Expand section</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>http://slc08ayk.us.oracle.com:8000/cs/e92m3ltux/cache/PT_TRANS_PIX_1.png</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>106</logLineID>
+      <logParentLineID>99</logParentLineID>
+      <commandExpression>Page -&gt; Expand -&gt; </commandExpression>
+      <commandID>6</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_03</libraryName>
+      <lineMessage>Click: Expand section</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>http://slc08ayk.us.oracle.com:8000/cs/e92m3ltux/cache/PT_TRANS_PIX_1.png</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>107</logLineID>
+      <logParentLineID>99</logParentLineID>
+      <commandExpression>Page -&gt; Expand -&gt; </commandExpression>
+      <commandID>6</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_03</libraryName>
+      <lineMessage>Click: Expand section</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>http://slc08ayk.us.oracle.com:8000/cs/e92m3ltux/cache/PT_TRANS_PIX_1.png</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>108</logLineID>
+      <logParentLineID>77</logParentLineID>
+      <commandExpression>Image -&gt; Click -&gt; name=EOAW_TXN_WRK_EOAWNOTIFICATNS_GB</commandExpression>
+      <commandID>7</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_03</libraryName>
+      <lineMessage>Ignore step 7</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>109</logLineID>
+      <logParentLineID>77</logParentLineID>
+      <commandExpression>CheckBox -&gt; Set_Value -&gt; name=EOAW_TXN_EOAW_EMAIL</commandExpression>
+      <commandID>8</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_03</libraryName>
+      <lineMessage>checkbox.Set_Value [name=EOAW_TXN_EOAW_EMAIL] -&gt; Y</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>110</logLineID>
+      <logParentLineID>77</logParentLineID>
+      <commandExpression>CheckBox -&gt; Set_Value -&gt; name=EOAW_TXN_EOAW_WORKLIST</commandExpression>
+      <commandID>9</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_03</libraryName>
+      <lineMessage>checkbox.Set_Value [name=EOAW_TXN_EOAW_WORKLIST] -&gt; Y</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>111</logLineID>
+      <logParentLineID>77</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>10</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_03</libraryName>
+      <lineMessage>Page.Save</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>112</logLineID>
+      <logParentLineID>111</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>10</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_03</libraryName>
+      <lineMessage>button.Click  [Name=#ICSave]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>113</logLineID>
+      <logParentLineID>111</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>10</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_03</libraryName>
+      <lineMessage>============= PageSave: YES ========</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>114</logLineID>
+      <logParentLineID>77</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>10</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_03</libraryName>
+      <lineMessage>Test End:  3/8/2018 1:42:30 AM</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>115</logLineID>
+      <logParentLineID>1</logParentLineID>
+      <commandExpression>Test -&gt; Exec -&gt; ES_22188366_MODIFYING_APPRO_04</commandExpression>
+      <commandID>5</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Starting the call to $\QA AUTOMATION\FMS\CFL - Customer Feedback Loop\PI#17\eSettlements\Workflow\22188366 MODIFYING APPROVED VE\ES_22188366_MODIFYING_APPRO_04  [Test Case: DEFAULT]</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>116</logLineID>
+      <logParentLineID>115</logParentLineID>
+      <commandExpression></commandExpression>
+      <commandID>0</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_04</libraryName>
+      <lineMessage>Use of Message Recognition</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>117</logLineID>
+      <logParentLineID>115</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_04</libraryName>
+      <lineMessage>Browser.Start_Login</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>118</logLineID>
+      <logParentLineID>117</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_04</libraryName>
+      <lineMessage>Closing old browsers...</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>119</logLineID>
+      <logParentLineID>117</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_04</libraryName>
+      <lineMessage>The chrome version 64 is not supported. You might have issue with it. The current supported browser is: 56-58</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>120</logLineID>
+      <logParentLineID>117</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_04</libraryName>
+      <lineMessage>Frame set to ''</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>Current frame: ''    Previous Frame: 'TargetContent'</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>121</logLineID>
+      <logParentLineID>117</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_04</libraryName>
+      <lineMessage>Goto URL</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>http://slc08ayk.us.oracle.com:8000/e92m3ltux/signon.html</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>122</logLineID>
+      <logParentLineID>117</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_04</libraryName>
+      <lineMessage>Browser.Login</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>123</logLineID>
+      <logParentLineID>122</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_04</libraryName>
+      <lineMessage>Doing login in English</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>124</logLineID>
+      <logParentLineID>123</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_04</libraryName>
+      <lineMessage>combobox.Set_Value [id=ptlangsel] -&gt; ENG</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>125</logLineID>
+      <logParentLineID>122</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_04</libraryName>
+      <lineMessage>text.Set_Value [id=userid] -&gt; VP1</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>126</logLineID>
+      <logParentLineID>122</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_04</libraryName>
+      <lineMessage>pwd.Set_Value [id=pwd] -&gt; </lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>127</logLineID>
+      <logParentLineID>122</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_04</libraryName>
+      <lineMessage>button.Click  [name=Submit]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>128</logLineID>
+      <logParentLineID>115</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; EOAW_APPROVAL_WORKFLOW.EOAW_TXN_CONFIG.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_04</libraryName>
+      <lineMessage>Page.Prompt</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>EOAW_APPROVAL_WORKFLOW.EOAW_TXN_CONFIG.GBL</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>129</logLineID>
+      <logParentLineID>128</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; EOAW_APPROVAL_WORKFLOW.EOAW_TXN_CONFIG.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_04</libraryName>
+      <lineMessage>Goto URL</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>http://slc08ayk.us.oracle.com:8000/psp/e92m3ltux/EMPLOYEE/ERP/c/EOAW_APPROVAL_WORKFLOW.EOAW_TXN_CONFIG.GBL</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>130</logLineID>
+      <logParentLineID>128</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; EOAW_APPROVAL_WORKFLOW.EOAW_TXN_CONFIG.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_04</libraryName>
+      <lineMessage>Page.Prompt: Trying to do the following action = add update</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>131</logLineID>
+      <logParentLineID>128</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; EOAW_APPROVAL_WORKFLOW.EOAW_TXN_CONFIG.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_04</libraryName>
+      <lineMessage>link.Click  [Name=#ICAdvSearch]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>132</logLineID>
+      <logParentLineID>128</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=EOAW_TXN_EOAWPRCS_ID</commandExpression>
+      <commandID>3</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_04</libraryName>
+      <lineMessage>text.Set_Value [name=EOAW_TXN_EOAWPRCS_ID] -&gt; vendorApproval</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>133</logLineID>
+      <logParentLineID>128</logParentLineID>
+      <commandExpression>Page -&gt; PromptOk -&gt; </commandExpression>
+      <commandID>4</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_04</libraryName>
+      <lineMessage>button.Click  [name=#ICSearch]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>134</logLineID>
+      <logParentLineID>115</logParentLineID>
+      <commandExpression>Span -&gt; Verify -&gt; id=EOAW_TXN_CFG_EOAWPRCS_ID</commandExpression>
+      <commandID>5</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_04</libraryName>
+      <lineMessage>Verify: id=EOAW_TXN_CFG_EOAWPRCS_ID [span] -&gt; VendorApproval</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>135</logLineID>
+      <logParentLineID>134</logParentLineID>
+      <commandExpression>Span -&gt; Verify -&gt; id=EOAW_TXN_CFG_EOAWPRCS_ID</commandExpression>
+      <commandID>5</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_04</libraryName>
+      <lineMessage>Check field: id=EOAW_TXN_CFG_EOAWPRCS_ID, 'VendorApproval' (actual) = 'VendorApproval' (expected)</lineMessage>
+      <logResult>110</logResult>
+      <longDescr>Object Type: Span, Field: id=EOAW_TXN_CFG_EOAWPRCS_ID, Value: VendorApproval, CheckValue: VendorApproval</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>136</logLineID>
+      <logParentLineID>115</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr1</commandExpression>
+      <commandID>7</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_04</libraryName>
+      <lineMessage>Scroll [1] Start: $0,  Action: sel,  Key: A</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>137</logLineID>
+      <logParentLineID>136</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr1</commandExpression>
+      <commandID>7</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_04</libraryName>
+      <lineMessage>Key: id=EOAW_NOTIFY_EOAWEVENT [combobox] - Value: A</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>138</logLineID>
+      <logParentLineID>136</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr1</commandExpression>
+      <commandID>7</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_04</libraryName>
+      <lineMessage>Found Row: $0</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>139</logLineID>
+      <logParentLineID>136</logParentLineID>
+      <commandExpression>ComboBox -&gt; Set_Value -&gt; name=EOAW_NOTIFY_EOAWEVENT&amp;Scr1</commandExpression>
+      <commandID>8</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_04</libraryName>
+      <lineMessage>combobox.Set_Value [name=EOAW_NOTIFY_EOAWEVENT$0] -&gt; A</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>140</logLineID>
+      <logParentLineID>136</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=EOAW_NOTIFY_MENUNAME&amp;Scr1</commandExpression>
+      <commandID>9</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_04</libraryName>
+      <lineMessage>text.Set_Value [name=EOAW_NOTIFY_MENUNAME$0] -&gt; MAINTAIN_VENDORS</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>141</logLineID>
+      <logParentLineID>136</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=EOAW_NOTIFY_EOAWAPPR_COMPONENT&amp;Scr1</commandExpression>
+      <commandID>10</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_04</libraryName>
+      <lineMessage>text.Set_Value [name=EOAW_NOTIFY_EOAWAPPR_COMPONENT$0] -&gt; VNDR_ID</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>142</logLineID>
+      <logParentLineID>136</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=EOAW_NOTIFY_PAGE_NAME&amp;Scr1</commandExpression>
+      <commandID>11</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_04</libraryName>
+      <lineMessage>text.Set_Value [name=EOAW_NOTIFY_PAGE_NAME$0] -&gt; VNDR_ID1_SUM</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>143</logLineID>
+      <logParentLineID>115</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr2</commandExpression>
+      <commandID>13</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_04</libraryName>
+      <lineMessage>Scroll [2] Start: -,  Action: sel,  Key: R</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>144</logLineID>
+      <logParentLineID>143</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr2</commandExpression>
+      <commandID>13</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_04</libraryName>
+      <lineMessage>Key: id=EOAW_NOT_USER_EOAWPARTICIPANT [combobox] - Value: R</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>145</logLineID>
+      <logParentLineID>143</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr2</commandExpression>
+      <commandID>13</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_04</libraryName>
+      <lineMessage>Found Row: $0</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>146</logLineID>
+      <logParentLineID>143</logParentLineID>
+      <commandExpression>CheckBox -&gt; Set_Value -&gt; name=EOAW_NOT_USER_EOAW_EMAIL&amp;Scr2</commandExpression>
+      <commandID>14</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_04</libraryName>
+      <lineMessage>checkbox.Set_Value [name=EOAW_NOT_USER_EOAW_EMAIL$0] -&gt; Y</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>147</logLineID>
+      <logParentLineID>143</logParentLineID>
+      <commandExpression>CheckBox -&gt; Set_Value -&gt; name=EOAW_NOT_USER_EOAW_WORKLIST&amp;Scr2</commandExpression>
+      <commandID>15</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_04</libraryName>
+      <lineMessage>checkbox.Set_Value [name=EOAW_NOT_USER_EOAW_WORKLIST$0] -&gt; Y</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>148</logLineID>
+      <logParentLineID>143</logParentLineID>
+      <commandExpression>CheckBox -&gt; Set_Value -&gt; name=EOAW_NOT_USER_EOAW_PUSH&amp;Scr2</commandExpression>
+      <commandID>16</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_04</libraryName>
+      <lineMessage>checkbox.Set_Value [name=EOAW_NOT_USER_EOAW_PUSH$0] -&gt; N</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>149</logLineID>
+      <logParentLineID>115</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr1</commandExpression>
+      <commandID>19</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_04</libraryName>
+      <lineMessage>Scroll [1] Start: $0,  Action: sel,  Key: D</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>150</logLineID>
+      <logParentLineID>149</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr1</commandExpression>
+      <commandID>19</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_04</libraryName>
+      <lineMessage>Key: id=EOAW_NOTIFY_EOAWEVENT [combobox] - Value: D</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>151</logLineID>
+      <logParentLineID>149</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr1</commandExpression>
+      <commandID>19</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_04</libraryName>
+      <lineMessage>link.Click  [id=EOAW_NOTIFY$hdown$0]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>152</logLineID>
+      <logParentLineID>149</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr1</commandExpression>
+      <commandID>19</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_04</libraryName>
+      <lineMessage>Found Row: $0</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>153</logLineID>
+      <logParentLineID>149</logParentLineID>
+      <commandExpression>ComboBox -&gt; Set_Value -&gt; name=EOAW_NOTIFY_EOAWEVENT&amp;Scr1</commandExpression>
+      <commandID>20</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_04</libraryName>
+      <lineMessage>combobox.Set_Value [name=EOAW_NOTIFY_EOAWEVENT$0] -&gt; D</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>154</logLineID>
+      <logParentLineID>115</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr2</commandExpression>
+      <commandID>23</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_04</libraryName>
+      <lineMessage>Scroll [2] Start: $0,  Action: sel,  Key: R</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>155</logLineID>
+      <logParentLineID>154</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr2</commandExpression>
+      <commandID>23</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_04</libraryName>
+      <lineMessage>Key: id=EOAW_NOT_USER_EOAWPARTICIPANT [combobox] - Value: R</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>156</logLineID>
+      <logParentLineID>154</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr2</commandExpression>
+      <commandID>23</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_04</libraryName>
+      <lineMessage>Found Row: $0</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>157</logLineID>
+      <logParentLineID>154</logParentLineID>
+      <commandExpression>CheckBox -&gt; Set_Value -&gt; name=EOAW_NOT_USER_EOAW_EMAIL&amp;Scr2</commandExpression>
+      <commandID>24</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_04</libraryName>
+      <lineMessage>checkbox.Set_Value [name=EOAW_NOT_USER_EOAW_EMAIL$0] -&gt; Y</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>158</logLineID>
+      <logParentLineID>154</logParentLineID>
+      <commandExpression>CheckBox -&gt; Set_Value -&gt; name=EOAW_NOT_USER_EOAW_WORKLIST&amp;Scr2</commandExpression>
+      <commandID>25</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_04</libraryName>
+      <lineMessage>checkbox.Set_Value [name=EOAW_NOT_USER_EOAW_WORKLIST$0] -&gt; Y</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>159</logLineID>
+      <logParentLineID>154</logParentLineID>
+      <commandExpression>CheckBox -&gt; Set_Value -&gt; name=EOAW_NOT_USER_EOAW_PUSH&amp;Scr2</commandExpression>
+      <commandID>26</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_04</libraryName>
+      <lineMessage>checkbox.Set_Value [name=EOAW_NOT_USER_EOAW_PUSH$0] -&gt; N</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>160</logLineID>
+      <logParentLineID>115</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr1</commandExpression>
+      <commandID>29</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_04</libraryName>
+      <lineMessage>Scroll [1] Start: $0,  Action: sel,  Key: RA</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>161</logLineID>
+      <logParentLineID>160</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr1</commandExpression>
+      <commandID>29</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_04</libraryName>
+      <lineMessage>Key: id=EOAW_NOTIFY_EOAWEVENT [combobox] - Value: RA</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>162</logLineID>
+      <logParentLineID>160</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr1</commandExpression>
+      <commandID>29</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_04</libraryName>
+      <lineMessage>link.Click  [id=EOAW_NOTIFY$hdown$0]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>163</logLineID>
+      <logParentLineID>160</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr1</commandExpression>
+      <commandID>29</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_04</libraryName>
+      <lineMessage>Found Row: $0</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>164</logLineID>
+      <logParentLineID>160</logParentLineID>
+      <commandExpression>ComboBox -&gt; Set_Value -&gt; name=EOAW_NOTIFY_EOAWEVENT&amp;Scr1</commandExpression>
+      <commandID>30</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_04</libraryName>
+      <lineMessage>combobox.Set_Value [name=EOAW_NOTIFY_EOAWEVENT$0] -&gt; RA</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>165</logLineID>
+      <logParentLineID>115</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr2</commandExpression>
+      <commandID>33</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_04</libraryName>
+      <lineMessage>Scroll [2] Start: $0,  Action: sel,  Key: A</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>166</logLineID>
+      <logParentLineID>165</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr2</commandExpression>
+      <commandID>33</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_04</libraryName>
+      <lineMessage>Key: id=EOAW_NOT_USER_EOAWPARTICIPANT [combobox] - Value: A</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>167</logLineID>
+      <logParentLineID>165</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr2</commandExpression>
+      <commandID>33</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_04</libraryName>
+      <lineMessage>Found Row: $0</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>168</logLineID>
+      <logParentLineID>165</logParentLineID>
+      <commandExpression>CheckBox -&gt; Set_Value -&gt; name=EOAW_NOT_USER_EOAW_EMAIL&amp;Scr2</commandExpression>
+      <commandID>34</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_04</libraryName>
+      <lineMessage>checkbox.Set_Value [name=EOAW_NOT_USER_EOAW_EMAIL$0] -&gt; Y</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>169</logLineID>
+      <logParentLineID>165</logParentLineID>
+      <commandExpression>CheckBox -&gt; Set_Value -&gt; name=EOAW_NOT_USER_EOAW_WORKLIST&amp;Scr2</commandExpression>
+      <commandID>35</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_04</libraryName>
+      <lineMessage>checkbox.Set_Value [name=EOAW_NOT_USER_EOAW_WORKLIST$0] -&gt; Y</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>170</logLineID>
+      <logParentLineID>165</logParentLineID>
+      <commandExpression>CheckBox -&gt; Set_Value -&gt; name=EOAW_NOT_USER_EOAW_PUSH&amp;Scr2</commandExpression>
+      <commandID>36</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_04</libraryName>
+      <lineMessage>checkbox.Set_Value [name=EOAW_NOT_USER_EOAW_PUSH$0] -&gt; N</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>171</logLineID>
+      <logParentLineID>165</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>37</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_04</libraryName>
+      <lineMessage>Page.Save</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>172</logLineID>
+      <logParentLineID>171</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>37</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_04</libraryName>
+      <lineMessage>button.Click  [Name=#ICSave]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>173</logLineID>
+      <logParentLineID>171</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>37</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_04</libraryName>
+      <lineMessage>============= PageSave: YES ========</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>174</logLineID>
+      <logParentLineID>165</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>37</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_04</libraryName>
+      <lineMessage>Test End:  3/8/2018 1:43:06 AM</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>175</logLineID>
+      <logParentLineID>1</logParentLineID>
+      <commandExpression>Test -&gt; Exec -&gt; ES_22188366_MODIFYING_APPRO_05</commandExpression>
+      <commandID>6</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Starting the call to $\QA AUTOMATION\FMS\CFL - Customer Feedback Loop\PI#17\eSettlements\Workflow\22188366 MODIFYING APPROVED VE\ES_22188366_MODIFYING_APPRO_05  [Test Case: DEFAULT]</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>176</logLineID>
+      <logParentLineID>175</logParentLineID>
+      <commandExpression></commandExpression>
+      <commandID>0</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_05</libraryName>
+      <lineMessage>Use of Message Recognition</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>177</logLineID>
+      <logParentLineID>175</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_05</libraryName>
+      <lineMessage>Browser.Start_Login</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>178</logLineID>
+      <logParentLineID>177</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_05</libraryName>
+      <lineMessage>Closing old browsers...</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>179</logLineID>
+      <logParentLineID>177</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_05</libraryName>
+      <lineMessage>The chrome version 64 is not supported. You might have issue with it. The current supported browser is: 56-58</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>180</logLineID>
+      <logParentLineID>177</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_05</libraryName>
+      <lineMessage>Frame set to ''</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>Current frame: ''    Previous Frame: 'TargetContent'</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>181</logLineID>
+      <logParentLineID>177</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_05</libraryName>
+      <lineMessage>Goto URL</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>http://slc08ayk.us.oracle.com:8000/e92m3ltux/signon.html</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>182</logLineID>
+      <logParentLineID>177</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_05</libraryName>
+      <lineMessage>Browser.Login</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>183</logLineID>
+      <logParentLineID>182</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_05</libraryName>
+      <lineMessage>Doing login in English</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>184</logLineID>
+      <logParentLineID>183</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_05</libraryName>
+      <lineMessage>combobox.Set_Value [id=ptlangsel] -&gt; ENG</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>185</logLineID>
+      <logParentLineID>182</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_05</libraryName>
+      <lineMessage>text.Set_Value [id=userid] -&gt; VP1</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>186</logLineID>
+      <logParentLineID>182</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_05</libraryName>
+      <lineMessage>pwd.Set_Value [id=pwd] -&gt; </lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>187</logLineID>
+      <logParentLineID>182</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_05</libraryName>
+      <lineMessage>button.Click  [name=Submit]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>188</logLineID>
+      <logParentLineID>175</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; EOAW_APPROVAL_WORKFLOW.EOAW_USER_LIST.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_05</libraryName>
+      <lineMessage>Page.Prompt</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>EOAW_APPROVAL_WORKFLOW.EOAW_USER_LIST.GBL</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>189</logLineID>
+      <logParentLineID>188</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; EOAW_APPROVAL_WORKFLOW.EOAW_USER_LIST.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_05</libraryName>
+      <lineMessage>Goto URL</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>http://slc08ayk.us.oracle.com:8000/psp/e92m3ltux/EMPLOYEE/ERP/c/EOAW_APPROVAL_WORKFLOW.EOAW_USER_LIST.GBL</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>190</logLineID>
+      <logParentLineID>188</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; EOAW_APPROVAL_WORKFLOW.EOAW_USER_LIST.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_05</libraryName>
+      <lineMessage>Page.Prompt: Trying to do the following action = add update</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>191</logLineID>
+      <logParentLineID>188</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; EOAW_APPROVAL_WORKFLOW.EOAW_USER_LIST.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_05</libraryName>
+      <lineMessage>link.Click  [name=#ICSwitchMode]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>192</logLineID>
+      <logParentLineID>188</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=EOAWUSER_LIST_EOAWUSER_LIST_ID</commandExpression>
+      <commandID>3</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_05</libraryName>
+      <lineMessage>text.Set_Value [name=EOAWUSER_LIST_EOAWUSER_LIST_ID] -&gt; VENDOR_APPROVERS</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>193</logLineID>
+      <logParentLineID>188</logParentLineID>
+      <commandExpression>Page -&gt; PromptOk -&gt; </commandExpression>
+      <commandID>4</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_05</libraryName>
+      <lineMessage>button.Click  [name=#ICSearch]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>194</logLineID>
+      <logParentLineID>188</logParentLineID>
+      <commandExpression>Page -&gt; PromptOk -&gt; </commandExpression>
+      <commandID>4</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_05</libraryName>
+      <lineMessage>link.Click  [id=SEARCH_RESULT1]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>195</logLineID>
+      <logParentLineID>175</logParentLineID>
+      <commandExpression>Span -&gt; Verify -&gt; id=EOAWUSER_LIST_EOAWUSER_LIST_ID</commandExpression>
+      <commandID>5</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_05</libraryName>
+      <lineMessage>Verify: id=EOAWUSER_LIST_EOAWUSER_LIST_ID [span] -&gt; VENDOR_APPROVERS</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>196</logLineID>
+      <logParentLineID>195</logParentLineID>
+      <commandExpression>Span -&gt; Verify -&gt; id=EOAWUSER_LIST_EOAWUSER_LIST_ID</commandExpression>
+      <commandID>5</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_05</libraryName>
+      <lineMessage>Check field: id=EOAWUSER_LIST_EOAWUSER_LIST_ID, 'VENDOR_APPROVERS' (actual) = 'VENDOR_APPROVERS' (expected)</lineMessage>
+      <logResult>110</logResult>
+      <longDescr>Object Type: Span, Field: id=EOAWUSER_LIST_EOAWUSER_LIST_ID, Value: VENDOR_APPROVERS, CheckValue: VENDOR_APPROVERS</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>197</logLineID>
+      <logParentLineID>175</logParentLineID>
+      <commandExpression>Radio -&gt; Set_Value -&gt; name=~EOAWUSER_LIST_EOAWUSER_SOURCE$*$</commandExpression>
+      <commandID>6</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_05</libraryName>
+      <lineMessage>radio.Set_Value [name=~EOAWUSER_LIST_EOAWUSER_SOURCE$*$|value=S] -&gt; S</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>198</logLineID>
+      <logParentLineID>175</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=EOAWUSER_LIST_SQLID</commandExpression>
+      <commandID>7</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_05</libraryName>
+      <lineMessage>text.Set_Value [name=EOAWUSER_LIST_SQLID] -&gt; AP_VNDR_APPROVERS</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>199</logLineID>
+      <logParentLineID>175</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>8</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_05</libraryName>
+      <lineMessage>Page.Save</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>200</logLineID>
+      <logParentLineID>199</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>8</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_05</libraryName>
+      <lineMessage>button.Click  [Name=#ICSave]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>201</logLineID>
+      <logParentLineID>199</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>8</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_05</libraryName>
+      <lineMessage>============= PageSave: YES ========</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>202</logLineID>
+      <logParentLineID>175</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>8</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_05</libraryName>
+      <lineMessage>Test End:  3/8/2018 1:43:26 AM</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>203</logLineID>
+      <logParentLineID>1</logParentLineID>
+      <commandExpression>Test -&gt; Exec -&gt; ES_22188366_MODIFYING_APPRO_06</commandExpression>
+      <commandID>7</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Starting the call to $\QA AUTOMATION\FMS\CFL - Customer Feedback Loop\PI#17\eSettlements\Workflow\22188366 MODIFYING APPROVED VE\ES_22188366_MODIFYING_APPRO_06  [Test Case: DEFAULT]</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>204</logLineID>
+      <logParentLineID>203</logParentLineID>
+      <commandExpression></commandExpression>
+      <commandID>0</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_06</libraryName>
+      <lineMessage>Use of Message Recognition</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>205</logLineID>
+      <logParentLineID>203</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_06</libraryName>
+      <lineMessage>Browser.Start_Login</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>206</logLineID>
+      <logParentLineID>205</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_06</libraryName>
+      <lineMessage>Closing old browsers...</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>207</logLineID>
+      <logParentLineID>205</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_06</libraryName>
+      <lineMessage>The chrome version 64 is not supported. You might have issue with it. The current supported browser is: 56-58</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>208</logLineID>
+      <logParentLineID>205</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_06</libraryName>
+      <lineMessage>Frame set to ''</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>Current frame: ''    Previous Frame: 'TargetContent'</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>209</logLineID>
+      <logParentLineID>205</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_06</libraryName>
+      <lineMessage>Goto URL</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>http://slc08ayk.us.oracle.com:8000/e92m3ltux/signon.html</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>210</logLineID>
+      <logParentLineID>205</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_06</libraryName>
+      <lineMessage>Browser.Login</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>211</logLineID>
+      <logParentLineID>210</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_06</libraryName>
+      <lineMessage>Doing login in English</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>212</logLineID>
+      <logParentLineID>211</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_06</libraryName>
+      <lineMessage>combobox.Set_Value [id=ptlangsel] -&gt; ENG</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>213</logLineID>
+      <logParentLineID>210</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_06</libraryName>
+      <lineMessage>text.Set_Value [id=userid] -&gt; VP1</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>214</logLineID>
+      <logParentLineID>210</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_06</libraryName>
+      <lineMessage>pwd.Set_Value [id=pwd] -&gt; </lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>215</logLineID>
+      <logParentLineID>210</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_06</libraryName>
+      <lineMessage>button.Click  [name=Submit]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>216</logLineID>
+      <logParentLineID>203</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; DEFINE_GENERAL_OPTIONS.OPR_DEFAULT.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_06</libraryName>
+      <lineMessage>Page.Prompt</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>DEFINE_GENERAL_OPTIONS.OPR_DEFAULT.GBL</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>217</logLineID>
+      <logParentLineID>216</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; DEFINE_GENERAL_OPTIONS.OPR_DEFAULT.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_06</libraryName>
+      <lineMessage>Goto URL</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>http://slc08ayk.us.oracle.com:8000/psp/e92m3ltux/EMPLOYEE/ERP/c/DEFINE_GENERAL_OPTIONS.OPR_DEFAULT.GBL</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>218</logLineID>
+      <logParentLineID>216</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; DEFINE_GENERAL_OPTIONS.OPR_DEFAULT.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_06</libraryName>
+      <lineMessage>Page.Prompt: Trying to do the following action = update</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>219</logLineID>
+      <logParentLineID>216</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=OPRID_VW_OPRID</commandExpression>
+      <commandID>3</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_06</libraryName>
+      <lineMessage>text.Set_Value [name=OPRID_VW_OPRID] -&gt; VP1</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>220</logLineID>
+      <logParentLineID>216</logParentLineID>
+      <commandExpression>Page -&gt; PromptOk -&gt; </commandExpression>
+      <commandID>4</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_06</libraryName>
+      <lineMessage>button.Click  [name=#ICSearch]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>221</logLineID>
+      <logParentLineID>203</logParentLineID>
+      <commandExpression>Link -&gt; Click -&gt; text=Procurement</commandExpression>
+      <commandID>5</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_06</libraryName>
+      <lineMessage>link.Click  [text=Procurement]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>222</logLineID>
+      <logParentLineID>203</logParentLineID>
+      <commandExpression>Span -&gt; Verify -&gt; id=OPR_DEF_TBL_FS_OPRID</commandExpression>
+      <commandID>6</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_06</libraryName>
+      <lineMessage>Verify: id=OPR_DEF_TBL_FS_OPRID [span] -&gt; VP1</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>223</logLineID>
+      <logParentLineID>222</logParentLineID>
+      <commandExpression>Span -&gt; Verify -&gt; id=OPR_DEF_TBL_FS_OPRID</commandExpression>
+      <commandID>6</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_06</libraryName>
+      <lineMessage>Check field: id=OPR_DEF_TBL_FS_OPRID, 'VP1' (actual) = 'VP1' (expected)</lineMessage>
+      <logResult>110</logResult>
+      <longDescr>Object Type: Span, Field: id=OPR_DEF_TBL_FS_OPRID, Value: VP1, CheckValue: VP1</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>224</logLineID>
+      <logParentLineID>203</logParentLineID>
+      <commandExpression>Link -&gt; Click -&gt; text=Supplier Processing Authority</commandExpression>
+      <commandID>7</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_06</libraryName>
+      <lineMessage>link.Click  [text=Supplier Processing Authority]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>225</logLineID>
+      <logParentLineID>203</logParentLineID>
+      <commandExpression>Browser -&gt; FrameSet -&gt; ptModFrame_##</commandExpression>
+      <commandID>8</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_06</libraryName>
+      <lineMessage>Frame set to 'ptModFrame_0'</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>Current frame: 'ptModFrame_0'    Previous Frame: 'TargetContent'</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>226</logLineID>
+      <logParentLineID>203</logParentLineID>
+      <commandExpression>CheckBox -&gt; Set_Value -&gt; name=~OPR_DEF_TBL_VND_AUTH_VNDR_UNCERTFY$*$</commandExpression>
+      <commandID>9</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_06</libraryName>
+      <lineMessage>checkbox.Set_Value [name=~OPR_DEF_TBL_VND_AUTH_VNDR_UNCERTFY$*$] -&gt; Y</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>227</logLineID>
+      <logParentLineID>203</logParentLineID>
+      <commandExpression>CheckBox -&gt; Set_Value -&gt; name=OPR_DEF_TBL_VND_AUTH_VNDR_CERTFY</commandExpression>
+      <commandID>10</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_06</libraryName>
+      <lineMessage>checkbox.Set_Value [name=OPR_DEF_TBL_VND_AUTH_VNDR_CERTFY] -&gt; N</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>228</logLineID>
+      <logParentLineID>203</logParentLineID>
+      <commandExpression>CheckBox -&gt; Set_Value -&gt; name=OPR_DEF_TBL_VND_AUTH_VNDR_INACT_ST</commandExpression>
+      <commandID>11</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_06</libraryName>
+      <lineMessage>checkbox.Set_Value [name=OPR_DEF_TBL_VND_AUTH_VNDR_INACT_ST] -&gt; N</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>229</logLineID>
+      <logParentLineID>203</logParentLineID>
+      <commandExpression>CheckBox -&gt; Set_Value -&gt; name=OPR_DEF_TBL_VND_AUTH_VNDR_AUDIT</commandExpression>
+      <commandID>12</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_06</libraryName>
+      <lineMessage>checkbox.Set_Value [name=OPR_DEF_TBL_VND_AUTH_VNDR_AUDIT] -&gt; N</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>230</logLineID>
+      <logParentLineID>203</logParentLineID>
+      <commandExpression>Button -&gt; Click -&gt; name=#ICSave</commandExpression>
+      <commandID>13</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_06</libraryName>
+      <lineMessage>button.Click  [name=#ICSave]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>231</logLineID>
+      <logParentLineID>203</logParentLineID>
+      <commandExpression>Browser -&gt; FrameSet -&gt; TargetContent</commandExpression>
+      <commandID>14</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_06</libraryName>
+      <lineMessage>Frame set to 'TargetContent'</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>Current frame: 'TargetContent'    Previous Frame: ''</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>232</logLineID>
+      <logParentLineID>203</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>15</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_06</libraryName>
+      <lineMessage>Page.Save</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>233</logLineID>
+      <logParentLineID>232</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>15</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_06</libraryName>
+      <lineMessage>button.Click  [Name=#ICSave]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>234</logLineID>
+      <logParentLineID>232</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>15</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_06</libraryName>
+      <lineMessage>============= PageSave: YES ========</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>235</logLineID>
+      <logParentLineID>203</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>15</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_06</libraryName>
+      <lineMessage>Test End:  3/8/2018 1:44:07 AM</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>236</logLineID>
+      <logParentLineID>1</logParentLineID>
+      <commandExpression>Test -&gt; Exec -&gt; ES_22188366_MODIFYING_APPRO_06</commandExpression>
+      <commandID>8</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Starting the call to $\QA AUTOMATION\FMS\CFL - Customer Feedback Loop\PI#17\eSettlements\Workflow\22188366 MODIFYING APPROVED VE\ES_22188366_MODIFYING_APPRO_06  [Test Case: VP2]</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>237</logLineID>
+      <logParentLineID>236</logParentLineID>
+      <commandExpression></commandExpression>
+      <commandID>0</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_06</libraryName>
+      <lineMessage>Use of Message Recognition</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>238</logLineID>
+      <logParentLineID>236</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_06</libraryName>
+      <lineMessage>Browser.Start_Login</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>239</logLineID>
+      <logParentLineID>238</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_06</libraryName>
+      <lineMessage>Closing old browsers...</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>240</logLineID>
+      <logParentLineID>238</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_06</libraryName>
+      <lineMessage>The chrome version 64 is not supported. You might have issue with it. The current supported browser is: 56-58</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>241</logLineID>
+      <logParentLineID>238</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_06</libraryName>
+      <lineMessage>Frame set to ''</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>Current frame: ''    Previous Frame: 'TargetContent'</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>242</logLineID>
+      <logParentLineID>238</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_06</libraryName>
+      <lineMessage>Goto URL</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>http://slc08ayk.us.oracle.com:8000/e92m3ltux/signon.html</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>243</logLineID>
+      <logParentLineID>238</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_06</libraryName>
+      <lineMessage>Browser.Login</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>244</logLineID>
+      <logParentLineID>243</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_06</libraryName>
+      <lineMessage>Doing login in English</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>245</logLineID>
+      <logParentLineID>244</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_06</libraryName>
+      <lineMessage>combobox.Set_Value [id=ptlangsel] -&gt; ENG</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>246</logLineID>
+      <logParentLineID>243</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_06</libraryName>
+      <lineMessage>text.Set_Value [id=userid] -&gt; VP1</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>247</logLineID>
+      <logParentLineID>243</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_06</libraryName>
+      <lineMessage>pwd.Set_Value [id=pwd] -&gt; </lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>248</logLineID>
+      <logParentLineID>243</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_06</libraryName>
+      <lineMessage>button.Click  [name=Submit]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>249</logLineID>
+      <logParentLineID>236</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; DEFINE_GENERAL_OPTIONS.OPR_DEFAULT.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_06</libraryName>
+      <lineMessage>Page.Prompt</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>DEFINE_GENERAL_OPTIONS.OPR_DEFAULT.GBL</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>250</logLineID>
+      <logParentLineID>249</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; DEFINE_GENERAL_OPTIONS.OPR_DEFAULT.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_06</libraryName>
+      <lineMessage>Goto URL</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>http://slc08ayk.us.oracle.com:8000/psp/e92m3ltux/EMPLOYEE/ERP/c/DEFINE_GENERAL_OPTIONS.OPR_DEFAULT.GBL</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>251</logLineID>
+      <logParentLineID>249</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; DEFINE_GENERAL_OPTIONS.OPR_DEFAULT.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_06</libraryName>
+      <lineMessage>Page.Prompt: Trying to do the following action = update</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>252</logLineID>
+      <logParentLineID>249</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=OPRID_VW_OPRID</commandExpression>
+      <commandID>3</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_06</libraryName>
+      <lineMessage>text.Set_Value [name=OPRID_VW_OPRID] -&gt; VP2</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>253</logLineID>
+      <logParentLineID>249</logParentLineID>
+      <commandExpression>Page -&gt; PromptOk -&gt; </commandExpression>
+      <commandID>4</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_06</libraryName>
+      <lineMessage>button.Click  [name=#ICSearch]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>254</logLineID>
+      <logParentLineID>236</logParentLineID>
+      <commandExpression>Link -&gt; Click -&gt; text=Procurement</commandExpression>
+      <commandID>5</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_06</libraryName>
+      <lineMessage>link.Click  [text=Procurement]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>255</logLineID>
+      <logParentLineID>236</logParentLineID>
+      <commandExpression>Span -&gt; Verify -&gt; id=OPR_DEF_TBL_FS_OPRID</commandExpression>
+      <commandID>6</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_06</libraryName>
+      <lineMessage>Verify: id=OPR_DEF_TBL_FS_OPRID [span] -&gt; VP2</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>256</logLineID>
+      <logParentLineID>255</logParentLineID>
+      <commandExpression>Span -&gt; Verify -&gt; id=OPR_DEF_TBL_FS_OPRID</commandExpression>
+      <commandID>6</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_06</libraryName>
+      <lineMessage>Check field: id=OPR_DEF_TBL_FS_OPRID, 'VP2' (actual) = 'VP2' (expected)</lineMessage>
+      <logResult>110</logResult>
+      <longDescr>Object Type: Span, Field: id=OPR_DEF_TBL_FS_OPRID, Value: VP2, CheckValue: VP2</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>257</logLineID>
+      <logParentLineID>236</logParentLineID>
+      <commandExpression>Link -&gt; Click -&gt; text=Supplier Processing Authority</commandExpression>
+      <commandID>7</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_06</libraryName>
+      <lineMessage>link.Click  [text=Supplier Processing Authority]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>258</logLineID>
+      <logParentLineID>236</logParentLineID>
+      <commandExpression>Browser -&gt; FrameSet -&gt; ptModFrame_##</commandExpression>
+      <commandID>8</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_06</libraryName>
+      <lineMessage>Frame set to 'ptModFrame_0'</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>Current frame: 'ptModFrame_0'    Previous Frame: 'TargetContent'</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>259</logLineID>
+      <logParentLineID>236</logParentLineID>
+      <commandExpression>CheckBox -&gt; Set_Value -&gt; name=~OPR_DEF_TBL_VND_AUTH_VNDR_UNCERTFY$*$</commandExpression>
+      <commandID>9</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_06</libraryName>
+      <lineMessage>checkbox.Set_Value [name=~OPR_DEF_TBL_VND_AUTH_VNDR_UNCERTFY$*$] -&gt; Y</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>260</logLineID>
+      <logParentLineID>236</logParentLineID>
+      <commandExpression>CheckBox -&gt; Set_Value -&gt; name=OPR_DEF_TBL_VND_AUTH_VNDR_CERTFY</commandExpression>
+      <commandID>10</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_06</libraryName>
+      <lineMessage>checkbox.Set_Value [name=OPR_DEF_TBL_VND_AUTH_VNDR_CERTFY] -&gt; Y</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>261</logLineID>
+      <logParentLineID>236</logParentLineID>
+      <commandExpression>CheckBox -&gt; Set_Value -&gt; name=OPR_DEF_TBL_VND_AUTH_VNDR_INACT_ST</commandExpression>
+      <commandID>11</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_06</libraryName>
+      <lineMessage>checkbox.Set_Value [name=OPR_DEF_TBL_VND_AUTH_VNDR_INACT_ST] -&gt; Y</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>262</logLineID>
+      <logParentLineID>236</logParentLineID>
+      <commandExpression>CheckBox -&gt; Set_Value -&gt; name=OPR_DEF_TBL_VND_AUTH_VNDR_AUDIT</commandExpression>
+      <commandID>12</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_06</libraryName>
+      <lineMessage>checkbox.Set_Value [name=OPR_DEF_TBL_VND_AUTH_VNDR_AUDIT] -&gt; Y</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>263</logLineID>
+      <logParentLineID>236</logParentLineID>
+      <commandExpression>Button -&gt; Click -&gt; name=#ICSave</commandExpression>
+      <commandID>13</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_06</libraryName>
+      <lineMessage>button.Click  [name=#ICSave]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>264</logLineID>
+      <logParentLineID>236</logParentLineID>
+      <commandExpression>Browser -&gt; FrameSet -&gt; TargetContent</commandExpression>
+      <commandID>14</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_06</libraryName>
+      <lineMessage>Frame set to 'TargetContent'</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>Current frame: 'TargetContent'    Previous Frame: ''</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>265</logLineID>
+      <logParentLineID>236</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>15</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_06</libraryName>
+      <lineMessage>Page.Save</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>266</logLineID>
+      <logParentLineID>265</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>15</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_06</libraryName>
+      <lineMessage>button.Click  [Name=#ICSave]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>267</logLineID>
+      <logParentLineID>265</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>15</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_06</libraryName>
+      <lineMessage>============= PageSave: YES ========</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>268</logLineID>
+      <logParentLineID>236</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>15</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_06</libraryName>
+      <lineMessage>Test End:  3/8/2018 1:44:41 AM</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>269</logLineID>
+      <logParentLineID>1</logParentLineID>
+      <commandExpression>Test -&gt; Exec -&gt; ES_22188366_MODIFYING_APPRO_07</commandExpression>
+      <commandID>9</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Starting the call to $\QA AUTOMATION\FMS\CFL - Customer Feedback Loop\PI#17\eSettlements\Workflow\22188366 MODIFYING APPROVED VE\ES_22188366_MODIFYING_APPRO_07  [Test Case: DEFAULT]</lineMessage>
+      <logResult>120</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>270</logLineID>
+      <logParentLineID>269</logParentLineID>
+      <commandExpression></commandExpression>
+      <commandID>0</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_07</libraryName>
+      <lineMessage>Use of Message Recognition</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>271</logLineID>
+      <logParentLineID>270</logParentLineID>
+      <commandExpression></commandExpression>
+      <commandID>0</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_07</libraryName>
+      <lineMessage>ErrorHnd: Warning -- SETID = 'SHARE' and CONTACT_ID = 'BROKER' assigned to another User ID. [Test]</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>Button: OK, Action: Continue</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>272</logLineID>
+      <logParentLineID>270</logParentLineID>
+      <commandExpression></commandExpression>
+      <commandID>0</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_07</libraryName>
+      <lineMessage>ErrorHnd: Warning -- SETID = 'SHARE' and CUST_ID = 'USA01' assigned to another User ID. [Test]</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>Button: OK, Action: Continue</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>273</logLineID>
+      <logParentLineID>270</logParentLineID>
+      <commandExpression></commandExpression>
+      <commandID>0</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_07</libraryName>
+      <lineMessage>ErrorHnd: Warning -- EMPLID = 'KU0042' assigned to another User ID. [Test]</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>Button: OK, Action: Continue</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>274</logLineID>
+      <logParentLineID>270</logParentLineID>
+      <commandExpression></commandExpression>
+      <commandID>0</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_07</libraryName>
+      <lineMessage>ErrorHnd: Warning -- EMPLID = 'KU0042' assigned to another User ID. [Test]</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>Button: OK, Action: Continue</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>275</logLineID>
+      <logParentLineID>270</logParentLineID>
+      <commandExpression></commandExpression>
+      <commandID>0</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_07</libraryName>
+      <lineMessage>ErrorHnd: Warning -- SETID = 'SHARE' and VENDOR_ID = 'USA0000001' assigned to another User ID. [Test]</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>Button: OK, Action: Continue</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>276</logLineID>
+      <logParentLineID>270</logParentLineID>
+      <commandExpression></commandExpression>
+      <commandID>0</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_07</libraryName>
+      <lineMessage>ErrorHnd: Warning -- EMPLID = 'KU0042' assigned to another User ID. [Case]</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>Button: OK, Action: Continue</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>277</logLineID>
+      <logParentLineID>270</logParentLineID>
+      <commandExpression></commandExpression>
+      <commandID>0</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_07</libraryName>
+      <lineMessage>ErrorHnd: Warning -- EMPLID = 'KU0042' assigned to another User ID. [Case]</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>Button: OK, Action: Continue</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>278</logLineID>
+      <logParentLineID>270</logParentLineID>
+      <commandExpression></commandExpression>
+      <commandID>0</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_07</libraryName>
+      <lineMessage>ErrorHnd: Warning -- SETID = 'SHARE' and CONTACT_ID = 'BROKER' assigned to another User ID. [Case]</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>Button: OK, Action: Continue</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>279</logLineID>
+      <logParentLineID>270</logParentLineID>
+      <commandExpression></commandExpression>
+      <commandID>0</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_07</libraryName>
+      <lineMessage>ErrorHnd: Warning -- SETID = 'SHARE' and CUST_ID = 'USA01' assigned to another User ID. [Case]</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>Button: OK, Action: Continue</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>280</logLineID>
+      <logParentLineID>270</logParentLineID>
+      <commandExpression></commandExpression>
+      <commandID>0</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_07</libraryName>
+      <lineMessage>ErrorHnd: Warning -- SETID = 'SHARE' and VENDOR_ID = 'USA0000001' assigned to another User ID. [Case]</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>Button: OK, Action: Continue</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>281</logLineID>
+      <logParentLineID>270</logParentLineID>
+      <commandExpression></commandExpression>
+      <commandID>0</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_07</libraryName>
+      <lineMessage>ErrorHnd: Warning -- PERSON_ID = 'VP1' assigned to another User ID. [Test]</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>Button: OK, Action: Continue</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>282</logLineID>
+      <logParentLineID>270</logParentLineID>
+      <commandExpression></commandExpression>
+      <commandID>0</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_07</libraryName>
+      <lineMessage>ErrorHnd: Warning -- PERSON_ID = 'VP1' assigned to another User ID. [Case]</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>Button: OK, Action: Continue</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>283</logLineID>
+      <logParentLineID>270</logParentLineID>
+      <commandExpression></commandExpression>
+      <commandID>0</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_07</libraryName>
+      <lineMessage>ErrorHnd: Warning -- SETID = 'SHARE' and CUST_ID = 'FRA01' assigned to another User ID [Case]</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>Button: OK, Action: Continue</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>284</logLineID>
+      <logParentLineID>270</logParentLineID>
+      <commandExpression></commandExpression>
+      <commandID>0</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_07</libraryName>
+      <lineMessage>ErrorHnd: Warning -- SETID = 'SHARE' and CUST_ID = 'FRA01' assigned to another User ID [Test]</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>Button: OK, Action: Continue</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>285</logLineID>
+      <logParentLineID>270</logParentLineID>
+      <commandExpression></commandExpression>
+      <commandID>0</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_07</libraryName>
+      <lineMessage>ErrorHnd: Warning -- SETID = 'SHARE' and CUST_ID = 'FRA01' assigned to another User ID [Case]</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>Button: OK, Action: Continue</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>286</logLineID>
+      <logParentLineID>270</logParentLineID>
+      <commandExpression></commandExpression>
+      <commandID>0</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_07</libraryName>
+      <lineMessage>ErrorHnd: Warning -- SETID = 'SHARE' and VENDOR_ID = 'FRA0000001' assigned to another User ID [Test]</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>Button: OK, Action: Continue</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>287</logLineID>
+      <logParentLineID>270</logParentLineID>
+      <commandExpression></commandExpression>
+      <commandID>0</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_07</libraryName>
+      <lineMessage>ErrorHnd: Warning -- SETID = 'SHARE' and VENDOR_ID = 'FRA0000001' assigned to another User ID [Case]</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>Button: OK, Action: Continue</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>288</logLineID>
+      <logParentLineID>269</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_07</libraryName>
+      <lineMessage>Browser.Start_Login</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>289</logLineID>
+      <logParentLineID>288</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_07</libraryName>
+      <lineMessage>Closing old browsers...</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>290</logLineID>
+      <logParentLineID>288</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_07</libraryName>
+      <lineMessage>The chrome version 64 is not supported. You might have issue with it. The current supported browser is: 56-58</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>291</logLineID>
+      <logParentLineID>288</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_07</libraryName>
+      <lineMessage>Frame set to ''</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>Current frame: ''    Previous Frame: 'TargetContent'</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>292</logLineID>
+      <logParentLineID>288</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_07</libraryName>
+      <lineMessage>Goto URL</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>http://slc08ayk.us.oracle.com:8000/e92m3ltux/signon.html</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>293</logLineID>
+      <logParentLineID>288</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_07</libraryName>
+      <lineMessage>Browser.Login</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>294</logLineID>
+      <logParentLineID>293</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_07</libraryName>
+      <lineMessage>Doing login in English</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>295</logLineID>
+      <logParentLineID>294</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_07</libraryName>
+      <lineMessage>combobox.Set_Value [id=ptlangsel] -&gt; ENG</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>296</logLineID>
+      <logParentLineID>293</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_07</libraryName>
+      <lineMessage>text.Set_Value [id=userid] -&gt; VP1</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>297</logLineID>
+      <logParentLineID>293</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_07</libraryName>
+      <lineMessage>pwd.Set_Value [id=pwd] -&gt; </lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>298</logLineID>
+      <logParentLineID>293</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_07</libraryName>
+      <lineMessage>button.Click  [name=Submit]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>299</logLineID>
+      <logParentLineID>269</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; MAINTAIN_SECURITY.USERMAINT.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_07</libraryName>
+      <lineMessage>Page.Prompt</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>MAINTAIN_SECURITY.USERMAINT.GBL</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>300</logLineID>
+      <logParentLineID>299</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; MAINTAIN_SECURITY.USERMAINT.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_07</libraryName>
+      <lineMessage>Goto URL</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>http://slc08ayk.us.oracle.com:8000/psp/e92m3ltux/EMPLOYEE/ERP/c/MAINTAIN_SECURITY.USERMAINT.GBL</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>301</logLineID>
+      <logParentLineID>299</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; MAINTAIN_SECURITY.USERMAINT.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_07</libraryName>
+      <lineMessage>Page.Prompt: Trying to do the following action = add update</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>302</logLineID>
+      <logParentLineID>299</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; MAINTAIN_SECURITY.USERMAINT.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_07</libraryName>
+      <lineMessage>link.Click  [name=#ICSwitchMode]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>303</logLineID>
+      <logParentLineID>299</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=PSOPRDEFN_SRCH_OPRID</commandExpression>
+      <commandID>3</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_07</libraryName>
+      <lineMessage>text.Set_Value [name=PSOPRDEFN_SRCH_OPRID] -&gt; VP1</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>304</logLineID>
+      <logParentLineID>299</logParentLineID>
+      <commandExpression>Page -&gt; PromptOk -&gt; </commandExpression>
+      <commandID>4</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_07</libraryName>
+      <lineMessage>button.Click  [name=#ICSearch]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>305</logLineID>
+      <logParentLineID>299</logParentLineID>
+      <commandExpression>Page -&gt; PromptOk -&gt; </commandExpression>
+      <commandID>4</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_07</libraryName>
+      <lineMessage>link.Click  [id=SEARCH_RESULT1]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>306</logLineID>
+      <logParentLineID>269</logParentLineID>
+      <commandExpression>Span -&gt; Verify -&gt; id=PSOPRDEFN_OPRID</commandExpression>
+      <commandID>5</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_07</libraryName>
+      <lineMessage>Verify: id=PSOPRDEFN_OPRID [span] -&gt; VP1</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>307</logLineID>
+      <logParentLineID>306</logParentLineID>
+      <commandExpression>Span -&gt; Verify -&gt; id=PSOPRDEFN_OPRID</commandExpression>
+      <commandID>5</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_07</libraryName>
+      <lineMessage>Check field: id=PSOPRDEFN_OPRID, 'VP1' (actual) = 'VP1' (expected)</lineMessage>
+      <logResult>110</logResult>
+      <longDescr>Object Type: Span, Field: id=PSOPRDEFN_OPRID, Value: VP1, CheckValue: VP1</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>308</logLineID>
+      <logParentLineID>269</logParentLineID>
+      <commandExpression>Link -&gt; Click -&gt; text=Workflow</commandExpression>
+      <commandID>6</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_07</libraryName>
+      <lineMessage>link.Click  [text=Workflow]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>309</logLineID>
+      <logParentLineID>269</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=PSROLEXLATOPRVW_ROLEUSER_SUPR</commandExpression>
+      <commandID>7</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_07</libraryName>
+      <lineMessage>text.Set_Value [name=PSROLEXLATOPRVW_ROLEUSER_SUPR] -&gt; VP2</lineMessage>
+      <logResult>120</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>310</logLineID>
+      <logParentLineID>309</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=PSROLEXLATOPRVW_ROLEUSER_SUPR</commandExpression>
+      <commandID>7</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_07</libraryName>
+      <lineMessage>Object not found in the page, or the access is denied to the Frame.</lineMessage>
+      <logResult>120</logResult>
+      <longDescr>Please check if the Type or the Recognition string are correct.  TYPE: text,  PROPERTIES: name=PSROLEXLATOPRVW_ROLEUSER_SUPR,  CURRENT FRAME: TargetContent</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>311</logLineID>
+      <logParentLineID>309</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=PSROLEXLATOPRVW_ROLEUSER_SUPR</commandExpression>
+      <commandID>7</commandID>
+      <image>ES_22188366_MODIFYING_AP_SHELL-LOG1-Line311</image>
+      <libraryName>ES_22188366_MODIFYING_APPRO_07</libraryName>
+      <lineMessage>LogScreenShot</lineMessage>
+      <logResult>220</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>312</logLineID>
+      <logParentLineID>269</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>11</commandID>
+      <image />
+      <libraryName>ES_22188366_MODIFYING_APPRO_07</libraryName>
+      <lineMessage>Execution stopped by Execution.Stop_On_Error: 3/8/2018 1:45:00 AM</lineMessage>
+      <logResult>120</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>313</logLineID>
+      <logParentLineID>1</logParentLineID>
+      <commandExpression>Test -&gt; Exec -&gt; ES_22188366_MODIFYING_APPRO_13</commandExpression>
+      <commandID>16</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Saving persistent variables.</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>314</logLineID>
+      <logParentLineID>1</logParentLineID>
+      <commandExpression>Test -&gt; Exec -&gt; ES_22188366_MODIFYING_APPRO_13</commandExpression>
+      <commandID>16</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Execution stopped by Execution.Stop_On_Error: 3/8/2018 1:45:00 AM</lineMessage>
+      <logResult>120</logResult>
+      <longDescr></longDescr>
+    </logLine>
+  </lines>
+</Log>

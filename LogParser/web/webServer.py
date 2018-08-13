@@ -17,9 +17,9 @@ def get_log_report(fname):
 
 @app.route("/image/<path:fname>")
 def index(fname):
-    #image = file("D:\\PTF_report_analyies\\LogParser\\web\\static\\ACCOUNT_PAYABLE_14754296_SHELL-LOG1-T20171113_120909-Line206.jpg")
-    #resp = Response(image, mimetype="image/jpeg")
-    fh = open(r'templates\ACCOUNT_PAYABLE_14754296_SHELL\ACCOUNT_PAYABLE_14754296_SHELL-LOG1-T20171113_120909-Line206.jpg', 'rb')
+    image_path = "templates/" + fname
+    image_path = image_path.replace("/","\\")
+    fh = open(image_path, 'rb')
     a = fh.read()
     return   Response(a, mimetype="image/jpeg")
 

@@ -1,0 +1,1095 @@
+﻿<?xml version='1.0' ?>
+<?xml-stylesheet type='text/xsl' href='\\slcnas463.us.oracle.com\enterprise\PTF\Logs\ToolsAutoStyle.xsl'?>
+<Log>
+  <logID>2</logID>
+  <logCaption>2. VP1 2018-03-08 06:02</logCaption>
+  <caseName>DEFAULT</caseName>
+  <logFolder>PSTO_STG_ONCS_PI28_C570-GLD_180307_866</logFolder>
+  <logPrefix></logPrefix>
+  <logLineCount>85</logLineCount>
+  <machineName>SLC07LNS</machineName>
+  <scriptFinalResult>120</scriptFinalResult>
+  <testName>AP_FMS_25966861_INCORECT_SHELL</testName>
+  <userID>VP1</userID>
+  <executionOptions>
+    <executionOptionName>E92EH7CX</executionOptionName>
+    <databaseName>E92EH7CX</databaseName>
+    <databasePlatform>Oracle</databasePlatform>
+    <databaseServer></databaseServer>
+    <databaseUser>VP1</databaseUser>
+    <dateFormat>MM/DD/YYYY</dateFormat>
+    <peopleToolsPath>\\psbldfs\dfs\build\pt\ptship\pt85606b\install_Windows.ora</peopleToolsPath>
+    <processServer>PSUNX</processServer>
+    <prompt>No</prompt>
+    <skipRun>No</skipRun>
+    <skipSave>No</skipSave>
+    <url>http://slc11qlz.us.oracle.com:8000/e92eh7cxx/signon.html</url>
+    <userID>VP1</userID>
+    <verbose>Yes</verbose>
+  </executionOptions>
+  <extras>
+    <extra>
+      <logSection>1. Execution Options</logSection>
+      <logOrder>1</logOrder>
+      <logValue>No</logValue>
+      <logLabel>Appl - Skip Language :</logLabel>
+    </extra>
+    <extra>
+      <logSection>1. Execution Options</logSection>
+      <logOrder>2</logOrder>
+      <logValue>N</logValue>
+      <logLabel>Appl - Form Factor :</logLabel>
+    </extra>
+    <extra>
+      <logSection>3. System Info</logSection>
+      <logOrder>1</logOrder>
+      <logValue>1280 X 1024 pixels</logValue>
+      <logLabel>Screen resolution :</logLabel>
+    </extra>
+    <extra>
+      <logSection>3. System Info</logSection>
+      <logOrder>4</logOrder>
+      <logValue>Intel(R) Xeon(R) CPU E5-2697 v2 @ 2.70GHz</logValue>
+      <logLabel>Processor :</logLabel>
+    </extra>
+    <extra>
+      <logSection>3. System Info</logSection>
+      <logOrder>5</logOrder>
+      <logValue>Microsoft Windows Server 2008 R2 Enterprise </logValue>
+      <logLabel>Operating System full name:</logLabel>
+    </extra>
+    <extra>
+      <logSection>3. System Info</logSection>
+      <logOrder>6</logOrder>
+      <logValue>6.1.7601.65536</logValue>
+      <logLabel>Operating Sytem version:</logLabel>
+    </extra>
+    <extra>
+      <logSection>3. System Info</logSection>
+      <logOrder>7</logOrder>
+      <logValue>31300 Mb</logValue>
+      <logLabel>Memory Total :</logLabel>
+    </extra>
+    <extra>
+      <logSection>3. System Info</logSection>
+      <logOrder>8</logOrder>
+      <logValue>23080 Mb</logValue>
+      <logLabel>Memory Available :</logLabel>
+    </extra>
+    <extra>
+      <logSection>3. System Info</logSection>
+      <logOrder>9</logOrder>
+      <logValue>chrome 64.0.3282.186</logValue>
+      <logLabel>Browser :</logLabel>
+    </extra>
+    <extra>
+      <logSection>3. System Info</logSection>
+      <logOrder>10</logOrder>
+      <logValue>ENG</logValue>
+      <logLabel>OS Lang Code:</logLabel>
+    </extra>
+    <extra>
+      <logSection>4. Environment Info</logSection>
+      <logOrder>1</logOrder>
+      <logValue>https://slc05ehl.us.oracle.com:8001/PSIGW/HttpListeningConnector</logValue>
+      <logLabel>Env. URL :</logLabel>
+    </extra>
+    <extra>
+      <logSection>1.1. Portal URL Info</logSection>
+      <logOrder>1</logOrder>
+      <logValue>http://slc11qlz.us.oracle.com:8000/psp/e92eh7cxx/CUSTOMER/ERP/</logValue>
+      <logLabel>CUSTOMER</logLabel>
+    </extra>
+    <extra>
+      <logSection>1.1. Portal URL Info</logSection>
+      <logOrder>1</logOrder>
+      <logValue>http://slc11qlz.us.oracle.com:8000/psp/e92eh7cxx/EMPLOYEE/ERP/</logValue>
+      <logLabel>PORTAL</logLabel>
+    </extra>
+    <extra>
+      <logSection>1.1. Portal URL Info</logSection>
+      <logOrder>1</logOrder>
+      <logValue>http://slc11qlz.us.oracle.com:8000/psp/e92eh7cxx/SUPPLIER/ERP/</logValue>
+      <logLabel>SUPPLIER</logLabel>
+    </extra>
+    <extra>
+      <logSection>5. Extra Info</logSection>
+      <logOrder>1</logOrder>
+      <logValue>8.56.07 hotfix1</logValue>
+      <logLabel>PsTestFramework Version :</logLabel>
+    </extra>
+    <extra>
+      <logSection>5. Extra Info</logSection>
+      <logOrder>2</logOrder>
+      <logValue>False</logValue>
+      <logLabel>Disable ScreenShot :</logLabel>
+    </extra>
+    <extra>
+      <logSection>5. Extra Info</logSection>
+      <logOrder>3</logOrder>
+      <logValue>True</logValue>
+      <logLabel>User Error Handling :</logLabel>
+    </extra>
+    <extra>
+      <logSection>6. Log Export</logSection>
+      <logOrder>1</logOrder>
+      <logValue>\\slcnas463.us.oracle.com\enterprise\QEShare\PTF Log Archive\PSTO_STG_ONCS_PI28_C570-GLD_180307_866\AP_FMS_25966861_INCORECT_SHELL</logValue>
+      <logLabel>Path :</logLabel>
+    </extra>
+    <extra>
+      <logSection>6. Log Export</logSection>
+      <logOrder>2</logOrder>
+      <logValue>\\slcnas463.us.oracle.com\enterprise\PTF\Logs\ToolsAutoStyle.xsl</logValue>
+      <logLabel>Style Sheet File :</logLabel>
+    </extra>
+    <extra>
+      <logSection>6. Log Export</logSection>
+      <logOrder>3</logOrder>
+      <logValue>Yes</logValue>
+      <logLabel>Time Stamp :</logLabel>
+    </extra>
+    <extra>
+      <logSection>6. Log Export</logSection>
+      <logOrder>4</logOrder>
+      <logValue>Yes</logValue>
+      <logLabel>Image :</logLabel>
+    </extra>
+  </extras>
+  <lines>
+    <logLine>
+      <logLineID>1</logLineID>
+      <logParentLineID>0</logParentLineID>
+      <commandExpression></commandExpression>
+      <commandID>0</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Unattended Start:  3/8/2018 6:02:32 AM</lineMessage>
+      <logResult>120</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>2</logLineID>
+      <logParentLineID>1</logParentLineID>
+      <commandExpression></commandExpression>
+      <commandID>0</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Use of Message Recognition</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>3</logLineID>
+      <logParentLineID>1</logParentLineID>
+      <commandExpression></commandExpression>
+      <commandID>0</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Reading persistent variables.</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>4</logLineID>
+      <logParentLineID>1</logParentLineID>
+      <commandExpression>Execution -&gt; Stop_On_Error -&gt; all</commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Execution action Stop_On_Error: set to all</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>5</logLineID>
+      <logParentLineID>1</logParentLineID>
+      <commandExpression>Test -&gt; Exec -&gt; BUDGET_CHECK_ON_OFF_LIB -&gt; ON_OFF=N</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Starting the call to $\zLIBRARY\BUDGET_CHECK_ON_OFF_LIB  [Test Case: DEFAULT]</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>6</logLineID>
+      <logParentLineID>5</logParentLineID>
+      <commandExpression></commandExpression>
+      <commandID>0</commandID>
+      <image />
+      <libraryName>BUDGET_CHECK_ON_OFF_LIB</libraryName>
+      <lineMessage>Use of Message Recognition</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>7</logLineID>
+      <logParentLineID>5</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>BUDGET_CHECK_ON_OFF_LIB</libraryName>
+      <lineMessage>Browser.Start_Login</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>8</logLineID>
+      <logParentLineID>7</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>BUDGET_CHECK_ON_OFF_LIB</libraryName>
+      <lineMessage>The chrome version 64 is not supported. You might have issue with it. The current supported browser is: 56-58</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>9</logLineID>
+      <logParentLineID>7</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>BUDGET_CHECK_ON_OFF_LIB</libraryName>
+      <lineMessage>Frame set to ''</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>Current frame: ''    Previous Frame: ''</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>10</logLineID>
+      <logParentLineID>7</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>BUDGET_CHECK_ON_OFF_LIB</libraryName>
+      <lineMessage>Goto URL</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>http://slc11qlz.us.oracle.com:8000/e92eh7cxx/signon.html</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>11</logLineID>
+      <logParentLineID>7</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>BUDGET_CHECK_ON_OFF_LIB</libraryName>
+      <lineMessage>Browser.Login</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>12</logLineID>
+      <logParentLineID>11</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>BUDGET_CHECK_ON_OFF_LIB</libraryName>
+      <lineMessage>Doing login in English</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>13</logLineID>
+      <logParentLineID>12</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>BUDGET_CHECK_ON_OFF_LIB</libraryName>
+      <lineMessage>combobox.Set_Value [id=ptlangsel] -&gt; ENG</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>14</logLineID>
+      <logParentLineID>11</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>BUDGET_CHECK_ON_OFF_LIB</libraryName>
+      <lineMessage>text.Set_Value [id=userid] -&gt; VP1</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>15</logLineID>
+      <logParentLineID>11</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>BUDGET_CHECK_ON_OFF_LIB</libraryName>
+      <lineMessage>pwd.Set_Value [id=pwd] -&gt; </lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>16</logLineID>
+      <logParentLineID>11</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>BUDGET_CHECK_ON_OFF_LIB</libraryName>
+      <lineMessage>button.Click  [name=Submit]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>17</logLineID>
+      <logParentLineID>5</logParentLineID>
+      <commandExpression>Browser -&gt; FrameSet -&gt; TargetContent</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>BUDGET_CHECK_ON_OFF_LIB</libraryName>
+      <lineMessage>The Frame 'TargetContent' was not found in the current context.</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>18</logLineID>
+      <logParentLineID>5</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; DEFINE_GENERAL_OPTIONS.INSTALLATION.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>3</commandID>
+      <image />
+      <libraryName>BUDGET_CHECK_ON_OFF_LIB</libraryName>
+      <lineMessage>Page.Prompt</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>DEFINE_GENERAL_OPTIONS.INSTALLATION.GBL</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>19</logLineID>
+      <logParentLineID>18</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; DEFINE_GENERAL_OPTIONS.INSTALLATION.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>3</commandID>
+      <image />
+      <libraryName>BUDGET_CHECK_ON_OFF_LIB</libraryName>
+      <lineMessage>Goto URL</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>http://slc11qlz.us.oracle.com:8000/psp/e92eh7cxx/EMPLOYEE/ERP/c/DEFINE_GENERAL_OPTIONS.INSTALLATION.GBL</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>20</logLineID>
+      <logParentLineID>18</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; DEFINE_GENERAL_OPTIONS.INSTALLATION.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>3</commandID>
+      <image />
+      <libraryName>BUDGET_CHECK_ON_OFF_LIB</libraryName>
+      <lineMessage>Page.Prompt: Trying to do the following action = update</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>21</logLineID>
+      <logParentLineID>18</logParentLineID>
+      <commandExpression>Link -&gt; Click -&gt; Name=INST_FS_LNK</commandExpression>
+      <commandID>4</commandID>
+      <image />
+      <libraryName>BUDGET_CHECK_ON_OFF_LIB</libraryName>
+      <lineMessage>link.Click  [Name=INST_FS_LNK]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>22</logLineID>
+      <logParentLineID>18</logParentLineID>
+      <commandExpression>CheckBox -&gt; Set_Value -&gt; Name=INSTALLATION_COMMITMENT_CNTL_PO</commandExpression>
+      <commandID>5</commandID>
+      <image />
+      <libraryName>BUDGET_CHECK_ON_OFF_LIB</libraryName>
+      <lineMessage>checkbox.Set_Value [Name=INSTALLATION_COMMITMENT_CNTL_PO] -&gt; N</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>23</logLineID>
+      <logParentLineID>5</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>6</commandID>
+      <image />
+      <libraryName>BUDGET_CHECK_ON_OFF_LIB</libraryName>
+      <lineMessage>Page.Save</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>24</logLineID>
+      <logParentLineID>23</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>6</commandID>
+      <image />
+      <libraryName>BUDGET_CHECK_ON_OFF_LIB</libraryName>
+      <lineMessage>button.Click  [Name=#ICSave]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>25</logLineID>
+      <logParentLineID>23</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>6</commandID>
+      <image />
+      <libraryName>BUDGET_CHECK_ON_OFF_LIB</libraryName>
+      <lineMessage>============= PageSave: YES ========</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>26</logLineID>
+      <logParentLineID>5</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>6</commandID>
+      <image />
+      <libraryName>BUDGET_CHECK_ON_OFF_LIB</libraryName>
+      <lineMessage>Saving persistent variables.</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>27</logLineID>
+      <logParentLineID>5</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>6</commandID>
+      <image />
+      <libraryName>BUDGET_CHECK_ON_OFF_LIB</libraryName>
+      <lineMessage>Test End:  3/8/2018 6:03:52 AM</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>28</logLineID>
+      <logParentLineID>1</logParentLineID>
+      <commandExpression>Test -&gt; Exec -&gt; AP_FMS_25966861_INCORECT_01</commandExpression>
+      <commandID>3</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Starting the call to $\QA AUTOMATION\FMS\CFL - Customer Feedback Loop\PI#25\Accounts Payable\India - Goods and Service Tax\25966861-INCORRECT REVERSE CHA\AP_FMS_25966861_INCORECT_01  [Test Case: DEFAULT]</lineMessage>
+      <logResult>120</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>29</logLineID>
+      <logParentLineID>28</logParentLineID>
+      <commandExpression></commandExpression>
+      <commandID>0</commandID>
+      <image />
+      <libraryName>AP_FMS_25966861_INCORECT_01</libraryName>
+      <lineMessage>Use of Message Recognition</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>30</logLineID>
+      <logParentLineID>29</logParentLineID>
+      <commandExpression></commandExpression>
+      <commandID>0</commandID>
+      <image />
+      <libraryName>AP_FMS_25966861_INCORECT_01</libraryName>
+      <lineMessage>ErrorHnd: (10208,44) [Test]</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>Button: Yes, Action: Continue</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>31</logLineID>
+      <logParentLineID>29</logParentLineID>
+      <commandExpression></commandExpression>
+      <commandID>0</commandID>
+      <image />
+      <libraryName>AP_FMS_25966861_INCORECT_01</libraryName>
+      <lineMessage>ErrorHnd: (10229,31) [Test]</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>Button: OK, Action: Continue</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>32</logLineID>
+      <logParentLineID>29</logParentLineID>
+      <commandExpression></commandExpression>
+      <commandID>0</commandID>
+      <image />
+      <libraryName>AP_FMS_25966861_INCORECT_01</libraryName>
+      <lineMessage>ErrorHnd: (10200,66) [Test]</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>Button: Yes, Action: Continue</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>33</logLineID>
+      <logParentLineID>28</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>AP_FMS_25966861_INCORECT_01</libraryName>
+      <lineMessage>Browser.Start_Login</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>34</logLineID>
+      <logParentLineID>33</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>AP_FMS_25966861_INCORECT_01</libraryName>
+      <lineMessage>Closing old browsers...</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>35</logLineID>
+      <logParentLineID>33</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>AP_FMS_25966861_INCORECT_01</libraryName>
+      <lineMessage>The chrome version 64 is not supported. You might have issue with it. The current supported browser is: 56-58</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>36</logLineID>
+      <logParentLineID>33</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>AP_FMS_25966861_INCORECT_01</libraryName>
+      <lineMessage>Frame set to ''</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>Current frame: ''    Previous Frame: 'TargetContent'</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>37</logLineID>
+      <logParentLineID>33</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>AP_FMS_25966861_INCORECT_01</libraryName>
+      <lineMessage>Goto URL</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>http://slc11qlz.us.oracle.com:8000/e92eh7cxx/signon.html</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>38</logLineID>
+      <logParentLineID>33</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>AP_FMS_25966861_INCORECT_01</libraryName>
+      <lineMessage>Browser.Login</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>39</logLineID>
+      <logParentLineID>38</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>AP_FMS_25966861_INCORECT_01</libraryName>
+      <lineMessage>Doing login in English</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>40</logLineID>
+      <logParentLineID>39</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>AP_FMS_25966861_INCORECT_01</libraryName>
+      <lineMessage>combobox.Set_Value [id=ptlangsel] -&gt; ENG</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>41</logLineID>
+      <logParentLineID>38</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>AP_FMS_25966861_INCORECT_01</libraryName>
+      <lineMessage>text.Set_Value [id=userid] -&gt; VP1</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>42</logLineID>
+      <logParentLineID>38</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>AP_FMS_25966861_INCORECT_01</libraryName>
+      <lineMessage>pwd.Set_Value [id=pwd] -&gt; </lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>43</logLineID>
+      <logParentLineID>38</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>AP_FMS_25966861_INCORECT_01</libraryName>
+      <lineMessage>button.Click  [name=Submit]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>44</logLineID>
+      <logParentLineID>28</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; MANAGE_PURCHASE_ORDERS.PURCHASE_ORDER.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>AP_FMS_25966861_INCORECT_01</libraryName>
+      <lineMessage>Page.Prompt</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>MANAGE_PURCHASE_ORDERS.PURCHASE_ORDER.GBL</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>45</logLineID>
+      <logParentLineID>44</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; MANAGE_PURCHASE_ORDERS.PURCHASE_ORDER.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>AP_FMS_25966861_INCORECT_01</libraryName>
+      <lineMessage>Goto URL</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>http://slc11qlz.us.oracle.com:8000/psp/e92eh7cxx/EMPLOYEE/ERP/c/MANAGE_PURCHASE_ORDERS.PURCHASE_ORDER.GBL</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>46</logLineID>
+      <logParentLineID>44</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; MANAGE_PURCHASE_ORDERS.PURCHASE_ORDER.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>AP_FMS_25966861_INCORECT_01</libraryName>
+      <lineMessage>Page.Prompt: Trying to do the following action = add update</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>47</logLineID>
+      <logParentLineID>44</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=PO_ADD_SRCH_BUSINESS_UNIT</commandExpression>
+      <commandID>3</commandID>
+      <image />
+      <libraryName>AP_FMS_25966861_INCORECT_01</libraryName>
+      <lineMessage>text.Set_Value [name=PO_ADD_SRCH_BUSINESS_UNIT] -&gt; IND01</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>48</logLineID>
+      <logParentLineID>44</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=PO_ADD_SRCH_PO_ID</commandExpression>
+      <commandID>4</commandID>
+      <image />
+      <libraryName>AP_FMS_25966861_INCORECT_01</libraryName>
+      <lineMessage>text.Set_Value [name=PO_ADD_SRCH_PO_ID] -&gt; NEXT</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>49</logLineID>
+      <logParentLineID>44</logParentLineID>
+      <commandExpression>Page -&gt; PromptOk -&gt; </commandExpression>
+      <commandID>5</commandID>
+      <image />
+      <libraryName>AP_FMS_25966861_INCORECT_01</libraryName>
+      <lineMessage>button.Click  [name=#ICSearch]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>50</logLineID>
+      <logParentLineID>28</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=~PO_HDR_VENDOR_ID$*$</commandExpression>
+      <commandID>6</commandID>
+      <image />
+      <libraryName>AP_FMS_25966861_INCORECT_01</libraryName>
+      <lineMessage>text.Set_Value [name=~PO_HDR_VENDOR_ID$*$] -&gt; USA0000045</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>51</logLineID>
+      <logParentLineID>28</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=PO_HDR_BUYER_ID</commandExpression>
+      <commandID>7</commandID>
+      <image />
+      <libraryName>AP_FMS_25966861_INCORECT_01</libraryName>
+      <lineMessage>text.Set_Value [name=PO_HDR_BUYER_ID] -&gt; VP1</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>52</logLineID>
+      <logParentLineID>28</logParentLineID>
+      <commandExpression>Button -&gt; Click -&gt; name=#ICRefresh</commandExpression>
+      <commandID>8</commandID>
+      <image />
+      <libraryName>AP_FMS_25966861_INCORECT_01</libraryName>
+      <lineMessage>button.Click  [name=#ICRefresh]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>53</logLineID>
+      <logParentLineID>28</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;scr1</commandExpression>
+      <commandID>10</commandID>
+      <image />
+      <libraryName>AP_FMS_25966861_INCORECT_01</libraryName>
+      <lineMessage>Scroll [1] Start: -,  Action: upd,  Key: #NOTHING</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>54</logLineID>
+      <logParentLineID>53</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;scr1</commandExpression>
+      <commandID>10</commandID>
+      <image />
+      <libraryName>AP_FMS_25966861_INCORECT_01</libraryName>
+      <lineMessage>Key: id=INV_ITEM_ID [text] - Value: #NOTHING</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>55</logLineID>
+      <logParentLineID>53</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;scr1</commandExpression>
+      <commandID>10</commandID>
+      <image />
+      <libraryName>AP_FMS_25966861_INCORECT_01</libraryName>
+      <lineMessage>Found Row: $0</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>56</logLineID>
+      <logParentLineID>53</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=INV_ITEM_ID&amp;scr1</commandExpression>
+      <commandID>11</commandID>
+      <image />
+      <libraryName>AP_FMS_25966861_INCORECT_01</libraryName>
+      <lineMessage>text.Set_Value [name=INV_ITEM_ID$0] -&gt; INDRM001</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>57</logLineID>
+      <logParentLineID>53</logParentLineID>
+      <commandExpression>LongText -&gt; Set_Value -&gt; name=DESCR254_MIXED&amp;scr1</commandExpression>
+      <commandID>12</commandID>
+      <image />
+      <libraryName>AP_FMS_25966861_INCORECT_01</libraryName>
+      <lineMessage>longtext.Set_Value [name=DESCR254_MIXED$0] -&gt; Crankshaft</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>58</logLineID>
+      <logParentLineID>53</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=PO_PNLS_WRK_QTY_PO&amp;scr1</commandExpression>
+      <commandID>13</commandID>
+      <image />
+      <libraryName>AP_FMS_25966861_INCORECT_01</libraryName>
+      <lineMessage>text.Set_Value [name=PO_PNLS_WRK_QTY_PO$0] -&gt; 10.0000</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>59</logLineID>
+      <logParentLineID>53</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=PO_LINE_UNIT_OF_MEASURE&amp;scr1</commandExpression>
+      <commandID>14</commandID>
+      <image />
+      <libraryName>AP_FMS_25966861_INCORECT_01</libraryName>
+      <lineMessage>text.Set_Value [name=PO_LINE_UNIT_OF_MEASURE$0] -&gt; EA</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>60</logLineID>
+      <logParentLineID>53</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=PO_LINE_WK_PRICE_PO_C&amp;scr1</commandExpression>
+      <commandID>15</commandID>
+      <image />
+      <libraryName>AP_FMS_25966861_INCORECT_01</libraryName>
+      <lineMessage>text.Set_Value [name=PO_LINE_WK_PRICE_PO_C$0] -&gt; 100.00</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>61</logLineID>
+      <logParentLineID>53</logParentLineID>
+      <commandExpression>Link -&gt; Click -&gt; text=Ship To/Due Date</commandExpression>
+      <commandID>16</commandID>
+      <image />
+      <libraryName>AP_FMS_25966861_INCORECT_01</libraryName>
+      <lineMessage>link.Click  [text=Ship To/Due Date]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>62</logLineID>
+      <logParentLineID>28</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;scr1</commandExpression>
+      <commandID>19</commandID>
+      <image />
+      <libraryName>AP_FMS_25966861_INCORECT_01</libraryName>
+      <lineMessage>Scroll [1] Start: $0,  Action: sel,  Key: 1</lineMessage>
+      <logResult>120</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>63</logLineID>
+      <logParentLineID>62</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;scr1</commandExpression>
+      <commandID>19</commandID>
+      <image />
+      <libraryName>AP_FMS_25966861_INCORECT_01</libraryName>
+      <lineMessage>Key: id=LINE_NBR [span] - Value: 1</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>64</logLineID>
+      <logParentLineID>62</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;scr1</commandExpression>
+      <commandID>19</commandID>
+      <image />
+      <libraryName>AP_FMS_25966861_INCORECT_01</libraryName>
+      <lineMessage>Found Row: $0</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>65</logLineID>
+      <logParentLineID>62</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=PO_LINE_WK_SHIPTO_ID&amp;scr1</commandExpression>
+      <commandID>20</commandID>
+      <image />
+      <libraryName>AP_FMS_25966861_INCORECT_01</libraryName>
+      <lineMessage>text.Set_Value [name=PO_LINE_WK_SHIPTO_ID$0] -&gt; IND01</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>66</logLineID>
+      <logParentLineID>62</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>21</commandID>
+      <image />
+      <libraryName>AP_FMS_25966861_INCORECT_01</libraryName>
+      <lineMessage>Page.Save</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>67</logLineID>
+      <logParentLineID>66</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>21</commandID>
+      <image />
+      <libraryName>AP_FMS_25966861_INCORECT_01</libraryName>
+      <lineMessage>button.Click  [Name=#ICSave]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>68</logLineID>
+      <logParentLineID>67</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>21</commandID>
+      <image />
+      <libraryName>AP_FMS_25966861_INCORECT_01</libraryName>
+      <lineMessage>Message Recognition</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>69</logLineID>
+      <logParentLineID>68</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>21</commandID>
+      <image />
+      <libraryName>AP_FMS_25966861_INCORECT_01</libraryName>
+      <lineMessage>button.Click  [Name=#ICOK]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>70</logLineID>
+      <logParentLineID>68</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>21</commandID>
+      <image />
+      <libraryName>AP_FMS_25966861_INCORECT_01</libraryName>
+      <lineMessage>Msg: Override SHIP TO  From US001 to IND01 ? (10229,31)</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>Message Handled. Click on: OK. ObjName=button, Value=Name=#ICSave, PageName: PO_LINE</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>71</logLineID>
+      <logParentLineID>68</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>21</commandID>
+      <image />
+      <libraryName>AP_FMS_25966861_INCORECT_01</libraryName>
+      <lineMessage>Message defined in the Test</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>72</logLineID>
+      <logParentLineID>66</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>21</commandID>
+      <image />
+      <libraryName>AP_FMS_25966861_INCORECT_01</libraryName>
+      <lineMessage>============= PageSave: YES ========</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>73</logLineID>
+      <logParentLineID>62</logParentLineID>
+      <commandExpression>Wait -&gt; For_Seconds -&gt; 30</commandExpression>
+      <commandID>22</commandID>
+      <image />
+      <libraryName>AP_FMS_25966861_INCORECT_01</libraryName>
+      <lineMessage>Waiting for 30 seconds.</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>74</logLineID>
+      <logParentLineID>62</logParentLineID>
+      <commandExpression>Span -&gt; Get_Property -&gt; id=PO_HDR_PO_ID -&gt; prop=textContent;ret=&amp;poid_63648</commandExpression>
+      <commandID>23</commandID>
+      <image />
+      <libraryName>AP_FMS_25966861_INCORECT_01</libraryName>
+      <lineMessage>span.Get_Property [id=PO_HDR_PO_ID]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>75</logLineID>
+      <logParentLineID>74</logParentLineID>
+      <commandExpression>Span -&gt; Get_Property -&gt; id=PO_HDR_PO_ID -&gt; prop=textContent;ret=&amp;poid_63648</commandExpression>
+      <commandID>23</commandID>
+      <image />
+      <libraryName>AP_FMS_25966861_INCORECT_01</libraryName>
+      <lineMessage>id=PO_HDR_PO_ID [span]. The property 'textContent' was found, and it is 'NEXT'.</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>76</logLineID>
+      <logParentLineID>62</logParentLineID>
+      <commandExpression>Log -&gt; Message -&gt; Purchase order=&amp;poid_63648</commandExpression>
+      <commandID>24</commandID>
+      <image />
+      <libraryName>AP_FMS_25966861_INCORECT_01</libraryName>
+      <lineMessage>Purchase order=NEXT</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>77</logLineID>
+      <logParentLineID>62</logParentLineID>
+      <commandExpression>Button -&gt; Click -&gt; name=PO_PNLS_WRK_DISPATCH_PB</commandExpression>
+      <commandID>25</commandID>
+      <image />
+      <libraryName>AP_FMS_25966861_INCORECT_01</libraryName>
+      <lineMessage>button.Click  [name=PO_PNLS_WRK_DISPATCH_PB]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>78</logLineID>
+      <logParentLineID>62</logParentLineID>
+      <commandExpression>Browser -&gt; FrameSet -&gt; ptModFrame_##</commandExpression>
+      <commandID>26</commandID>
+      <image />
+      <libraryName>AP_FMS_25966861_INCORECT_01</libraryName>
+      <lineMessage>Frame set to ''</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>Current frame: ''    Previous Frame: 'TargetContent'</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>79</logLineID>
+      <logParentLineID>62</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=PRCSRQSTDLG_WRK_SERVERNAME</commandExpression>
+      <commandID>27</commandID>
+      <image />
+      <libraryName>AP_FMS_25966861_INCORECT_01</libraryName>
+      <lineMessage>text.Set_Value [name=PRCSRQSTDLG_WRK_SERVERNAME] -&gt; PSUNX</lineMessage>
+      <logResult>120</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>80</logLineID>
+      <logParentLineID>79</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=PRCSRQSTDLG_WRK_SERVERNAME</commandExpression>
+      <commandID>27</commandID>
+      <image />
+      <libraryName>AP_FMS_25966861_INCORECT_01</libraryName>
+      <lineMessage>Object not found in the page, or the access is denied to the Frame.</lineMessage>
+      <logResult>120</logResult>
+      <longDescr>Please check if the Type or the Recognition string are correct.  TYPE: text,  PROPERTIES: name=PRCSRQSTDLG_WRK_SERVERNAME,  CURRENT FRAME: </longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>81</logLineID>
+      <logParentLineID>79</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=PRCSRQSTDLG_WRK_SERVERNAME</commandExpression>
+      <commandID>27</commandID>
+      <image>AP_FMS_25966861_INCORECT_SHELL-LOG2-Line81</image>
+      <libraryName>AP_FMS_25966861_INCORECT_01</libraryName>
+      <lineMessage>LogScreenShot</lineMessage>
+      <logResult>220</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>82</logLineID>
+      <logParentLineID>62</logParentLineID>
+      <commandExpression>Wait -&gt; For_Value -&gt; id=PSXLATITEM_XLATSHORTNAME -&gt; type=Span</commandExpression>
+      <commandID>30</commandID>
+      <image />
+      <libraryName>AP_FMS_25966861_INCORECT_01</libraryName>
+      <lineMessage>Saving persistent variables.</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>83</logLineID>
+      <logParentLineID>62</logParentLineID>
+      <commandExpression>Wait -&gt; For_Value -&gt; id=PSXLATITEM_XLATSHORTNAME -&gt; type=Span</commandExpression>
+      <commandID>30</commandID>
+      <image />
+      <libraryName>AP_FMS_25966861_INCORECT_01</libraryName>
+      <lineMessage>Execution stopped by Execution.Stop_On_Error: 3/8/2018 6:07:49 AM</lineMessage>
+      <logResult>120</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>84</logLineID>
+      <logParentLineID>1</logParentLineID>
+      <commandExpression>Test -&gt; Exec -&gt; BUDGET_CHECK_ON_OFF_LIB -&gt; ON_OFF=Y</commandExpression>
+      <commandID>14</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Saving persistent variables.</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>85</logLineID>
+      <logParentLineID>1</logParentLineID>
+      <commandExpression>Test -&gt; Exec -&gt; BUDGET_CHECK_ON_OFF_LIB -&gt; ON_OFF=Y</commandExpression>
+      <commandID>14</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Execution stopped by Execution.Stop_On_Error: 3/8/2018 6:08:05 AM</lineMessage>
+      <logResult>120</logResult>
+      <longDescr></longDescr>
+    </logLine>
+  </lines>
+</Log>

@@ -1,0 +1,557 @@
+﻿<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="ToolsAutoStyle.xsl"?>
+<Log>
+  <logID>1</logID>
+  <logCaption>1. PS 2012-10-17 13:47</logCaption>
+  <caseName>DEFAULT</caseName>
+  <logFolder>TEST</logFolder>
+  <logPrefix></logPrefix>
+  <logLineCount>0</logLineCount>
+  <machineName>RNO207334</machineName>
+  <scriptFinalResult>120</scriptFinalResult>
+  <testName>DR_DUMMY</testName>
+  <userID>PS</userID>
+  <executionOptions>
+    <executionOptionName>LM920TM1</executionOptionName>
+    <databaseName />
+    <databasePlatform />
+    <databaseServer />
+    <databaseUser />
+    <dateFormat>MM/DD/YYYY</dateFormat>
+    <peopleToolsPath />
+    <processServer>PSNT</processServer>
+    <prompt>N</prompt>
+    <skipRun>N</skipRun>
+    <skipSave>N</skipSave>
+    <url>http://rtdc78249qaemt.us.oracle.com/psp/lm920tm1nt/EMPLOYEE/PSFT_LM/?cmd=logout</url>
+    <userID>PS</userID>
+    <verbose>Y</verbose>
+  </executionOptions>
+  <extras>
+    <extra>
+      <logSection>3. System Info</logSection>
+      <logOrder>1</logOrder>
+      <logValue>1024 X 768 pixels</logValue>
+      <logLabel>Screen resolultion :</logLabel>
+    </extra>
+    <extra>
+      <logSection>3. System Info</logSection>
+      <logOrder>4</logOrder>
+      <logValue>Intel 586.11266x4</logValue>
+      <logLabel>Processor :</logLabel>
+    </extra>
+    <extra>
+      <logSection>3. System Info</logSection>
+      <logOrder>5</logOrder>
+      <logValue>Microsoft Windows Server 2003 Enterprise Edition</logValue>
+      <logLabel>Operating System full name:</logLabel>
+    </extra>
+    <extra>
+      <logSection>3. System Info</logSection>
+      <logOrder>6</logOrder>
+      <logValue>5.2.3790.131072</logValue>
+      <logLabel>Operating Sytem version:</logLabel>
+    </extra>
+    <extra>
+      <logSection>3. System Info</logSection>
+      <logOrder>7</logOrder>
+      <logValue>16383 Mb</logValue>
+      <logLabel>Memory Total :</logLabel>
+    </extra>
+    <extra>
+      <logSection>3. System Info</logSection>
+      <logOrder>8</logOrder>
+      <logValue>15113 Mb</logValue>
+      <logLabel>Memory Available :</logLabel>
+    </extra>
+    <extra>
+      <logSection>3. System Info</logSection>
+      <logOrder>9</logOrder>
+      <logValue>Internet Explorer 8.0.6001.18702</logValue>
+      <logLabel>Browser :</logLabel>
+    </extra>
+    <extra>
+      <logSection>3. System Info</logSection>
+      <logOrder>10</logOrder>
+      <logValue>ENG</logValue>
+      <logLabel>OS Lang Code:</logLabel>
+    </extra>
+    <extra>
+      <logSection>4. Environment Info</logSection>
+      <logOrder>1</logOrder>
+      <logValue>https://rtdc78252qaemt.us.oracle.com:5443/PSIGW/HttpListeningConnector</logValue>
+      <logLabel>Env. URL :</logLabel>
+    </extra>
+    <extra>
+      <logSection>6. Extra Info</logSection>
+      <logOrder>1</logOrder>
+      <logValue>8.53-808-R2</logValue>
+      <logLabel>PsTestFramework Version :</logLabel>
+    </extra>
+    <extra>
+      <logSection>6. Extra Info</logSection>
+      <logOrder>2</logOrder>
+      <logValue>False</logValue>
+      <logLabel>Disable ScreenShot :</logLabel>
+    </extra>
+    <extra>
+      <logSection>6. Extra Info</logSection>
+      <logOrder>3</logOrder>
+      <logValue>True</logValue>
+      <logLabel>User Error Handling :</logLabel>
+    </extra>
+  </extras>
+  <lines>
+    <logLine>
+      <logLineID>1</logLineID>
+      <logParentLineID>0</logParentLineID>
+      <commandExpression></commandExpression>
+      <commandID>0</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Test Start:  10/17/2012 1:47:51 PM</lineMessage>
+      <logResult>120</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>2</logLineID>
+      <logParentLineID>1</logParentLineID>
+      <commandExpression></commandExpression>
+      <commandID>0</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Use of Message Recognition</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>3</logLineID>
+      <logParentLineID>1</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt;</commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Msg:</lineMessage>
+      <logResult>115</logResult>
+      <longDescr>Unhandled Error. Click on: OK. Value=Browser Init PopUp Message, PageName: </longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>4</logLineID>
+      <logParentLineID>3</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt;</commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Click   : OK [PushButton]</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>5</logLineID>
+      <logParentLineID>3</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt;</commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Object Type=PushButton;Text=OK not found.</lineMessage>
+      <logResult>120</logResult>
+      <longDescr>Click can't click</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>6</logLineID>
+      <logParentLineID>3</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt;</commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>LogScreenShot</lineMessage>
+      <logResult>220</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>7</logLineID>
+      <logParentLineID>1</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt;</commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Msg:</lineMessage>
+      <logResult>120</logResult>
+      <longDescr>Unhandled Error. Click on: OK. Value=Browser Init PopUp Message, PageName: </longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>8</logLineID>
+      <logParentLineID>7</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt;</commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Click   : OK [PushButton]</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>9</logLineID>
+      <logParentLineID>7</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt;</commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Object Type=PushButton;Text=OK not found.</lineMessage>
+      <logResult>120</logResult>
+      <longDescr>Click can't click</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>10</logLineID>
+      <logParentLineID>1</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt;</commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Msg:</lineMessage>
+      <logResult>120</logResult>
+      <longDescr>Unhandled Error. Click on: OK. Value=Browser Init PopUp Message, PageName: </longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>11</logLineID>
+      <logParentLineID>10</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt;</commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Click   : OK [PushButton]</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>12</logLineID>
+      <logParentLineID>10</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt;</commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Object Type=PushButton;Text=OK not found.</lineMessage>
+      <logResult>120</logResult>
+      <longDescr>Click can't click</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>13</logLineID>
+      <logParentLineID>1</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt;</commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Msg:</lineMessage>
+      <logResult>120</logResult>
+      <longDescr>Unhandled Error. Click on: OK. Value=Browser Init PopUp Message, PageName: </longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>14</logLineID>
+      <logParentLineID>13</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt;</commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Click   : OK [PushButton]</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>15</logLineID>
+      <logParentLineID>13</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt;</commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Object Type=PushButton;Text=OK not found.</lineMessage>
+      <logResult>120</logResult>
+      <longDescr>Click can't click</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>16</logLineID>
+      <logParentLineID>13</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt;</commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>LogScreenShot</lineMessage>
+      <logResult>220</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>17</logLineID>
+      <logParentLineID>1</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt;</commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Goto URL</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>http://rtdc78249qaemt.us.oracle.com/psp/lm920tm1nt/EMPLOYEE/PSFT_LM/?cmd=logout</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>18</logLineID>
+      <logParentLineID>1</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt;</commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Browser.Login</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>19</logLineID>
+      <logParentLineID>18</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt;</commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Doing login in English</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>20</logLineID>
+      <logParentLineID>18</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt;</commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Text Set_Value [Name=userid] -&gt; PS</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>21</logLineID>
+      <logParentLineID>18</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt;</commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Pwd Set_Value [Name=pwd] -&gt; **********************</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>22</logLineID>
+      <logParentLineID>18</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt;</commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Button Click  [Name=Submit]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>23</logLineID>
+      <logParentLineID>1</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt;</commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Frame set to ''</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>Current frame:     Previous Frame: </longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>24</logLineID>
+      <logParentLineID>1</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; MAINTAIN_SECURITY.USERMAINT.GBL</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Page.Prompt</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>MAINTAIN_SECURITY.USERMAINT.GBL</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>25</logLineID>
+      <logParentLineID>24</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; MAINTAIN_SECURITY.USERMAINT.GBL</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Goto URL</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>http://rtdc78249qaemt.us.oracle.com/psp/lm920tm1nt/EMPLOYEE/ELM/c/MAINTAIN_SECURITY.USERMAINT.GBL</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>26</logLineID>
+      <logParentLineID>24</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; MAINTAIN_SECURITY.USERMAINT.GBL</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>PsPanelPrompt: Trying to do the following action = add update</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>27</logLineID>
+      <logParentLineID>24</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; MAINTAIN_SECURITY.USERMAINT.GBL</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Click   : #ICSwitchMode [HTMLLink]</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>28</logLineID>
+      <logParentLineID>24</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; Name=PSOPRDEFN_SRCH_OPRID</commandExpression>
+      <commandID>3</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Text Set_Value [Name=PSOPRDEFN_SRCH_OPRID] -&gt; PS</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>29</logLineID>
+      <logParentLineID>24</logParentLineID>
+      <commandExpression>Page -&gt; PromptOk -&gt;</commandExpression>
+      <commandID>4</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Click   : #ICSearch [PushButton]</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>30</logLineID>
+      <logParentLineID>24</logParentLineID>
+      <commandExpression>Page -&gt; PromptOk -&gt;</commandExpression>
+      <commandID>4</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Click   : SEARCH_RESULT1 [HTMLLink]</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>31</logLineID>
+      <logParentLineID>1</logParentLineID>
+      <commandExpression>Page -&gt; Go_To -&gt; Roles</commandExpression>
+      <commandID>5</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Page.Go_To: Roles</lineMessage>
+      <logResult>120</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>32</logLineID>
+      <logParentLineID>31</logParentLineID>
+      <commandExpression>Page -&gt; Go_To -&gt; Roles</commandExpression>
+      <commandID>5</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Click   : Roles [HTMLLink]</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>33</logLineID>
+      <logParentLineID>31</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt; ret=&amp;Scr1</commandExpression>
+      <commandID>7</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Scroll [1] Start: -,  Action: sel,  Key: PTF Administrator</lineMessage>
+      <logResult>120</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>34</logLineID>
+      <logParentLineID>33</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt; ret=&amp;Scr1</commandExpression>
+      <commandID>7</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Click   : HTMLImage;Name=PSROLEUSER_VW$hdown$img$0 [HTMLImage]</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>35</logLineID>
+      <logParentLineID>33</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt; ret=&amp;Scr1</commandExpression>
+      <commandID>7</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Found Row: $5</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>36</logLineID>
+      <logParentLineID>33</logParentLineID>
+      <commandExpression>Span -&gt; Verify -&gt; Comment=PSROLEDEFN_DESCR&amp;Scr1</commandExpression>
+      <commandID>8</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Verify: Comment=PSROLEDEFN_DESCR$5 [Span] -&gt; PTF Administrator NOT</lineMessage>
+      <logResult>120</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>37</logLineID>
+      <logParentLineID>36</logParentLineID>
+      <commandExpression>Span -&gt; Verify -&gt; Comment=PSROLEDEFN_DESCR&amp;Scr1</commandExpression>
+      <commandID>8</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Check field: Comment=PSROLEDEFN_DESCR$5, 'PTF Administrator' (actual) &lt;&gt; 'PTF Administrator NOT' (expected)</lineMessage>
+      <logResult>120</logResult>
+      <longDescr>Object Type: Span, Field: Comment=PSROLEDEFN_DESCR$5, Value: PTF Administrator, CheckValue: PTF Administrator NOT</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>38</logLineID>
+      <logParentLineID>36</logParentLineID>
+      <commandExpression>Span -&gt; Verify -&gt; Comment=PSROLEDEFN_DESCR&amp;Scr1</commandExpression>
+      <commandID>8</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>LogScreenShot</lineMessage>
+      <logResult>220</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>39</logLineID>
+      <logParentLineID>33</logParentLineID>
+      <commandExpression>Conditional -&gt; If_Then -&gt; &amp;MYVAR=CONCAT("Hello"|"Hello")</commandExpression>
+      <commandID>9</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>If &amp;MYVAR=CONCAT("Hello"|"Hello")</lineMessage>
+      <logResult>120</logResult>
+      <longDescr>&amp;MYVAR=CONCAT("Hello"|"Hello")</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>40</logLineID>
+      <logParentLineID>39</logParentLineID>
+      <commandExpression>Conditional -&gt; If_Then -&gt; &amp;MYVAR=CONCAT("Hello"|"Hello")</commandExpression>
+      <commandID>9</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>PTF function error: Unrecognized parameter type. Please check that all string values are with quotes.</lineMessage>
+      <logResult>120</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>41</logLineID>
+      <logParentLineID>1</logParentLineID>
+      <commandExpression></commandExpression>
+      <commandID>0</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Test End:  10/17/2012 1:49:21 PM</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+  </lines>
+</Log>

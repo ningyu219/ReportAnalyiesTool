@@ -1,0 +1,4241 @@
+﻿<?xml version='1.0' ?>
+<?xml-stylesheet type='text/xsl' href='\\slcnas463.us.oracle.com\enterprise\PTF\Logs\ToolsAutoStyle.xsl'?>
+<Log>
+  <logID>1</logID>
+  <logCaption>1. VP1 2018-03-08 01:40</logCaption>
+  <caseName>DEFAULT</caseName>
+  <logFolder>PSTO_STG_ONCS_PI28_C570-GLD_180307_866</logFolder>
+  <logPrefix></logPrefix>
+  <logLineCount>371</logLineCount>
+  <machineName>SLC10BSG</machineName>
+  <scriptFinalResult>115</scriptFinalResult>
+  <testName>ACCOUNTING_ENTRY_20263994_SHEL</testName>
+  <userID>VP1</userID>
+  <executionOptions>
+    <executionOptionName>E92M3LTU</executionOptionName>
+    <databaseName>E92M3LTU</databaseName>
+    <databasePlatform>Oracle</databasePlatform>
+    <databaseServer></databaseServer>
+    <databaseUser>VP1</databaseUser>
+    <dateFormat>MM/DD/YYYY</dateFormat>
+    <peopleToolsPath>\\psbldfs\dfs\build\pt\ptship\pt85606b\install_Windows.ora</peopleToolsPath>
+    <processServer>PSUNX</processServer>
+    <prompt>No</prompt>
+    <skipRun>No</skipRun>
+    <skipSave>No</skipSave>
+    <url>http://slc08ayk.us.oracle.com:8000/e92m3ltux/signon.html</url>
+    <userID>VP1</userID>
+    <verbose>Yes</verbose>
+  </executionOptions>
+  <extras>
+    <extra>
+      <logSection>1. Execution Options</logSection>
+      <logOrder>1</logOrder>
+      <logValue>No</logValue>
+      <logLabel>Appl - Skip Language :</logLabel>
+    </extra>
+    <extra>
+      <logSection>1. Execution Options</logSection>
+      <logOrder>2</logOrder>
+      <logValue>N</logValue>
+      <logLabel>Appl - Form Factor :</logLabel>
+    </extra>
+    <extra>
+      <logSection>3. System Info</logSection>
+      <logOrder>1</logOrder>
+      <logValue>1280 X 1024 pixels</logValue>
+      <logLabel>Screen resolution :</logLabel>
+    </extra>
+    <extra>
+      <logSection>3. System Info</logSection>
+      <logOrder>4</logOrder>
+      <logValue>Intel(R) Xeon(R) CPU E5-2699 v3 @ 2.30GHz</logValue>
+      <logLabel>Processor :</logLabel>
+    </extra>
+    <extra>
+      <logSection>3. System Info</logSection>
+      <logOrder>5</logOrder>
+      <logValue>Microsoft Windows Server 2012 R2 Standard</logValue>
+      <logLabel>Operating System full name:</logLabel>
+    </extra>
+    <extra>
+      <logSection>3. System Info</logSection>
+      <logOrder>6</logOrder>
+      <logValue>6.2.9200.0</logValue>
+      <logLabel>Operating Sytem version:</logLabel>
+    </extra>
+    <extra>
+      <logSection>3. System Info</logSection>
+      <logOrder>7</logOrder>
+      <logValue>31300 Mb</logValue>
+      <logLabel>Memory Total :</logLabel>
+    </extra>
+    <extra>
+      <logSection>3. System Info</logSection>
+      <logOrder>8</logOrder>
+      <logValue>21466 Mb</logValue>
+      <logLabel>Memory Available :</logLabel>
+    </extra>
+    <extra>
+      <logSection>3. System Info</logSection>
+      <logOrder>9</logOrder>
+      <logValue>chrome 64.0.3282.186</logValue>
+      <logLabel>Browser :</logLabel>
+    </extra>
+    <extra>
+      <logSection>3. System Info</logSection>
+      <logOrder>10</logOrder>
+      <logValue>ENG</logValue>
+      <logLabel>OS Lang Code:</logLabel>
+    </extra>
+    <extra>
+      <logSection>4. Environment Info</logSection>
+      <logOrder>1</logOrder>
+      <logValue>https://slc05ehl.us.oracle.com:8001/PSIGW/HttpListeningConnector</logValue>
+      <logLabel>Env. URL :</logLabel>
+    </extra>
+    <extra>
+      <logSection>1.1. Portal URL Info</logSection>
+      <logOrder>1</logOrder>
+      <logValue>http://slc08ayk.us.oracle.com:8000/psp/e92m3ltux/CUSTOMER/ERP/</logValue>
+      <logLabel>CUSTOMER</logLabel>
+    </extra>
+    <extra>
+      <logSection>1.1. Portal URL Info</logSection>
+      <logOrder>1</logOrder>
+      <logValue>http://slc08ayk.us.oracle.com:8000/psp/e92m3ltux/EMPLOYEE/ERP/</logValue>
+      <logLabel>PORTAL</logLabel>
+    </extra>
+    <extra>
+      <logSection>1.1. Portal URL Info</logSection>
+      <logOrder>1</logOrder>
+      <logValue>http://slc08ayk.us.oracle.com:8000/psp/e92m3ltux/SUPPLIER/ERP/</logValue>
+      <logLabel>SUPPLIER</logLabel>
+    </extra>
+    <extra>
+      <logSection>5. Extra Info</logSection>
+      <logOrder>1</logOrder>
+      <logValue>8.56.07 hotfix1</logValue>
+      <logLabel>PsTestFramework Version :</logLabel>
+    </extra>
+    <extra>
+      <logSection>5. Extra Info</logSection>
+      <logOrder>2</logOrder>
+      <logValue>False</logValue>
+      <logLabel>Disable ScreenShot :</logLabel>
+    </extra>
+    <extra>
+      <logSection>5. Extra Info</logSection>
+      <logOrder>3</logOrder>
+      <logValue>True</logValue>
+      <logLabel>User Error Handling :</logLabel>
+    </extra>
+    <extra>
+      <logSection>6. Log Export</logSection>
+      <logOrder>1</logOrder>
+      <logValue>\\slcnas463.us.oracle.com\enterprise\QEShare\PTF Log Archive\PSTO_STG_ONCS_PI28_C570-GLD_180307_866\ACCOUNTING_ENTRY_20263994_SHEL</logValue>
+      <logLabel>Path :</logLabel>
+    </extra>
+    <extra>
+      <logSection>6. Log Export</logSection>
+      <logOrder>2</logOrder>
+      <logValue>\\slcnas463.us.oracle.com\enterprise\PTF\Logs\ToolsAutoStyle.xsl</logValue>
+      <logLabel>Style Sheet File :</logLabel>
+    </extra>
+    <extra>
+      <logSection>6. Log Export</logSection>
+      <logOrder>3</logOrder>
+      <logValue>Yes</logValue>
+      <logLabel>Time Stamp :</logLabel>
+    </extra>
+    <extra>
+      <logSection>6. Log Export</logSection>
+      <logOrder>4</logOrder>
+      <logValue>Yes</logValue>
+      <logLabel>Image :</logLabel>
+    </extra>
+  </extras>
+  <lines>
+    <logLine>
+      <logLineID>1</logLineID>
+      <logParentLineID>0</logParentLineID>
+      <commandExpression></commandExpression>
+      <commandID>0</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Unattended Start:  3/8/2018 1:40:40 AM</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>2</logLineID>
+      <logParentLineID>1</logParentLineID>
+      <commandExpression></commandExpression>
+      <commandID>0</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Use of Message Recognition</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>3</logLineID>
+      <logParentLineID>1</logParentLineID>
+      <commandExpression></commandExpression>
+      <commandID>0</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Reading persistent variables.</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>4</logLineID>
+      <logParentLineID>1</logParentLineID>
+      <commandExpression>Execution -&gt; Stop_On_Error -&gt; ALL</commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Execution action Stop_On_Error: set to all</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>5</logLineID>
+      <logParentLineID>1</logParentLineID>
+      <commandExpression>Test -&gt; Exec -&gt; ENABLE_DOCUMENT_SEQUENCING</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Starting the call to $\QA AUTOMATION\FMS\CFL - Customer Feedback Loop\PI#22\Cash Management\Accounting Processing\24759177 - AUTOMATED ACCOUNTIN\ENABLE_DOCUMENT_SEQUENCING  [Test Case: DEFAULT]</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>6</logLineID>
+      <logParentLineID>5</logParentLineID>
+      <commandExpression></commandExpression>
+      <commandID>0</commandID>
+      <image />
+      <libraryName>ENABLE_DOCUMENT_SEQUENCING</libraryName>
+      <lineMessage>Use of Message Recognition</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>7</logLineID>
+      <logParentLineID>5</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ENABLE_DOCUMENT_SEQUENCING</libraryName>
+      <lineMessage>Browser.Start_Login</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>8</logLineID>
+      <logParentLineID>7</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ENABLE_DOCUMENT_SEQUENCING</libraryName>
+      <lineMessage>The chrome version 64 is not supported. You might have issue with it. The current supported browser is: 56-58</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>9</logLineID>
+      <logParentLineID>7</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ENABLE_DOCUMENT_SEQUENCING</libraryName>
+      <lineMessage>Frame set to ''</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>Current frame: ''    Previous Frame: ''</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>10</logLineID>
+      <logParentLineID>7</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ENABLE_DOCUMENT_SEQUENCING</libraryName>
+      <lineMessage>Goto URL</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>http://slc08ayk.us.oracle.com:8000/e92m3ltux/signon.html</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>11</logLineID>
+      <logParentLineID>7</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ENABLE_DOCUMENT_SEQUENCING</libraryName>
+      <lineMessage>Browser.Login</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>12</logLineID>
+      <logParentLineID>11</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ENABLE_DOCUMENT_SEQUENCING</libraryName>
+      <lineMessage>Doing login in English</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>13</logLineID>
+      <logParentLineID>12</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ENABLE_DOCUMENT_SEQUENCING</libraryName>
+      <lineMessage>combobox.Set_Value [id=ptlangsel] -&gt; ENG</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>14</logLineID>
+      <logParentLineID>11</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ENABLE_DOCUMENT_SEQUENCING</libraryName>
+      <lineMessage>text.Set_Value [id=userid] -&gt; VP1</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>15</logLineID>
+      <logParentLineID>11</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ENABLE_DOCUMENT_SEQUENCING</libraryName>
+      <lineMessage>pwd.Set_Value [id=pwd] -&gt; </lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>16</logLineID>
+      <logParentLineID>11</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ENABLE_DOCUMENT_SEQUENCING</libraryName>
+      <lineMessage>button.Click  [name=Submit]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>17</logLineID>
+      <logParentLineID>5</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; DEFINE_GENERAL_OPTIONS.INSTALLATION.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>ENABLE_DOCUMENT_SEQUENCING</libraryName>
+      <lineMessage>Page.Prompt</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>DEFINE_GENERAL_OPTIONS.INSTALLATION.GBL</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>18</logLineID>
+      <logParentLineID>17</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; DEFINE_GENERAL_OPTIONS.INSTALLATION.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>ENABLE_DOCUMENT_SEQUENCING</libraryName>
+      <lineMessage>Goto URL</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>http://slc08ayk.us.oracle.com:8000/psp/e92m3ltux/EMPLOYEE/ERP/c/DEFINE_GENERAL_OPTIONS.INSTALLATION.GBL</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>19</logLineID>
+      <logParentLineID>17</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; DEFINE_GENERAL_OPTIONS.INSTALLATION.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>ENABLE_DOCUMENT_SEQUENCING</libraryName>
+      <lineMessage>Page.Prompt: Trying to do the following action = add update</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>20</logLineID>
+      <logParentLineID>17</logParentLineID>
+      <commandExpression>Link -&gt; Click -&gt; name=INST_LINKS_INST_FS1_LNK</commandExpression>
+      <commandID>3</commandID>
+      <image />
+      <libraryName>ENABLE_DOCUMENT_SEQUENCING</libraryName>
+      <lineMessage>link.Click  [name=INST_LINKS_INST_FS1_LNK]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>21</logLineID>
+      <logParentLineID>17</logParentLineID>
+      <commandExpression>CheckBox -&gt; Set_Value -&gt; name=INSTALLATION_FS_DOC_SEQ</commandExpression>
+      <commandID>4</commandID>
+      <image />
+      <libraryName>ENABLE_DOCUMENT_SEQUENCING</libraryName>
+      <lineMessage>checkbox.Set_Value [name=INSTALLATION_FS_DOC_SEQ] -&gt; Y</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>22</logLineID>
+      <logParentLineID>5</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>5</commandID>
+      <image />
+      <libraryName>ENABLE_DOCUMENT_SEQUENCING</libraryName>
+      <lineMessage>Page.Save</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>23</logLineID>
+      <logParentLineID>22</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>5</commandID>
+      <image />
+      <libraryName>ENABLE_DOCUMENT_SEQUENCING</libraryName>
+      <lineMessage>button.Click  [Name=#ICSave]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>24</logLineID>
+      <logParentLineID>22</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>5</commandID>
+      <image />
+      <libraryName>ENABLE_DOCUMENT_SEQUENCING</libraryName>
+      <lineMessage>============= PageSave: YES ========</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>25</logLineID>
+      <logParentLineID>5</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>5</commandID>
+      <image />
+      <libraryName>ENABLE_DOCUMENT_SEQUENCING</libraryName>
+      <lineMessage>Test End:  3/8/2018 1:41:53 AM</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>26</logLineID>
+      <logParentLineID>1</logParentLineID>
+      <commandExpression>Test -&gt; Exec -&gt; ACCOUNTING_ENTRY_20263994_01</commandExpression>
+      <commandID>3</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Starting the call to $\QA AUTOMATION\FMS\FIN - Cash Management\CM ICE Bundle Regression\Accounting Entries\20263994\ACCOUNTING_ENTRY_20263994_01  [Test Case: DEFAULT]</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>27</logLineID>
+      <logParentLineID>26</logParentLineID>
+      <commandExpression></commandExpression>
+      <commandID>0</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_01</libraryName>
+      <lineMessage>Use of Message Recognition</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>28</logLineID>
+      <logParentLineID>26</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_01</libraryName>
+      <lineMessage>Browser.Start_Login</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>29</logLineID>
+      <logParentLineID>28</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_01</libraryName>
+      <lineMessage>Closing old browsers...</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>30</logLineID>
+      <logParentLineID>28</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_01</libraryName>
+      <lineMessage>The chrome version 64 is not supported. You might have issue with it. The current supported browser is: 56-58</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>31</logLineID>
+      <logParentLineID>28</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_01</libraryName>
+      <lineMessage>Frame set to ''</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>Current frame: ''    Previous Frame: 'TargetContent'</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>32</logLineID>
+      <logParentLineID>28</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_01</libraryName>
+      <lineMessage>Goto URL</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>http://slc08ayk.us.oracle.com:8000/e92m3ltux/signon.html</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>33</logLineID>
+      <logParentLineID>28</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_01</libraryName>
+      <lineMessage>Browser.Login</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>34</logLineID>
+      <logParentLineID>33</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_01</libraryName>
+      <lineMessage>Doing login in English</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>35</logLineID>
+      <logParentLineID>34</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_01</libraryName>
+      <lineMessage>combobox.Set_Value [id=ptlangsel] -&gt; ENG</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>36</logLineID>
+      <logParentLineID>33</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_01</libraryName>
+      <lineMessage>text.Set_Value [id=userid] -&gt; VP1</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>37</logLineID>
+      <logParentLineID>33</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_01</libraryName>
+      <lineMessage>pwd.Set_Value [id=pwd] -&gt; </lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>38</logLineID>
+      <logParentLineID>33</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_01</libraryName>
+      <lineMessage>button.Click  [name=Submit]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>39</logLineID>
+      <logParentLineID>26</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; ADMINISTER_ACCOUNTING.ACCOUNTING_BUILD.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_01</libraryName>
+      <lineMessage>Page.Prompt</lineMessage>
+      <logResult>110</logResult>
+      <longDescr>ADMINISTER_ACCOUNTING.ACCOUNTING_BUILD.GBL</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>40</logLineID>
+      <logParentLineID>39</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; ADMINISTER_ACCOUNTING.ACCOUNTING_BUILD.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_01</libraryName>
+      <lineMessage>Goto URL</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>http://slc08ayk.us.oracle.com:8000/psp/e92m3ltux/EMPLOYEE/ERP/c/ADMINISTER_ACCOUNTING.ACCOUNTING_BUILD.GBL</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>41</logLineID>
+      <logParentLineID>39</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; ADMINISTER_ACCOUNTING.ACCOUNTING_BUILD.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_01</libraryName>
+      <lineMessage>Page.Prompt: Trying to do the following action = add</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>42</logLineID>
+      <logParentLineID>39</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; ADMINISTER_ACCOUNTING.ACCOUNTING_BUILD.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_01</libraryName>
+      <lineMessage>link.Click  [name=#ICSwitchMode]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>43</logLineID>
+      <logParentLineID>39</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=TRA_ACCTG_HDR_BUSINESS_UNIT</commandExpression>
+      <commandID>3</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_01</libraryName>
+      <lineMessage>text.Set_Value [name=TRA_ACCTG_HDR_BUSINESS_UNIT] -&gt; US001</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>44</logLineID>
+      <logParentLineID>39</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=TRA_ACCTG_HDR_ACCOUNTING_ID</commandExpression>
+      <commandID>4</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_01</libraryName>
+      <lineMessage>text.Set_Value [name=TRA_ACCTG_HDR_ACCOUNTING_ID] -&gt; NEXT</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>45</logLineID>
+      <logParentLineID>39</logParentLineID>
+      <commandExpression>Button -&gt; Click -&gt; name=#ICSearch</commandExpression>
+      <commandID>5</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_01</libraryName>
+      <lineMessage>button.Click  [name=#ICSearch]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>46</logLineID>
+      <logParentLineID>39</logParentLineID>
+      <commandExpression>ComboBox -&gt; Set_Value -&gt; name=TRA_ACCTG_HDR_TRA_SOURCE_CD</commandExpression>
+      <commandID>6</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_01</libraryName>
+      <lineMessage>combobox.Set_Value [name=TRA_ACCTG_HDR_TRA_SOURCE_CD] -&gt; B</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>47</logLineID>
+      <logParentLineID>39</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; NAME=TRA_ACCTG_HDR_ACCOUNTING_DT</commandExpression>
+      <commandID>7</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_01</libraryName>
+      <lineMessage>text.Set_Value [NAME=TRA_ACCTG_HDR_ACCOUNTING_DT] -&gt; 03/08/2018</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>48</logLineID>
+      <logParentLineID>39</logParentLineID>
+      <commandExpression>ComboBox -&gt; Set_Value -&gt; name=TRA_ACCTG_HDR_ACCTG_STATUS</commandExpression>
+      <commandID>8</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_01</libraryName>
+      <lineMessage>combobox.Set_Value [name=TRA_ACCTG_HDR_ACCTG_STATUS] -&gt; P</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>49</logLineID>
+      <logParentLineID>39</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=TRA_ACCTG_HDR_ACCTG_TMPL_ID</commandExpression>
+      <commandID>9</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_01</libraryName>
+      <lineMessage>text.Set_Value [name=TRA_ACCTG_HDR_ACCTG_TMPL_ID] -&gt; BSP-INTINC</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>50</logLineID>
+      <logParentLineID>39</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=TRA_ACCTG_WRK_COMBO_EDIT_TMPL</commandExpression>
+      <commandID>10</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_01</libraryName>
+      <lineMessage>text.Set_Value [name=TRA_ACCTG_WRK_COMBO_EDIT_TMPL] -&gt; TREASURY</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>51</logLineID>
+      <logParentLineID>39</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=TRA_ACCTG_HDR_DOC_TYPE</commandExpression>
+      <commandID>11</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_01</libraryName>
+      <lineMessage>text.Set_Value [name=TRA_ACCTG_HDR_DOC_TYPE] -&gt; TR-FBO</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>52</logLineID>
+      <logParentLineID>39</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr1</commandExpression>
+      <commandID>13</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_01</libraryName>
+      <lineMessage>Scroll [1] Start: -,  Action: upd,  Key: US001</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>53</logLineID>
+      <logParentLineID>52</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr1</commandExpression>
+      <commandID>13</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_01</libraryName>
+      <lineMessage>Key: NAME=TRA_ACCTG_LINE_BUSINESS_UNIT_GL [text] - Value: US001</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>54</logLineID>
+      <logParentLineID>52</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr1</commandExpression>
+      <commandID>13</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_01</libraryName>
+      <lineMessage>Found Row: $0</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>55</logLineID>
+      <logParentLineID>52</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=TRA_ACCTG_LINE_FOREIGN_AMOUNT&amp;Scr1</commandExpression>
+      <commandID>14</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_01</libraryName>
+      <lineMessage>text.Set_Value [name=TRA_ACCTG_LINE_FOREIGN_AMOUNT$0] -&gt; 2000.00</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>56</logLineID>
+      <logParentLineID>52</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=TRA_ACCTG_LINE_MONETARY_AMOUNT&amp;Scr1</commandExpression>
+      <commandID>15</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_01</libraryName>
+      <lineMessage>text.Set_Value [name=TRA_ACCTG_LINE_MONETARY_AMOUNT$0] -&gt; 2000.00</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>57</logLineID>
+      <logParentLineID>39</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr1</commandExpression>
+      <commandID>17</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_01</libraryName>
+      <lineMessage>Scroll [1] Start: $0,  Action: find,  Key: US001, 0.00</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>58</logLineID>
+      <logParentLineID>57</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr1</commandExpression>
+      <commandID>17</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_01</libraryName>
+      <lineMessage>Key: NAME=TRA_ACCTG_LINE_BUSINESS_UNIT_GL [text] - Value: US001</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>59</logLineID>
+      <logParentLineID>57</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr1</commandExpression>
+      <commandID>17</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_01</libraryName>
+      <lineMessage>Key: name=TRA_ACCTG_LINE_FOREIGN_AMOUNT [text] - Value: 0.00</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>60</logLineID>
+      <logParentLineID>57</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr1</commandExpression>
+      <commandID>17</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_01</libraryName>
+      <lineMessage>link.Click  [id=TRA_ACCTG_LINE$hfind$0]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>61</logLineID>
+      <logParentLineID>57</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr1</commandExpression>
+      <commandID>17</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_01</libraryName>
+      <lineMessage>Search string: 0.00</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>62</logLineID>
+      <logParentLineID>57</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr1</commandExpression>
+      <commandID>17</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_01</libraryName>
+      <lineMessage>Scroll 1. Find: text was found: 0.00</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>63</logLineID>
+      <logParentLineID>57</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr1</commandExpression>
+      <commandID>17</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_01</libraryName>
+      <lineMessage>Found Row: $1</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>64</logLineID>
+      <logParentLineID>57</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=TRA_ACCTG_LINE_FOREIGN_AMOUNT&amp;Scr1</commandExpression>
+      <commandID>18</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_01</libraryName>
+      <lineMessage>text.Set_Value [name=TRA_ACCTG_LINE_FOREIGN_AMOUNT$1] -&gt; -2000.00</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>65</logLineID>
+      <logParentLineID>57</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=TRA_ACCTG_LINE_MONETARY_AMOUNT&amp;Scr1</commandExpression>
+      <commandID>19</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_01</libraryName>
+      <lineMessage>text.Set_Value [name=TRA_ACCTG_LINE_MONETARY_AMOUNT$1] -&gt; -2000.00</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>66</logLineID>
+      <logParentLineID>57</logParentLineID>
+      <commandExpression>Link -&gt; Click -&gt; text=Chartfields</commandExpression>
+      <commandID>20</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_01</libraryName>
+      <lineMessage>link.Click  [text=Chartfields]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>67</logLineID>
+      <logParentLineID>39</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr2</commandExpression>
+      <commandID>22</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_01</libraryName>
+      <lineMessage>Scroll [2] Start: -,  Action: upd,  Key: US001</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>68</logLineID>
+      <logParentLineID>67</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr2</commandExpression>
+      <commandID>22</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_01</libraryName>
+      <lineMessage>Key: name=TRA_ACCTG_LINE_BUSINESS_UNIT_GL [text] - Value: US001</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>69</logLineID>
+      <logParentLineID>67</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr2</commandExpression>
+      <commandID>22</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_01</libraryName>
+      <lineMessage>Found Row: $0</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>70</logLineID>
+      <logParentLineID>67</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=TRA_ACCTG_LINE_ACCOUNT&amp;Scr2</commandExpression>
+      <commandID>23</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_01</libraryName>
+      <lineMessage>text.Set_Value [name=TRA_ACCTG_LINE_ACCOUNT$0] -&gt; 100001</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>71</logLineID>
+      <logParentLineID>39</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr2</commandExpression>
+      <commandID>25</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_01</libraryName>
+      <lineMessage>Scroll [2] Start: $0,  Action: upd,  Key: US001, 2</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>72</logLineID>
+      <logParentLineID>71</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr2</commandExpression>
+      <commandID>25</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_01</libraryName>
+      <lineMessage>Key: name=TRA_ACCTG_LINE_BUSINESS_UNIT_GL [text] - Value: US001</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>73</logLineID>
+      <logParentLineID>71</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr2</commandExpression>
+      <commandID>25</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_01</libraryName>
+      <lineMessage>Key: ID=TRA_ACCTG_LINE_ACCOUNTING_LINE [span] - Value: 2</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>74</logLineID>
+      <logParentLineID>71</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr2</commandExpression>
+      <commandID>25</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_01</libraryName>
+      <lineMessage>Found Row: $1</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>75</logLineID>
+      <logParentLineID>71</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=TRA_ACCTG_LINE_ACCOUNT&amp;Scr2</commandExpression>
+      <commandID>26</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_01</libraryName>
+      <lineMessage>text.Set_Value [name=TRA_ACCTG_LINE_ACCOUNT$1] -&gt; 100002</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>76</logLineID>
+      <logParentLineID>71</logParentLineID>
+      <commandExpression>Button -&gt; Click -&gt; id=TRA_ACCTG_WRK_TR_HYPERLINK</commandExpression>
+      <commandID>27</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_01</libraryName>
+      <lineMessage>button.Click  [id=TRA_ACCTG_WRK_TR_HYPERLINK]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>77</logLineID>
+      <logParentLineID>71</logParentLineID>
+      <commandExpression>Link -&gt; Click -&gt; text=Journal</commandExpression>
+      <commandID>28</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_01</libraryName>
+      <lineMessage>link.Click  [text=Journal]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>78</logLineID>
+      <logParentLineID>39</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr3</commandExpression>
+      <commandID>30</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_01</libraryName>
+      <lineMessage>Scroll [3] Start: -,  Action: sel,  Key: US001</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>79</logLineID>
+      <logParentLineID>78</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr3</commandExpression>
+      <commandID>30</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_01</libraryName>
+      <lineMessage>Key: name=TRA_ACCTG_LINE_BUSINESS_UNIT_GL [text] - Value: US001</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>80</logLineID>
+      <logParentLineID>78</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr3</commandExpression>
+      <commandID>30</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_01</libraryName>
+      <lineMessage>Found Row: $0</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>81</logLineID>
+      <logParentLineID>78</logParentLineID>
+      <commandExpression>Span -&gt; Verify -&gt; id=TRA_ACCTG_LINE_GL_DISTRIB_STATUS&amp;Scr3</commandExpression>
+      <commandID>31</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_01</libraryName>
+      <lineMessage>Verify: id=TRA_ACCTG_LINE_GL_DISTRIB_STATUS$0 [span] -&gt; Hold</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>82</logLineID>
+      <logParentLineID>81</logParentLineID>
+      <commandExpression>Span -&gt; Verify -&gt; id=TRA_ACCTG_LINE_GL_DISTRIB_STATUS&amp;Scr3</commandExpression>
+      <commandID>31</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_01</libraryName>
+      <lineMessage>Check field: id=TRA_ACCTG_LINE_GL_DISTRIB_STATUS$0, 'Hold' (actual) = 'Hold' (expected)</lineMessage>
+      <logResult>110</logResult>
+      <longDescr>Object Type: Span, Field: id=TRA_ACCTG_LINE_GL_DISTRIB_STATUS$0, Value: Hold, CheckValue: Hold</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>83</logLineID>
+      <logParentLineID>39</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr4</commandExpression>
+      <commandID>33</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_01</libraryName>
+      <lineMessage>Scroll [4] Start: -,  Action: sel,  Key: 2</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>84</logLineID>
+      <logParentLineID>83</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr4</commandExpression>
+      <commandID>33</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_01</libraryName>
+      <lineMessage>Key: ID=TRA_ACCTG_LINE_ACCOUNTING_LINE [span] - Value: 2</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>85</logLineID>
+      <logParentLineID>83</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr4</commandExpression>
+      <commandID>33</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_01</libraryName>
+      <lineMessage>Found Row: $1</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>86</logLineID>
+      <logParentLineID>83</logParentLineID>
+      <commandExpression>Span -&gt; Verify -&gt; id=TRA_ACCTG_LINE_GL_DISTRIB_STATUS&amp;Scr4</commandExpression>
+      <commandID>34</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_01</libraryName>
+      <lineMessage>Verify: id=TRA_ACCTG_LINE_GL_DISTRIB_STATUS$1 [span] -&gt; Hold</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>87</logLineID>
+      <logParentLineID>86</logParentLineID>
+      <commandExpression>Span -&gt; Verify -&gt; id=TRA_ACCTG_LINE_GL_DISTRIB_STATUS&amp;Scr4</commandExpression>
+      <commandID>34</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_01</libraryName>
+      <lineMessage>Check field: id=TRA_ACCTG_LINE_GL_DISTRIB_STATUS$1, 'Hold' (actual) = 'Hold' (expected)</lineMessage>
+      <logResult>110</logResult>
+      <longDescr>Object Type: Span, Field: id=TRA_ACCTG_LINE_GL_DISTRIB_STATUS$1, Value: Hold, CheckValue: Hold</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>88</logLineID>
+      <logParentLineID>83</logParentLineID>
+      <commandExpression>Button -&gt; Click -&gt; name=#ICSave</commandExpression>
+      <commandID>35</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_01</libraryName>
+      <lineMessage>button.Click  [name=#ICSave]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>89</logLineID>
+      <logParentLineID>83</logParentLineID>
+      <commandExpression>Wait -&gt; For_Seconds -&gt; 10</commandExpression>
+      <commandID>36</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_01</libraryName>
+      <lineMessage>Waiting for 10 seconds.</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>90</logLineID>
+      <logParentLineID>83</logParentLineID>
+      <commandExpression>Span -&gt; Get_Property -&gt; id=TRA_ACCTG_HDR_ACCOUNTING_ID -&gt; prop=text;ret=&amp;Acc_id</commandExpression>
+      <commandID>37</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_01</libraryName>
+      <lineMessage>span.Get_Property [id=TRA_ACCTG_HDR_ACCOUNTING_ID]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>91</logLineID>
+      <logParentLineID>90</logParentLineID>
+      <commandExpression>Span -&gt; Get_Property -&gt; id=TRA_ACCTG_HDR_ACCOUNTING_ID -&gt; prop=text;ret=&amp;Acc_id</commandExpression>
+      <commandID>37</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_01</libraryName>
+      <lineMessage>id=TRA_ACCTG_HDR_ACCOUNTING_ID [span]. The property 'text' was found, and it is '0000000037'.</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>92</logLineID>
+      <logParentLineID>83</logParentLineID>
+      <commandExpression>Log -&gt; Message -&gt; &amp;Acc_id</commandExpression>
+      <commandID>38</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_01</libraryName>
+      <lineMessage>0000000037</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>93</logLineID>
+      <logParentLineID>83</logParentLineID>
+      <commandExpression>Log -&gt; Message -&gt; &amp;Acc_id</commandExpression>
+      <commandID>38</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_01</libraryName>
+      <lineMessage>Saving persistent variables.</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>94</logLineID>
+      <logParentLineID>83</logParentLineID>
+      <commandExpression>Log -&gt; Message -&gt; &amp;Acc_id</commandExpression>
+      <commandID>38</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_01</libraryName>
+      <lineMessage>Test End:  3/8/2018 1:42:47 AM</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>95</logLineID>
+      <logParentLineID>1</logParentLineID>
+      <commandExpression>Test -&gt; Exec -&gt; ACCOUNTING_ENTRY_20263994_02</commandExpression>
+      <commandID>4</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Starting the call to $\QA AUTOMATION\FMS\FIN - Cash Management\CM ICE Bundle Regression\Accounting Entries\20263994\ACCOUNTING_ENTRY_20263994_02  [Test Case: DEFAULT]</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>96</logLineID>
+      <logParentLineID>95</logParentLineID>
+      <commandExpression></commandExpression>
+      <commandID>0</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_02</libraryName>
+      <lineMessage>Use of Message Recognition</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>97</logLineID>
+      <logParentLineID>95</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_02</libraryName>
+      <lineMessage>Browser.Start_Login</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>98</logLineID>
+      <logParentLineID>97</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_02</libraryName>
+      <lineMessage>Closing old browsers...</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>99</logLineID>
+      <logParentLineID>97</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_02</libraryName>
+      <lineMessage>The chrome version 64 is not supported. You might have issue with it. The current supported browser is: 56-58</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>100</logLineID>
+      <logParentLineID>97</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_02</libraryName>
+      <lineMessage>Frame set to ''</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>Current frame: ''    Previous Frame: 'TargetContent'</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>101</logLineID>
+      <logParentLineID>97</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_02</libraryName>
+      <lineMessage>Goto URL</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>http://slc08ayk.us.oracle.com:8000/e92m3ltux/signon.html</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>102</logLineID>
+      <logParentLineID>97</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_02</libraryName>
+      <lineMessage>Browser.Login</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>103</logLineID>
+      <logParentLineID>102</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_02</libraryName>
+      <lineMessage>Doing login in English</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>104</logLineID>
+      <logParentLineID>103</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_02</libraryName>
+      <lineMessage>combobox.Set_Value [id=ptlangsel] -&gt; ENG</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>105</logLineID>
+      <logParentLineID>102</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_02</libraryName>
+      <lineMessage>text.Set_Value [id=userid] -&gt; VP1</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>106</logLineID>
+      <logParentLineID>102</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_02</libraryName>
+      <lineMessage>pwd.Set_Value [id=pwd] -&gt; </lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>107</logLineID>
+      <logParentLineID>102</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_02</libraryName>
+      <lineMessage>button.Click  [name=Submit]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>108</logLineID>
+      <logParentLineID>95</logParentLineID>
+      <commandExpression>Test -&gt; Exec -&gt; CLASSIC_FLUID_NAV_LIB</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_02</libraryName>
+      <lineMessage>Starting the call to $\zLibraries\CLASSIC_FLUID_NAV_LIB  [Test Case: DEFAULT]</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>109</logLineID>
+      <logParentLineID>108</logParentLineID>
+      <commandExpression></commandExpression>
+      <commandID>0</commandID>
+      <image />
+      <libraryName>CLASSIC_FLUID_NAV_LIB</libraryName>
+      <lineMessage>Use of Message Recognition</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>110</logLineID>
+      <logParentLineID>108</logParentLineID>
+      <commandExpression>Browser -&gt; FrameSet -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>CLASSIC_FLUID_NAV_LIB</libraryName>
+      <lineMessage>Frame set to ''</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>Current frame: ''    Previous Frame: ''</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>111</logLineID>
+      <logParentLineID>108</logParentLineID>
+      <commandExpression>Link -&gt; Exists -&gt; id=pthnavbca_PORTAL_ROOT_OBJECT -&gt; ret=&amp;LnkExists</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>CLASSIC_FLUID_NAV_LIB</libraryName>
+      <lineMessage>The Link [id=pthnavbca_PORTAL_ROOT_OBJECT] was NOT found in the page.</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>112</logLineID>
+      <logParentLineID>108</logParentLineID>
+      <commandExpression>Conditional -&gt; If_Then -&gt; &amp;LnkExists &lt;&gt; "False"</commandExpression>
+      <commandID>3</commandID>
+      <image />
+      <libraryName>CLASSIC_FLUID_NAV_LIB</libraryName>
+      <lineMessage>If &amp;LnkExists &lt;&gt; "False"</lineMessage>
+      <logResult>115</logResult>
+      <longDescr>&amp;LnkExists &lt;&gt; "False"</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>113</logLineID>
+      <logParentLineID>112</logParentLineID>
+      <commandExpression>Conditional -&gt; Else -&gt; </commandExpression>
+      <commandID>6</commandID>
+      <image />
+      <libraryName>CLASSIC_FLUID_NAV_LIB</libraryName>
+      <lineMessage>Else</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>114</logLineID>
+      <logParentLineID>112</logParentLineID>
+      <commandExpression>Test -&gt; Exec -&gt; FLUID_BASE_NAVIGATION_LIB</commandExpression>
+      <commandID>7</commandID>
+      <image />
+      <libraryName>CLASSIC_FLUID_NAV_LIB</libraryName>
+      <lineMessage>Starting the call to $\zLibraries\FLUID_BASE_NAVIGATION_LIB  [Test Case: DEFAULT]</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>115</logLineID>
+      <logParentLineID>114</logParentLineID>
+      <commandExpression></commandExpression>
+      <commandID>0</commandID>
+      <image />
+      <libraryName>FLUID_BASE_NAVIGATION_LIB</libraryName>
+      <lineMessage>Use of Message Recognition</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>116</logLineID>
+      <logParentLineID>114</logParentLineID>
+      <commandExpression>Browser -&gt; FrameSet -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>FLUID_BASE_NAVIGATION_LIB</libraryName>
+      <lineMessage>Frame set to ''</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>Current frame: ''    Previous Frame: ''</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>117</logLineID>
+      <logParentLineID>114</logParentLineID>
+      <commandExpression>Link -&gt; Exists -&gt; id=pthdr2navbar -&gt; ret=&amp;nav_name</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>FLUID_BASE_NAVIGATION_LIB</libraryName>
+      <lineMessage>The Link [id=pthdr2navbar] was NOT found in the page.</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>118</logLineID>
+      <logParentLineID>108</logParentLineID>
+      <commandExpression>Conditional -&gt; If_Then -&gt; &amp;nav_name="False"</commandExpression>
+      <commandID>3</commandID>
+      <image />
+      <libraryName>FLUID_BASE_NAVIGATION_LIB</libraryName>
+      <lineMessage>If &amp;nav_name="False"</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>&amp;nav_name="False"</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>119</logLineID>
+      <logParentLineID>118</logParentLineID>
+      <commandExpression>Image -&gt; Click -&gt; name=PT_NAVBAR$IMG</commandExpression>
+      <commandID>4</commandID>
+      <image />
+      <libraryName>FLUID_BASE_NAVIGATION_LIB</libraryName>
+      <lineMessage>image.Click  [name=PT_NAVBAR$IMG]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>120</logLineID>
+      <logParentLineID>118</logParentLineID>
+      <commandExpression>Conditional -&gt; Else -&gt; </commandExpression>
+      <commandID>5</commandID>
+      <image />
+      <libraryName>FLUID_BASE_NAVIGATION_LIB</libraryName>
+      <lineMessage>Else</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>121</logLineID>
+      <logParentLineID>118</logParentLineID>
+      <commandExpression>Conditional -&gt; End_If -&gt; </commandExpression>
+      <commandID>7</commandID>
+      <image />
+      <libraryName>FLUID_BASE_NAVIGATION_LIB</libraryName>
+      <lineMessage>End if</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>122</logLineID>
+      <logParentLineID>108</logParentLineID>
+      <commandExpression>Wait -&gt; For_Seconds -&gt; 3</commandExpression>
+      <commandID>8</commandID>
+      <image />
+      <libraryName>FLUID_BASE_NAVIGATION_LIB</libraryName>
+      <lineMessage>Waiting for 3 seconds.</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>123</logLineID>
+      <logParentLineID>108</logParentLineID>
+      <commandExpression>Browser -&gt; FrameSet -&gt; psNavBarIFrame</commandExpression>
+      <commandID>9</commandID>
+      <image />
+      <libraryName>FLUID_BASE_NAVIGATION_LIB</libraryName>
+      <lineMessage>Frame set to 'psNavBarIFrame'</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>Current frame: 'psNavBarIFrame'    Previous Frame: ''</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>124</logLineID>
+      <logParentLineID>108</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr999</commandExpression>
+      <commandID>11</commandID>
+      <image />
+      <libraryName>FLUID_BASE_NAVIGATION_LIB</libraryName>
+      <lineMessage>Scroll [999] Start: -,  Action: sel,  Key: Navigator</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>125</logLineID>
+      <logParentLineID>124</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr999</commandExpression>
+      <commandID>11</commandID>
+      <image />
+      <libraryName>FLUID_BASE_NAVIGATION_LIB</libraryName>
+      <lineMessage>Key: id=PTNUI_DOCK_REC_GROUPLET_LBL [span] - Value: Navigator</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>126</logLineID>
+      <logParentLineID>124</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr999</commandExpression>
+      <commandID>11</commandID>
+      <image />
+      <libraryName>FLUID_BASE_NAVIGATION_LIB</libraryName>
+      <lineMessage>Found Row: $2</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>127</logLineID>
+      <logParentLineID>124</logParentLineID>
+      <commandExpression>Image -&gt; Click -&gt; id=PTNUI_MENU_ICN&amp;Scr999</commandExpression>
+      <commandID>12</commandID>
+      <image />
+      <libraryName>FLUID_BASE_NAVIGATION_LIB</libraryName>
+      <lineMessage>image.Click  [id=PTNUI_MENU_ICN$2]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>128</logLineID>
+      <logParentLineID>124</logParentLineID>
+      <commandExpression>Image -&gt; Exists -&gt; name=PTNUI_MENU_HDR_PTNUI_BACK_BTN$IMG -&gt; ret=&amp;ex1</commandExpression>
+      <commandID>13</commandID>
+      <image />
+      <libraryName>FLUID_BASE_NAVIGATION_LIB</libraryName>
+      <lineMessage>The Image [name=PTNUI_MENU_HDR_PTNUI_BACK_BTN$IMG] was found in the page.</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>129</logLineID>
+      <logParentLineID>124</logParentLineID>
+      <commandExpression>Conditional -&gt; If_Then -&gt; &amp;ex1 = "True"</commandExpression>
+      <commandID>14</commandID>
+      <image />
+      <libraryName>FLUID_BASE_NAVIGATION_LIB</libraryName>
+      <lineMessage>If &amp;ex1 = "True"</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>&amp;ex1 = "True"</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>130</logLineID>
+      <logParentLineID>129</logParentLineID>
+      <commandExpression>Image -&gt; Get_Property -&gt; name=PTNUI_MENU_HDR_PTNUI_BACK_BTN$IMG -&gt; prop=visible;ret=&amp;h1</commandExpression>
+      <commandID>15</commandID>
+      <image />
+      <libraryName>FLUID_BASE_NAVIGATION_LIB</libraryName>
+      <lineMessage>image.Get_Property [name=PTNUI_MENU_HDR_PTNUI_BACK_BTN$IMG]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>131</logLineID>
+      <logParentLineID>130</logParentLineID>
+      <commandExpression>Image -&gt; Get_Property -&gt; name=PTNUI_MENU_HDR_PTNUI_BACK_BTN$IMG -&gt; prop=visible;ret=&amp;h1</commandExpression>
+      <commandID>15</commandID>
+      <image />
+      <libraryName>FLUID_BASE_NAVIGATION_LIB</libraryName>
+      <lineMessage>name=PTNUI_MENU_HDR_PTNUI_BACK_BTN$IMG [image]. The property 'visible' was found, and it is 'False'.</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>132</logLineID>
+      <logParentLineID>124</logParentLineID>
+      <commandExpression>Conditional -&gt; If_Then -&gt; &amp;h1 &lt;&gt; "False"</commandExpression>
+      <commandID>16</commandID>
+      <image />
+      <libraryName>FLUID_BASE_NAVIGATION_LIB</libraryName>
+      <lineMessage>If &amp;h1 &lt;&gt; "False"</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>&amp;h1 &lt;&gt; "False"</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>133</logLineID>
+      <logParentLineID>132</logParentLineID>
+      <commandExpression>Conditional -&gt; End_If -&gt; </commandExpression>
+      <commandID>18</commandID>
+      <image />
+      <libraryName>FLUID_BASE_NAVIGATION_LIB</libraryName>
+      <lineMessage>End if</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>134</logLineID>
+      <logParentLineID>124</logParentLineID>
+      <commandExpression>Conditional -&gt; End_If -&gt; </commandExpression>
+      <commandID>19</commandID>
+      <image />
+      <libraryName>FLUID_BASE_NAVIGATION_LIB</libraryName>
+      <lineMessage>End if</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>135</logLineID>
+      <logParentLineID>124</logParentLineID>
+      <commandExpression>Variable -&gt; Set_Value -&gt; &amp;PT</commandExpression>
+      <commandID>20</commandID>
+      <image />
+      <libraryName>FLUID_BASE_NAVIGATION_LIB</libraryName>
+      <lineMessage>Variable &amp;PT set to PSTO_STG_ONCS_PI28_C570-GLD_180307_866</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>&amp;PT = %eo.Logfolder%</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>136</logLineID>
+      <logParentLineID>124</logParentLineID>
+      <commandExpression>Variable -&gt; Set_Value -&gt; &amp;PMATCH</commandExpression>
+      <commandID>21</commandID>
+      <image />
+      <libraryName>FLUID_BASE_NAVIGATION_LIB</libraryName>
+      <lineMessage>Variable &amp;PMATCH set to 0</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>&amp;PMATCH = Instr(&amp;PT|"PTUN")</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>137</logLineID>
+      <logParentLineID>124</logParentLineID>
+      <commandExpression>Conditional -&gt; If_Then -&gt; &amp;PMATCH &gt; "0"</commandExpression>
+      <commandID>22</commandID>
+      <image />
+      <libraryName>FLUID_BASE_NAVIGATION_LIB</libraryName>
+      <lineMessage>If &amp;PMATCH &gt; "0"</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>&amp;PMATCH &gt; "0"</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>138</logLineID>
+      <logParentLineID>137</logParentLineID>
+      <commandExpression>Conditional -&gt; Else -&gt; </commandExpression>
+      <commandID>25</commandID>
+      <image />
+      <libraryName>FLUID_BASE_NAVIGATION_LIB</libraryName>
+      <lineMessage>Else</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>139</logLineID>
+      <logParentLineID>137</logParentLineID>
+      <commandExpression>Variable -&gt; Set_Value -&gt; &amp;PTUN = ""</commandExpression>
+      <commandID>26</commandID>
+      <image />
+      <libraryName>FLUID_BASE_NAVIGATION_LIB</libraryName>
+      <lineMessage>Variable &amp;PTUN set to </lineMessage>
+      <logResult>102</logResult>
+      <longDescr>&amp;PTUN =  ""</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>140</logLineID>
+      <logParentLineID>137</logParentLineID>
+      <commandExpression>Conditional -&gt; End_If -&gt; </commandExpression>
+      <commandID>27</commandID>
+      <image />
+      <libraryName>FLUID_BASE_NAVIGATION_LIB</libraryName>
+      <lineMessage>End if</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>141</logLineID>
+      <logParentLineID>124</logParentLineID>
+      <commandExpression>Conditional -&gt; End_If -&gt; </commandExpression>
+      <commandID>27</commandID>
+      <image />
+      <libraryName>FLUID_BASE_NAVIGATION_LIB</libraryName>
+      <lineMessage>Test End:  3/8/2018 1:43:14 AM</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>142</logLineID>
+      <logParentLineID>124</logParentLineID>
+      <commandExpression>Log -&gt; Pass -&gt; Using Fluid Navigator Bar Navigation.......</commandExpression>
+      <commandID>8</commandID>
+      <image />
+      <libraryName>CLASSIC_FLUID_NAV_LIB</libraryName>
+      <lineMessage>Using Fluid Navigator Bar Navigation.......</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>143</logLineID>
+      <logParentLineID>124</logParentLineID>
+      <commandExpression>Conditional -&gt; End_If -&gt; </commandExpression>
+      <commandID>9</commandID>
+      <image />
+      <libraryName>CLASSIC_FLUID_NAV_LIB</libraryName>
+      <lineMessage>End if</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>144</logLineID>
+      <logParentLineID>124</logParentLineID>
+      <commandExpression>Conditional -&gt; End_If -&gt; </commandExpression>
+      <commandID>9</commandID>
+      <image />
+      <libraryName>CLASSIC_FLUID_NAV_LIB</libraryName>
+      <lineMessage>Test End:  3/8/2018 1:43:14 AM</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>145</logLineID>
+      <logParentLineID>95</logParentLineID>
+      <commandExpression>Link -&gt; Click -&gt; text=Cash Management</commandExpression>
+      <commandID>3</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_02</libraryName>
+      <lineMessage>link.Click  [text=Cash Management]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>146</logLineID>
+      <logParentLineID>95</logParentLineID>
+      <commandExpression>Link -&gt; Click -&gt; text=Treasury WorkCenter</commandExpression>
+      <commandID>4</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_02</libraryName>
+      <lineMessage>link.Click  [text=Treasury WorkCenter]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>147</logLineID>
+      <logParentLineID>95</logParentLineID>
+      <commandExpression>Wait -&gt; For_Seconds -&gt; 3</commandExpression>
+      <commandID>5</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_02</libraryName>
+      <lineMessage>Waiting for 3 seconds.</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>148</logLineID>
+      <logParentLineID>95</logParentLineID>
+      <commandExpression>Browser -&gt; FrameSet -&gt; TargetContent</commandExpression>
+      <commandID>6</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_02</libraryName>
+      <lineMessage>Frame set to 'TargetContent'</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>Current frame: 'TargetContent'    Previous Frame: ''</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>149</logLineID>
+      <logParentLineID>95</logParentLineID>
+      <commandExpression>Browser -&gt; FrameSet -&gt; PageletArea</commandExpression>
+      <commandID>7</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_02</libraryName>
+      <lineMessage>Frame set to 'PageletArea'</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>Current frame: 'PageletArea'    Previous Frame: 'TargetContent'</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>150</logLineID>
+      <logParentLineID>95</logParentLineID>
+      <commandExpression>HTMLTable -&gt; CellGetIndex -&gt;  -&gt; text= Finalize Accounting Entries (;equal=false;ret=&amp;string</commandExpression>
+      <commandID>8</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_02</libraryName>
+      <lineMessage>HTMLTable.CellGetIndex: Value:Finalize Accounting Entries (</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>151</logLineID>
+      <logParentLineID>150</logParentLineID>
+      <commandExpression>HTMLTable -&gt; CellGetIndex -&gt;  -&gt; text= Finalize Accounting Entries (;equal=false;ret=&amp;string</commandExpression>
+      <commandID>8</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_02</libraryName>
+      <lineMessage>iTable:1 iRow:1</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>EOFSPC_MYWORK_PGLT-E92M3LTU-EOFSPC_MYLINK_PGLT-E92M3LTU####ERP0</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>152</logLineID>
+      <logParentLineID>150</logParentLineID>
+      <commandExpression>HTMLTable -&gt; CellGetIndex -&gt;  -&gt; text= Finalize Accounting Entries (;equal=false;ret=&amp;string</commandExpression>
+      <commandID>8</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_02</libraryName>
+      <lineMessage>iTable:2 iRow:1</lineMessage>
+      <logResult>102</logResult>
+      <longDescr> </longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>153</logLineID>
+      <logParentLineID>150</logParentLineID>
+      <commandExpression>HTMLTable -&gt; CellGetIndex -&gt;  -&gt; text= Finalize Accounting Entries (;equal=false;ret=&amp;string</commandExpression>
+      <commandID>8</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_02</libraryName>
+      <lineMessage>iTable:2 iRow:2</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>&lt;NL&gt;var doRefresh = false;if (document.cookie == '')doRefresh = true;else{var psTokIdx = document.cookie.indexOf('PS_TOKEN=');if ((psTokIdx &lt; 0) || document.cookie.charAt(psTokIdx+10) == ';') doRefresh = true;}if (doRefresh) document.location.reload(true);&lt;NL&gt;&lt;NL&gt;var  totalTimeoutMilliseconds = 1200000; &lt;NL&gt;var  warningTimeoutMilliseconds = 1080000; &lt;NL&gt;var timeOutURL = 'http://slc08ayk.us.oracle.com:8000/psp/e92m3ltux_9/EMPLOYEE/ERP/?cmd=expire';&lt;NL&gt;var timeoutWarningPageURL = 'http://slc08ayk.us.oracle.com:8000/psc/e92m3ltux_9/EMPLOYEE/ERP/s/WEBLIB_TIMEOUT.PT_TIMEOUTWARNING.FieldFormula.IScript_TIMEOUTWARNING';&lt;NL&gt;var sRCRequestURL = 'http://slc08ayk.us.oracle.com:8000/psc/e92m3ltux_9/EMPLOYEE/ERP/s/WEBLIB_PTRC.ISCRIPT1.FieldFormula.IScript_RC_REQUEST';&lt;NL&gt;&lt;NL&gt;try {&lt;NL&gt;document.domain = "us.oracle.com";&lt;NL&gt;}&lt;NL&gt;catch(err) {;}&lt;NL&gt;&lt;NL&gt;var winName='win9';&lt;NL&gt;var winParent = null;&lt;NL&gt;var modalID = null;&lt;NL&gt;var modalZoomName = null;&lt;NL&gt;var baseKey_win9 = "\x1b";&lt;NL&gt;var altKey_win9 = "0J5678\xbc\xbe\xbf\xde";&lt;NL&gt;var ctrlKey_win9 = "JK";&lt;NL&gt;var saveWarningKeys_win9 = "";&lt;NL&gt;var firstFocusID = null;&lt;NL&gt;var refererURL = 'http://slc08ayk.us.oracle.com:8000/psp/e92m3ltux/EMPLOYEE/ERP/s/WEBLIB_PTAL.ISCRIPT1.FieldFormula.IScript_PTAL_PA_PAGE?PTAL_ID=EMPLOYEE.EP_CM_WORKCENTER&amp;c=ejS0qwOeQJA2JV4uEDdtKA%3d%3d&amp;';&lt;NL&gt;var isNewSaveWarn = true;&lt;NL&gt;var bAccessibility_win9 =false;&lt;NL&gt;var bFMode =false;&lt;NL&gt;var bDoModal_win9 = false;&lt;NL&gt;var bJSModal_win9 = false;&lt;NL&gt;var bPromptPage_win9 = false;&lt;NL&gt;var bTabOverTB_win9 = false;&lt;NL&gt;var bTabOverPg_win9 = false;&lt;NL&gt;var bTabOverNonPS_win9 = false;&lt;NL&gt;var strCurrUrl='http://slc08ayk.us.oracle.com:8000/psp/e92m3ltux_9/EMPLOYEE/ERP/c/CONFIGURE_PAGELET.FSPC_MYWORK_PGLT.GBL';&lt;NL&gt;var strReqURL='http://slc08ayk.us.oracle.com:8000/psp/e92m3ltux_9/EMPLOYEE/ERP/c/CONFIGURE_PAGELET.FSPC_MYWORK_PGLT.GBL?&amp;EC&amp;target=EOFSPC_MYWORK_PGLT&amp;PTAL_ID=EMPLOYEE.EP_CM_WORKCENTER&amp;PAGELET_OBJNAME=EOFSPC_MYWORK_PGLT&amp;pageletname=EOFSPC_MYWORK_PGLT&amp;&amp;PTAL_TAB=MAIN&amp;pageletname=EOFSPC_MYWORK_PGLT&amp;PTAL_ID=EMPLOYEE.EP_CM_WORKCENTER&amp;PTAL_TAB=MAIN&amp;PAGELET_OBJNAME=EOFSPC_MYWORK_PGLT';&lt;NL&gt;var bIncInNavigation='T';&lt;NL&gt;var szPinCrefReg='F';&lt;NL&gt;var szCrefID='EOFSPC_MYWORK_PGLT';&lt;NL&gt;var szCrefReged='T';&lt;NL&gt;var szCrefVisible='T';&lt;NL&gt;var szCrefLabel='My Work';&lt;NL&gt;var szCrefQS='&amp;EC';&lt;NL&gt;var szCrefUsageType='HPGC';&lt;NL&gt;var localNodes = ['E92M3LTU', 'ERP', 'PSFT_RTBL'];&lt;NL&gt;var remoteUrls = [];&lt;NL&gt;bGenDomInfo = false;&lt;NL&gt;var szCalendarType = 'G';&lt;NL&gt;var bMenuSrchPage = false;&lt;NL&gt;var bGuidedAG = false;&lt;NL&gt;var bWSRP=0;var szMenuSrchText = "-999999-";&lt;NL&gt;var disablePNSubscriptions=0;var modalCloseUrl = 'http://slc08ayk.us.oracle.com:8000/cs/e92m3ltux/cache/PT_TRANS_16PIX_1.png';&lt;NL&gt;var modalCloseAlt = 'Close';&lt;NL&gt;var modalResizeUrl= 'http://slc08ayk.us.oracle.com:8000/cs/e92m3ltux/cache/PT_RESIZE_IMG_1.gif';&lt;NL&gt;var modalResizeAlt = 'Drag to resize';&lt;NL&gt;var modalMoveAlt = 'Drag to move';&lt;NL&gt;&lt;NL&gt;var gridRowSelRgbColor_win9 ='rgb(238,238,238)';&lt;NL&gt;&lt;NL&gt;var PFieldList_win9 = [['FSPC_MST_WRKGRP_FSPC_DESCR',4]];&lt;NL&gt;&lt;NL&gt;try {&lt;NL&gt;document.domain = "us.oracle.com";&lt;NL&gt;}&lt;NL&gt;catch(err) {;}&lt;NL&gt;&lt;NL&gt;&lt;NL&gt;&lt;NL&gt;&lt;NL&gt;&lt;NL&gt;&lt;NL&gt;&lt;NL&gt;&lt;NL&gt;&lt;NL&gt;&lt;NL&gt;var nResubmit=0;&lt;NL&gt;var nLastAction=0;&lt;NL&gt;var loader=null;&lt;NL&gt;if (typeof(bCleanHtml) == 'undefined')&lt;NL&gt;        var bCleanHtml = false;&lt;NL&gt;setupTimeout2();&lt;NL&gt;var postUrl_win9='http://slc08ayk.us.oracle.com:8000/psp/e92m3ltux_9/EMPLOYEE/ERP/c/CONFIGURE_PAGELET.FSPC_MYWORK_PGLT.GBL';&lt;NL&gt;function aAction_win9(form, id, params, bAjax, bPrompt, sAjaxTrfUrl, bWarning, sScriptAfter, nTrfURLType)&lt;NL&gt;{&lt;NL&gt;setupTimeout2();&lt;NL&gt;if ((id != '#ICSave'))&lt;NL&gt;processing_win9(1,3000);&lt;NL&gt;aAction0_win9(form, id, params, bAjax, bPrompt, sAjaxTrfUrl, bWarning, sScriptAfter, nTrfURLType);&lt;NL&gt;}&lt;NL&gt;function submitAction_win9(form, id, event, sAjaxTrfUrl, bWarning, sScriptAfter, nTrfURLType)&lt;NL&gt;{&lt;NL&gt;setupTimeout2();&lt;NL&gt;if (typeof(id_EOFSPC_MYWORK_PGLT) != 'undefined') clearTimeout(id_EOFSPC_MYWORK_PGLT);&lt;NL&gt;if(!preSubmitWorkCenter_win9(form, id)) return;&lt;NL&gt;if (!ptCommonObj2.isICQryDownload(form, id))&lt;NL&gt; { processing_win9(1,3000); }&lt;NL&gt;preSubmitProcess_win9(form, id);&lt;NL&gt;var spellcheckpos = id.indexOf('$spellcheck');&lt;NL&gt;if ((spellcheckpos != -1) &amp;&amp; (id.indexOf('#KEYA5') != -1))&lt;NL&gt;        form.ICAction.value = id.substring(0,spellcheckpos);&lt;NL&gt;else &lt;NL&gt;        form.ICAction.value=id;&lt;NL&gt;var actionName = form.ICAction.value;&lt;NL&gt;form.ICXPos.value=ptCommonObj2.getScrollX();&lt;NL&gt;form.ICYPos.value=ptCommonObj2.getScrollY();&lt;NL&gt;bcUpdater.storeBcDomData();&lt;NL&gt;if ((typeof(bAutoSave) != 'undefined') &amp;&amp; bAutoSave)&lt;NL&gt;        form.ICAutoSave.value = '1';&lt;NL&gt;if (!ptCommonObj2.isAJAXReq(form, id) &amp;&amp; !ptCommonObj2.isPromptReq(id)){&lt;NL&gt;if (nLastAction == 1 &amp;&amp; nResubmit &gt; 0) return;&lt;NL&gt;form.ICResubmit.value=nResubmit;&lt;NL&gt;form.submit();&lt;NL&gt;if (!ptCommonObj2.isICQryDownload(form, id))&lt;NL&gt;        nResubmit++;&lt;NL&gt;}&lt;NL&gt;else if (ptCommonObj2.isPromptReq(id))&lt;NL&gt;        pAction_win9(form, id, arguments[2]);&lt;NL&gt;else&lt;NL&gt;        aAction_win9(form, actionName, null, true, false, sAjaxTrfUrl, bWarning, sScriptAfter, nTrfURLType);&lt;NL&gt;cancelBubble(event);&lt;NL&gt;}&lt;NL&gt;&lt;NL&gt;var pt_calHeadstyle=" class='PTCALHEAD' "&lt;NL&gt;var pt_calWeekHeadstyle=" class='PTCALWEEKHEAD' "&lt;NL&gt;function dateitemrefs()&lt;NL&gt;{&lt;NL&gt;this.pt_dateheader = "http://slc08ayk.us.oracle.com:8000/cs/e92m3ltux/cache/PT_PORTAL_IC_CLOSE_SD_CSS_1.gif";&lt;NL&gt;this.pt_datering = "http://slc08ayk.us.oracle.com:8000/cs/e92m3ltux/cache/PT_CURRENT_DATE_SD_CSS_1.gif";&lt;NL&gt;this.pt_datesel = "http://slc08ayk.us.oracle.com:8000/cs/e92m3ltux/cache/PT_SELECTED_DATE_SD_CSS_1.gif";&lt;NL&gt;this.pt_nextmonth = "http://slc08ayk.us.oracle.com:8000/cs/e92m3ltux/cache/PT_RIGHT_SCROLL_SD_CSS_1.gif";&lt;NL&gt;this.pt_prevmonth= "http://slc08ayk.us.oracle.com:8000/cs/e92m3ltux/cache/PT_LEFT_SCROLL_SD_CSS_1.gif";&lt;NL&gt;this.pt_daystitle_hijri = "http://slc08ayk.us.oracle.com:8000/cs/e92m3ltux/cache/PT_DATE_TITLE_S6_1.GIF";&lt;NL&gt;this.pt_daystitle_thai = "http://slc08ayk.us.oracle.com:8000/cs/e92m3ltux/cache/PT_DATE_TITLE_S0_1.GIF";&lt;NL&gt;this.pt_daystitle_s0 = "http://slc08ayk.us.oracle.com:8000/cs/e92m3ltux/cache/PT_DATE_TITLE_S0_1.GIF";&lt;NL&gt;this.pt_daystitle_m1 = "http://slc08ayk.us.oracle.com:8000/cs/e92m3ltux/cache/PT_DATE_TITLE_M1_1.GIF";&lt;NL&gt;this.pt_daystitle_t2 = "http://slc08ayk.us.oracle.com:8000/cs/e92m3ltux/cache/PT_DATE_TITLE_T2_1.GIF";&lt;NL&gt;this.pt_daystitle_w3 = "http://slc08ayk.us.oracle.com:8000/cs/e92m3ltux/cache/PT_DATE_TITLE_W3_1.GIF";&lt;NL&gt;this.pt_daystitle_t4 = "http://slc08ayk.us.oracle.com:8000/cs/e92m3ltux/cache/PT_DATE_TITLE_T4_1.GIF";&lt;NL&gt;this.pt_daystitle_f5 = "http://slc08ayk.us.oracle.com:8000/cs/e92m3ltux/cache/PT_DATE_TITLE_F5_1.gif";&lt;NL&gt;this.pt_daystitle_s6 = "http://slc08ayk.us.oracle.com:8000/cs/e92m3ltux/cache/PT_DATE_TITLE_S6_1.GIF";&lt;NL&gt;}&lt;NL&gt; &lt;NL&gt;function LoadCalendar()&lt;NL&gt;{&lt;NL&gt;var dateitems = new dateitemrefs();&lt;NL&gt;loadImages(dateitems);&lt;NL&gt;}&lt;NL&gt;function DatePrompt0_win9(dtfield,promptfield,yrfmt,bsubmit)&lt;NL&gt;{&lt;NL&gt;setupTimeout2();&lt;NL&gt;openDate_win9(dtfield, promptfield, "MDY/"+yrfmt,bsubmit,"G",0);&lt;NL&gt;}&lt;NL&gt;&lt;NL&gt;if (typeof ptStyleSheet == "undefined") {&lt;NL&gt;ptStyleSheet = 'PSSTYLEDEF_TANGERINE';&lt;NL&gt;}&lt;NL&gt;function onLoadExt_win9() {&lt;NL&gt;modalZoomName = null;&lt;NL&gt;var oWin=window;&lt;NL&gt;var oDoc=document;&lt;NL&gt;ptTAObj_win9.init(oWin,oDoc,oDoc.win9,'http://slc08ayk.us.oracle.com:8000/cs/e92m3ltux/cache/PT_SRT2UP_SEL_1.gif','http://slc08ayk.us.oracle.com:8000/cs/e92m3ltux/cache/PT_SRT2DN_SEL_1.gif','http://slc08ayk.us.oracle.com:8000/cs/e92m3ltux/cache/PT_PORTAL_IC_CLOSE_1.gif',500);&lt;NL&gt;var pt_pageinfo = document.getElementById('pt_pageinfo_win9');&lt;NL&gt;if (pt_pageinfo) {&lt;NL&gt;pt_pageinfo.setAttribute('Page', 'FSPC_MYWORK_PGLT');&lt;NL&gt;pt_pageinfo.setAttribute('Component', 'FSPC_MYWORK_PGLT');&lt;NL&gt;pt_pageinfo.setAttribute('Menu', 'CONFIGURE_PAGELET');&lt;NL&gt;pt_pageinfo.setAttribute('Mode', 'CLASSIC');&lt;NL&gt;}&lt;NL&gt;g_bAccessibilityMode=false;&lt;NL&gt;var actn='';&lt;NL&gt;setKeyEventHandler_win9();if (typeof p_message_data =='undefined' || p_message_data.length == 0) &lt;NL&gt;{&lt;NL&gt; p_message_data = [];&lt;NL&gt; pm.GenerateEvents();&lt;NL&gt;}&lt;NL&gt;if (typeof(ptLongEditCounter) != 'undefined' &amp;&amp; ptLongEditCounter != null)&lt;NL&gt;   ptLongEditCounter.onLoadLongEditCounter();&lt;NL&gt;if (typeof(HelppopupObj_win9) != 'undefined' &amp;&amp; HelppopupObj_win9 != null)&lt;NL&gt; HelppopupObj_win9.StopPopup('win9');ResetGlyph_win9();&lt;NL&gt;if (typeof ptGridObj_win9 != 'undefined' &amp;&amp; ptGridObj_win9)&lt;NL&gt; ptGridObj_win9.clearGridArr();&lt;NL&gt;objToBeFocus = null;&lt;NL&gt;if (typeof oWin == 'undefined') setEventHandlers_win9('ICFirstAnchor_win9', 'ICLastAnchor_win9', false);&lt;NL&gt; else&lt;NL&gt; oWin.setEventHandlers_win9('ICFirstAnchor_win9', 'ICLastAnchor_win9', false);&lt;NL&gt;ptLoadingStatus_empty(0);&lt;NL&gt;setupTimeout2();&lt;NL&gt;processing_win9(0,3000);&lt;NL&gt;ptConsole2.enable();&lt;NL&gt;&lt;NL&gt;GenerateABN();&lt;NL&gt;GenerateFakeBC();&lt;NL&gt;bcUpdateForPTF();if (typeof(myAppsWindowOpenJS) != 'undefined' &amp;&amp; myAppsWindowOpenJS != null &amp;&amp; myAppsWindowOpenJS != '')&lt;NL&gt; {&lt;NL&gt;try {eval(myAppsWindowOpenJS);} catch(e) {}&lt;NL&gt;  myAppsWindowOpenJS=null;&lt;NL&gt;}&lt;NL&gt;ResetGlyph_win9();setPageletInfoInCtxmenu_win9("true","EOFSPC_MYWORK_PGLT");&lt;NL&gt;GetDomData(win9, "TargetContent", "#GetDomInfo");&lt;NL&gt;}&lt;NL&gt;try{ptEvent.load(onLoadExt_win9);}catch(e){}&lt;NL&gt; &lt;NL&gt;&lt;NL&gt; &lt;NL&gt; &lt;NL&gt; &lt;NL&gt; &lt;NL&gt; &lt;NL&gt; &lt;NL&gt; &lt;NL&gt; &lt;NL&gt; &lt;NL&gt; &lt;NL&gt; &lt;NL&gt; &lt;NL&gt; &lt;NL&gt; &lt;NL&gt; &lt;NL&gt; &lt;NL&gt; &lt;NL&gt; &lt;NL&gt; &lt;NL&gt; &lt;NL&gt; &lt;NL&gt; &lt;NL&gt; &lt;NL&gt; &lt;NL&gt; &lt;NL&gt; &lt;NL&gt; &lt;NL&gt;t &lt;NL&gt;&lt;NL&gt; &lt;NL&gt;My Work Pagelet&lt;NL&gt; &lt;NL&gt;&lt;NL&gt;&lt;NL&gt; &lt;NL&gt;var nMaxSavedStates=5;&lt;NL&gt;var sHistURL="http://slc08ayk.us.oracle.com:8000/psp/e92m3ltux_9/EMPLOYEE/ERP/c/CONFIGURE_PAGELET.FSPC_MYWORK_PGLT.GBL?page=FSPC_MYWORK_PGLT&amp;&amp;EC&amp;target=EOFSPC_MYWORK_PGLT&amp;PortalHostNode=ERP&amp;PTAL_ID=EMPLOYEE.EP_CM_WORKCENTER&amp;PAGELET_OBJNAME=EOFSPC_MYWORK_PGLT&amp;pageletname=EOFSPC_MYWORK_PGLT&amp;&amp;PTAL_TAB=MAIN&amp;pageletname=EOFSPC_MYWORK_PGLT&amp;PortalHostNode=ERP&amp;PTAL_ID=EMPLOYEE.EP_CM_WORKCENTER&amp;PTAL_TAB=MAIN&amp;PAGELET_OBJNAME=EOFSPC_MYWORK_PGLT&amp;PortalRegistryName=EMPLOYEE&amp;PortalServletURI=http%3a%2f%2fslc08ayk.us.oracle.com%3a8000%2fpsp%2fe92m3ltux%2f&amp;PortalURI=http%3a%2f%2fslc08ayk.us.oracle.com%3a8000%2fpsc%2fe92m3ltux%2f&amp;PortalHostNode=ERP&amp;PortalIsPagelet=true&amp;NoCrumbs=yes&amp;PortalCrefName=EOFSPC_MYWORK_PGLT";&lt;NL&gt;var bCloseModal = false;&lt;NL&gt;var bICList = false;&lt;NL&gt;var bHtml5Doc = true;&lt;NL&gt;var bClearBackState=false;&lt;NL&gt;var bPageTransfered=false;&lt;NL&gt;var bTransferAnimate=false;&lt;NL&gt;var bCleanHtml = true;&lt;NL&gt;var bDefer = true;&lt;NL&gt;document.deferFldArr_win9 = new Array();&lt;NL&gt;document.hiddenFldArr_win9 =new Array('ICType','ICElementNum','ICStateNum','ICAction','ICModelCancel','ICXPos','ICYPos','ResponsetoDiffFrame','TargetFrameName','FacetPath','IsWorkCenter','ICFocus','ICSaveWarningFilter','ICChanged','ICSkipPending','ICAutoSave','ICResubmit','ICSID','ICActionPrompt','ICFromPagelet','ICResubmitURL','ICContentURL','ICPageletHomeURL','ICBcDomData','ICPanelName','ICFind','ICAddCount','ICAppClsData');&lt;NL&gt;document.chgFldArr_win9 = new Array();&lt;NL&gt;var bCleanHtml = true;&lt;NL&gt;var bDefer = true;&lt;NL&gt;document.hiddenFldArr_win9 =new Array('ICType','ICElementNum','ICStateNum','ICAction','ICModelCancel','ICXPos','ICYPos','ResponsetoDiffFrame','TargetFrameName','FacetPath','IsWorkCenter','ICFocus','ICSaveWarningFilter','ICChanged','ICSkipPending','ICAutoSave','ICResubmit','ICSID','ICActionPrompt','ICFromPagelet','ICResubmitURL','ICContentURL','ICPageletHomeURL','ICBcDomData','ICPanelName','ICFind','ICAddCount','ICAppClsData');&lt;NL&gt;document.chgFldArr_win9 = new Array();&lt;NL&gt;var bCDATA = false;&lt;NL&gt;var bAccessibleLayout = false;&lt;NL&gt;var bLoadCompleted = true;&lt;NL&gt;</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>154</logLineID>
+      <logParentLineID>150</logParentLineID>
+      <commandExpression>HTMLTable -&gt; CellGetIndex -&gt;  -&gt; text= Finalize Accounting Entries (;equal=false;ret=&amp;string</commandExpression>
+      <commandID>8</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_02</libraryName>
+      <lineMessage>iTable:2 iRow:3</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>155</logLineID>
+      <logParentLineID>150</logParentLineID>
+      <commandExpression>HTMLTable -&gt; CellGetIndex -&gt;  -&gt; text= Finalize Accounting Entries (;equal=false;ret=&amp;string</commandExpression>
+      <commandID>8</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_02</libraryName>
+      <lineMessage>iTable:3 iRow:1</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>My Work</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>156</logLineID>
+      <logParentLineID>150</logParentLineID>
+      <commandExpression>HTMLTable -&gt; CellGetIndex -&gt;  -&gt; text= Finalize Accounting Entries (;equal=false;ret=&amp;string</commandExpression>
+      <commandID>8</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_02</libraryName>
+      <lineMessage>iTable:4 iRow:1</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>157</logLineID>
+      <logParentLineID>150</logParentLineID>
+      <commandExpression>HTMLTable -&gt; CellGetIndex -&gt;  -&gt; text= Finalize Accounting Entries (;equal=false;ret=&amp;string</commandExpression>
+      <commandID>8</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_02</libraryName>
+      <lineMessage>iTable:5 iRow:1</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>&lt;NL&gt;&lt;NL&gt;&lt;NL&gt;&lt;NL&gt;&lt;NL&gt; &lt;NL&gt;&lt;NL&gt;&lt;NL&gt; &lt;NL&gt;</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>158</logLineID>
+      <logParentLineID>150</logParentLineID>
+      <commandExpression>HTMLTable -&gt; CellGetIndex -&gt;  -&gt; text= Finalize Accounting Entries (;equal=false;ret=&amp;string</commandExpression>
+      <commandID>8</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_02</libraryName>
+      <lineMessage>iTable:6 iRow:1</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>159</logLineID>
+      <logParentLineID>150</logParentLineID>
+      <commandExpression>HTMLTable -&gt; CellGetIndex -&gt;  -&gt; text= Finalize Accounting Entries (;equal=false;ret=&amp;string</commandExpression>
+      <commandID>8</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_02</libraryName>
+      <lineMessage>iTable:7 iRow:1</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>160</logLineID>
+      <logParentLineID>150</logParentLineID>
+      <commandExpression>HTMLTable -&gt; CellGetIndex -&gt;  -&gt; text= Finalize Accounting Entries (;equal=false;ret=&amp;string</commandExpression>
+      <commandID>8</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_02</libraryName>
+      <lineMessage>iTable:7 iRow:2</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>Edit Filters</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>161</logLineID>
+      <logParentLineID>150</logParentLineID>
+      <commandExpression>HTMLTable -&gt; CellGetIndex -&gt;  -&gt; text= Finalize Accounting Entries (;equal=false;ret=&amp;string</commandExpression>
+      <commandID>8</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_02</libraryName>
+      <lineMessage>iTable:7 iRow:3</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>162</logLineID>
+      <logParentLineID>150</logParentLineID>
+      <commandExpression>HTMLTable -&gt; CellGetIndex -&gt;  -&gt; text= Finalize Accounting Entries (;equal=false;ret=&amp;string</commandExpression>
+      <commandID>8</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_02</libraryName>
+      <lineMessage>iTable:7 iRow:4</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>163</logLineID>
+      <logParentLineID>150</logParentLineID>
+      <commandExpression>HTMLTable -&gt; CellGetIndex -&gt;  -&gt; text= Finalize Accounting Entries (;equal=false;ret=&amp;string</commandExpression>
+      <commandID>8</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_02</libraryName>
+      <lineMessage>iTable:8 iRow:1</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>164</logLineID>
+      <logParentLineID>150</logParentLineID>
+      <commandExpression>HTMLTable -&gt; CellGetIndex -&gt;  -&gt; text= Finalize Accounting Entries (;equal=false;ret=&amp;string</commandExpression>
+      <commandID>8</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_02</libraryName>
+      <lineMessage>iTable:8 iRow:2</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>Cash</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>165</logLineID>
+      <logParentLineID>150</logParentLineID>
+      <commandExpression>HTMLTable -&gt; CellGetIndex -&gt;  -&gt; text= Finalize Accounting Entries (;equal=false;ret=&amp;string</commandExpression>
+      <commandID>8</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_02</libraryName>
+      <lineMessage>iTable:8 iRow:3</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>&lt;NL&gt;</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>166</logLineID>
+      <logParentLineID>150</logParentLineID>
+      <commandExpression>HTMLTable -&gt; CellGetIndex -&gt;  -&gt; text= Finalize Accounting Entries (;equal=false;ret=&amp;string</commandExpression>
+      <commandID>8</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_02</libraryName>
+      <lineMessage>iTable:8 iRow:4</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>167</logLineID>
+      <logParentLineID>150</logParentLineID>
+      <commandExpression>HTMLTable -&gt; CellGetIndex -&gt;  -&gt; text= Finalize Accounting Entries (;equal=false;ret=&amp;string</commandExpression>
+      <commandID>8</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_02</libraryName>
+      <lineMessage>iTable:8 iRow:5</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>168</logLineID>
+      <logParentLineID>150</logParentLineID>
+      <commandExpression>HTMLTable -&gt; CellGetIndex -&gt;  -&gt; text= Finalize Accounting Entries (;equal=false;ret=&amp;string</commandExpression>
+      <commandID>8</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_02</libraryName>
+      <lineMessage>iTable:8 iRow:6</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>Financial Gateway</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>169</logLineID>
+      <logParentLineID>150</logParentLineID>
+      <commandExpression>HTMLTable -&gt; CellGetIndex -&gt;  -&gt; text= Finalize Accounting Entries (;equal=false;ret=&amp;string</commandExpression>
+      <commandID>8</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_02</libraryName>
+      <lineMessage>iTable:8 iRow:7</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>&lt;NL&gt;</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>170</logLineID>
+      <logParentLineID>150</logParentLineID>
+      <commandExpression>HTMLTable -&gt; CellGetIndex -&gt;  -&gt; text= Finalize Accounting Entries (;equal=false;ret=&amp;string</commandExpression>
+      <commandID>8</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_02</libraryName>
+      <lineMessage>iTable:8 iRow:8</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>171</logLineID>
+      <logParentLineID>150</logParentLineID>
+      <commandExpression>HTMLTable -&gt; CellGetIndex -&gt;  -&gt; text= Finalize Accounting Entries (;equal=false;ret=&amp;string</commandExpression>
+      <commandID>8</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_02</libraryName>
+      <lineMessage>iTable:8 iRow:9</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>172</logLineID>
+      <logParentLineID>150</logParentLineID>
+      <commandExpression>HTMLTable -&gt; CellGetIndex -&gt;  -&gt; text= Finalize Accounting Entries (;equal=false;ret=&amp;string</commandExpression>
+      <commandID>8</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_02</libraryName>
+      <lineMessage>iTable:8 iRow:10</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>Deals</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>173</logLineID>
+      <logParentLineID>150</logParentLineID>
+      <commandExpression>HTMLTable -&gt; CellGetIndex -&gt;  -&gt; text= Finalize Accounting Entries (;equal=false;ret=&amp;string</commandExpression>
+      <commandID>8</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_02</libraryName>
+      <lineMessage>iTable:8 iRow:11</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>&lt;NL&gt;</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>174</logLineID>
+      <logParentLineID>150</logParentLineID>
+      <commandExpression>HTMLTable -&gt; CellGetIndex -&gt;  -&gt; text= Finalize Accounting Entries (;equal=false;ret=&amp;string</commandExpression>
+      <commandID>8</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_02</libraryName>
+      <lineMessage>iTable:8 iRow:12</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>175</logLineID>
+      <logParentLineID>150</logParentLineID>
+      <commandExpression>HTMLTable -&gt; CellGetIndex -&gt;  -&gt; text= Finalize Accounting Entries (;equal=false;ret=&amp;string</commandExpression>
+      <commandID>8</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_02</libraryName>
+      <lineMessage>iTable:8 iRow:13</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>176</logLineID>
+      <logParentLineID>150</logParentLineID>
+      <commandExpression>HTMLTable -&gt; CellGetIndex -&gt;  -&gt; text= Finalize Accounting Entries (;equal=false;ret=&amp;string</commandExpression>
+      <commandID>8</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_02</libraryName>
+      <lineMessage>iTable:8 iRow:14</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>Exceptions&lt;NL&gt;</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>177</logLineID>
+      <logParentLineID>150</logParentLineID>
+      <commandExpression>HTMLTable -&gt; CellGetIndex -&gt;  -&gt; text= Finalize Accounting Entries (;equal=false;ret=&amp;string</commandExpression>
+      <commandID>8</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_02</libraryName>
+      <lineMessage>iTable:8 iRow:15</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>&lt;NL&gt;</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>178</logLineID>
+      <logParentLineID>150</logParentLineID>
+      <commandExpression>HTMLTable -&gt; CellGetIndex -&gt;  -&gt; text= Finalize Accounting Entries (;equal=false;ret=&amp;string</commandExpression>
+      <commandID>8</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_02</libraryName>
+      <lineMessage>iTable:8 iRow:16</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>179</logLineID>
+      <logParentLineID>150</logParentLineID>
+      <commandExpression>HTMLTable -&gt; CellGetIndex -&gt;  -&gt; text= Finalize Accounting Entries (;equal=false;ret=&amp;string</commandExpression>
+      <commandID>8</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_02</libraryName>
+      <lineMessage>iTable:9 iRow:1</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>Finalize Accounting Entries (6)</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>180</logLineID>
+      <logParentLineID>150</logParentLineID>
+      <commandExpression>HTMLTable -&gt; CellGetIndex -&gt;  -&gt; text= Finalize Accounting Entries (;equal=false;ret=&amp;string</commandExpression>
+      <commandID>8</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_02</libraryName>
+      <lineMessage>iTable:9 iRow:1 iCol:1</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>&lt;NL&gt;</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>181</logLineID>
+      <logParentLineID>150</logParentLineID>
+      <commandExpression>HTMLTable -&gt; CellGetIndex -&gt;  -&gt; text= Finalize Accounting Entries (;equal=false;ret=&amp;string</commandExpression>
+      <commandID>8</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_02</libraryName>
+      <lineMessage>iTable:9 iRow:1 iCol:2</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>Finalize Accounting Entries (6)</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>182</logLineID>
+      <logParentLineID>150</logParentLineID>
+      <commandExpression>HTMLTable -&gt; CellGetIndex -&gt;  -&gt; text= Finalize Accounting Entries (;equal=false;ret=&amp;string</commandExpression>
+      <commandID>8</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_02</libraryName>
+      <lineMessage>HTMLTable cell value was found, the Index is: 9/1/2</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>cell Value: Finalize Accounting Entries (6)</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>183</logLineID>
+      <logParentLineID>95</logParentLineID>
+      <commandExpression>HTMLTable -&gt; CellGetValue -&gt;  -&gt; index=&amp;string;ret=&amp;val</commandExpression>
+      <commandID>9</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_02</libraryName>
+      <lineMessage>HTMLTable.CellGetValue: Index:9; Row:1; Col:2</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>184</logLineID>
+      <logParentLineID>183</logParentLineID>
+      <commandExpression>HTMLTable -&gt; CellGetValue -&gt;  -&gt; index=&amp;string;ret=&amp;val</commandExpression>
+      <commandID>9</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_02</libraryName>
+      <lineMessage>Value: Finalize Accounting Entries (6)</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>185</logLineID>
+      <logParentLineID>95</logParentLineID>
+      <commandExpression>Variable -&gt; Set_Value -&gt; &amp;instr</commandExpression>
+      <commandID>10</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_02</libraryName>
+      <lineMessage>Variable &amp;instr set to 31</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>&amp;instr = instr(&amp;val|")")</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>186</logLineID>
+      <logParentLineID>95</logParentLineID>
+      <commandExpression>Variable -&gt; Set_Value -&gt; &amp;link</commandExpression>
+      <commandID>11</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_02</libraryName>
+      <lineMessage>Variable &amp;link set to Finalize Accounting Entries (6)</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>&amp;link = Left(&amp;val|&amp;instr)</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>187</logLineID>
+      <logParentLineID>95</logParentLineID>
+      <commandExpression>Link -&gt; Click -&gt; Text=&amp;link</commandExpression>
+      <commandID>12</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_02</libraryName>
+      <lineMessage>link.Click  [Text=Finalize Accounting Entries (6)]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>188</logLineID>
+      <logParentLineID>95</logParentLineID>
+      <commandExpression>Browser -&gt; FrameSet -&gt; TargetContent</commandExpression>
+      <commandID>13</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_02</libraryName>
+      <lineMessage>Frame set to 'TargetContent'</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>Current frame: 'TargetContent'    Previous Frame: 'PageletArea'</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>189</logLineID>
+      <logParentLineID>95</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr1</commandExpression>
+      <commandID>15</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_02</libraryName>
+      <lineMessage>Scroll [1] Start: $1,  Action: find,  Key: N</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>190</logLineID>
+      <logParentLineID>189</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr1</commandExpression>
+      <commandID>15</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_02</libraryName>
+      <lineMessage>Key: name=SELECTED_FLAG [checkbox] - Value: N</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>191</logLineID>
+      <logParentLineID>189</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr1</commandExpression>
+      <commandID>15</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_02</libraryName>
+      <lineMessage>Found Row: $0</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>192</logLineID>
+      <logParentLineID>189</logParentLineID>
+      <commandExpression>CheckBox -&gt; Set_Value -&gt; name=SELECTED_FLAG&amp;Scr1</commandExpression>
+      <commandID>16</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_02</libraryName>
+      <lineMessage>checkbox.Set_Value [name=SELECTED_FLAG$0] -&gt; Y</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>193</logLineID>
+      <logParentLineID>189</logParentLineID>
+      <commandExpression>Button -&gt; Click -&gt; name=TR_APP_GRID_WRK_FINALIZE</commandExpression>
+      <commandID>17</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_02</libraryName>
+      <lineMessage>button.Click  [name=TR_APP_GRID_WRK_FINALIZE]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>194</logLineID>
+      <logParentLineID>189</logParentLineID>
+      <commandExpression>Button -&gt; Click -&gt; name=TR_APP_GRID_WRK_FINALIZE</commandExpression>
+      <commandID>17</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_02</libraryName>
+      <lineMessage>Saving persistent variables.</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>195</logLineID>
+      <logParentLineID>189</logParentLineID>
+      <commandExpression>Button -&gt; Click -&gt; name=TR_APP_GRID_WRK_FINALIZE</commandExpression>
+      <commandID>17</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_02</libraryName>
+      <lineMessage>Test End:  3/8/2018 1:43:35 AM</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>196</logLineID>
+      <logParentLineID>1</logParentLineID>
+      <commandExpression>Test -&gt; Exec -&gt; ACCOUNTING_ENTRY_20263994_03</commandExpression>
+      <commandID>5</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Starting the call to $\QA AUTOMATION\FMS\FIN - Cash Management\CM ICE Bundle Regression\Accounting Entries\20263994\ACCOUNTING_ENTRY_20263994_03  [Test Case: DEFAULT]</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>197</logLineID>
+      <logParentLineID>196</logParentLineID>
+      <commandExpression></commandExpression>
+      <commandID>0</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_03</libraryName>
+      <lineMessage>Use of Message Recognition</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>198</logLineID>
+      <logParentLineID>196</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_03</libraryName>
+      <lineMessage>Browser.Start_Login</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>199</logLineID>
+      <logParentLineID>198</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_03</libraryName>
+      <lineMessage>Closing old browsers...</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>200</logLineID>
+      <logParentLineID>198</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_03</libraryName>
+      <lineMessage>The chrome version 64 is not supported. You might have issue with it. The current supported browser is: 56-58</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>201</logLineID>
+      <logParentLineID>198</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_03</libraryName>
+      <lineMessage>Frame set to ''</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>Current frame: ''    Previous Frame: 'TargetContent'</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>202</logLineID>
+      <logParentLineID>198</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_03</libraryName>
+      <lineMessage>Goto URL</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>http://slc08ayk.us.oracle.com:8000/e92m3ltux/signon.html</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>203</logLineID>
+      <logParentLineID>198</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_03</libraryName>
+      <lineMessage>Browser.Login</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>204</logLineID>
+      <logParentLineID>203</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_03</libraryName>
+      <lineMessage>Doing login in English</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>205</logLineID>
+      <logParentLineID>204</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_03</libraryName>
+      <lineMessage>combobox.Set_Value [id=ptlangsel] -&gt; ENG</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>206</logLineID>
+      <logParentLineID>203</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_03</libraryName>
+      <lineMessage>text.Set_Value [id=userid] -&gt; VP1</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>207</logLineID>
+      <logParentLineID>203</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_03</libraryName>
+      <lineMessage>pwd.Set_Value [id=pwd] -&gt; </lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>208</logLineID>
+      <logParentLineID>203</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_03</libraryName>
+      <lineMessage>button.Click  [name=Submit]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>209</logLineID>
+      <logParentLineID>196</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; ADMINISTER_ACCOUNTING.ACCOUNTING_REVIEW.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_03</libraryName>
+      <lineMessage>Page.Prompt</lineMessage>
+      <logResult>110</logResult>
+      <longDescr>ADMINISTER_ACCOUNTING.ACCOUNTING_REVIEW.GBL</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>210</logLineID>
+      <logParentLineID>209</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; ADMINISTER_ACCOUNTING.ACCOUNTING_REVIEW.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_03</libraryName>
+      <lineMessage>Goto URL</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>http://slc08ayk.us.oracle.com:8000/psp/e92m3ltux/EMPLOYEE/ERP/c/ADMINISTER_ACCOUNTING.ACCOUNTING_REVIEW.GBL</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>211</logLineID>
+      <logParentLineID>209</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; ADMINISTER_ACCOUNTING.ACCOUNTING_REVIEW.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_03</libraryName>
+      <lineMessage>Page.Prompt: Trying to do the following action = update</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>212</logLineID>
+      <logParentLineID>209</logParentLineID>
+      <commandExpression>Browser -&gt; FrameSet -&gt; TargetContent</commandExpression>
+      <commandID>3</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_03</libraryName>
+      <lineMessage>Frame set to 'TargetContent'</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>Current frame: 'TargetContent'    Previous Frame: 'TargetContent'</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>213</logLineID>
+      <logParentLineID>209</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=TRA_REQ_REVU_VW_BUSINESS_UNIT</commandExpression>
+      <commandID>4</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_03</libraryName>
+      <lineMessage>text.Set_Value [name=TRA_REQ_REVU_VW_BUSINESS_UNIT] -&gt; US001</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>214</logLineID>
+      <logParentLineID>209</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=TRA_REQ_REVU_VW_ACCOUNTING_ID</commandExpression>
+      <commandID>5</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_03</libraryName>
+      <lineMessage>text.Set_Value [name=TRA_REQ_REVU_VW_ACCOUNTING_ID] -&gt; 0000000037</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>215</logLineID>
+      <logParentLineID>209</logParentLineID>
+      <commandExpression>Button -&gt; Click -&gt; name=#ICSearch</commandExpression>
+      <commandID>6</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_03</libraryName>
+      <lineMessage>button.Click  [name=#ICSearch]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>216</logLineID>
+      <logParentLineID>209</logParentLineID>
+      <commandExpression>ComboBox -&gt; Verify -&gt; name=TRA_ACCTG_HDR_ACCTG_STATUS</commandExpression>
+      <commandID>7</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_03</libraryName>
+      <lineMessage>Verify: name=TRA_ACCTG_HDR_ACCTG_STATUS [combobox] -&gt; F</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>217</logLineID>
+      <logParentLineID>216</logParentLineID>
+      <commandExpression>ComboBox -&gt; Verify -&gt; name=TRA_ACCTG_HDR_ACCTG_STATUS</commandExpression>
+      <commandID>7</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_03</libraryName>
+      <lineMessage>Check field: name=TRA_ACCTG_HDR_ACCTG_STATUS, 'F' (actual) = 'F' (expected)</lineMessage>
+      <logResult>110</logResult>
+      <longDescr>Object Type: ComboBox, Field: name=TRA_ACCTG_HDR_ACCTG_STATUS, Value: F, CheckValue: F</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>218</logLineID>
+      <logParentLineID>209</logParentLineID>
+      <commandExpression>Link -&gt; Click -&gt; text=Journal</commandExpression>
+      <commandID>8</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_03</libraryName>
+      <lineMessage>link.Click  [text=Journal]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>219</logLineID>
+      <logParentLineID>209</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr1</commandExpression>
+      <commandID>10</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_03</libraryName>
+      <lineMessage>Scroll [1] Start: $0,  Action: sel,  Key: US001</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>220</logLineID>
+      <logParentLineID>219</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr1</commandExpression>
+      <commandID>10</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_03</libraryName>
+      <lineMessage>Key: id=TRA_ACCTG_LINE_BUSINESS_UNIT_GL [span] - Value: US001</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>221</logLineID>
+      <logParentLineID>219</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr1</commandExpression>
+      <commandID>10</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_03</libraryName>
+      <lineMessage>Found Row: $0</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>222</logLineID>
+      <logParentLineID>219</logParentLineID>
+      <commandExpression>Span -&gt; Verify -&gt; id=TRA_ACCTG_LINE_GL_DISTRIB_STATUS&amp;Scr1</commandExpression>
+      <commandID>11</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_03</libraryName>
+      <lineMessage>Verify: id=TRA_ACCTG_LINE_GL_DISTRIB_STATUS$0 [span] -&gt; None</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>223</logLineID>
+      <logParentLineID>222</logParentLineID>
+      <commandExpression>Span -&gt; Verify -&gt; id=TRA_ACCTG_LINE_GL_DISTRIB_STATUS&amp;Scr1</commandExpression>
+      <commandID>11</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_03</libraryName>
+      <lineMessage>Check field: id=TRA_ACCTG_LINE_GL_DISTRIB_STATUS$0, 'None' (actual) = 'None' (expected)</lineMessage>
+      <logResult>110</logResult>
+      <longDescr>Object Type: Span, Field: id=TRA_ACCTG_LINE_GL_DISTRIB_STATUS$0, Value: None, CheckValue: None</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>224</logLineID>
+      <logParentLineID>209</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr2</commandExpression>
+      <commandID>13</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_03</libraryName>
+      <lineMessage>Scroll [2] Start: $1,  Action: sel,  Key: 2</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>225</logLineID>
+      <logParentLineID>224</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr2</commandExpression>
+      <commandID>13</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_03</libraryName>
+      <lineMessage>Key: ID=TRA_ACCTG_LINE_ACCOUNTING_LINE [span] - Value: 2</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>226</logLineID>
+      <logParentLineID>224</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr2</commandExpression>
+      <commandID>13</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_03</libraryName>
+      <lineMessage>Found Row: $1</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>227</logLineID>
+      <logParentLineID>224</logParentLineID>
+      <commandExpression>Span -&gt; Verify -&gt; id=TRA_ACCTG_LINE_GL_DISTRIB_STATUS&amp;Scr2</commandExpression>
+      <commandID>14</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_03</libraryName>
+      <lineMessage>Verify: id=TRA_ACCTG_LINE_GL_DISTRIB_STATUS$1 [span] -&gt; None</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>228</logLineID>
+      <logParentLineID>227</logParentLineID>
+      <commandExpression>Span -&gt; Verify -&gt; id=TRA_ACCTG_LINE_GL_DISTRIB_STATUS&amp;Scr2</commandExpression>
+      <commandID>14</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_03</libraryName>
+      <lineMessage>Check field: id=TRA_ACCTG_LINE_GL_DISTRIB_STATUS$1, 'None' (actual) = 'None' (expected)</lineMessage>
+      <logResult>110</logResult>
+      <longDescr>Object Type: Span, Field: id=TRA_ACCTG_LINE_GL_DISTRIB_STATUS$1, Value: None, CheckValue: None</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>229</logLineID>
+      <logParentLineID>196</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>15</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_03</libraryName>
+      <lineMessage>Page.Save</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>230</logLineID>
+      <logParentLineID>229</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>15</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_03</libraryName>
+      <lineMessage>button.Click  [Name=#ICSave]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>231</logLineID>
+      <logParentLineID>229</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>15</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_03</libraryName>
+      <lineMessage>============= PageSave: YES ========</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>232</logLineID>
+      <logParentLineID>196</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>15</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_03</libraryName>
+      <lineMessage>Saving persistent variables.</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>233</logLineID>
+      <logParentLineID>196</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>15</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_03</libraryName>
+      <lineMessage>Test End:  3/8/2018 1:43:54 AM</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>234</logLineID>
+      <logParentLineID>1</logParentLineID>
+      <commandExpression>Test -&gt; Exec -&gt; ACCOUNTING_ENTRY_20263994_04</commandExpression>
+      <commandID>6</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Starting the call to $\QA AUTOMATION\FMS\FIN - Cash Management\CM ICE Bundle Regression\Accounting Entries\20263994\ACCOUNTING_ENTRY_20263994_04  [Test Case: DEFAULT]</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>235</logLineID>
+      <logParentLineID>234</logParentLineID>
+      <commandExpression></commandExpression>
+      <commandID>0</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>Use of Message Recognition</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>236</logLineID>
+      <logParentLineID>234</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>Browser.Start_Login</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>237</logLineID>
+      <logParentLineID>236</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>Closing old browsers...</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>238</logLineID>
+      <logParentLineID>236</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>The chrome version 64 is not supported. You might have issue with it. The current supported browser is: 56-58</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>239</logLineID>
+      <logParentLineID>236</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>Frame set to ''</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>Current frame: ''    Previous Frame: 'TargetContent'</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>240</logLineID>
+      <logParentLineID>236</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>Goto URL</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>http://slc08ayk.us.oracle.com:8000/e92m3ltux/signon.html</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>241</logLineID>
+      <logParentLineID>236</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>Browser.Login</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>242</logLineID>
+      <logParentLineID>241</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>Doing login in English</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>243</logLineID>
+      <logParentLineID>242</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>combobox.Set_Value [id=ptlangsel] -&gt; ENG</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>244</logLineID>
+      <logParentLineID>241</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>text.Set_Value [id=userid] -&gt; VP1</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>245</logLineID>
+      <logParentLineID>241</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>pwd.Set_Value [id=pwd] -&gt; </lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>246</logLineID>
+      <logParentLineID>241</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>button.Click  [name=Submit]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>247</logLineID>
+      <logParentLineID>234</logParentLineID>
+      <commandExpression>Browser -&gt; Set_URL -&gt; PORTAL</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>Browser.Set_URL to PORTAL</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>248</logLineID>
+      <logParentLineID>234</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; PROCESS_JOURNALS.JRNLGEN_REQUEST.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>3</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>Page.Prompt</lineMessage>
+      <logResult>115</logResult>
+      <longDescr>PROCESS_JOURNALS.JRNLGEN_REQUEST.GBL</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>249</logLineID>
+      <logParentLineID>248</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; PROCESS_JOURNALS.JRNLGEN_REQUEST.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>3</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>Using URL type PORTAL.</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>250</logLineID>
+      <logParentLineID>248</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; PROCESS_JOURNALS.JRNLGEN_REQUEST.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>3</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>Goto URL</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>http://slc08ayk.us.oracle.com:8000/psp/e92m3ltux/EMPLOYEE/ERP/c/PROCESS_JOURNALS.JRNLGEN_REQUEST.GBL</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>251</logLineID>
+      <logParentLineID>248</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; PROCESS_JOURNALS.JRNLGEN_REQUEST.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>3</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>Page.Prompt: Trying to do the following action = add</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>252</logLineID>
+      <logParentLineID>248</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; PROCESS_JOURNALS.JRNLGEN_REQUEST.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>3</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>link.Click  [name=#ICSwitchMode]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>253</logLineID>
+      <logParentLineID>248</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=PRCSRUNCNTL_RUN_CNTL_ID</commandExpression>
+      <commandID>4</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>text.Set_Value [name=PRCSRUNCNTL_RUN_CNTL_ID] -&gt; TEST01</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>254</logLineID>
+      <logParentLineID>248</logParentLineID>
+      <commandExpression>Button -&gt; Click -&gt; name=#ICSearch</commandExpression>
+      <commandID>5</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>button.Click  [name=#ICSearch]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>255</logLineID>
+      <logParentLineID>248</logParentLineID>
+      <commandExpression>Browser -&gt; FrameSet -&gt; TargetContent</commandExpression>
+      <commandID>6</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>Frame set to 'TargetContent'</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>Current frame: 'TargetContent'    Previous Frame: 'TargetContent'</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>256</logLineID>
+      <logParentLineID>248</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr1</commandExpression>
+      <commandID>8</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>Scroll [1] Start: $0,  Action: sel,  Key: SHARE</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>257</logLineID>
+      <logParentLineID>256</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr1</commandExpression>
+      <commandID>8</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>Key: name=JRNLGEN_REQUEST_SETID [text] - Value: SHARE</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>258</logLineID>
+      <logParentLineID>256</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr1</commandExpression>
+      <commandID>8</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>Found Row: $0</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>259</logLineID>
+      <logParentLineID>256</logParentLineID>
+      <commandExpression>Radio -&gt; Set_Value -&gt; name=~JRNLGEN_REQUEST_PROCESS_FREQUENCY$9$$*&amp;Scr1</commandExpression>
+      <commandID>9</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>radio.Set_Value [name=~JRNLGEN_REQUEST_PROCESS_FREQUENCY$9$$*$0|value=O] -&gt; O</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>260</logLineID>
+      <logParentLineID>256</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=JRNLGEN_REQUEST_ACCTG_DEF_NAME&amp;Scr1</commandExpression>
+      <commandID>10</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>text.Set_Value [name=JRNLGEN_REQUEST_ACCTG_DEF_NAME$0] -&gt; TRDEFN</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>261</logLineID>
+      <logParentLineID>256</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; NAME=JRNLGEN_REQUEST_BUSINESS_UNIT&amp;Scr1</commandExpression>
+      <commandID>11</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>text.Set_Value [NAME=JRNLGEN_REQUEST_BUSINESS_UNIT$0] -&gt; US001</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>262</logLineID>
+      <logParentLineID>256</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=JRNLGEN_REQUEST_LEDGER_GROUP&amp;Scr1</commandExpression>
+      <commandID>12</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>text.Set_Value [name=JRNLGEN_REQUEST_LEDGER_GROUP$0] -&gt; RECORDING</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>263</logLineID>
+      <logParentLineID>256</logParentLineID>
+      <commandExpression>ComboBox -&gt; Set_Value -&gt; NAME=JRNLGEN_REQUEST_FROM_DT_OPTN&amp;Scr1</commandExpression>
+      <commandID>13</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>combobox.Set_Value [NAME=JRNLGEN_REQUEST_FROM_DT_OPTN$0] -&gt; S</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>264</logLineID>
+      <logParentLineID>256</logParentLineID>
+      <commandExpression>ComboBox -&gt; Set_Value -&gt; NAME=JRNLGEN_REQUEST_TO_DT_OPTN&amp;Scr1</commandExpression>
+      <commandID>14</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>combobox.Set_Value [NAME=JRNLGEN_REQUEST_TO_DT_OPTN$0] -&gt; S</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>265</logLineID>
+      <logParentLineID>256</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=JRNLGEN_REQUEST_FROM_DT&amp;Scr1</commandExpression>
+      <commandID>15</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>text.Set_Value [name=JRNLGEN_REQUEST_FROM_DT$0] -&gt; 03/08/2018</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>266</logLineID>
+      <logParentLineID>256</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=JRNLGEN_REQUEST_TO_DT&amp;Scr1</commandExpression>
+      <commandID>16</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>text.Set_Value [name=JRNLGEN_REQUEST_TO_DT$0] -&gt; 03/08/2018</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>267</logLineID>
+      <logParentLineID>256</logParentLineID>
+      <commandExpression>Button -&gt; Click -&gt; name=#ICSave</commandExpression>
+      <commandID>17</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>button.Click  [name=#ICSave]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>268</logLineID>
+      <logParentLineID>256</logParentLineID>
+      <commandExpression>Process -&gt; Run -&gt; prcname=FS_JGEN -&gt; wait=true;expected=Success</commandExpression>
+      <commandID>18</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>Process.Run: FS_JGEN</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>269</logLineID>
+      <logParentLineID>268</logParentLineID>
+      <commandExpression>Process -&gt; Run -&gt; prcname=FS_JGEN -&gt; wait=true;expected=Success</commandExpression>
+      <commandID>18</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>SecPage: Name=PRCSRQSTDLG</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>270</logLineID>
+      <logParentLineID>269</logParentLineID>
+      <commandExpression>Process -&gt; Run -&gt; prcname=FS_JGEN -&gt; wait=true;expected=Success</commandExpression>
+      <commandID>18</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>button.Click  [Name=PRCSRQSTDLG_WRK_LOADPRCSRQSTDLGPB]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>271</logLineID>
+      <logParentLineID>269</logParentLineID>
+      <commandExpression>Process -&gt; Run -&gt; prcname=FS_JGEN -&gt; wait=true;expected=Success</commandExpression>
+      <commandID>18</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>combobox.Set_Value [name=PRCSRQSTDLG_WRK_SERVERNAME] -&gt; PSUNX</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>272</logLineID>
+      <logParentLineID>269</logParentLineID>
+      <commandExpression>Process -&gt; Run -&gt; prcname=FS_JGEN -&gt; wait=true;expected=Success</commandExpression>
+      <commandID>18</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>checkbox.Set_Value [name=PRCSRQSTDLG_WRK_SELECT_FLAG$0] -&gt; Y</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>273</logLineID>
+      <logParentLineID>269</logParentLineID>
+      <commandExpression>Process -&gt; Run -&gt; prcname=FS_JGEN -&gt; wait=true;expected=Success</commandExpression>
+      <commandID>18</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>button.Click  [Name=#ICSave]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>274</logLineID>
+      <logParentLineID>269</logParentLineID>
+      <commandExpression>Process -&gt; Run -&gt; prcname=FS_JGEN -&gt; wait=true;expected=Success</commandExpression>
+      <commandID>18</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>Process Instance: 150581</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>275</logLineID>
+      <logParentLineID>269</logParentLineID>
+      <commandExpression>Process -&gt; Run -&gt; prcname=FS_JGEN -&gt; wait=true;expected=Success</commandExpression>
+      <commandID>18</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>Wait for process FS_JGEN. Instance: 150581</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>276</logLineID>
+      <logParentLineID>275</logParentLineID>
+      <commandExpression>Process -&gt; Run -&gt; prcname=FS_JGEN -&gt; wait=true;expected=Success</commandExpression>
+      <commandID>18</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>link.Click  [Name=PRCSRQSTDLG_WRK_LOADPRCSMONITORPB]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>277</logLineID>
+      <logParentLineID>275</logParentLineID>
+      <commandExpression>Process -&gt; Run -&gt; prcname=FS_JGEN -&gt; wait=true;expected=Success</commandExpression>
+      <commandID>18</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>text.Set_Value [name=PMN_DERIVED_PRCSINSTANCE] -&gt; 150581</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>278</logLineID>
+      <logParentLineID>275</logParentLineID>
+      <commandExpression>Process -&gt; Run -&gt; prcname=FS_JGEN -&gt; wait=true;expected=Success</commandExpression>
+      <commandID>18</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>button.Click  [name=REFRESH_BTN]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>279</logLineID>
+      <logParentLineID>275</logParentLineID>
+      <commandExpression>Process -&gt; Run -&gt; prcname=FS_JGEN -&gt; wait=true;expected=Success</commandExpression>
+      <commandID>18</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>Run status: Queued</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>280</logLineID>
+      <logParentLineID>275</logParentLineID>
+      <commandExpression>Process -&gt; Run -&gt; prcname=FS_JGEN -&gt; wait=true;expected=Success</commandExpression>
+      <commandID>18</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>button.Click  [name=REFRESH_BTN]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>281</logLineID>
+      <logParentLineID>275</logParentLineID>
+      <commandExpression>Process -&gt; Run -&gt; prcname=FS_JGEN -&gt; wait=true;expected=Success</commandExpression>
+      <commandID>18</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>Run status: Queued</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>282</logLineID>
+      <logParentLineID>275</logParentLineID>
+      <commandExpression>Process -&gt; Run -&gt; prcname=FS_JGEN -&gt; wait=true;expected=Success</commandExpression>
+      <commandID>18</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>button.Click  [name=REFRESH_BTN]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>283</logLineID>
+      <logParentLineID>275</logParentLineID>
+      <commandExpression>Process -&gt; Run -&gt; prcname=FS_JGEN -&gt; wait=true;expected=Success</commandExpression>
+      <commandID>18</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>Run status: Queued</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>284</logLineID>
+      <logParentLineID>275</logParentLineID>
+      <commandExpression>Process -&gt; Run -&gt; prcname=FS_JGEN -&gt; wait=true;expected=Success</commandExpression>
+      <commandID>18</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>button.Click  [name=REFRESH_BTN]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>285</logLineID>
+      <logParentLineID>275</logParentLineID>
+      <commandExpression>Process -&gt; Run -&gt; prcname=FS_JGEN -&gt; wait=true;expected=Success</commandExpression>
+      <commandID>18</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>Run status: Queued</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>286</logLineID>
+      <logParentLineID>275</logParentLineID>
+      <commandExpression>Process -&gt; Run -&gt; prcname=FS_JGEN -&gt; wait=true;expected=Success</commandExpression>
+      <commandID>18</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>button.Click  [name=REFRESH_BTN]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>287</logLineID>
+      <logParentLineID>275</logParentLineID>
+      <commandExpression>Process -&gt; Run -&gt; prcname=FS_JGEN -&gt; wait=true;expected=Success</commandExpression>
+      <commandID>18</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>Run status: Queued</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>288</logLineID>
+      <logParentLineID>275</logParentLineID>
+      <commandExpression>Process -&gt; Run -&gt; prcname=FS_JGEN -&gt; wait=true;expected=Success</commandExpression>
+      <commandID>18</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>button.Click  [name=REFRESH_BTN]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>289</logLineID>
+      <logParentLineID>275</logParentLineID>
+      <commandExpression>Process -&gt; Run -&gt; prcname=FS_JGEN -&gt; wait=true;expected=Success</commandExpression>
+      <commandID>18</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>Run status: Queued</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>290</logLineID>
+      <logParentLineID>275</logParentLineID>
+      <commandExpression>Process -&gt; Run -&gt; prcname=FS_JGEN -&gt; wait=true;expected=Success</commandExpression>
+      <commandID>18</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>button.Click  [name=REFRESH_BTN]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>291</logLineID>
+      <logParentLineID>275</logParentLineID>
+      <commandExpression>Process -&gt; Run -&gt; prcname=FS_JGEN -&gt; wait=true;expected=Success</commandExpression>
+      <commandID>18</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>Run status: Queued</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>292</logLineID>
+      <logParentLineID>275</logParentLineID>
+      <commandExpression>Process -&gt; Run -&gt; prcname=FS_JGEN -&gt; wait=true;expected=Success</commandExpression>
+      <commandID>18</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>button.Click  [name=REFRESH_BTN]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>293</logLineID>
+      <logParentLineID>275</logParentLineID>
+      <commandExpression>Process -&gt; Run -&gt; prcname=FS_JGEN -&gt; wait=true;expected=Success</commandExpression>
+      <commandID>18</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>Run status: Queued</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>294</logLineID>
+      <logParentLineID>275</logParentLineID>
+      <commandExpression>Process -&gt; Run -&gt; prcname=FS_JGEN -&gt; wait=true;expected=Success</commandExpression>
+      <commandID>18</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>button.Click  [name=REFRESH_BTN]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>295</logLineID>
+      <logParentLineID>275</logParentLineID>
+      <commandExpression>Process -&gt; Run -&gt; prcname=FS_JGEN -&gt; wait=true;expected=Success</commandExpression>
+      <commandID>18</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>Run status: Queued</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>296</logLineID>
+      <logParentLineID>275</logParentLineID>
+      <commandExpression>Process -&gt; Run -&gt; prcname=FS_JGEN -&gt; wait=true;expected=Success</commandExpression>
+      <commandID>18</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>button.Click  [name=REFRESH_BTN]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>297</logLineID>
+      <logParentLineID>275</logParentLineID>
+      <commandExpression>Process -&gt; Run -&gt; prcname=FS_JGEN -&gt; wait=true;expected=Success</commandExpression>
+      <commandID>18</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>Run status: Queued</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>298</logLineID>
+      <logParentLineID>275</logParentLineID>
+      <commandExpression>Process -&gt; Run -&gt; prcname=FS_JGEN -&gt; wait=true;expected=Success</commandExpression>
+      <commandID>18</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>button.Click  [name=REFRESH_BTN]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>299</logLineID>
+      <logParentLineID>275</logParentLineID>
+      <commandExpression>Process -&gt; Run -&gt; prcname=FS_JGEN -&gt; wait=true;expected=Success</commandExpression>
+      <commandID>18</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>Run status: Queued</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>300</logLineID>
+      <logParentLineID>275</logParentLineID>
+      <commandExpression>Process -&gt; Run -&gt; prcname=FS_JGEN -&gt; wait=true;expected=Success</commandExpression>
+      <commandID>18</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>button.Click  [name=REFRESH_BTN]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>301</logLineID>
+      <logParentLineID>275</logParentLineID>
+      <commandExpression>Process -&gt; Run -&gt; prcname=FS_JGEN -&gt; wait=true;expected=Success</commandExpression>
+      <commandID>18</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>Run status: Queued</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>302</logLineID>
+      <logParentLineID>275</logParentLineID>
+      <commandExpression>Process -&gt; Run -&gt; prcname=FS_JGEN -&gt; wait=true;expected=Success</commandExpression>
+      <commandID>18</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>Process request has timed out for instance 150581 with status QUEUED</lineMessage>
+      <logResult>115</logResult>
+      <longDescr>Timed out after 1 minute(s).</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>303</logLineID>
+      <logParentLineID>269</logParentLineID>
+      <commandExpression>Process -&gt; Run -&gt; prcname=FS_JGEN -&gt; wait=true;expected=Success</commandExpression>
+      <commandID>18</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>link.Click  [name=PMN_GO_HOME_WRK_HOME_LINK]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>304</logLineID>
+      <logParentLineID>256</logParentLineID>
+      <commandExpression>Wait -&gt; For_Seconds -&gt; 3</commandExpression>
+      <commandID>19</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>Waiting for 3 seconds.</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>305</logLineID>
+      <logParentLineID>256</logParentLineID>
+      <commandExpression>Variable -&gt; Set_Value -&gt; &amp;Pid</commandExpression>
+      <commandID>20</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>Variable &amp;Pid set to 150581</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>&amp;Pid = %pid%</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>306</logLineID>
+      <logParentLineID>256</logParentLineID>
+      <commandExpression>Link -&gt; Click -&gt; ID=PRCSRQSTDLG_WRK_LOADPRCSMONITORPB</commandExpression>
+      <commandID>21</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>link.Click  [ID=PRCSRQSTDLG_WRK_LOADPRCSMONITORPB]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>307</logLineID>
+      <logParentLineID>256</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; id=PMN_DERIVED_PRCSINSTANCE</commandExpression>
+      <commandID>22</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>text.Set_Value [id=PMN_DERIVED_PRCSINSTANCE] -&gt; 150581</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>308</logLineID>
+      <logParentLineID>256</logParentLineID>
+      <commandExpression>Button -&gt; Click -&gt; name=REFRESH_BTN</commandExpression>
+      <commandID>23</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>button.Click  [name=REFRESH_BTN]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>309</logLineID>
+      <logParentLineID>256</logParentLineID>
+      <commandExpression>Span -&gt; Get_Property -&gt; id=PMN_PRCSLIST_DISTSTATUS$0 -&gt; prop=text;ret=&amp;Status</commandExpression>
+      <commandID>24</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>span.Get_Property [id=PMN_PRCSLIST_DISTSTATUS$0]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>310</logLineID>
+      <logParentLineID>309</logParentLineID>
+      <commandExpression>Span -&gt; Get_Property -&gt; id=PMN_PRCSLIST_DISTSTATUS$0 -&gt; prop=text;ret=&amp;Status</commandExpression>
+      <commandID>24</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>id=PMN_PRCSLIST_DISTSTATUS$0 [span]. The property 'text' was found, and it is 'N/A'.</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>311</logLineID>
+      <logParentLineID>256</logParentLineID>
+      <commandExpression>Loop -&gt; While -&gt; &amp;Status&lt;&gt;"Posted"</commandExpression>
+      <commandID>25</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>Loop.While</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>312</logLineID>
+      <logParentLineID>311</logParentLineID>
+      <commandExpression>Loop -&gt; While -&gt; &amp;Status&lt;&gt;"Posted"</commandExpression>
+      <commandID>25</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>Iteration &amp;Status&lt;&gt;"Posted"</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>313</logLineID>
+      <logParentLineID>312</logParentLineID>
+      <commandExpression>Wait -&gt; For_Seconds -&gt; 3</commandExpression>
+      <commandID>26</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>Waiting for 3 seconds.</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>314</logLineID>
+      <logParentLineID>312</logParentLineID>
+      <commandExpression>Span -&gt; Get_Property -&gt; id=PMN_PRCSLIST_DISTSTATUS$0 -&gt; prop=text;ret=&amp;Status</commandExpression>
+      <commandID>27</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>span.Get_Property [id=PMN_PRCSLIST_DISTSTATUS$0]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>315</logLineID>
+      <logParentLineID>314</logParentLineID>
+      <commandExpression>Span -&gt; Get_Property -&gt; id=PMN_PRCSLIST_DISTSTATUS$0 -&gt; prop=text;ret=&amp;Status</commandExpression>
+      <commandID>27</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>id=PMN_PRCSLIST_DISTSTATUS$0 [span]. The property 'text' was found, and it is 'N/A'.</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>316</logLineID>
+      <logParentLineID>312</logParentLineID>
+      <commandExpression>Button -&gt; Click -&gt; name=REFRESH_BTN</commandExpression>
+      <commandID>28</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>button.Click  [name=REFRESH_BTN]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>317</logLineID>
+      <logParentLineID>311</logParentLineID>
+      <commandExpression>Loop -&gt; While -&gt; &amp;Status&lt;&gt;"Posted"</commandExpression>
+      <commandID>25</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>Iteration &amp;Status&lt;&gt;"Posted"</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>318</logLineID>
+      <logParentLineID>317</logParentLineID>
+      <commandExpression>Wait -&gt; For_Seconds -&gt; 3</commandExpression>
+      <commandID>26</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>Waiting for 3 seconds.</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>319</logLineID>
+      <logParentLineID>317</logParentLineID>
+      <commandExpression>Span -&gt; Get_Property -&gt; id=PMN_PRCSLIST_DISTSTATUS$0 -&gt; prop=text;ret=&amp;Status</commandExpression>
+      <commandID>27</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>span.Get_Property [id=PMN_PRCSLIST_DISTSTATUS$0]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>320</logLineID>
+      <logParentLineID>319</logParentLineID>
+      <commandExpression>Span -&gt; Get_Property -&gt; id=PMN_PRCSLIST_DISTSTATUS$0 -&gt; prop=text;ret=&amp;Status</commandExpression>
+      <commandID>27</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>id=PMN_PRCSLIST_DISTSTATUS$0 [span]. The property 'text' was found, and it is 'Posted'.</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>321</logLineID>
+      <logParentLineID>317</logParentLineID>
+      <commandExpression>Button -&gt; Click -&gt; name=REFRESH_BTN</commandExpression>
+      <commandID>28</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>button.Click  [name=REFRESH_BTN]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>322</logLineID>
+      <logParentLineID>248</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr2</commandExpression>
+      <commandID>31</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>Scroll [2] Start: $1,  Action: sel,  Key: Details</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>323</logLineID>
+      <logParentLineID>322</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr2</commandExpression>
+      <commandID>31</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>Key: name=PRCSDETAIL_BTN [link] - Value: Details</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>324</logLineID>
+      <logParentLineID>322</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr2</commandExpression>
+      <commandID>31</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>Found Row: $0</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>325</logLineID>
+      <logParentLineID>322</logParentLineID>
+      <commandExpression>Link -&gt; Click -&gt; name=PRCSDETAIL_BTN&amp;Scr2</commandExpression>
+      <commandID>32</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>link.Click  [name=PRCSDETAIL_BTN$0]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>326</logLineID>
+      <logParentLineID>322</logParentLineID>
+      <commandExpression>Browser -&gt; FrameSet -&gt; ptModFrame_##</commandExpression>
+      <commandID>33</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>Frame set to 'ptModFrame_1'</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>Current frame: 'ptModFrame_1'    Previous Frame: 'TargetContent'</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>327</logLineID>
+      <logParentLineID>322</logParentLineID>
+      <commandExpression>Link -&gt; Click -&gt; text=Message Log</commandExpression>
+      <commandID>34</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>link.Click  [text=Message Log]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>328</logLineID>
+      <logParentLineID>322</logParentLineID>
+      <commandExpression>Browser -&gt; FrameSet -&gt; ptModFrame_##</commandExpression>
+      <commandID>35</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>Frame set to 'ptModFrame_2'</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>Current frame: 'ptModFrame_2'    Previous Frame: 'ptModFrame_1'</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>329</logLineID>
+      <logParentLineID>322</logParentLineID>
+      <commandExpression>Log -&gt; SnapShot -&gt; </commandExpression>
+      <commandID>36</commandID>
+      <image>ACCOUNTING_ENTRY_20263994_SHEL-LOG1-Line329</image>
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>LogScreenShot</lineMessage>
+      <logResult>220</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>330</logLineID>
+      <logParentLineID>322</logParentLineID>
+      <commandExpression>Button -&gt; Click -&gt; name=#ICCancel</commandExpression>
+      <commandID>37</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>button.Click  [name=#ICCancel]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>331</logLineID>
+      <logParentLineID>322</logParentLineID>
+      <commandExpression>Browser -&gt; FrameSet -&gt; ptModFrame_##</commandExpression>
+      <commandID>38</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>Frame set to 'ptModFrame_1'</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>Current frame: 'ptModFrame_1'    Previous Frame: ''</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>332</logLineID>
+      <logParentLineID>322</logParentLineID>
+      <commandExpression>Button -&gt; Click -&gt; name=#ICSave</commandExpression>
+      <commandID>39</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>button.Click  [name=#ICSave]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>333</logLineID>
+      <logParentLineID>322</logParentLineID>
+      <commandExpression>Button -&gt; Click -&gt; name=#ICSave</commandExpression>
+      <commandID>39</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_04</libraryName>
+      <lineMessage>Test End:  3/8/2018 1:46:15 AM</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>334</logLineID>
+      <logParentLineID>1</logParentLineID>
+      <commandExpression>Test -&gt; Exec -&gt; ACCOUNTING_ENTRY_20263994_05</commandExpression>
+      <commandID>7</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Starting the call to $\QA AUTOMATION\FMS\FIN - Cash Management\CM ICE Bundle Regression\Accounting Entries\20263994\ACCOUNTING_ENTRY_20263994_05  [Test Case: DEFAULT]</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>335</logLineID>
+      <logParentLineID>334</logParentLineID>
+      <commandExpression></commandExpression>
+      <commandID>0</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_05</libraryName>
+      <lineMessage>Use of Message Recognition</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>336</logLineID>
+      <logParentLineID>334</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_05</libraryName>
+      <lineMessage>Browser.Start_Login</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>337</logLineID>
+      <logParentLineID>336</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_05</libraryName>
+      <lineMessage>Closing old browsers...</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>338</logLineID>
+      <logParentLineID>336</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_05</libraryName>
+      <lineMessage>The chrome version 64 is not supported. You might have issue with it. The current supported browser is: 56-58</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>339</logLineID>
+      <logParentLineID>336</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_05</libraryName>
+      <lineMessage>Frame set to ''</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>Current frame: ''    Previous Frame: ''</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>340</logLineID>
+      <logParentLineID>336</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_05</libraryName>
+      <lineMessage>Goto URL</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>http://slc08ayk.us.oracle.com:8000/e92m3ltux/signon.html</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>341</logLineID>
+      <logParentLineID>336</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_05</libraryName>
+      <lineMessage>Browser.Login</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>342</logLineID>
+      <logParentLineID>341</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_05</libraryName>
+      <lineMessage>Doing login in English</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>343</logLineID>
+      <logParentLineID>342</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_05</libraryName>
+      <lineMessage>combobox.Set_Value [id=ptlangsel] -&gt; ENG</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>344</logLineID>
+      <logParentLineID>341</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_05</libraryName>
+      <lineMessage>text.Set_Value [id=userid] -&gt; VP1</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>345</logLineID>
+      <logParentLineID>341</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_05</libraryName>
+      <lineMessage>pwd.Set_Value [id=pwd] -&gt; </lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>346</logLineID>
+      <logParentLineID>341</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_05</libraryName>
+      <lineMessage>button.Click  [name=Submit]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>347</logLineID>
+      <logParentLineID>334</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; ADMINISTER_ACCOUNTING.ACCOUNTING_BUILD.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_05</libraryName>
+      <lineMessage>Page.Prompt</lineMessage>
+      <logResult>110</logResult>
+      <longDescr>ADMINISTER_ACCOUNTING.ACCOUNTING_BUILD.GBL</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>348</logLineID>
+      <logParentLineID>347</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; ADMINISTER_ACCOUNTING.ACCOUNTING_BUILD.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_05</libraryName>
+      <lineMessage>Goto URL</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>http://slc08ayk.us.oracle.com:8000/psp/e92m3ltux/EMPLOYEE/ERP/c/ADMINISTER_ACCOUNTING.ACCOUNTING_BUILD.GBL</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>349</logLineID>
+      <logParentLineID>347</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; ADMINISTER_ACCOUNTING.ACCOUNTING_BUILD.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_05</libraryName>
+      <lineMessage>Page.Prompt: Trying to do the following action = update</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>350</logLineID>
+      <logParentLineID>347</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; NAME=TRA_ACCTG_SRCH_BUSINESS_UNIT</commandExpression>
+      <commandID>3</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_05</libraryName>
+      <lineMessage>text.Set_Value [NAME=TRA_ACCTG_SRCH_BUSINESS_UNIT] -&gt; US001</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>351</logLineID>
+      <logParentLineID>347</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; NAME=TRA_ACCTG_SRCH_ACCOUNTING_ID</commandExpression>
+      <commandID>4</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_05</libraryName>
+      <lineMessage>text.Set_Value [NAME=TRA_ACCTG_SRCH_ACCOUNTING_ID] -&gt; 0000000037</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>352</logLineID>
+      <logParentLineID>347</logParentLineID>
+      <commandExpression>ComboBox -&gt; Set_Value -&gt; NAME=TRA_ACCTG_SRCH_ACCTG_STATUS</commandExpression>
+      <commandID>5</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_05</libraryName>
+      <lineMessage>combobox.Set_Value [NAME=TRA_ACCTG_SRCH_ACCTG_STATUS] -&gt; F</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>353</logLineID>
+      <logParentLineID>347</logParentLineID>
+      <commandExpression>Button -&gt; Click -&gt; NAME=#ICSearch</commandExpression>
+      <commandID>6</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_05</libraryName>
+      <lineMessage>button.Click  [NAME=#ICSearch]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>354</logLineID>
+      <logParentLineID>347</logParentLineID>
+      <commandExpression>Link -&gt; Click -&gt; text=Journal</commandExpression>
+      <commandID>7</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_05</libraryName>
+      <lineMessage>link.Click  [text=Journal]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>355</logLineID>
+      <logParentLineID>347</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr1</commandExpression>
+      <commandID>9</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_05</libraryName>
+      <lineMessage>Scroll [1] Start: $0,  Action: sel,  Key: US001</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>356</logLineID>
+      <logParentLineID>355</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr1</commandExpression>
+      <commandID>9</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_05</libraryName>
+      <lineMessage>Key: id=TRA_ACCTG_LINE_BUSINESS_UNIT_GL [span] - Value: US001</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>357</logLineID>
+      <logParentLineID>355</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr1</commandExpression>
+      <commandID>9</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_05</libraryName>
+      <lineMessage>Found Row: $0</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>358</logLineID>
+      <logParentLineID>355</logParentLineID>
+      <commandExpression>Span -&gt; Verify -&gt; id=TRA_ACCTG_LINE_GL_DISTRIB_STATUS&amp;Scr1</commandExpression>
+      <commandID>10</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_05</libraryName>
+      <lineMessage>Verify: id=TRA_ACCTG_LINE_GL_DISTRIB_STATUS$0 [span] -&gt; Distributed</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>359</logLineID>
+      <logParentLineID>358</logParentLineID>
+      <commandExpression>Span -&gt; Verify -&gt; id=TRA_ACCTG_LINE_GL_DISTRIB_STATUS&amp;Scr1</commandExpression>
+      <commandID>10</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_05</libraryName>
+      <lineMessage>Check field: id=TRA_ACCTG_LINE_GL_DISTRIB_STATUS$0, 'Distributed' (actual) = 'Distributed' (expected)</lineMessage>
+      <logResult>110</logResult>
+      <longDescr>Object Type: Span, Field: id=TRA_ACCTG_LINE_GL_DISTRIB_STATUS$0, Value: Distributed, CheckValue: Distributed</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>360</logLineID>
+      <logParentLineID>347</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr2</commandExpression>
+      <commandID>12</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_05</libraryName>
+      <lineMessage>Scroll [2] Start: $0,  Action: sel,  Key: 2</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>361</logLineID>
+      <logParentLineID>360</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr2</commandExpression>
+      <commandID>12</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_05</libraryName>
+      <lineMessage>Key: ID=TRA_ACCTG_LINE_ACCOUNTING_LINE [span] - Value: 2</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>362</logLineID>
+      <logParentLineID>360</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr2</commandExpression>
+      <commandID>12</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_05</libraryName>
+      <lineMessage>Found Row: $1</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>363</logLineID>
+      <logParentLineID>360</logParentLineID>
+      <commandExpression>Span -&gt; Verify -&gt; id=TRA_ACCTG_LINE_GL_DISTRIB_STATUS&amp;Scr2</commandExpression>
+      <commandID>13</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_05</libraryName>
+      <lineMessage>Verify: id=TRA_ACCTG_LINE_GL_DISTRIB_STATUS$1 [span] -&gt; Distributed</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>364</logLineID>
+      <logParentLineID>363</logParentLineID>
+      <commandExpression>Span -&gt; Verify -&gt; id=TRA_ACCTG_LINE_GL_DISTRIB_STATUS&amp;Scr2</commandExpression>
+      <commandID>13</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_05</libraryName>
+      <lineMessage>Check field: id=TRA_ACCTG_LINE_GL_DISTRIB_STATUS$1, 'Distributed' (actual) = 'Distributed' (expected)</lineMessage>
+      <logResult>110</logResult>
+      <longDescr>Object Type: Span, Field: id=TRA_ACCTG_LINE_GL_DISTRIB_STATUS$1, Value: Distributed, CheckValue: Distributed</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>365</logLineID>
+      <logParentLineID>334</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>14</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_05</libraryName>
+      <lineMessage>Page.Save</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>366</logLineID>
+      <logParentLineID>365</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>14</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_05</libraryName>
+      <lineMessage>button.Click  [Name=#ICSave]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>367</logLineID>
+      <logParentLineID>365</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>14</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_05</libraryName>
+      <lineMessage>============= PageSave: YES ========</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>368</logLineID>
+      <logParentLineID>334</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>14</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_05</libraryName>
+      <lineMessage>Saving persistent variables.</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>369</logLineID>
+      <logParentLineID>334</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>14</commandID>
+      <image />
+      <libraryName>ACCOUNTING_ENTRY_20263994_05</libraryName>
+      <lineMessage>Test End:  3/8/2018 1:46:34 AM</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>370</logLineID>
+      <logParentLineID>1</logParentLineID>
+      <commandExpression>Test -&gt; Exec -&gt; ACCOUNTING_ENTRY_20263994_05</commandExpression>
+      <commandID>7</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Saving persistent variables.</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>371</logLineID>
+      <logParentLineID>1</logParentLineID>
+      <commandExpression>Test -&gt; Exec -&gt; ACCOUNTING_ENTRY_20263994_05</commandExpression>
+      <commandID>7</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Test End:  3/8/2018 1:46:35 AM</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+  </lines>
+</Log>

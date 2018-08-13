@@ -1,0 +1,820 @@
+﻿<?xml version='1.0' ?>
+<?xml-stylesheet type='text/xsl' href='\\slcnas463.us.oracle.com\enterprise\PTF\Logs\ToolsAutoStyle.xsl'?>
+<Log>
+  <logID>2</logID>
+  <logCaption>2. VP1 2018-03-08 06:02</logCaption>
+  <caseName>DEFAULT</caseName>
+  <logFolder>PSTO_STG_ONCS_PI28_C570-GLD_180307_866</logFolder>
+  <logPrefix></logPrefix>
+  <logLineCount>60</logLineCount>
+  <machineName>SLC10BSG</machineName>
+  <scriptFinalResult>115</scriptFinalResult>
+  <testName>CM_25359207_SHELL</testName>
+  <userID>VP1</userID>
+  <executionOptions>
+    <executionOptionName>E924T1MN</executionOptionName>
+    <databaseName>E924T1MN</databaseName>
+    <databasePlatform>Oracle</databasePlatform>
+    <databaseServer></databaseServer>
+    <databaseUser>VP1</databaseUser>
+    <dateFormat>MM/DD/YYYY</dateFormat>
+    <peopleToolsPath>\\psbldfs\dfs\build\pt\ptship\pt85606b\install_Windows.ora</peopleToolsPath>
+    <processServer>PSUNX</processServer>
+    <prompt>No</prompt>
+    <skipRun>No</skipRun>
+    <skipSave>No</skipSave>
+    <url>http://slc09jxh.us.oracle.com:8000/e924t1mnx/signon.html</url>
+    <userID>VP1</userID>
+    <verbose>Yes</verbose>
+  </executionOptions>
+  <extras>
+    <extra>
+      <logSection>1. Execution Options</logSection>
+      <logOrder>1</logOrder>
+      <logValue>No</logValue>
+      <logLabel>Appl - Skip Language :</logLabel>
+    </extra>
+    <extra>
+      <logSection>1. Execution Options</logSection>
+      <logOrder>2</logOrder>
+      <logValue>N</logValue>
+      <logLabel>Appl - Form Factor :</logLabel>
+    </extra>
+    <extra>
+      <logSection>3. System Info</logSection>
+      <logOrder>1</logOrder>
+      <logValue>1280 X 1024 pixels</logValue>
+      <logLabel>Screen resolution :</logLabel>
+    </extra>
+    <extra>
+      <logSection>3. System Info</logSection>
+      <logOrder>4</logOrder>
+      <logValue>Intel(R) Xeon(R) CPU E5-2699 v3 @ 2.30GHz</logValue>
+      <logLabel>Processor :</logLabel>
+    </extra>
+    <extra>
+      <logSection>3. System Info</logSection>
+      <logOrder>5</logOrder>
+      <logValue>Microsoft Windows Server 2012 R2 Standard</logValue>
+      <logLabel>Operating System full name:</logLabel>
+    </extra>
+    <extra>
+      <logSection>3. System Info</logSection>
+      <logOrder>6</logOrder>
+      <logValue>6.2.9200.0</logValue>
+      <logLabel>Operating Sytem version:</logLabel>
+    </extra>
+    <extra>
+      <logSection>3. System Info</logSection>
+      <logOrder>7</logOrder>
+      <logValue>31300 Mb</logValue>
+      <logLabel>Memory Total :</logLabel>
+    </extra>
+    <extra>
+      <logSection>3. System Info</logSection>
+      <logOrder>8</logOrder>
+      <logValue>21469 Mb</logValue>
+      <logLabel>Memory Available :</logLabel>
+    </extra>
+    <extra>
+      <logSection>3. System Info</logSection>
+      <logOrder>9</logOrder>
+      <logValue>chrome 64.0.3282.186</logValue>
+      <logLabel>Browser :</logLabel>
+    </extra>
+    <extra>
+      <logSection>3. System Info</logSection>
+      <logOrder>10</logOrder>
+      <logValue>ENG</logValue>
+      <logLabel>OS Lang Code:</logLabel>
+    </extra>
+    <extra>
+      <logSection>4. Environment Info</logSection>
+      <logOrder>1</logOrder>
+      <logValue>https://slc05ehl.us.oracle.com:8001/PSIGW/HttpListeningConnector</logValue>
+      <logLabel>Env. URL :</logLabel>
+    </extra>
+    <extra>
+      <logSection>1.1. Portal URL Info</logSection>
+      <logOrder>1</logOrder>
+      <logValue>http://slc09jxh.us.oracle.com:8000/psp/e924t1mnx/CUSTOMER/ERP/</logValue>
+      <logLabel>CUSTOMER</logLabel>
+    </extra>
+    <extra>
+      <logSection>1.1. Portal URL Info</logSection>
+      <logOrder>1</logOrder>
+      <logValue>http://slc09jxh.us.oracle.com:8000/psp/e924t1mnx/EMPLOYEE/ERP/</logValue>
+      <logLabel>PORTAL</logLabel>
+    </extra>
+    <extra>
+      <logSection>1.1. Portal URL Info</logSection>
+      <logOrder>1</logOrder>
+      <logValue>http://slc09jxh.us.oracle.com:8000/psp/e924t1mnx/SUPPLIER/ERP/</logValue>
+      <logLabel>SUPPLIER</logLabel>
+    </extra>
+    <extra>
+      <logSection>5. Extra Info</logSection>
+      <logOrder>1</logOrder>
+      <logValue>8.56.07 hotfix1</logValue>
+      <logLabel>PsTestFramework Version :</logLabel>
+    </extra>
+    <extra>
+      <logSection>5. Extra Info</logSection>
+      <logOrder>2</logOrder>
+      <logValue>False</logValue>
+      <logLabel>Disable ScreenShot :</logLabel>
+    </extra>
+    <extra>
+      <logSection>5. Extra Info</logSection>
+      <logOrder>3</logOrder>
+      <logValue>True</logValue>
+      <logLabel>User Error Handling :</logLabel>
+    </extra>
+    <extra>
+      <logSection>6. Log Export</logSection>
+      <logOrder>1</logOrder>
+      <logValue>\\slcnas463.us.oracle.com\enterprise\QEShare\PTF Log Archive\PSTO_STG_ONCS_PI28_C570-GLD_180307_866\CM_25359207_SHELL</logValue>
+      <logLabel>Path :</logLabel>
+    </extra>
+    <extra>
+      <logSection>6. Log Export</logSection>
+      <logOrder>2</logOrder>
+      <logValue>\\slcnas463.us.oracle.com\enterprise\PTF\Logs\ToolsAutoStyle.xsl</logValue>
+      <logLabel>Style Sheet File :</logLabel>
+    </extra>
+    <extra>
+      <logSection>6. Log Export</logSection>
+      <logOrder>3</logOrder>
+      <logValue>Yes</logValue>
+      <logLabel>Time Stamp :</logLabel>
+    </extra>
+    <extra>
+      <logSection>6. Log Export</logSection>
+      <logOrder>4</logOrder>
+      <logValue>Yes</logValue>
+      <logLabel>Image :</logLabel>
+    </extra>
+  </extras>
+  <lines>
+    <logLine>
+      <logLineID>1</logLineID>
+      <logParentLineID>0</logParentLineID>
+      <commandExpression></commandExpression>
+      <commandID>0</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Unattended Start:  3/8/2018 6:02:29 AM</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>2</logLineID>
+      <logParentLineID>1</logParentLineID>
+      <commandExpression></commandExpression>
+      <commandID>0</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Use of Message Recognition</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>3</logLineID>
+      <logParentLineID>1</logParentLineID>
+      <commandExpression>Execution -&gt; Stop_On_Error -&gt; ALL</commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Execution action Stop_On_Error: set to all</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>4</logLineID>
+      <logParentLineID>1</logParentLineID>
+      <commandExpression>Test -&gt; Exec -&gt; CM_25359207_01</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Starting the call to $\QA AUTOMATION\FMS\CFL - Customer Feedback Loop\PI#23\Cash Management\Bank Reconciliation\25359207\CM_25359207_01  [Test Case: DEFAULT]</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>5</logLineID>
+      <logParentLineID>4</logParentLineID>
+      <commandExpression></commandExpression>
+      <commandID>0</commandID>
+      <image />
+      <libraryName>CM_25359207_01</libraryName>
+      <lineMessage>Use of Message Recognition</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>6</logLineID>
+      <logParentLineID>5</logParentLineID>
+      <commandExpression></commandExpression>
+      <commandID>0</commandID>
+      <image />
+      <libraryName>CM_25359207_01</libraryName>
+      <lineMessage>ErrorHnd: (9550,312) [Test]</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>Button: OK, Action: Continue</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>7</logLineID>
+      <logParentLineID>4</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>CM_25359207_01</libraryName>
+      <lineMessage>Browser.Start_Login</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>8</logLineID>
+      <logParentLineID>7</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>CM_25359207_01</libraryName>
+      <lineMessage>The chrome version 64 is not supported. You might have issue with it. The current supported browser is: 56-58</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>9</logLineID>
+      <logParentLineID>7</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>CM_25359207_01</libraryName>
+      <lineMessage>Frame set to ''</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>Current frame: ''    Previous Frame: ''</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>10</logLineID>
+      <logParentLineID>7</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>CM_25359207_01</libraryName>
+      <lineMessage>Goto URL</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>http://slc09jxh.us.oracle.com:8000/e924t1mnx/signon.html</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>11</logLineID>
+      <logParentLineID>7</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>CM_25359207_01</libraryName>
+      <lineMessage>Browser.Login</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>12</logLineID>
+      <logParentLineID>11</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>CM_25359207_01</libraryName>
+      <lineMessage>Doing login in English</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>13</logLineID>
+      <logParentLineID>12</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>CM_25359207_01</libraryName>
+      <lineMessage>combobox.Set_Value [id=ptlangsel] -&gt; ENG</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>14</logLineID>
+      <logParentLineID>11</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>CM_25359207_01</libraryName>
+      <lineMessage>text.Set_Value [id=userid] -&gt; VP1</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>15</logLineID>
+      <logParentLineID>11</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>CM_25359207_01</libraryName>
+      <lineMessage>pwd.Set_Value [id=pwd] -&gt; </lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>16</logLineID>
+      <logParentLineID>11</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>CM_25359207_01</libraryName>
+      <lineMessage>button.Click  [name=Submit]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>17</logLineID>
+      <logParentLineID>4</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; PROCESS_BANK_STATEMENT.RECON_ALL.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>CM_25359207_01</libraryName>
+      <lineMessage>Page.Prompt</lineMessage>
+      <logResult>110</logResult>
+      <longDescr>PROCESS_BANK_STATEMENT.RECON_ALL.GBL</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>18</logLineID>
+      <logParentLineID>17</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; PROCESS_BANK_STATEMENT.RECON_ALL.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>CM_25359207_01</libraryName>
+      <lineMessage>Goto URL</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>http://slc09jxh.us.oracle.com:8000/psp/e924t1mnx/EMPLOYEE/ERP/c/PROCESS_BANK_STATEMENT.RECON_ALL.GBL</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>19</logLineID>
+      <logParentLineID>17</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; PROCESS_BANK_STATEMENT.RECON_ALL.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>CM_25359207_01</libraryName>
+      <lineMessage>Page.Prompt: Trying to do the following action = update</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>20</logLineID>
+      <logParentLineID>17</logParentLineID>
+      <commandExpression>ComboBox -&gt; Set_Value -&gt; name=BNK_RCN_PNL_WRK_SEL_MODE</commandExpression>
+      <commandID>3</commandID>
+      <image />
+      <libraryName>CM_25359207_01</libraryName>
+      <lineMessage>combobox.Set_Value [name=BNK_RCN_PNL_WRK_SEL_MODE] -&gt; D</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>21</logLineID>
+      <logParentLineID>17</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=BNK_RCN_PNL_WRK_BNK_ID_NBR</commandExpression>
+      <commandID>4</commandID>
+      <image />
+      <libraryName>CM_25359207_01</libraryName>
+      <lineMessage>text.Set_Value [name=BNK_RCN_PNL_WRK_BNK_ID_NBR] -&gt; 121042882</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>22</logLineID>
+      <logParentLineID>17</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=BNK_RCN_PNL_WRK_BANK_ACCOUNT_NUM</commandExpression>
+      <commandID>5</commandID>
+      <image />
+      <libraryName>CM_25359207_01</libraryName>
+      <lineMessage>text.Set_Value [name=BNK_RCN_PNL_WRK_BANK_ACCOUNT_NUM] -&gt; 0741-256458</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>23</logLineID>
+      <logParentLineID>17</logParentLineID>
+      <commandExpression>ComboBox -&gt; Set_Value -&gt; name=BNK_RCN_PNL_WRK_RECON_STATUS</commandExpression>
+      <commandID>6</commandID>
+      <image />
+      <libraryName>CM_25359207_01</libraryName>
+      <lineMessage>combobox.Set_Value [name=BNK_RCN_PNL_WRK_RECON_STATUS] -&gt; UNR</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>24</logLineID>
+      <logParentLineID>17</logParentLineID>
+      <commandExpression>ComboBox -&gt; Set_Value -&gt; name=BNK_RCN_PNL_WRK_PYMNT_METHOD</commandExpression>
+      <commandID>7</commandID>
+      <image />
+      <libraryName>CM_25359207_01</libraryName>
+      <lineMessage>combobox.Set_Value [name=BNK_RCN_PNL_WRK_PYMNT_METHOD] -&gt; EFT</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>25</logLineID>
+      <logParentLineID>17</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=BNK_RCN_PNL_WRK_RECON_FROM_DT</commandExpression>
+      <commandID>8</commandID>
+      <image />
+      <libraryName>CM_25359207_01</libraryName>
+      <lineMessage>text.Set_Value [name=BNK_RCN_PNL_WRK_RECON_FROM_DT] -&gt; 01/24/2017</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>26</logLineID>
+      <logParentLineID>17</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=BNK_RCN_PNL_WRK_RECON_THRU_DT</commandExpression>
+      <commandID>9</commandID>
+      <image />
+      <libraryName>CM_25359207_01</libraryName>
+      <lineMessage>text.Set_Value [name=BNK_RCN_PNL_WRK_RECON_THRU_DT] -&gt; 01/25/2017</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>27</logLineID>
+      <logParentLineID>17</logParentLineID>
+      <commandExpression>Button -&gt; Click -&gt; name=BNK_RCN_PNL_WRK_RCN_MAN_REG_RPT</commandExpression>
+      <commandID>10</commandID>
+      <image />
+      <libraryName>CM_25359207_01</libraryName>
+      <lineMessage>button.Click  [name=BNK_RCN_PNL_WRK_RCN_MAN_REG_RPT]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>28</logLineID>
+      <logParentLineID>27</logParentLineID>
+      <commandExpression>Button -&gt; Click -&gt; name=BNK_RCN_PNL_WRK_RCN_MAN_REG_RPT</commandExpression>
+      <commandID>10</commandID>
+      <image />
+      <libraryName>CM_25359207_01</libraryName>
+      <lineMessage>Message Recognition</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>29</logLineID>
+      <logParentLineID>28</logParentLineID>
+      <commandExpression>Button -&gt; Click -&gt; name=BNK_RCN_PNL_WRK_RCN_MAN_REG_RPT</commandExpression>
+      <commandID>10</commandID>
+      <image />
+      <libraryName>CM_25359207_01</libraryName>
+      <lineMessage>button.Click  [Name=#ICOK]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>30</logLineID>
+      <logParentLineID>28</logParentLineID>
+      <commandExpression>Button -&gt; Click -&gt; name=BNK_RCN_PNL_WRK_RCN_MAN_REG_RPT</commandExpression>
+      <commandID>10</commandID>
+      <image />
+      <libraryName>CM_25359207_01</libraryName>
+      <lineMessage>Msg: Account Register Report is being generated. (9550,312)</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>Message Handled. Click on: OK. ObjName=button, Value=name=BNK_RCN_PNL_WRK_RCN_MAN_REG_RPT, PageName: BNK_RCN_ALL_GEN</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>31</logLineID>
+      <logParentLineID>28</logParentLineID>
+      <commandExpression>Button -&gt; Click -&gt; name=BNK_RCN_PNL_WRK_RCN_MAN_REG_RPT</commandExpression>
+      <commandID>10</commandID>
+      <image />
+      <libraryName>CM_25359207_01</libraryName>
+      <lineMessage>Message defined in the Test</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>32</logLineID>
+      <logParentLineID>17</logParentLineID>
+      <commandExpression>Variable -&gt; Set_Value -&gt; &amp;pid</commandExpression>
+      <commandID>11</commandID>
+      <image />
+      <libraryName>CM_25359207_01</libraryName>
+      <lineMessage>Variable &amp;pid set to 0</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>&amp;pid = %pid%</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>33</logLineID>
+      <logParentLineID>17</logParentLineID>
+      <commandExpression>Link -&gt; Click -&gt; text=Process Monitor</commandExpression>
+      <commandID>12</commandID>
+      <image />
+      <libraryName>CM_25359207_01</libraryName>
+      <lineMessage>link.Click  [text=Process Monitor]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>34</logLineID>
+      <logParentLineID>17</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=PMN_DERIVED_PRCSINSTANCE</commandExpression>
+      <commandID>13</commandID>
+      <image />
+      <libraryName>CM_25359207_01</libraryName>
+      <lineMessage>text.Set_Value [name=PMN_DERIVED_PRCSINSTANCE] -&gt; 0</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>35</logLineID>
+      <logParentLineID>17</logParentLineID>
+      <commandExpression>Button -&gt; Click -&gt; name=REFRESH_BTN</commandExpression>
+      <commandID>14</commandID>
+      <image />
+      <libraryName>CM_25359207_01</libraryName>
+      <lineMessage>button.Click  [name=REFRESH_BTN]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>36</logLineID>
+      <logParentLineID>17</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;scr1</commandExpression>
+      <commandID>17</commandID>
+      <image />
+      <libraryName>CM_25359207_01</libraryName>
+      <lineMessage>Scroll [1] Start: -,  Action: sel,  Key: FSX4004</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>37</logLineID>
+      <logParentLineID>36</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;scr1</commandExpression>
+      <commandID>17</commandID>
+      <image />
+      <libraryName>CM_25359207_01</libraryName>
+      <lineMessage>Key: id=JOBDETAIL_BTN$span [span] - Value: FSX4004</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>38</logLineID>
+      <logParentLineID>36</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;scr1</commandExpression>
+      <commandID>17</commandID>
+      <image />
+      <libraryName>CM_25359207_01</libraryName>
+      <lineMessage>Found Row: $0</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>39</logLineID>
+      <logParentLineID>36</logParentLineID>
+      <commandExpression>Wait -&gt; For_Value -&gt; id=PMN_PRCSLIST_RUNSTATUSDESCR&amp;scr1 -&gt; type=Span;refresh=name=REFRESH_BTN</commandExpression>
+      <commandID>18</commandID>
+      <image />
+      <libraryName>CM_25359207_01</libraryName>
+      <lineMessage>Wait.For_Value started.</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>id=PMN_PRCSLIST_RUNSTATUSDESCR$0</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>40</logLineID>
+      <logParentLineID>39</logParentLineID>
+      <commandExpression>Wait -&gt; For_Value -&gt; id=PMN_PRCSLIST_RUNSTATUSDESCR&amp;scr1 -&gt; type=Span;refresh=name=REFRESH_BTN</commandExpression>
+      <commandID>18</commandID>
+      <image />
+      <libraryName>CM_25359207_01</libraryName>
+      <lineMessage>User value = Success; Web value = Queued</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>41</logLineID>
+      <logParentLineID>39</logParentLineID>
+      <commandExpression>Wait -&gt; For_Value -&gt; id=PMN_PRCSLIST_RUNSTATUSDESCR&amp;scr1 -&gt; type=Span;refresh=name=REFRESH_BTN</commandExpression>
+      <commandID>18</commandID>
+      <image />
+      <libraryName>CM_25359207_01</libraryName>
+      <lineMessage>button.Click  [name=REFRESH_BTN]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>42</logLineID>
+      <logParentLineID>39</logParentLineID>
+      <commandExpression>Wait -&gt; For_Value -&gt; id=PMN_PRCSLIST_RUNSTATUSDESCR&amp;scr1 -&gt; type=Span;refresh=name=REFRESH_BTN</commandExpression>
+      <commandID>18</commandID>
+      <image />
+      <libraryName>CM_25359207_01</libraryName>
+      <lineMessage>User value = Success; Web value = Queued</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>43</logLineID>
+      <logParentLineID>39</logParentLineID>
+      <commandExpression>Wait -&gt; For_Value -&gt; id=PMN_PRCSLIST_RUNSTATUSDESCR&amp;scr1 -&gt; type=Span;refresh=name=REFRESH_BTN</commandExpression>
+      <commandID>18</commandID>
+      <image />
+      <libraryName>CM_25359207_01</libraryName>
+      <lineMessage>button.Click  [name=REFRESH_BTN]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>44</logLineID>
+      <logParentLineID>39</logParentLineID>
+      <commandExpression>Wait -&gt; For_Value -&gt; id=PMN_PRCSLIST_RUNSTATUSDESCR&amp;scr1 -&gt; type=Span;refresh=name=REFRESH_BTN</commandExpression>
+      <commandID>18</commandID>
+      <image />
+      <libraryName>CM_25359207_01</libraryName>
+      <lineMessage>User value = Success; Web value = Initiated</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>45</logLineID>
+      <logParentLineID>39</logParentLineID>
+      <commandExpression>Wait -&gt; For_Value -&gt; id=PMN_PRCSLIST_RUNSTATUSDESCR&amp;scr1 -&gt; type=Span;refresh=name=REFRESH_BTN</commandExpression>
+      <commandID>18</commandID>
+      <image />
+      <libraryName>CM_25359207_01</libraryName>
+      <lineMessage>button.Click  [name=REFRESH_BTN]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>46</logLineID>
+      <logParentLineID>39</logParentLineID>
+      <commandExpression>Wait -&gt; For_Value -&gt; id=PMN_PRCSLIST_RUNSTATUSDESCR&amp;scr1 -&gt; type=Span;refresh=name=REFRESH_BTN</commandExpression>
+      <commandID>18</commandID>
+      <image />
+      <libraryName>CM_25359207_01</libraryName>
+      <lineMessage>User value = Success; Web value = Initiated</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>47</logLineID>
+      <logParentLineID>39</logParentLineID>
+      <commandExpression>Wait -&gt; For_Value -&gt; id=PMN_PRCSLIST_RUNSTATUSDESCR&amp;scr1 -&gt; type=Span;refresh=name=REFRESH_BTN</commandExpression>
+      <commandID>18</commandID>
+      <image />
+      <libraryName>CM_25359207_01</libraryName>
+      <lineMessage>button.Click  [name=REFRESH_BTN]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>48</logLineID>
+      <logParentLineID>39</logParentLineID>
+      <commandExpression>Wait -&gt; For_Value -&gt; id=PMN_PRCSLIST_RUNSTATUSDESCR&amp;scr1 -&gt; type=Span;refresh=name=REFRESH_BTN</commandExpression>
+      <commandID>18</commandID>
+      <image />
+      <libraryName>CM_25359207_01</libraryName>
+      <lineMessage>User value = Success; Web value = Initiated</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>49</logLineID>
+      <logParentLineID>39</logParentLineID>
+      <commandExpression>Wait -&gt; For_Value -&gt; id=PMN_PRCSLIST_RUNSTATUSDESCR&amp;scr1 -&gt; type=Span;refresh=name=REFRESH_BTN</commandExpression>
+      <commandID>18</commandID>
+      <image />
+      <libraryName>CM_25359207_01</libraryName>
+      <lineMessage>button.Click  [name=REFRESH_BTN]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>50</logLineID>
+      <logParentLineID>39</logParentLineID>
+      <commandExpression>Wait -&gt; For_Value -&gt; id=PMN_PRCSLIST_RUNSTATUSDESCR&amp;scr1 -&gt; type=Span;refresh=name=REFRESH_BTN</commandExpression>
+      <commandID>18</commandID>
+      <image />
+      <libraryName>CM_25359207_01</libraryName>
+      <lineMessage>User value = Success; Web value = Success</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>51</logLineID>
+      <logParentLineID>36</logParentLineID>
+      <commandExpression>Wait -&gt; For_Value -&gt; ID=PMN_PRCSLIST_DISTSTATUS&amp;scr1 -&gt; type=Span;refresh=name=REFRESH_BTN</commandExpression>
+      <commandID>19</commandID>
+      <image />
+      <libraryName>CM_25359207_01</libraryName>
+      <lineMessage>Wait.For_Value started.</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>ID=PMN_PRCSLIST_DISTSTATUS$0</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>52</logLineID>
+      <logParentLineID>51</logParentLineID>
+      <commandExpression>Wait -&gt; For_Value -&gt; ID=PMN_PRCSLIST_DISTSTATUS&amp;scr1 -&gt; type=Span;refresh=name=REFRESH_BTN</commandExpression>
+      <commandID>19</commandID>
+      <image />
+      <libraryName>CM_25359207_01</libraryName>
+      <lineMessage>User value = Posted; Web value = Posted</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>53</logLineID>
+      <logParentLineID>36</logParentLineID>
+      <commandExpression>Link -&gt; Click -&gt; NAME=PRCSDETAIL_BTN&amp;scr1</commandExpression>
+      <commandID>20</commandID>
+      <image />
+      <libraryName>CM_25359207_01</libraryName>
+      <lineMessage>link.Click  [NAME=PRCSDETAIL_BTN$0]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>54</logLineID>
+      <logParentLineID>36</logParentLineID>
+      <commandExpression>Browser -&gt; FrameSet -&gt; ptModFrame_##</commandExpression>
+      <commandID>21</commandID>
+      <image />
+      <libraryName>CM_25359207_01</libraryName>
+      <lineMessage>Frame set to 'ptModFrame_1'</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>Current frame: 'ptModFrame_1'    Previous Frame: 'TargetContent'</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>55</logLineID>
+      <logParentLineID>36</logParentLineID>
+      <commandExpression>Link -&gt; Click -&gt; name=PMN_DERIVED_MESSAGELOG_BTN</commandExpression>
+      <commandID>22</commandID>
+      <image />
+      <libraryName>CM_25359207_01</libraryName>
+      <lineMessage>link.Click  [name=PMN_DERIVED_MESSAGELOG_BTN]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>56</logLineID>
+      <logParentLineID>36</logParentLineID>
+      <commandExpression>Browser -&gt; FrameSet -&gt; ptModFrame_##</commandExpression>
+      <commandID>23</commandID>
+      <image />
+      <libraryName>CM_25359207_01</libraryName>
+      <lineMessage>Frame set to 'ptModFrame_2'</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>Current frame: 'ptModFrame_2'    Previous Frame: 'ptModFrame_1'</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>57</logLineID>
+      <logParentLineID>36</logParentLineID>
+      <commandExpression>Span -&gt; Verify -&gt; id=PMN_PRCSLIST_PRCSNAME</commandExpression>
+      <commandID>24</commandID>
+      <image />
+      <libraryName>CM_25359207_01</libraryName>
+      <lineMessage>Verify: id=PMN_PRCSLIST_PRCSNAME [span] -&gt; FSX4004</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>58</logLineID>
+      <logParentLineID>57</logParentLineID>
+      <commandExpression>Span -&gt; Verify -&gt; id=PMN_PRCSLIST_PRCSNAME</commandExpression>
+      <commandID>24</commandID>
+      <image />
+      <libraryName>CM_25359207_01</libraryName>
+      <lineMessage>Check field: id=PMN_PRCSLIST_PRCSNAME, 'FSX4004' (actual) = 'FSX4004' (expected)</lineMessage>
+      <logResult>110</logResult>
+      <longDescr>Object Type: Span, Field: id=PMN_PRCSLIST_PRCSNAME, Value: FSX4004, CheckValue: FSX4004</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>59</logLineID>
+      <logParentLineID>36</logParentLineID>
+      <commandExpression>Span -&gt; Verify -&gt; id=PMN_PRCSLIST_PRCSNAME</commandExpression>
+      <commandID>24</commandID>
+      <image />
+      <libraryName>CM_25359207_01</libraryName>
+      <lineMessage>Test End:  3/8/2018 6:04:09 AM</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>60</logLineID>
+      <logParentLineID>1</logParentLineID>
+      <commandExpression>Test -&gt; Exec -&gt; CM_25359207_01</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Test End:  3/8/2018 6:04:09 AM</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+  </lines>
+</Log>

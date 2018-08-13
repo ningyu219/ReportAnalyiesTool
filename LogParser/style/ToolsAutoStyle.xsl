@@ -44,13 +44,14 @@ function screenshoturl(lineNo)
 {
 var logurl;
 var a = lineNo;
-logurl = window.location.protocol + window.location.host + window.location.pathname;
+logurl = window.location.protocol + "//" + window.location.host + window.location.pathname;
 var wlp=window.location.pathname
 var wlp=wlp.replace(/%20/gi," ");
-logurl = window.location.protocol + window.location.host + wlp;
+logurl = window.location.protocol + "//" + window.location.host + wlp;
 var arrlogurl=logurl.split('.html');
 var scrshotpath=arrlogurl[0].concat("-","Line",a,".jpg");
 var scrpath=scrshotpath.replace("file:","\\\\");
+scrpath = scrpath.replace("logpath","image")
 window.open(scrpath,"Image");
 }
 function openPIA(urlPath)
@@ -371,29 +372,29 @@ h1 { font-family: Arial, sans-serif; font-size: 30px; color: #004080;}
 				<table id="StepLog" height="100%" border="0" cellspacing="0" cellpadding="0">
 							<tr id="msgLog{logLineID}" style="DISPLAY:">
 							 		 		 				<td>
-															<img id="expandImg{logLineID}" src="Logs_Maker\r-arrow.png" onclick="javascript:showLog('{logLineID}')" title="Expand" width="12" height="12" style="DISPLAY:"></img>
-															<img id="collapseImg{logLineID}" src="Logs_Maker\d-arrow.png" onclick="javascript:hideLog('{logLineID}')" title="Collapse" width="12" height="12" style="DISPLAY: none"></img>&#xa0;&#xa0;
+															<img id="expandImg{logLineID}" src="\static\Logs_Maker\r-arrow.png" onclick="javascript:showLog('{logLineID}')" title="Expand" width="12" height="12" style="DISPLAY:"></img>
+															<img id="collapseImg{logLineID}" src="\static\Logs_Maker\d-arrow.png" onclick="javascript:hideLog('{logLineID}')" title="Collapse" width="12" height="12" style="DISPLAY: none"></img>&#xa0;&#xa0;
 															</td>
 															<xsl:if test="logResult='LogFatalError' or logResult='121'">
-													 					<td><img src="Logs_Maker\FatalError.jpg" title="Fatal Error" width="20" height="18"></img></td>
+													 					<td><img src="\static\Logs_Maker\FatalError.jpg" title="Fatal Error" width="20" height="18"></img></td>
 															</xsl:if>
 															<xsl:if test="logResult='LogFail' or logResult='120'">
-													 					<td><img src="Logs_Maker\Fail.jpg" title="Fail" width="20" height="20"></img></td>
+													 					<td><img src="\static\Logs_Maker\Fail.jpg" title="Fail" width="20" height="20"></img></td>
 															</xsl:if>
 															<xsl:if test="logResult='LogInfo' or logResult='102'">
-													 					<td><img src="Logs_Maker\Info.jpg" title="Info" width="20" height="20"></img></td>
+													 					<td><img src="\static\Logs_Maker\Info.jpg" title="Info" width="20" height="20"></img></td>
 															</xsl:if>
 															<xsl:if test="logResult='LogPass' or logResult='110'">
-													 					<td><img src="Logs_Maker\Pass.jpg" title="Pass" width="20" height="20"></img></td>
+													 					<td><img src="\static\Logs_Maker\Pass.jpg" title="Pass" width="20" height="20"></img></td>
 															</xsl:if>
 															<xsl:if test="logResult='LogNone' or logResult='100'">
-													 					<td><img src="Logs_Maker\None.jpg" title="None" width="20" height="20"></img></td>
+													 					<td><img src="\static\Logs_Maker\None.jpg" title="None" width="20" height="20"></img></td>
 															</xsl:if>
 															<xsl:if test="logResult='LogWarning' or logResult='115'">
-													 					<td><img src="Logs_Maker\None.jpg" title="Warning" width="20" height="20"></img></td>
+													 					<td><img src="\static\Logs_Maker\None.jpg" title="Warning" width="20" height="20"></img></td>
 															</xsl:if>
 															<xsl:if test="logResult='LogScreenShot'or logResult='220'">
-													 					<td><img src="Logs_Maker\Screenshot.jpg" title="ScreenShot" width="20" height="20"></img></td>
+													 					<td><img src="\static\Logs_Maker\Screenshot.jpg" title="ScreenShot" width="20" height="20"></img></td>
 															</xsl:if>
 															<td>
 															Message:&#xa0;</td>

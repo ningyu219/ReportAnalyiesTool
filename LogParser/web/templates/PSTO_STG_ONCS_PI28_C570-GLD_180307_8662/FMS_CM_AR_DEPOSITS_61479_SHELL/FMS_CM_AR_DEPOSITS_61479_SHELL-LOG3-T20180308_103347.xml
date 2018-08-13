@@ -1,0 +1,2162 @@
+﻿<?xml version='1.0' ?>
+<?xml-stylesheet type='text/xsl' href='\\slcnas463.us.oracle.com\enterprise\PTF\Logs\ToolsAutoStyle.xsl'?>
+<Log>
+  <logID>3</logID>
+  <logCaption>3. VP1 2018-03-08 10:33</logCaption>
+  <caseName>DEFAULT</caseName>
+  <logFolder>PSTO_STG_ONCS_PI28_C570-GLD_180307_866</logFolder>
+  <logPrefix></logPrefix>
+  <logLineCount>182</logLineCount>
+  <machineName>SLC10BSL</machineName>
+  <scriptFinalResult>120</scriptFinalResult>
+  <testName>FMS_CM_AR_DEPOSITS_61479_SHELL</testName>
+  <userID>VP1</userID>
+  <executionOptions>
+    <executionOptionName>E92PJGP2</executionOptionName>
+    <databaseName>E92PJGP2</databaseName>
+    <databasePlatform>Oracle</databasePlatform>
+    <databaseServer></databaseServer>
+    <databaseUser>VP1</databaseUser>
+    <dateFormat>MM/DD/YYYY</dateFormat>
+    <peopleToolsPath>\\psbldfs\dfs\build\pt\ptship\pt85606b\install_Windows.ora</peopleToolsPath>
+    <processServer>PSUNX</processServer>
+    <prompt>No</prompt>
+    <skipRun>No</skipRun>
+    <skipSave>No</skipSave>
+    <url>http://slc08etq.us.oracle.com:8000/e92pjgp2x/signon.html</url>
+    <userID>VP1</userID>
+    <verbose>Yes</verbose>
+  </executionOptions>
+  <extras>
+    <extra>
+      <logSection>1. Execution Options</logSection>
+      <logOrder>1</logOrder>
+      <logValue>No</logValue>
+      <logLabel>Appl - Skip Language :</logLabel>
+    </extra>
+    <extra>
+      <logSection>1. Execution Options</logSection>
+      <logOrder>2</logOrder>
+      <logValue>N</logValue>
+      <logLabel>Appl - Form Factor :</logLabel>
+    </extra>
+    <extra>
+      <logSection>3. System Info</logSection>
+      <logOrder>1</logOrder>
+      <logValue>1280 X 1024 pixels</logValue>
+      <logLabel>Screen resolution :</logLabel>
+    </extra>
+    <extra>
+      <logSection>3. System Info</logSection>
+      <logOrder>4</logOrder>
+      <logValue>Intel(R) Xeon(R) CPU E5-2699 v3 @ 2.30GHz</logValue>
+      <logLabel>Processor :</logLabel>
+    </extra>
+    <extra>
+      <logSection>3. System Info</logSection>
+      <logOrder>5</logOrder>
+      <logValue>Microsoft Windows Server 2012 R2 Standard</logValue>
+      <logLabel>Operating System full name:</logLabel>
+    </extra>
+    <extra>
+      <logSection>3. System Info</logSection>
+      <logOrder>6</logOrder>
+      <logValue>6.2.9200.0</logValue>
+      <logLabel>Operating Sytem version:</logLabel>
+    </extra>
+    <extra>
+      <logSection>3. System Info</logSection>
+      <logOrder>7</logOrder>
+      <logValue>31300 Mb</logValue>
+      <logLabel>Memory Total :</logLabel>
+    </extra>
+    <extra>
+      <logSection>3. System Info</logSection>
+      <logOrder>8</logOrder>
+      <logValue>21139 Mb</logValue>
+      <logLabel>Memory Available :</logLabel>
+    </extra>
+    <extra>
+      <logSection>3. System Info</logSection>
+      <logOrder>9</logOrder>
+      <logValue>chrome 64.0.3282.186</logValue>
+      <logLabel>Browser :</logLabel>
+    </extra>
+    <extra>
+      <logSection>3. System Info</logSection>
+      <logOrder>10</logOrder>
+      <logValue>ENG</logValue>
+      <logLabel>OS Lang Code:</logLabel>
+    </extra>
+    <extra>
+      <logSection>4. Environment Info</logSection>
+      <logOrder>1</logOrder>
+      <logValue>https://slc05ehl.us.oracle.com:8001/PSIGW/HttpListeningConnector</logValue>
+      <logLabel>Env. URL :</logLabel>
+    </extra>
+    <extra>
+      <logSection>1.1. Portal URL Info</logSection>
+      <logOrder>1</logOrder>
+      <logValue>http://slc08etq.us.oracle.com:8000/psp/e92pjgp2x/CUSTOMER/ERP/</logValue>
+      <logLabel>CUSTOMER</logLabel>
+    </extra>
+    <extra>
+      <logSection>1.1. Portal URL Info</logSection>
+      <logOrder>1</logOrder>
+      <logValue>http://slc08etq.us.oracle.com:8000/psp/e92pjgp2x/EMPLOYEE/ERP/</logValue>
+      <logLabel>PORTAL</logLabel>
+    </extra>
+    <extra>
+      <logSection>1.1. Portal URL Info</logSection>
+      <logOrder>1</logOrder>
+      <logValue>http://slc08etq.us.oracle.com:8000/psp/e92pjgp2x/SUPPLIER/ERP/</logValue>
+      <logLabel>SUPPLIER</logLabel>
+    </extra>
+    <extra>
+      <logSection>5. Extra Info</logSection>
+      <logOrder>1</logOrder>
+      <logValue>8.56.07 hotfix1</logValue>
+      <logLabel>PsTestFramework Version :</logLabel>
+    </extra>
+    <extra>
+      <logSection>5. Extra Info</logSection>
+      <logOrder>2</logOrder>
+      <logValue>False</logValue>
+      <logLabel>Disable ScreenShot :</logLabel>
+    </extra>
+    <extra>
+      <logSection>5. Extra Info</logSection>
+      <logOrder>3</logOrder>
+      <logValue>True</logValue>
+      <logLabel>User Error Handling :</logLabel>
+    </extra>
+    <extra>
+      <logSection>6. Log Export</logSection>
+      <logOrder>1</logOrder>
+      <logValue>\\slcnas463.us.oracle.com\enterprise\QEShare\PTF Log Archive\PSTO_STG_ONCS_PI28_C570-GLD_180307_866\FMS_CM_AR_DEPOSITS_61479_SHELL</logValue>
+      <logLabel>Path :</logLabel>
+    </extra>
+    <extra>
+      <logSection>6. Log Export</logSection>
+      <logOrder>2</logOrder>
+      <logValue>\\slcnas463.us.oracle.com\enterprise\PTF\Logs\ToolsAutoStyle.xsl</logValue>
+      <logLabel>Style Sheet File :</logLabel>
+    </extra>
+    <extra>
+      <logSection>6. Log Export</logSection>
+      <logOrder>3</logOrder>
+      <logValue>Yes</logValue>
+      <logLabel>Time Stamp :</logLabel>
+    </extra>
+    <extra>
+      <logSection>6. Log Export</logSection>
+      <logOrder>4</logOrder>
+      <logValue>Yes</logValue>
+      <logLabel>Image :</logLabel>
+    </extra>
+  </extras>
+  <lines>
+    <logLine>
+      <logLineID>1</logLineID>
+      <logParentLineID>0</logParentLineID>
+      <commandExpression></commandExpression>
+      <commandID>0</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Unattended Start:  3/8/2018 10:33:48 AM</lineMessage>
+      <logResult>120</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>2</logLineID>
+      <logParentLineID>1</logParentLineID>
+      <commandExpression></commandExpression>
+      <commandID>0</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Use of Message Recognition</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>3</logLineID>
+      <logParentLineID>1</logParentLineID>
+      <commandExpression></commandExpression>
+      <commandID>0</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Reading persistent variables.</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>4</logLineID>
+      <logParentLineID>1</logParentLineID>
+      <commandExpression>Execution -&gt; Stop_On_Error -&gt; ALL</commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Execution action Stop_On_Error: set to all</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>5</logLineID>
+      <logParentLineID>1</logParentLineID>
+      <commandExpression>Test -&gt; Exec -&gt; FMS_CM_AR_DEPOSITS_61479_SETUP</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Starting the call to $\QA AUTOMATION\FMS\Test CM Prototype\02 Bank Reconciliation\Automatic Reconciliation\CM_1-1_AR-Deposits_DD_Drafts\FMS_CM_AR_DEPOSITS_61479_SETUP  [Test Case: DEFAULT]</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>6</logLineID>
+      <logParentLineID>5</logParentLineID>
+      <commandExpression></commandExpression>
+      <commandID>0</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_SETUP</libraryName>
+      <lineMessage>Use of Message Recognition</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>7</logLineID>
+      <logParentLineID>5</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_SETUP</libraryName>
+      <lineMessage>Browser.Start_Login</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>8</logLineID>
+      <logParentLineID>7</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_SETUP</libraryName>
+      <lineMessage>The chrome version 64 is not supported. You might have issue with it. The current supported browser is: 56-58</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>9</logLineID>
+      <logParentLineID>7</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_SETUP</libraryName>
+      <lineMessage>Frame set to ''</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>Current frame: ''    Previous Frame: ''</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>10</logLineID>
+      <logParentLineID>7</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_SETUP</libraryName>
+      <lineMessage>Goto URL</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>http://slc08etq.us.oracle.com:8000/e92pjgp2x/signon.html</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>11</logLineID>
+      <logParentLineID>7</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_SETUP</libraryName>
+      <lineMessage>Browser.Login</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>12</logLineID>
+      <logParentLineID>11</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_SETUP</libraryName>
+      <lineMessage>Doing login in English</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>13</logLineID>
+      <logParentLineID>12</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_SETUP</libraryName>
+      <lineMessage>combobox.Set_Value [id=ptlangsel] -&gt; ENG</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>14</logLineID>
+      <logParentLineID>11</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_SETUP</libraryName>
+      <lineMessage>text.Set_Value [id=userid] -&gt; VP1</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>15</logLineID>
+      <logParentLineID>11</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_SETUP</libraryName>
+      <lineMessage>pwd.Set_Value [id=pwd] -&gt; </lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>16</logLineID>
+      <logParentLineID>11</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_SETUP</libraryName>
+      <lineMessage>button.Click  [name=Submit]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>17</logLineID>
+      <logParentLineID>5</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; BANK_RECON_PROCESS.BANK_ACCT_RCN_RULE.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_SETUP</libraryName>
+      <lineMessage>Page.Prompt</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>BANK_RECON_PROCESS.BANK_ACCT_RCN_RULE.GBL</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>18</logLineID>
+      <logParentLineID>17</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; BANK_RECON_PROCESS.BANK_ACCT_RCN_RULE.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_SETUP</libraryName>
+      <lineMessage>Goto URL</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>http://slc08etq.us.oracle.com:8000/psp/e92pjgp2x/EMPLOYEE/ERP/c/BANK_RECON_PROCESS.BANK_ACCT_RCN_RULE.GBL</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>19</logLineID>
+      <logParentLineID>17</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; BANK_RECON_PROCESS.BANK_ACCT_RCN_RULE.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_SETUP</libraryName>
+      <lineMessage>Page.Prompt: Trying to do the following action = update</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>20</logLineID>
+      <logParentLineID>17</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=BANKACCT_VW1_SETID</commandExpression>
+      <commandID>3</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_SETUP</libraryName>
+      <lineMessage>text.Set_Value [name=BANKACCT_VW1_SETID] -&gt; SHARE</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>21</logLineID>
+      <logParentLineID>17</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=BANKACCT_VW1_BANK_CD</commandExpression>
+      <commandID>4</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_SETUP</libraryName>
+      <lineMessage>text.Set_Value [name=BANKACCT_VW1_BANK_CD] -&gt; USBNK</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>22</logLineID>
+      <logParentLineID>17</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=BANKACCT_VW1_BRANCH_NAME</commandExpression>
+      <commandID>5</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_SETUP</libraryName>
+      <lineMessage>text.Set_Value [name=BANKACCT_VW1_BRANCH_NAME] -&gt; CALIFORNIA</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>23</logLineID>
+      <logParentLineID>17</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=BANKACCT_VW1_BANK_ACCT_KEY</commandExpression>
+      <commandID>6</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_SETUP</libraryName>
+      <lineMessage>text.Set_Value [name=BANKACCT_VW1_BANK_ACCT_KEY] -&gt; CHCK</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>24</logLineID>
+      <logParentLineID>17</logParentLineID>
+      <commandExpression>Page -&gt; PromptOk -&gt; </commandExpression>
+      <commandID>7</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_SETUP</libraryName>
+      <lineMessage>button.Click  [name=#ICSearch]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>25</logLineID>
+      <logParentLineID>5</logParentLineID>
+      <commandExpression>Browser -&gt; FrameSet -&gt; TargetContent</commandExpression>
+      <commandID>8</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_SETUP</libraryName>
+      <lineMessage>Frame set to 'TargetContent'</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>Current frame: 'TargetContent'    Previous Frame: 'TargetContent'</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>26</logLineID>
+      <logParentLineID>5</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr1</commandExpression>
+      <commandID>10</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_SETUP</libraryName>
+      <lineMessage>Scroll [1] Start: $0,  Action: upd,  Key: Receivables Deposits</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>27</logLineID>
+      <logParentLineID>26</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr1</commandExpression>
+      <commandID>10</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_SETUP</libraryName>
+      <lineMessage>Key: id=RCN_RULE_SRCH_V_XLATLONGNAME [text] - Value: Receivables Deposits</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>28</logLineID>
+      <logParentLineID>26</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr1</commandExpression>
+      <commandID>10</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_SETUP</libraryName>
+      <lineMessage>Found Row: $0</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>29</logLineID>
+      <logParentLineID>26</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr2</commandExpression>
+      <commandID>13</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_SETUP</libraryName>
+      <lineMessage>Scroll [2] Start: $3,  Action: sel,  Key: DP_11_ALL_REF_02</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>30</logLineID>
+      <logParentLineID>29</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr2</commandExpression>
+      <commandID>13</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_SETUP</libraryName>
+      <lineMessage>Key: id=BNK_ACCT_RCN_RL_RULE_ID_RECON [text] - Value: DP_11_ALL_REF_02</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>31</logLineID>
+      <logParentLineID>29</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr2</commandExpression>
+      <commandID>13</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_SETUP</libraryName>
+      <lineMessage>Found Row: $0</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>32</logLineID>
+      <logParentLineID>29</logParentLineID>
+      <commandExpression>CheckBox -&gt; Set_Value -&gt; name=BNK_ACCT_RCN_RL_ACTIVE_FLAG&amp;Scr2</commandExpression>
+      <commandID>14</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_SETUP</libraryName>
+      <lineMessage>checkbox.Set_Value [name=BNK_ACCT_RCN_RL_ACTIVE_FLAG$0] -&gt; Y</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>33</logLineID>
+      <logParentLineID>26</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr2</commandExpression>
+      <commandID>18</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_SETUP</libraryName>
+      <lineMessage>Scroll [2] Start: $0,  Action: sel,  Key: DP_1M_ALL_DATE_01</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>34</logLineID>
+      <logParentLineID>33</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr2</commandExpression>
+      <commandID>18</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_SETUP</libraryName>
+      <lineMessage>Key: id=BNK_ACCT_RCN_RL_RULE_ID_RECON [text] - Value: DP_1M_ALL_DATE_01</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>35</logLineID>
+      <logParentLineID>33</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr2</commandExpression>
+      <commandID>18</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_SETUP</libraryName>
+      <lineMessage>Found Row: $1</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>36</logLineID>
+      <logParentLineID>33</logParentLineID>
+      <commandExpression>CheckBox -&gt; Set_Value -&gt; name=BNK_ACCT_RCN_RL_ACTIVE_FLAG&amp;Scr2</commandExpression>
+      <commandID>19</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_SETUP</libraryName>
+      <lineMessage>checkbox.Set_Value [name=BNK_ACCT_RCN_RL_ACTIVE_FLAG$1] -&gt; N</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>37</logLineID>
+      <logParentLineID>26</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr2</commandExpression>
+      <commandID>23</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_SETUP</libraryName>
+      <lineMessage>Scroll [2] Start: $1,  Action: sel,  Key: DP_M1_ALL_DATE_01</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>38</logLineID>
+      <logParentLineID>37</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr2</commandExpression>
+      <commandID>23</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_SETUP</libraryName>
+      <lineMessage>Key: id=BNK_ACCT_RCN_RL_RULE_ID_RECON [text] - Value: DP_M1_ALL_DATE_01</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>39</logLineID>
+      <logParentLineID>37</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr2</commandExpression>
+      <commandID>23</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_SETUP</libraryName>
+      <lineMessage>Found Row: $2</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>40</logLineID>
+      <logParentLineID>37</logParentLineID>
+      <commandExpression>CheckBox -&gt; Set_Value -&gt; name=BNK_ACCT_RCN_RL_ACTIVE_FLAG&amp;Scr2</commandExpression>
+      <commandID>24</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_SETUP</libraryName>
+      <lineMessage>checkbox.Set_Value [name=BNK_ACCT_RCN_RL_ACTIVE_FLAG$2] -&gt; N</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>41</logLineID>
+      <logParentLineID>26</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr2</commandExpression>
+      <commandID>28</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_SETUP</libraryName>
+      <lineMessage>Scroll [2] Start: $2,  Action: sel,  Key: DP_MM_ALL_DATE_01</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>42</logLineID>
+      <logParentLineID>41</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr2</commandExpression>
+      <commandID>28</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_SETUP</libraryName>
+      <lineMessage>Key: id=BNK_ACCT_RCN_RL_RULE_ID_RECON [text] - Value: DP_MM_ALL_DATE_01</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>43</logLineID>
+      <logParentLineID>41</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr2</commandExpression>
+      <commandID>28</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_SETUP</libraryName>
+      <lineMessage>Found Row: $3</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>44</logLineID>
+      <logParentLineID>41</logParentLineID>
+      <commandExpression>CheckBox -&gt; Set_Value -&gt; name=BNK_ACCT_RCN_RL_ACTIVE_FLAG&amp;Scr2</commandExpression>
+      <commandID>29</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_SETUP</libraryName>
+      <lineMessage>checkbox.Set_Value [name=BNK_ACCT_RCN_RL_ACTIVE_FLAG$3] -&gt; N</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>45</logLineID>
+      <logParentLineID>5</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr1</commandExpression>
+      <commandID>32</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_SETUP</libraryName>
+      <lineMessage>Scroll [1] Start: $0,  Action: upd,  Key: Direct Debits</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>46</logLineID>
+      <logParentLineID>45</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr1</commandExpression>
+      <commandID>32</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_SETUP</libraryName>
+      <lineMessage>Key: id=RCN_RULE_SRCH_V_XLATLONGNAME [text] - Value: Direct Debits</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>47</logLineID>
+      <logParentLineID>45</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr1</commandExpression>
+      <commandID>32</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_SETUP</libraryName>
+      <lineMessage>link.Click  [id=BNK_ACCT_RCN_SC$hdown$0]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>48</logLineID>
+      <logParentLineID>45</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr1</commandExpression>
+      <commandID>32</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_SETUP</libraryName>
+      <lineMessage>Found Row: $0</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>49</logLineID>
+      <logParentLineID>45</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr2</commandExpression>
+      <commandID>35</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_SETUP</libraryName>
+      <lineMessage>Scroll [2] Start: $3,  Action: sel,  Key: DD_11_ALL_REF_01</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>50</logLineID>
+      <logParentLineID>49</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr2</commandExpression>
+      <commandID>35</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_SETUP</libraryName>
+      <lineMessage>Key: id=BNK_ACCT_RCN_RL_RULE_ID_RECON [text] - Value: DD_11_ALL_REF_01</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>51</logLineID>
+      <logParentLineID>49</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr2</commandExpression>
+      <commandID>35</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_SETUP</libraryName>
+      <lineMessage>Found Row: $0</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>52</logLineID>
+      <logParentLineID>49</logParentLineID>
+      <commandExpression>CheckBox -&gt; Set_Value -&gt; name=BNK_ACCT_RCN_RL_ACTIVE_FLAG&amp;Scr2</commandExpression>
+      <commandID>36</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_SETUP</libraryName>
+      <lineMessage>checkbox.Set_Value [name=BNK_ACCT_RCN_RL_ACTIVE_FLAG$0] -&gt; Y</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>53</logLineID>
+      <logParentLineID>45</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr2</commandExpression>
+      <commandID>40</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_SETUP</libraryName>
+      <lineMessage>Scroll [2] Start: $0,  Action: sel,  Key: DD_1M_ALL_DATE_01</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>54</logLineID>
+      <logParentLineID>53</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr2</commandExpression>
+      <commandID>40</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_SETUP</libraryName>
+      <lineMessage>Key: id=BNK_ACCT_RCN_RL_RULE_ID_RECON [text] - Value: DD_1M_ALL_DATE_01</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>55</logLineID>
+      <logParentLineID>53</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr2</commandExpression>
+      <commandID>40</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_SETUP</libraryName>
+      <lineMessage>Found Row: $1</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>56</logLineID>
+      <logParentLineID>53</logParentLineID>
+      <commandExpression>CheckBox -&gt; Set_Value -&gt; name=BNK_ACCT_RCN_RL_ACTIVE_FLAG&amp;Scr2</commandExpression>
+      <commandID>41</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_SETUP</libraryName>
+      <lineMessage>checkbox.Set_Value [name=BNK_ACCT_RCN_RL_ACTIVE_FLAG$1] -&gt; N</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>57</logLineID>
+      <logParentLineID>45</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr2</commandExpression>
+      <commandID>45</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_SETUP</libraryName>
+      <lineMessage>Scroll [2] Start: $1,  Action: sel,  Key: DD_M1_ALL_DATE_01</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>58</logLineID>
+      <logParentLineID>57</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr2</commandExpression>
+      <commandID>45</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_SETUP</libraryName>
+      <lineMessage>Key: id=BNK_ACCT_RCN_RL_RULE_ID_RECON [text] - Value: DD_M1_ALL_DATE_01</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>59</logLineID>
+      <logParentLineID>57</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr2</commandExpression>
+      <commandID>45</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_SETUP</libraryName>
+      <lineMessage>Found Row: $2</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>60</logLineID>
+      <logParentLineID>57</logParentLineID>
+      <commandExpression>CheckBox -&gt; Set_Value -&gt; name=BNK_ACCT_RCN_RL_ACTIVE_FLAG&amp;Scr2</commandExpression>
+      <commandID>46</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_SETUP</libraryName>
+      <lineMessage>checkbox.Set_Value [name=BNK_ACCT_RCN_RL_ACTIVE_FLAG$2] -&gt; N</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>61</logLineID>
+      <logParentLineID>45</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr2</commandExpression>
+      <commandID>50</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_SETUP</libraryName>
+      <lineMessage>Scroll [2] Start: $2,  Action: sel,  Key: DD_MM_ALL_DATE_01</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>62</logLineID>
+      <logParentLineID>61</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr2</commandExpression>
+      <commandID>50</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_SETUP</libraryName>
+      <lineMessage>Key: id=BNK_ACCT_RCN_RL_RULE_ID_RECON [text] - Value: DD_MM_ALL_DATE_01</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>63</logLineID>
+      <logParentLineID>61</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr2</commandExpression>
+      <commandID>50</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_SETUP</libraryName>
+      <lineMessage>Found Row: $3</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>64</logLineID>
+      <logParentLineID>61</logParentLineID>
+      <commandExpression>CheckBox -&gt; Set_Value -&gt; name=BNK_ACCT_RCN_RL_ACTIVE_FLAG&amp;Scr2</commandExpression>
+      <commandID>51</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_SETUP</libraryName>
+      <lineMessage>checkbox.Set_Value [name=BNK_ACCT_RCN_RL_ACTIVE_FLAG$3] -&gt; N</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>65</logLineID>
+      <logParentLineID>5</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr1</commandExpression>
+      <commandID>54</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_SETUP</libraryName>
+      <lineMessage>Scroll [1] Start: $0,  Action: upd,  Key: Receivables Drafts</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>66</logLineID>
+      <logParentLineID>65</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr1</commandExpression>
+      <commandID>54</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_SETUP</libraryName>
+      <lineMessage>Key: id=RCN_RULE_SRCH_V_XLATLONGNAME [text] - Value: Receivables Drafts</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>67</logLineID>
+      <logParentLineID>65</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr1</commandExpression>
+      <commandID>54</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_SETUP</libraryName>
+      <lineMessage>link.Click  [id=BNK_ACCT_RCN_SC$hdown$0]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>68</logLineID>
+      <logParentLineID>65</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr1</commandExpression>
+      <commandID>54</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_SETUP</libraryName>
+      <lineMessage>Found Row: $0</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>69</logLineID>
+      <logParentLineID>65</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr2</commandExpression>
+      <commandID>57</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_SETUP</libraryName>
+      <lineMessage>Scroll [2] Start: $3,  Action: sel,  Key: DR_11_ALL_REF_01</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>70</logLineID>
+      <logParentLineID>69</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr2</commandExpression>
+      <commandID>57</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_SETUP</libraryName>
+      <lineMessage>Key: id=BNK_ACCT_RCN_RL_RULE_ID_RECON [text] - Value: DR_11_ALL_REF_01</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>71</logLineID>
+      <logParentLineID>69</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr2</commandExpression>
+      <commandID>57</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_SETUP</libraryName>
+      <lineMessage>Found Row: $0</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>72</logLineID>
+      <logParentLineID>69</logParentLineID>
+      <commandExpression>CheckBox -&gt; Set_Value -&gt; name=BNK_ACCT_RCN_RL_ACTIVE_FLAG&amp;Scr2</commandExpression>
+      <commandID>58</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_SETUP</libraryName>
+      <lineMessage>checkbox.Set_Value [name=BNK_ACCT_RCN_RL_ACTIVE_FLAG$0] -&gt; Y</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>73</logLineID>
+      <logParentLineID>65</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr2</commandExpression>
+      <commandID>62</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_SETUP</libraryName>
+      <lineMessage>Scroll [2] Start: $0,  Action: sel,  Key: DR_1M_ALL_DATE_01</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>74</logLineID>
+      <logParentLineID>73</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr2</commandExpression>
+      <commandID>62</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_SETUP</libraryName>
+      <lineMessage>Key: id=BNK_ACCT_RCN_RL_RULE_ID_RECON [text] - Value: DR_1M_ALL_DATE_01</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>75</logLineID>
+      <logParentLineID>73</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr2</commandExpression>
+      <commandID>62</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_SETUP</libraryName>
+      <lineMessage>Found Row: $1</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>76</logLineID>
+      <logParentLineID>73</logParentLineID>
+      <commandExpression>CheckBox -&gt; Set_Value -&gt; name=BNK_ACCT_RCN_RL_ACTIVE_FLAG&amp;Scr2</commandExpression>
+      <commandID>63</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_SETUP</libraryName>
+      <lineMessage>checkbox.Set_Value [name=BNK_ACCT_RCN_RL_ACTIVE_FLAG$1] -&gt; N</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>77</logLineID>
+      <logParentLineID>65</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr2</commandExpression>
+      <commandID>67</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_SETUP</libraryName>
+      <lineMessage>Scroll [2] Start: $1,  Action: sel,  Key: DR_M1_ALL_DATE_01</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>78</logLineID>
+      <logParentLineID>77</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr2</commandExpression>
+      <commandID>67</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_SETUP</libraryName>
+      <lineMessage>Key: id=BNK_ACCT_RCN_RL_RULE_ID_RECON [text] - Value: DR_M1_ALL_DATE_01</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>79</logLineID>
+      <logParentLineID>77</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr2</commandExpression>
+      <commandID>67</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_SETUP</libraryName>
+      <lineMessage>Found Row: $2</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>80</logLineID>
+      <logParentLineID>77</logParentLineID>
+      <commandExpression>CheckBox -&gt; Set_Value -&gt; name=BNK_ACCT_RCN_RL_ACTIVE_FLAG&amp;Scr2</commandExpression>
+      <commandID>68</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_SETUP</libraryName>
+      <lineMessage>checkbox.Set_Value [name=BNK_ACCT_RCN_RL_ACTIVE_FLAG$2] -&gt; N</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>81</logLineID>
+      <logParentLineID>65</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr2</commandExpression>
+      <commandID>72</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_SETUP</libraryName>
+      <lineMessage>Scroll [2] Start: $2,  Action: sel,  Key: DR_MM_ALL_DATE_01</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>82</logLineID>
+      <logParentLineID>81</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr2</commandExpression>
+      <commandID>72</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_SETUP</libraryName>
+      <lineMessage>Key: id=BNK_ACCT_RCN_RL_RULE_ID_RECON [text] - Value: DR_MM_ALL_DATE_01</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>83</logLineID>
+      <logParentLineID>81</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr2</commandExpression>
+      <commandID>72</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_SETUP</libraryName>
+      <lineMessage>Found Row: $3</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>84</logLineID>
+      <logParentLineID>81</logParentLineID>
+      <commandExpression>CheckBox -&gt; Set_Value -&gt; name=BNK_ACCT_RCN_RL_ACTIVE_FLAG&amp;Scr2</commandExpression>
+      <commandID>73</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_SETUP</libraryName>
+      <lineMessage>checkbox.Set_Value [name=BNK_ACCT_RCN_RL_ACTIVE_FLAG$3] -&gt; N</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>85</logLineID>
+      <logParentLineID>81</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>74</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_SETUP</libraryName>
+      <lineMessage>Page.Save</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>86</logLineID>
+      <logParentLineID>85</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>74</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_SETUP</libraryName>
+      <lineMessage>button.Click  [Name=#ICSave]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>87</logLineID>
+      <logParentLineID>85</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>74</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_SETUP</libraryName>
+      <lineMessage>============= PageSave: YES ========</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>88</logLineID>
+      <logParentLineID>81</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>74</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_SETUP</libraryName>
+      <lineMessage>Test End:  3/8/2018 10:34:27 AM</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>89</logLineID>
+      <logParentLineID>1</logParentLineID>
+      <commandExpression>Test -&gt; Exec -&gt; FMS_CM_AR_DEPOSITS_61479_01</commandExpression>
+      <commandID>3</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Starting the call to $\QA AUTOMATION\FMS\Test CM Prototype\02 Bank Reconciliation\Automatic Reconciliation\CM_1-1_AR-Deposits_DD_Drafts\FMS_CM_AR_DEPOSITS_61479_01  [Test Case: DEFAULT]</lineMessage>
+      <logResult>120</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>90</logLineID>
+      <logParentLineID>89</logParentLineID>
+      <commandExpression></commandExpression>
+      <commandID>0</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_01</libraryName>
+      <lineMessage>Use of Message Recognition</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>91</logLineID>
+      <logParentLineID>90</logParentLineID>
+      <commandExpression></commandExpression>
+      <commandID>0</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_01</libraryName>
+      <lineMessage>ErrorHnd: (65,223) [Test]</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>Button: OK, Action: Continue</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>92</logLineID>
+      <logParentLineID>89</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_01</libraryName>
+      <lineMessage>Browser.Start_Login</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>93</logLineID>
+      <logParentLineID>92</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_01</libraryName>
+      <lineMessage>Closing old browsers...</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>94</logLineID>
+      <logParentLineID>92</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_01</libraryName>
+      <lineMessage>The chrome version 64 is not supported. You might have issue with it. The current supported browser is: 56-58</lineMessage>
+      <logResult>115</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>95</logLineID>
+      <logParentLineID>92</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_01</libraryName>
+      <lineMessage>Frame set to ''</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>Current frame: ''    Previous Frame: 'TargetContent'</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>96</logLineID>
+      <logParentLineID>92</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_01</libraryName>
+      <lineMessage>Goto URL</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>http://slc08etq.us.oracle.com:8000/e92pjgp2x/signon.html</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>97</logLineID>
+      <logParentLineID>92</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_01</libraryName>
+      <lineMessage>Browser.Login</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>98</logLineID>
+      <logParentLineID>97</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_01</libraryName>
+      <lineMessage>Doing login in English</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>99</logLineID>
+      <logParentLineID>98</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_01</libraryName>
+      <lineMessage>combobox.Set_Value [id=ptlangsel] -&gt; ENG</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>100</logLineID>
+      <logParentLineID>97</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_01</libraryName>
+      <lineMessage>text.Set_Value [id=userid] -&gt; VP1</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>101</logLineID>
+      <logParentLineID>97</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_01</libraryName>
+      <lineMessage>pwd.Set_Value [id=pwd] -&gt; </lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>102</logLineID>
+      <logParentLineID>97</logParentLineID>
+      <commandExpression>Browser -&gt; Start_Login -&gt; </commandExpression>
+      <commandID>1</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_01</libraryName>
+      <lineMessage>button.Click  [name=Submit]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>103</logLineID>
+      <logParentLineID>89</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; ENTER_RECEIVABLES.ENT_ONLAID_UPDT.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_01</libraryName>
+      <lineMessage>Page.Prompt</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>ENTER_RECEIVABLES.ENT_ONLAID_UPDT.GBL</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>104</logLineID>
+      <logParentLineID>103</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; ENTER_RECEIVABLES.ENT_ONLAID_UPDT.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_01</libraryName>
+      <lineMessage>Goto URL</lineMessage>
+      <logResult>102</logResult>
+      <longDescr>http://slc08etq.us.oracle.com:8000/psp/e92pjgp2x/EMPLOYEE/ERP/c/ENTER_RECEIVABLES.ENT_ONLAID_UPDT.GBL</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>105</logLineID>
+      <logParentLineID>103</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; ENTER_RECEIVABLES.ENT_ONLAID_UPDT.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_01</libraryName>
+      <lineMessage>Page.Prompt: Trying to do the following action = add</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>106</logLineID>
+      <logParentLineID>103</logParentLineID>
+      <commandExpression>Page -&gt; Prompt -&gt; ENTER_RECEIVABLES.ENT_ONLAID_UPDT.GBL -&gt; urltype=portal</commandExpression>
+      <commandID>2</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_01</libraryName>
+      <lineMessage>link.Click  [name=#ICSwitchMode]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>107</logLineID>
+      <logParentLineID>103</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=GROUP_CONTROL_GROUP_BU</commandExpression>
+      <commandID>3</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_01</libraryName>
+      <lineMessage>text.Set_Value [name=GROUP_CONTROL_GROUP_BU] -&gt; US001</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>108</logLineID>
+      <logParentLineID>103</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=GROUP_CONTROL_GROUP_ID</commandExpression>
+      <commandID>4</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_01</libraryName>
+      <lineMessage>text.Set_Value [name=GROUP_CONTROL_GROUP_ID] -&gt; NEXT</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>109</logLineID>
+      <logParentLineID>103</logParentLineID>
+      <commandExpression>Page -&gt; PromptOk -&gt; </commandExpression>
+      <commandID>5</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_01</libraryName>
+      <lineMessage>button.Click  [name=#ICSearch]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>110</logLineID>
+      <logParentLineID>89</logParentLineID>
+      <commandExpression>Browser -&gt; FrameSet -&gt; TargetContent</commandExpression>
+      <commandID>6</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_01</libraryName>
+      <lineMessage>Frame set to 'TargetContent'</lineMessage>
+      <logResult>100</logResult>
+      <longDescr>Current frame: 'TargetContent'    Previous Frame: 'TargetContent'</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>111</logLineID>
+      <logParentLineID>89</logParentLineID>
+      <commandExpression>Page -&gt; Go_To -&gt; Group Control</commandExpression>
+      <commandID>7</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_01</libraryName>
+      <lineMessage>Page.Go_To: Group Control</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>112</logLineID>
+      <logParentLineID>111</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=GROUP_CONTROL_ACCOUNTING_DT</commandExpression>
+      <commandID>8</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_01</libraryName>
+      <lineMessage>text.Set_Value [name=GROUP_CONTROL_ACCOUNTING_DT] -&gt; 02/06/2013</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>113</logLineID>
+      <logParentLineID>111</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=GROUP_CONTROL_GROUP_TYPE</commandExpression>
+      <commandID>9</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_01</libraryName>
+      <lineMessage>text.Set_Value [name=GROUP_CONTROL_GROUP_TYPE] -&gt; B</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>114</logLineID>
+      <logParentLineID>111</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=GROUP_CONTROL_ORIGIN_ID</commandExpression>
+      <commandID>10</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_01</libraryName>
+      <lineMessage>text.Set_Value [name=GROUP_CONTROL_ORIGIN_ID] -&gt; OBILL</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>115</logLineID>
+      <logParentLineID>111</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=GROUP_CONTROL_CONTROL_AMT</commandExpression>
+      <commandID>11</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_01</libraryName>
+      <lineMessage>text.Set_Value [name=GROUP_CONTROL_CONTROL_AMT] -&gt; 3270</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>116</logLineID>
+      <logParentLineID>111</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=GROUP_CONTROL_CONTROL_CNT</commandExpression>
+      <commandID>12</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_01</libraryName>
+      <lineMessage>text.Set_Value [name=GROUP_CONTROL_CONTROL_CNT] -&gt; 3</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>117</logLineID>
+      <logParentLineID>111</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=GROUP_CONTROL_CONTROL_CURRENCY</commandExpression>
+      <commandID>13</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_01</libraryName>
+      <lineMessage>text.Set_Value [name=GROUP_CONTROL_CONTROL_CURRENCY] -&gt; USD</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>118</logLineID>
+      <logParentLineID>111</logParentLineID>
+      <commandExpression>Text -&gt; Verify -&gt; name=GROUP_CONTROL_FORMAT_CURRENCY</commandExpression>
+      <commandID>14</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_01</libraryName>
+      <lineMessage>Verify: name=GROUP_CONTROL_FORMAT_CURRENCY [text] -&gt; USD</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>119</logLineID>
+      <logParentLineID>118</logParentLineID>
+      <commandExpression>Text -&gt; Verify -&gt; name=GROUP_CONTROL_FORMAT_CURRENCY</commandExpression>
+      <commandID>14</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_01</libraryName>
+      <lineMessage>Check field: name=GROUP_CONTROL_FORMAT_CURRENCY, 'USD' (actual) = 'USD' (expected)</lineMessage>
+      <logResult>110</logResult>
+      <longDescr>Object Type: Text, Field: name=GROUP_CONTROL_FORMAT_CURRENCY, Value: USD, CheckValue: USD</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>120</logLineID>
+      <logParentLineID>111</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=GROUP_CONTROL_RECEIVED_DT</commandExpression>
+      <commandID>15</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_01</libraryName>
+      <lineMessage>text.Set_Value [name=GROUP_CONTROL_RECEIVED_DT] -&gt; 03/08/2018</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>121</logLineID>
+      <logParentLineID>111</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=GROUP_CONTROL_ENTRY_DT</commandExpression>
+      <commandID>16</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_01</libraryName>
+      <lineMessage>text.Set_Value [name=GROUP_CONTROL_ENTRY_DT] -&gt; 03/08/2018</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>122</logLineID>
+      <logParentLineID>111</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=GROUP_CONTROL_ASSN_OPRID</commandExpression>
+      <commandID>17</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_01</libraryName>
+      <lineMessage>text.Set_Value [name=GROUP_CONTROL_ASSN_OPRID] -&gt; VP1</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>123</logLineID>
+      <logParentLineID>111</logParentLineID>
+      <commandExpression>Link -&gt; Click -&gt; innertext=Pending Item 1</commandExpression>
+      <commandID>18</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_01</libraryName>
+      <lineMessage>link.Click  [innertext=Pending Item 1]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>124</logLineID>
+      <logParentLineID>111</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr1</commandExpression>
+      <commandID>20</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_01</libraryName>
+      <lineMessage>Scroll [1] Start: $0,  Action: sel,  Key: 1</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>125</logLineID>
+      <logParentLineID>124</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr1</commandExpression>
+      <commandID>20</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_01</libraryName>
+      <lineMessage>Key: id=PENDING_ITEM_GROUP_SEQ_NUM [span] - Value: 1</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>126</logLineID>
+      <logParentLineID>124</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr1</commandExpression>
+      <commandID>20</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_01</libraryName>
+      <lineMessage>Found Row: $0</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>127</logLineID>
+      <logParentLineID>124</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=PENDING_ITEM_ACCOUNTING_DT&amp;Scr1</commandExpression>
+      <commandID>21</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_01</libraryName>
+      <lineMessage>text.Set_Value [name=PENDING_ITEM_ACCOUNTING_DT$0] -&gt; 02/06/2013</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>128</logLineID>
+      <logParentLineID>124</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=PENDING_ITEM_ASOF_DT&amp;Scr1</commandExpression>
+      <commandID>22</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_01</libraryName>
+      <lineMessage>text.Set_Value [name=PENDING_ITEM_ASOF_DT$0] -&gt; 02/06/2013</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>129</logLineID>
+      <logParentLineID>124</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=PENDING_ITEM_ITEM&amp;Scr1</commandExpression>
+      <commandID>23</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_01</libraryName>
+      <lineMessage>text.Set_Value [name=PENDING_ITEM_ITEM$0] -&gt; AR_DEP1</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>130</logLineID>
+      <logParentLineID>124</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=PENDING_ITEM_BUSINESS_UNIT&amp;Scr1</commandExpression>
+      <commandID>24</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_01</libraryName>
+      <lineMessage>text.Set_Value [name=PENDING_ITEM_BUSINESS_UNIT$0] -&gt; US001</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>131</logLineID>
+      <logParentLineID>124</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=PENDING_ITEM_CUST_ID&amp;Scr1</commandExpression>
+      <commandID>25</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_01</libraryName>
+      <lineMessage>text.Set_Value [name=PENDING_ITEM_CUST_ID$0] -&gt; 1001</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>132</logLineID>
+      <logParentLineID>124</logParentLineID>
+      <commandExpression>ComboBox -&gt; Set_Value -&gt; name=PENDING_ITEM_ENTRY_TYPE&amp;Scr1</commandExpression>
+      <commandID>26</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_01</libraryName>
+      <lineMessage>combobox.Set_Value [name=PENDING_ITEM_ENTRY_TYPE$0] -&gt; IN</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>133</logLineID>
+      <logParentLineID>124</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=PENDING_ITEM_DST_ID_AR&amp;Scr1</commandExpression>
+      <commandID>27</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_01</libraryName>
+      <lineMessage>text.Set_Value [name=PENDING_ITEM_DST_ID_AR$0] -&gt; AR</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>134</logLineID>
+      <logParentLineID>124</logParentLineID>
+      <commandExpression>CheckBox -&gt; Set_Value -&gt; name=PENDING_ITEM_REVALUE_FLAG&amp;Scr1</commandExpression>
+      <commandID>28</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_01</libraryName>
+      <lineMessage>checkbox.Set_Value [name=PENDING_ITEM_REVALUE_FLAG$0] -&gt; Y</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>135</logLineID>
+      <logParentLineID>124</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=~PENDING_ITEM_PYMNT_TERMS_CD$**$&amp;Scr1</commandExpression>
+      <commandID>29</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_01</libraryName>
+      <lineMessage>text.Set_Value [name=~PENDING_ITEM_PYMNT_TERMS_CD$**$$0] -&gt; IMMED</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>136</logLineID>
+      <logParentLineID>124</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=PENDING_ITEM_ENTRY_AMT&amp;Scr1</commandExpression>
+      <commandID>30</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_01</libraryName>
+      <lineMessage>text.Set_Value [name=PENDING_ITEM_ENTRY_AMT$0] -&gt; 1090</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>137</logLineID>
+      <logParentLineID>111</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr1</commandExpression>
+      <commandID>33</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_01</libraryName>
+      <lineMessage>Scroll [1] Start: $0,  Action: upd+,  Key: 2</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>138</logLineID>
+      <logParentLineID>137</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr1</commandExpression>
+      <commandID>33</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_01</libraryName>
+      <lineMessage>Key: id=PENDING_ITEM_GROUP_SEQ_NUM [span] - Value: 2</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>139</logLineID>
+      <logParentLineID>137</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr1</commandExpression>
+      <commandID>33</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_01</libraryName>
+      <lineMessage>Scroll 1. Row not Found: 2</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>140</logLineID>
+      <logParentLineID>137</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr1</commandExpression>
+      <commandID>33</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_01</libraryName>
+      <lineMessage>link.Click  [id=$ICField3$new$0$$0]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>141</logLineID>
+      <logParentLineID>137</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=PENDING_ITEM_ACCOUNTING_DT&amp;Scr1</commandExpression>
+      <commandID>34</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_01</libraryName>
+      <lineMessage>text.Set_Value [name=PENDING_ITEM_ACCOUNTING_DT$0] -&gt; 02/06/2013</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>142</logLineID>
+      <logParentLineID>137</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=PENDING_ITEM_ASOF_DT&amp;Scr1</commandExpression>
+      <commandID>35</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_01</libraryName>
+      <lineMessage>text.Set_Value [name=PENDING_ITEM_ASOF_DT$0] -&gt; 02/06/2013</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>143</logLineID>
+      <logParentLineID>137</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=PENDING_ITEM_ITEM&amp;Scr1</commandExpression>
+      <commandID>36</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_01</libraryName>
+      <lineMessage>text.Set_Value [name=PENDING_ITEM_ITEM$0] -&gt; AR_DRA1</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>144</logLineID>
+      <logParentLineID>137</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=PENDING_ITEM_BUSINESS_UNIT&amp;Scr1</commandExpression>
+      <commandID>37</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_01</libraryName>
+      <lineMessage>text.Set_Value [name=PENDING_ITEM_BUSINESS_UNIT$0] -&gt; US001</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>145</logLineID>
+      <logParentLineID>137</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=PENDING_ITEM_CUST_ID&amp;Scr1</commandExpression>
+      <commandID>38</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_01</libraryName>
+      <lineMessage>text.Set_Value [name=PENDING_ITEM_CUST_ID$0] -&gt; 1005</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>146</logLineID>
+      <logParentLineID>137</logParentLineID>
+      <commandExpression>ComboBox -&gt; Set_Value -&gt; name=PENDING_ITEM_ENTRY_TYPE&amp;Scr1</commandExpression>
+      <commandID>39</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_01</libraryName>
+      <lineMessage>combobox.Set_Value [name=PENDING_ITEM_ENTRY_TYPE$0] -&gt; IN</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>147</logLineID>
+      <logParentLineID>137</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=PENDING_ITEM_DST_ID_AR&amp;Scr1</commandExpression>
+      <commandID>40</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_01</libraryName>
+      <lineMessage>text.Set_Value [name=PENDING_ITEM_DST_ID_AR$0] -&gt; AR</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>148</logLineID>
+      <logParentLineID>137</logParentLineID>
+      <commandExpression>CheckBox -&gt; Set_Value -&gt; name=PENDING_ITEM_REVALUE_FLAG&amp;Scr1</commandExpression>
+      <commandID>41</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_01</libraryName>
+      <lineMessage>checkbox.Set_Value [name=PENDING_ITEM_REVALUE_FLAG$0] -&gt; Y</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>149</logLineID>
+      <logParentLineID>137</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=~PENDING_ITEM_PYMNT_TERMS_CD$**$&amp;Scr1</commandExpression>
+      <commandID>42</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_01</libraryName>
+      <lineMessage>text.Set_Value [name=~PENDING_ITEM_PYMNT_TERMS_CD$**$$0] -&gt; IMMED</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>150</logLineID>
+      <logParentLineID>137</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=PENDING_ITEM_ENTRY_AMT&amp;Scr1</commandExpression>
+      <commandID>43</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_01</libraryName>
+      <lineMessage>text.Set_Value [name=PENDING_ITEM_ENTRY_AMT$0] -&gt; 1090</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>151</logLineID>
+      <logParentLineID>111</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr1</commandExpression>
+      <commandID>46</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_01</libraryName>
+      <lineMessage>Scroll [1] Start: $0,  Action: upd+,  Key: 3</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>152</logLineID>
+      <logParentLineID>151</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr1</commandExpression>
+      <commandID>46</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_01</libraryName>
+      <lineMessage>Key: id=PENDING_ITEM_GROUP_SEQ_NUM [span] - Value: 3</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>153</logLineID>
+      <logParentLineID>151</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr1</commandExpression>
+      <commandID>46</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_01</libraryName>
+      <lineMessage>link.Click  [id=$ICField3$htop$0]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>154</logLineID>
+      <logParentLineID>151</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr1</commandExpression>
+      <commandID>46</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_01</libraryName>
+      <lineMessage>link.Click  [id=$ICField3$hdown$0]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>155</logLineID>
+      <logParentLineID>151</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr1</commandExpression>
+      <commandID>46</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_01</libraryName>
+      <lineMessage>Scroll 1. Row not Found: 3</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>156</logLineID>
+      <logParentLineID>151</logParentLineID>
+      <commandExpression>Scroll -&gt; Action -&gt;  -&gt; ret=&amp;Scr1</commandExpression>
+      <commandID>46</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_01</libraryName>
+      <lineMessage>link.Click  [id=$ICField3$new$0$$0]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>157</logLineID>
+      <logParentLineID>151</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=PENDING_ITEM_ACCOUNTING_DT&amp;Scr1</commandExpression>
+      <commandID>47</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_01</libraryName>
+      <lineMessage>text.Set_Value [name=PENDING_ITEM_ACCOUNTING_DT$0] -&gt; 02/06/2013</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>158</logLineID>
+      <logParentLineID>151</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=PENDING_ITEM_ASOF_DT&amp;Scr1</commandExpression>
+      <commandID>48</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_01</libraryName>
+      <lineMessage>text.Set_Value [name=PENDING_ITEM_ASOF_DT$0] -&gt; 02/06/2013</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>159</logLineID>
+      <logParentLineID>151</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=PENDING_ITEM_ITEM&amp;Scr1</commandExpression>
+      <commandID>49</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_01</libraryName>
+      <lineMessage>text.Set_Value [name=PENDING_ITEM_ITEM$0] -&gt; AR_DD1</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>160</logLineID>
+      <logParentLineID>151</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=PENDING_ITEM_BUSINESS_UNIT&amp;Scr1</commandExpression>
+      <commandID>50</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_01</libraryName>
+      <lineMessage>text.Set_Value [name=PENDING_ITEM_BUSINESS_UNIT$0] -&gt; US001</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>161</logLineID>
+      <logParentLineID>151</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=PENDING_ITEM_CUST_ID&amp;Scr1</commandExpression>
+      <commandID>51</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_01</libraryName>
+      <lineMessage>text.Set_Value [name=PENDING_ITEM_CUST_ID$0] -&gt; USADD001</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>162</logLineID>
+      <logParentLineID>151</logParentLineID>
+      <commandExpression>ComboBox -&gt; Set_Value -&gt; name=PENDING_ITEM_ENTRY_TYPE&amp;Scr1</commandExpression>
+      <commandID>52</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_01</libraryName>
+      <lineMessage>combobox.Set_Value [name=PENDING_ITEM_ENTRY_TYPE$0] -&gt; IN</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>163</logLineID>
+      <logParentLineID>151</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=PENDING_ITEM_DST_ID_AR&amp;Scr1</commandExpression>
+      <commandID>53</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_01</libraryName>
+      <lineMessage>text.Set_Value [name=PENDING_ITEM_DST_ID_AR$0] -&gt; AR</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>164</logLineID>
+      <logParentLineID>151</logParentLineID>
+      <commandExpression>CheckBox -&gt; Set_Value -&gt; name=PENDING_ITEM_REVALUE_FLAG&amp;Scr1</commandExpression>
+      <commandID>54</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_01</libraryName>
+      <lineMessage>checkbox.Set_Value [name=PENDING_ITEM_REVALUE_FLAG$0] -&gt; Y</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>165</logLineID>
+      <logParentLineID>151</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=~PENDING_ITEM_PYMNT_TERMS_CD$**$&amp;Scr1</commandExpression>
+      <commandID>55</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_01</libraryName>
+      <lineMessage>text.Set_Value [name=~PENDING_ITEM_PYMNT_TERMS_CD$**$$0] -&gt; IMMED</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>166</logLineID>
+      <logParentLineID>151</logParentLineID>
+      <commandExpression>Text -&gt; Set_Value -&gt; name=PENDING_ITEM_ENTRY_AMT&amp;Scr1</commandExpression>
+      <commandID>56</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_01</libraryName>
+      <lineMessage>text.Set_Value [name=PENDING_ITEM_ENTRY_AMT$0] -&gt; 1090</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>167</logLineID>
+      <logParentLineID>89</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>57</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_01</libraryName>
+      <lineMessage>Page.Save</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>168</logLineID>
+      <logParentLineID>167</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>57</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_01</libraryName>
+      <lineMessage>button.Click  [Name=#ICSave]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>169</logLineID>
+      <logParentLineID>167</logParentLineID>
+      <commandExpression>Page -&gt; Save -&gt; </commandExpression>
+      <commandID>57</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_01</libraryName>
+      <lineMessage>============= PageSave: YES ========</lineMessage>
+      <logResult>110</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>170</logLineID>
+      <logParentLineID>89</logParentLineID>
+      <commandExpression>Span -&gt; Get_Property -&gt; id=GROUP_CONTROL_GROUP_ID -&gt; prop=text;ret=&amp;Group_ID</commandExpression>
+      <commandID>58</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_01</libraryName>
+      <lineMessage>span.Get_Property [id=GROUP_CONTROL_GROUP_ID]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>171</logLineID>
+      <logParentLineID>170</logParentLineID>
+      <commandExpression>Span -&gt; Get_Property -&gt; id=GROUP_CONTROL_GROUP_ID -&gt; prop=text;ret=&amp;Group_ID</commandExpression>
+      <commandID>58</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_01</libraryName>
+      <lineMessage>id=GROUP_CONTROL_GROUP_ID [span]. The property 'text' was found, and it is '388'.</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>172</logLineID>
+      <logParentLineID>89</logParentLineID>
+      <commandExpression>Log -&gt; Message -&gt; The Group Entry Id is &lt;&lt;&amp;Group_ID&gt;&gt;</commandExpression>
+      <commandID>59</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_01</libraryName>
+      <lineMessage>The Group Entry Id is &lt;&lt;388&gt;&gt;</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>173</logLineID>
+      <logParentLineID>89</logParentLineID>
+      <commandExpression>Link -&gt; Click -&gt; text=Group Action</commandExpression>
+      <commandID>60</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_01</libraryName>
+      <lineMessage>link.Click  [text=Group Action]</lineMessage>
+      <logResult>100</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>174</logLineID>
+      <logParentLineID>89</logParentLineID>
+      <commandExpression>ComboBox -&gt; Set_Value -&gt; name=REALTIME_WRK_RTM_PROCESS_LIST</commandExpression>
+      <commandID>61</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_01</libraryName>
+      <lineMessage>combobox.Set_Value [name=REALTIME_WRK_RTM_PROCESS_LIST] -&gt; ARPOST</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>175</logLineID>
+      <logParentLineID>89</logParentLineID>
+      <commandExpression>Button -&gt; Click -&gt; name=REALTIME_WRK_RTM_RUN</commandExpression>
+      <commandID>62</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_01</libraryName>
+      <lineMessage>button.Click  [name=REALTIME_WRK_RTM_RUN]</lineMessage>
+      <logResult>120</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>176</logLineID>
+      <logParentLineID>175</logParentLineID>
+      <commandExpression>Button -&gt; Click -&gt; name=REALTIME_WRK_RTM_RUN</commandExpression>
+      <commandID>62</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_01</libraryName>
+      <lineMessage>Message Recognition</lineMessage>
+      <logResult>120</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>177</logLineID>
+      <logParentLineID>176</logParentLineID>
+      <commandExpression>Button -&gt; Click -&gt; name=REALTIME_WRK_RTM_RUN</commandExpression>
+      <commandID>62</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_01</libraryName>
+      <lineMessage>Msg: Group contains a BU/Customer currently being processed by AR Update.  Please try again later. (6000,110)</lineMessage>
+      <logResult>120</logResult>
+      <longDescr>Unhandled Error. Aborting. ObjName=button, Value=name=REALTIME_WRK_RTM_RUN, PageName: GROUP_ENTRY4_RTM</longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>178</logLineID>
+      <logParentLineID>176</logParentLineID>
+      <commandExpression>Button -&gt; Click -&gt; name=REALTIME_WRK_RTM_RUN</commandExpression>
+      <commandID>62</commandID>
+      <image>FMS_CM_AR_DEPOSITS_61479_SHELL-LOG3-Line178</image>
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_01</libraryName>
+      <lineMessage>LogScreenShot</lineMessage>
+      <logResult>220</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>179</logLineID>
+      <logParentLineID>89</logParentLineID>
+      <commandExpression>Span -&gt; Verify -&gt; ID=GROUP_CONTROL_GROUP_ID</commandExpression>
+      <commandID>65</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_01</libraryName>
+      <lineMessage>Saving persistent variables.</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>180</logLineID>
+      <logParentLineID>89</logParentLineID>
+      <commandExpression>Span -&gt; Verify -&gt; ID=GROUP_CONTROL_GROUP_ID</commandExpression>
+      <commandID>65</commandID>
+      <image />
+      <libraryName>FMS_CM_AR_DEPOSITS_61479_01</libraryName>
+      <lineMessage>Execution stopped by Execution.Stop_On_Error: 3/8/2018 10:35:24 AM</lineMessage>
+      <logResult>120</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>181</logLineID>
+      <logParentLineID>1</logParentLineID>
+      <commandExpression>Test -&gt; Exec -&gt; FMS_CM_AR_DEPOSITS_61479_SETUP</commandExpression>
+      <commandID>27</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Saving persistent variables.</lineMessage>
+      <logResult>102</logResult>
+      <longDescr></longDescr>
+    </logLine>
+    <logLine>
+      <logLineID>182</logLineID>
+      <logParentLineID>1</logParentLineID>
+      <commandExpression>Test -&gt; Exec -&gt; FMS_CM_AR_DEPOSITS_61479_SETUP</commandExpression>
+      <commandID>27</commandID>
+      <image />
+      <libraryName></libraryName>
+      <lineMessage>Execution stopped by Execution.Stop_On_Error: 3/8/2018 10:35:24 AM</lineMessage>
+      <logResult>120</logResult>
+      <longDescr></longDescr>
+    </logLine>
+  </lines>
+</Log>
