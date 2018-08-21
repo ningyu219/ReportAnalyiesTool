@@ -2,7 +2,6 @@ from flask import Flask
 from flask_pymongo import PyMongo
 from flask_triangle import Triangle
 from config import active_config
-from flask_pymongo import PyMongo
 import logging
 
 mongo = PyMongo()
